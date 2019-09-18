@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <base href="../">
+    <base href="http://huongdichvu.com:8888/">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
@@ -22,8 +22,10 @@
     <!-- Custom styles for this template -->
     <link href="public/admin/css/style.css" rel="stylesheet">
     <link href="public/admin/css/style-responsive.css" rel="stylesheet">
+    <link href="public/admin/css/mycustom.css" rel="stylesheet">
     <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
     <script src="public/admin/vue.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 </head>
 <body>
     <section id="container">

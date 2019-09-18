@@ -9,29 +9,6 @@ class AdminController extends Controller
     {
         parent::__construct();
         include "models/test.php";
-        $this->index($param);
-    }
-
-    public function index($param)
-    {
-        if(isset($param[0]))
-        {
-            switch ($param[0]) {
-                case 'login':
-                    $this->login();
-                    break;
-                case 'slogan':
-                    $this->slogan();
-                    break;
-                default:
-                    $this->error404();
-                    break;
-            }
-        }
-        else
-        {
-            $this->dasboard();
-        }
     }
 
     public function dasboard()
@@ -51,6 +28,15 @@ class AdminController extends Controller
         $this->view->Render('admin/footer');
     }
 
+    public function addSlogan()
+    {
+        $this->view->Render('admin/head');
+        $this->view->Render('admin/header');
+        $this->view->Render('admin/menu');
+        $this->view->Render('admin/slogan/addSlogan');
+        $this->view->Render('admin/footer');
+    }
+
     public function error404()
     {
         $this->view->Render('admin/404');
@@ -60,5 +46,11 @@ class AdminController extends Controller
     {
         $this->view->Render('admin/login');
     }
+
+    public function test()
+    {
+        echo $_POST['aa'];
+    }
+
 
 }
