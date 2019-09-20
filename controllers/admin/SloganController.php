@@ -1,6 +1,5 @@
 <?php 
-
-class AdminController extends Controller
+class SloganController extends Controller
 {
     /**
      * summary
@@ -8,14 +7,7 @@ class AdminController extends Controller
     public function __construct($param = NULL)
     {
         parent::__construct();
-    }
-
-    public function trangchu()
-    {
-        $this->view->Render('admin/head');
-        $this->view->Render('admin/header');
-        $this->view->Render('admin/menu');
-        $this->view->Render('admin/footer');
+        $this->view->js = '<script src="resources/js/slogan.js"></script>';
     }
 
     public function slogan()
@@ -41,24 +33,8 @@ class AdminController extends Controller
         $this->view->Render('admin/head');
         $this->view->Render('admin/header');
         $this->view->Render('admin/menu');
-        $this->view->Render('admin/slogan/addSlogan');
+        $this->view->Render('admin/slogan/editSlogan');
         $this->view->Render('admin/footer');
     }
-
-    public function error404()
-    {
-        $this->view->Render('admin/404');
-    }
-
-    public function login()
-    {
-        $this->view->Render('admin/login');
-    }
-
-    public function test()
-    {
-        echo $_POST['aa'];
-    }
-
 
 }

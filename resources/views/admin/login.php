@@ -22,12 +22,8 @@
   <link href="public/admin/css/style.css" rel="stylesheet">
   <link href="public/admin/css/style-responsive.css" rel="stylesheet">
   
-  <!-- =======================================================
-    Template Name: Dashio
-    Template URL: https://templatemag.com/dashio-bootstrap-admin-template/
-    Author: TemplateMag.com
-    License: https://templatemag.com/license/
-    ======================================================= -->
+
+
   </head>
 
   <body>
@@ -39,16 +35,23 @@
           <form class="form-login" action="index.html">
             <h2 class="form-login-heading">sign in now</h2>
             <div class="login-wrap">
-              <input type="text" class="form-control" placeholder="User ID" autofocus>
+            
+                <input v-validate="'required|max:30|alpha_num'" v-model="username" type="text" class="form-control" placeholder="Username" data-vv-name="username" autofocus>
+                <div class="text-danger mt" v-if="errors.has('username')">{{errors.first('username')}}</div>
               <br>
-              <input type="password" class="form-control" placeholder="Password">
+              <input v-validate="'required'" v-model="password" type="password" class="form-control" placeholder="Password" data-vv-name="password">
+              <div class="text-danger mt" v-if="errors.has('password')">{{errors.first('password')}}</div>
+
+              <!-- <div class="mt alert alert-danger" v-if="errors.has('password')">
+                    {{errors.first('password')}}
+              </div> -->
               <label class="checkbox">
                 <!-- <input type="checkbox" value="remember-me"> Remember me -->
                 <span class="pull-right">
                   <a data-toggle="modal" href="login.html#myModal"> Forgot Password?</a>
                 </span>
               </label>
-              <button class="btn btn-theme btn-block" href="index.html" type="submit"><i class="fa fa-lock"></i> SIGN IN</button>
+              <button @click="login" class="btn btn-theme btn-block" href="index.html" type="button"><i class="fa fa-lock"></i> SIGN IN</button>
               <hr>
               
               <div class="registration">
@@ -86,12 +89,69 @@
       <script src="public/admin/lib/bootstrap/js/bootstrap.min.js"></script>
       <!--BACKSTRETCH-->
       <!-- You can use an image of whatever size. This script will stretch to fit in any screen size.-->
-      <script type="text/javascript" src="lib/jquery.backstretch.min.js"></script>
+      <script type="text/javascript" src="public/admin/lib/jquery.backstretch.min.js"></script>
+
+      
+      <script src="public/admin/vue.js"></script>
+      <script src="public/admin/vee-validate.js"></script>
+      <script src="public/admin/sweetalert.js"></script>
+      <script src="public/admin/axios.min.js"></script>
+      
+      <!-- <script src="https://cdn.jsdelivr.net/npm/vee-validate@latest/dist/vee-validate.js"></script> -->
       <script>
-      $.backstretch("public/admin/img/login-bg.jpg", {
-        speed: 500
-      });
+        $.backstretch("public/admin/img/login-bg.jpg", {
+          speed: 500
+        });
+      </script>
+
+      <script>
+       
+
+        const dictionary = {
+          custom: {
+            username: {
+              required: () => 'Tài khoản không được để trống',
+              max: () => 'Tài khoản không hợp lệ',
+              alpha_num: () => 'Tài khoản không hợp lệ'
+            },
+            password:{
+              required: () => 'Mật khẩu được để trống'
+            }
+          }
+        };
+        VeeValidate.Validator.localize('en',dictionary);
+         Vue.use(VeeValidate);
+          var login = new Vue({
+            el: '#login-page',
+            data: {
+              username: '',
+              password: ''
+            },
+            methods:{
+              login(){
+                this.$validator.validate().then(valid=>{
+                  if(valid)
+                  {
+                    const fd = new FormData();
+                    fd.append('username',this.username);
+                    fd.append('password',this.password);
+
+                    axios.post('api/admin/login',fd)
+                    .then(response=>{
+                        window.location.href = "/admin";
+                    })
+                    .catch(error=>{
+                      Swal.fire({
+                        type: 'error',
+                        title: 'Lỗi',
+                        text: error.response.data
+                      })
+                    })
+                  }
+                })
+              }
+            }
+          })
       </script>
     </body>
-
     </html>

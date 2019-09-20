@@ -15,6 +15,7 @@
 								<tr>
 									<th class="numeric">STT</th>
 									<th class="numeric">Tên tác giả</th>
+									<th class="numeric">avatar</th>
 									<th class="numeric">Mô tả</th>
 									<th class="numeric">Nội dung</th>
 									<th class="numeric">Đăng bởi</th>
@@ -25,6 +26,7 @@
 							<tbody>
 								<tr>
 									<td class="numeric">AAC</td>
+									<td class="numeric">AUSTRALIAN .</td>
 									<td class="numeric">AUSTRALIAN .</td>
 									<td class="numeric">$1.38</td>
 									<td class="numeric">-0.01</td>
@@ -39,8 +41,9 @@
 									<td class="numeric">
 										
 										<button type="button" class="btn btn-primary btn-xs"><i class="fa fa-eye"></i></button>
-									
-										<button type="button" class="btn btn-warning btn-xs"><i class="fa fa-pencil"></i></button>
+										<a href="/admin/slogan/edit/123">
+											<button type="button" class="btn btn-warning btn-xs"><i class="fa fa-pencil"></i></button>
+										</a>
 									
 										<button type="button" class="btn btn-danger btn-xs"><i class="fa fa-trash-o "></i></button>
 									</td>

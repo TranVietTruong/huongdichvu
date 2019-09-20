@@ -70,4 +70,26 @@ class Database
 		}
 		$this->Disconnect();
 	}
+
+
+	public function ExecuteQueryReturnID($sql)
+	{
+		$this->Connect();
+		$this->SetQuery($sql);
+		try
+		{
+			$result = $this->_conn->prepare($this->_sql);
+			$result->execute();
+			$lastId = $this->_conn->lastInsertId();
+			$this->Disconnect();
+			return $lastId;
+		}
+		catch(Exception $e)
+		{
+			echo 'Câu truy vẫn lỗi hoặc bị lỗi đâu đó <br>';
+			echo $e->getMessage();
+			$this->Disconnect();
+			die;
+		}
+	}
 }

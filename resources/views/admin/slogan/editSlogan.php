@@ -1,45 +1,41 @@
+<div id="addSlogan">
 <section id="main-content">
 	<section class="wrapper">
 		<div class="row mt">
 			<div class="col-lg-12">
 				<div class="content-panel">
-					<h4> Thêm slogan</h4>
+					<h4> Sửa slogan</h4>
 					<section id="unseen">
 						<div class="row">
 							<div class="col-md-6 col-md-push-3">
 								<div class="cc">
 					                <label class="col-sm-2 col-sm-2 control-label">Tác giả</label>
 					                <div class="col-sm-10">
-					                	<div class="text-danger " v-if="errors.has('author')">{{errors.first('author')}}</div>
-					                    <input v-validate="'required|max:30'" data-vv-name="author" v-model="author" type="text" class="form-control">
-
+					                    <input v-model="author" type="text" class="form-control">
 					                </div>
 				                </div>
 				                <div class="cc">
 				                	<label class="col-sm-2 col-sm-2 control-label">Avatar</label>
 				                	<div class="col-sm-10">
-				                		<div class="text-danger " v-if="errors.has('image')">{{errors.first('image')}}</div>
-				                		<input v-validate="'required|image'" data-vv-name="image" id="image" type="file" class="form-control">
+				                		<input type="file" class="form-control">
 				                	</div>
 				                </div>
 
 				                <div class="cc">
 				                	<label class="col-sm-2 col-sm-2 control-label">Mô tả</label>
 				                	<div class="col-sm-10">
-				                		<div class="text-danger " v-if="errors.has('description')">{{errors.first('description')}}</div>
-				                		<input v-validate="'required|max:200'" v-model="description" data-vv-name="description" type="text" class="form-control">
+				                		<input v-model="description" type="text" class="form-control">
 				                	</div>
 				                </div>
 
 				                <div class="cc">
 				                	<label class="col-sm-2 col-sm-2 control-label">Slogan</label>
 				                	<div class="col-sm-10">
-				                		<div class="text-danger " v-if="errors.has('slogan')">{{errors.first('slogan')}}</div>
-				                		<input data-vv-name="slogan" v-validate="'required'" v-model="slogan" type="text" class="form-control">
+				                		<input v-model="slogan" type="text" class="form-control">
 				                	</div>
 				                </div>
 				                <div class="act">
-				                	<button @click="addSlogan" type="button" class="btn btn-primary">Thêm</button>
+				                	<button @click="addSlogan" type="button" class="btn btn-primary">Lưu</button>
 				                	<button type="button" class="btn btn-danger">Hủy</button>
 				                
 				                </div>
@@ -54,3 +50,34 @@
 	</section>
 	<!-- /wrapper -->
 </section>
+</div>
+
+<script>
+	var addSlogan = new Vue({
+		el: '#addSlogan',
+		data:{
+			author: '',
+			description: '',
+			slogan: ''
+		},
+		methods:{
+			addSlogan(){
+				const fd= new FormData();
+				fd.append('aa','ccccc');
+				alert('ok');
+
+				axios.post('/api/slogan/add',fd)
+				.then(response=>{
+					Swal.fire({
+						toast: true,
+						position: 'top-end',
+						type: 'success',
+						title: 'Thêm thành công',
+						showConfirmButton: false,
+						timer: 3000
+					})
+				})
+			}
+		}
+	})
+</script>

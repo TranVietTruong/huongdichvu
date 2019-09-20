@@ -26,6 +26,12 @@
 <script src="public/admin/lib/common-scripts.js"></script>
 <!--script for this page-->
 <script src="public/admin/lib/zabuto_calendar.js"></script>
+<script src="public/admin/vue.js"></script>
+<script src="public/admin/vee-validate.js"></script>
+<script src="public/admin/axios.min.js"></script>
+<script src="public/admin/sweetalert.js"></script>
+<?php if(isset($this->js)) echo $this->js; ?>
+
 
 <script type="application/javascript">
 	$(document).ready(function() {
@@ -68,6 +74,19 @@
 		var to = $("#" + id).data("to");
 		console.log('nav ' + nav + ' to: ' + to.month + '/' + to.year);
 	}
+
+	$("#logout").click(function(event) {
+		$.ajax({
+			url : "/api/admin/logout",
+			type : "post",
+			dataType:"html",
+			data: {
+			},
+			success : function (result){
+				window.location.href = '/admin/login';
+			}
+		});
+	});
 </script>
 </body>
 

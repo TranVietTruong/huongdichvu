@@ -188,7 +188,7 @@
 	</div>
 	<div class="top-menu">
 		<ul class="nav pull-right top-menu">
-			<li><a class="logout" style="cursor:pointer">Logout</a></li>
+			<li id="logout"><a class="logout" style="cursor:pointer">Đăng xuất</a></li>
 		</ul>
 	</div>
 </header>

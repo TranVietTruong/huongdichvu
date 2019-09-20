@@ -23,9 +23,6 @@
     <link href="public/admin/css/style.css" rel="stylesheet">
     <link href="public/admin/css/style-responsive.css" rel="stylesheet">
     <link href="public/admin/css/mycustom.css" rel="stylesheet">
-    <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
-    <script src="public/admin/vue.js"></script>
-    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 </head>
 <body>
     <section id="container">
