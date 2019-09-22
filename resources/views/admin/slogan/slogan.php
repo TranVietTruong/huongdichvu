@@ -1,3 +1,4 @@
+<div id="listSlogan">
 <section id="main-content">
 	<section class="wrapper">
 		<div class="row mt">
@@ -6,7 +7,8 @@
 					<h4> Quản lý slogan</h4>
 					<div class="add-slogan">
 						<a href="/admin/slogan/add">
-							<button type="button" class="btn btn-round btn-success">Thêm</button>
+
+							<button type="button" id="tesst" class="btn btn-round btn-success">Thêm</button>
 						</a>
 					</div>
 					<section id="unseen">
@@ -24,28 +26,42 @@
 								</tr>
 							</thead>
 							<tbody>
-								<tr>
-									<td class="numeric">AAC</td>
-									<td class="numeric">AUSTRALIAN .</td>
-									<td class="numeric">AUSTRALIAN .</td>
-									<td class="numeric">$1.38</td>
-									<td class="numeric">-0.01</td>
-									<td class="numeric">-0.36%</td>
+								<tr v-for="(slogan,index) in listSlogan">
+									<td class="numeric">{{index+1}}</td>
+									<td class="numeric">{{slogan.author}}</td>
 									<td class="numeric">
-										<select>
-											<option value=""> Top 1</option>
-											<option value=""> Top 2</option>
-											<option value=""> Top 3</option>
+										<img :src="'public/upload/slogan/'+slogan.image" alt="" style="width: 40px;height: 40px;">
+									</td>
+									<td class="numeric">{{slogan.description}}</td>
+									<td class="numeric" style="width: 30%">{{slogan.content}}</td>
+									<td class="numeric">{{slogan.post_by}}</td>
+									<td class="numeric">
+										<select >
+											<option v-for="rank in listSlogan.length"> Top {{rank}}</option>
 										</select>
 									</td>
 									<td class="numeric">
 										
-										<button type="button" class="btn btn-primary btn-xs"><i class="fa fa-eye"></i></button>
-										<a href="/admin/slogan/edit/123">
+										<button 
+											@click="updateActive(slogan)" 
+											v-if="slogan.active"
+											type="button" class="btn btn-primary btn-xs"><i class="fa fa-eye"></i>
+										</button>
+
+										<button
+											@click="updateActive(slogan)" 
+											v-if="!slogan.active"
+											type="button" class="btn btn-primary btn-xs"><i class="fa fa-eye-slash"></i>
+										</button>
+
+
+										<a :href="'/admin/slogan/edit/'+slogan.id">
 											<button type="button" class="btn btn-warning btn-xs"><i class="fa fa-pencil"></i></button>
 										</a>
 									
-										<button type="button" class="btn btn-danger btn-xs"><i class="fa fa-trash-o "></i></button>
+										<button 
+											@click="removeSlogan(slogan)"
+											type="button" class="btn btn-danger btn-xs"><i class="fa fa-trash-o "></i></button>
 									</td>
 								</tr>
 							</tbody>
@@ -59,3 +75,4 @@
 	</section>
 	<!-- /wrapper -->
 </section>
+</div>

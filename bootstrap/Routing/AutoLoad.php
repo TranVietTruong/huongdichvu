@@ -8,6 +8,7 @@ class Load
     {
         
     }
+
     public static function Controller($path,$controller,$method)
     {
     	if(file_exists($path))

@@ -70,10 +70,28 @@ Route::add('/contact/([0-9]*)',function(){
 	    Load::Controller('controllers/api/AuthController.php','AuthController','logout');
 	},'post');
 
-	//*****************************************************************************************
+	//*********************************** SLOGAN ******************************************************
 
+	Route::add('/api/slogan/getall',function(){
+	    Load::Controller('controllers/api/SloganController.php','SloganController','getAllSlogan');
+	},'post');
+	Route::add('/api/slogan/getcurrent',function(){
+	    Load::Controller('controllers/api/SloganController.php','SloganController','getCurrentSlogan');
+	},'post');
 	Route::add('/api/slogan/add',function(){
 	    Load::Controller('controllers/api/SloganController.php','SloganController','addSlogan');
+	},'post');
+	Route::add('/api/slogan/update-active',function(){
+	    Load::Controller('controllers/api/SloganController.php','SloganController','updateActive');
+	},'post');
+	Route::add('/api/slogan/remove',function(){
+	    Load::Controller('controllers/api/SloganController.php','SloganController','removeSlogan');
+	},'post');
+	Route::add('/api/slogan/update',function(){
+	    Load::Controller('controllers/api/SloganController.php','SloganController','updateSlogan');
+	},'post');
+	Route::add('/api/slogan/update_image',function(){
+	    Load::Controller('controllers/api/SloganController.php','SloganController','updateImage');
 	},'post');
 
 
