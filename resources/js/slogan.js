@@ -130,7 +130,7 @@ var slogan = new Vue({
 			if(image == null)
         	{
         		
-        		document.getElementById('image-review').src = 'upload/product/slogan/'+sloganEdit.image;
+        		document.getElementById('image-review').src = sloganEdit.image;
         		sloganEdit.uploadImage = false;
         		thongbao('warning','Chọn ảnh muốn thêm');
         		return;
@@ -181,14 +181,26 @@ var slogan = new Vue({
 					.then(response=>{
 						sloganEdit.image = response.data;
 						sloganEdit.showEditImage = false;
-						thonngbao('success','Thêm thành công');
+						thongbao('success','Sửa thành công');
 					})
 					.catch(error=>{
-						thongbao('error',error.response.data);
+						thongbao('error','Lỗi');
 					})
 				}
 			});
-		}
+		},
+		updateRank(slogan){
+			const fd = new FormData();
+			fd.append('id',slogan.id);
+			fd.append('rank',slogan.rank);
+			axios.post('/api/slogan/update_rank',fd)
+			.then(response=>{
+				thongbao('success','Cập nhật thành công');
+			})
+			.catch(error=>{
+				thongbao('error','Lỗi');
+			})
+}
 	},
 	mounted()
 	{

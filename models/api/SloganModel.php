@@ -79,4 +79,17 @@
 			$result = $this->db->Executequery($sql)[0];
 			return $result;
 		}
+
+		public function updateRank($id,$rank)
+		{
+			if($rank == 'null')
+			{
+				$sql = "UPDATE slogan SET rank = NULL WHERE id = '$id'";
+			}
+			else
+			{
+				$sql = "UPDATE slogan SET rank = '$rank' WHERE id = '$id'";
+			}
+			$this->db->ExecuteNonQuery($sql);
+		}
 	}

@@ -30,14 +30,15 @@
 									<td class="numeric">{{index+1}}</td>
 									<td class="numeric">{{slogan.author}}</td>
 									<td class="numeric">
-										<img :src="'public/upload/slogan/'+slogan.image" alt="" style="width: 40px;height: 40px;">
+										<img :src="slogan.image" alt="" style="width: 40px;height: 40px;">
 									</td>
 									<td class="numeric">{{slogan.description}}</td>
 									<td class="numeric" style="width: 30%">{{slogan.content}}</td>
 									<td class="numeric">{{slogan.post_by}}</td>
 									<td class="numeric">
-										<select >
-											<option v-for="rank in listSlogan.length"> Top {{rank}}</option>
+										<select @change="updateRank(slogan)" v-model="slogan.rank">
+											<option value="null">Trống</option>
+											<option v-for="rank in listSlogan.length" :value="rank"> Top {{rank}}</option>
 										</select>
 									</td>
 									<td class="numeric">

@@ -1,50 +1,33 @@
 <?php 
 
-class SloganController extends Controller
+class CatagoryController extends Controller
 {
     /**
      * summary
      */
-    public $sloganModel;
+    public $catagoryModel;
 
     public function __construct($param = NULL)
     {
         parent::__construct();
-        include 'models/api/SloganModel.php';
-        $this->sloganModel = new SloganModel();
+        include 'models/api/CatagoryModel.php';
+        $this->catagoryModel = new CatagoryModel();
+    }
+    public function getAllCatagory()
+    {
+        $data = $this->catagoryModel->all();
+        echo json_encode($data,JSON_UNESCAPED_UNICODE);
     }
 
-
-    public function addSlogan()
+    public function addCatagory()
     {
-        if(isset($_POST['author']))
-            $author = $_POST['author'];
+        if(isset($_POST['name']))
+            $name = $_POST['name'];
         else
-        {
             http_response_code(500);
-            echo 'Dữ liệu không hợp lệ';
-        }
-
-        if(isset($_POST['description']))
-            $description = $_POST['description'];
-        else
-        {
-            http_response_code(500);
-             echo 'Dữ liệu không hợp lệ';
-        }
-
-        if(isset($_POST['slogan']))
-            $slogan = $_POST['slogan'];
-        else
-        {
-            http_response_code(500);
-             echo 'Dữ liệu không hợp lệ';
-        }
 
         $image = '';
-
-        
-        $target_dir = "public/upload/slogan/";
+        $target_dir = "public/upload/catagory/";
         $target_file = $target_dir . mt_rand().basename($_FILES["image"]["name"]);  // đường dẫn lưu file
         $uploadOk = 1;  // trạng thái thành công hay chưa
 
@@ -97,72 +80,20 @@ class SloganController extends Controller
             }
         }
 
-        
-        $this->sloganModel->addSlogan($author,$image,$description,$slogan);
+        $this->catagoryModel->add($image,$name);
     }
 
-    public function getAllSlogan()
-    {
-        $data = $this->sloganModel->all();
-        echo json_encode($data,JSON_UNESCAPED_UNICODE);
-    }
-
-    public function updateActive()
+    public function getCurrentCatagory()
     {
         if(isset($_POST['id']))
             $id = $_POST['id'];
-        $this->sloganModel->updateActive($id);
-    }
-
-    public function removeSlogan()
-    {
-        if(isset($_POST['id']))
-            $id = $_POST['id'];
-        $image = $this->sloganModel->removeSlogan($id);
-        if(file_exists($image) && !empty($image))
+        $catagory = $this->catagoryModel->find($id);
+        if(!empty($catagory))
         {
-            unlink($image);
-        }
-    
-    }
-
-    public function getCurrentSlogan()
-    {
-        if(isset($_POST['id']))
-            $id = $_POST['id'];
-        $slogan = $this->sloganModel->getCurrent($id);
-        if(!empty($slogan))
-        {
-            echo json_encode($slogan,JSON_UNESCAPED_UNICODE);
+            echo json_encode($catagory,JSON_UNESCAPED_UNICODE);
         }
         else
             http_response_code(404);
-    }
-
-    public function updateSlogan()
-    {
-        if(isset($_POST['id']))
-        {
-            $id = $_POST['id'];
-        }
-
-        if(isset($_POST['author']))
-            $author = $_POST['author'];
-        else
-            http_response_code(500);
-
-       
-        if(isset($_POST['description']))
-            $description = $_POST['description'];
-        else
-            http_response_code(500);
-
-        if(isset($_POST['content']))
-            $content = $_POST['content'];
-        else
-            http_response_code(500);
-
-        $this->sloganModel->update($id,$author,$description,$content);
     }
 
     public function updateImage()
@@ -171,17 +102,19 @@ class SloganController extends Controller
         {
             $id = $_POST['id'];
         }
+        else
+            http_response_code(500);
 
-        $slogan = $this->sloganModel->find($id);
-        if(file_exists($slogan['image']) && !empty($slogan['image']))
+        $catagory = $this->catagoryModel->find($id);
+        if(file_exists($catagory['image']) && !empty($catagory['image']))
         {
-            unlink($slogan['image']);
+            unlink($catagory['image']);
         }
 
         $image = '';
 
         
-        $target_dir = "public/upload/slogan/";
+        $target_dir = "public/upload/catagory/";
         $target_file = $target_dir .mt_rand(). basename($_FILES["image"]["name"]);  // đường dẫn lưu file
         $uploadOk = 1;  // trạng thái thành công hay chưa
 
@@ -234,10 +167,39 @@ class SloganController extends Controller
             }
         }
 
-        $this->sloganModel->updateImage($id,$image);
+        $this->catagoryModel->updateImage($id,$image);
 
         echo json_encode($image);
+    }
 
+    public function updateName()
+    {
+        if(isset($_POST['id']))
+            $id = $_POST['id'];
+        else
+            http_response_code(500);
+
+        if(isset($_POST['name']))
+            $name = $_POST['name'];
+        else
+            http_response_code(500);
+
+        $this->catagoryModel->updateName($id,$name);
+    }
+
+    public function removeCatagory()
+    {
+         if(isset($_POST['id']))
+            $id = $_POST['id'];
+        else
+            http_response_code(500);
+
+        $catagory = $this->catagoryModel->find($id);
+        if(file_exists($catagory['image']) && !empty($catagory['image']))
+        {
+            unlink($catagory['image']);
+        }
+        $this->catagoryModel->removeCatagory($id);
     }
 
     public function updateRank()
@@ -254,7 +216,7 @@ class SloganController extends Controller
         if(empty($rank))
             $rank = 'null';
 
-        $this->sloganModel->updateRank($id,$rank);
-
+        $this->catagoryModel->updateRank($id,$rank);
     }
+
 }

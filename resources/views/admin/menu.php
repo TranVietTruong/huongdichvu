@@ -18,7 +18,7 @@
 				</a>
 			</li>
 			<li class="sub-menu">
-				<a href="javascript:;">
+				<a href="/admin/catagory">
 					<i class="fa fa-tasks"></i>
 					<span>Danh mục</span>
 				</a>

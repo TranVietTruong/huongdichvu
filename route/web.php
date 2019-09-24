@@ -20,6 +20,7 @@ Route::add('/admin/login',function(){
 
 
 // =================================== SLOGAN ================================================
+
 Route::add('/admin/slogan',function(){
 	if(!isset($_SESSION['admin']))
 	{
@@ -27,7 +28,6 @@ Route::add('/admin/slogan',function(){
 	}
     Load::Controller('controllers/admin/SloganController.php','SloganController','slogan');
 },'get');
-
 Route::add('/admin/slogan/add',function(){
 	if(!isset($_SESSION['admin']))
 	{
@@ -35,7 +35,6 @@ Route::add('/admin/slogan/add',function(){
 	}
     Load::Controller('controllers/admin/SloganController.php','SloganController','addSlogan');
 },'get');
-
 Route::add('/admin/slogan/edit/([0-9]*)',function(){
 	if(!isset($_SESSION['admin']))
 	{
@@ -43,6 +42,35 @@ Route::add('/admin/slogan/edit/([0-9]*)',function(){
 	}
     Load::Controller('controllers/admin/SloganController.php','SloganController','editSlogan');
 },'get');
+
+
+Route::add('/admin/catagory',function(){
+	if(!isset($_SESSION['admin']))
+	{
+		header('location:/admin/login');
+	}
+    Load::Controller('controllers/admin/CatagoryController.php','CatagoryController','catagory');
+},'get');
+
+Route::add('/admin/catagory/add',function(){
+	if(!isset($_SESSION['admin']))
+	{
+		header('location:/admin/login');
+	}
+    Load::Controller('controllers/admin/CatagoryController.php','CatagoryController','addCatagory');
+},'get');
+
+Route::add('/admin/catagory/edit/([0-9*])',function(){
+	if(!isset($_SESSION['admin']))
+	{
+		header('location:/admin/login');
+	}
+    Load::Controller('controllers/admin/CatagoryController.php','CatagoryController','editCatagory');
+},'get');
+
+
+
+
 // =================================== END ===================================================
 
 
@@ -93,7 +121,33 @@ Route::add('/contact/([0-9]*)',function(){
 	Route::add('/api/slogan/update_image',function(){
 	    Load::Controller('controllers/api/SloganController.php','SloganController','updateImage');
 	},'post');
+	Route::add('/api/slogan/update_rank',function(){
+	    Load::Controller('controllers/api/SloganController.php','SloganController','updateRank');
+	},'post');
 
+	// ******************************** CATAGORY *************************************************
+	Route::add('/api/catagory/get_all',function(){
+	    Load::Controller('controllers/api/CatagoryController.php','CatagoryController','getAllCatagory');
+	},'post');
+	Route::add('/api/catagory/current_catagory',function(){
+	    Load::Controller('controllers/api/CatagoryController.php','CatagoryController','getCurrentCatagory');
+	},'post');
+	Route::add('/api/catagory/add_catagory',function(){
+	    Load::Controller('controllers/api/CatagoryController.php','CatagoryController','addCatagory');
+	},'post');
+
+	Route::add('/api/catagory/update_image',function(){
+	    Load::Controller('controllers/api/CatagoryController.php','CatagoryController','updateImage');
+	},'post');
+	Route::add('/api/catagory/update_name',function(){
+	    Load::Controller('controllers/api/CatagoryController.php','CatagoryController','updateName');
+	},'post');
+	Route::add('/api/catagory/remove',function(){
+	    Load::Controller('controllers/api/CatagoryController.php','CatagoryController','removeCatagory');
+	},'post');
+	Route::add('/api/catagory/update_rank',function(){
+	    Load::Controller('controllers/api/CatagoryController.php','CatagoryController','updateRank');
+	},'post');
 
 
 

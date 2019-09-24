@@ -16,7 +16,7 @@
 					                		<div class="text-danger " v-if="errors.has('uploadImage.image')">{{errors.first('uploadImage.image')}}</div>
 					                		<div v-if="!sloganEdit.showEditImage">
 					                		<div  class="image">
-					                			<img :src="'public/upload/slogan/'+sloganEdit.image" id="img" style="width: 100%;height: 100%;">
+					                			<img :src="sloganEdit.image" id="img" style="width: 100%;height: 100%;">
 					                			<div @click="sloganEdit.showEditImage = !sloganEdit.showEditImage" class="edit-img">
 						                			<i class="fa fa-pencil"></i>
 						                		</div>
@@ -24,7 +24,7 @@
 					                		</div>
 
 					                		<div v-if="sloganEdit.showEditImage" class="image">
-					                			<img :src="'public/upload/slogan/'+sloganEdit.image" id="image-review" alt="" style="width: 100%;height: 100%;">
+					                			<img :src="sloganEdit.image" id="image-review" alt="" style="width: 100%;height: 100%;">
 					                			<label for="image-edit" class="input-img">
 													<b v-if="!sloganEdit.uploadImage">Chọn ảnh tải lên...</b>
 													
