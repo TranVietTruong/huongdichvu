@@ -10,7 +10,7 @@ class SloganController extends Controller
     public function __construct($param = NULL)
     {
         parent::__construct();
-        include 'models/api/SloganModel.php';
+        include 'models/SloganModel.php';
         $this->sloganModel = new SloganModel();
     }
 

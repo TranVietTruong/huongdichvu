@@ -150,7 +150,7 @@ var slogan = new Vue({
 		},
 		saveEdit(sloganEdit)
 		{
-			this.$validator.validate('sloganUpdate').then(valid=>{
+			this.$validator.validateAll('sloganUpdate').then(valid=>{
 				if(valid)
 				{
 					const fd = new FormData();

@@ -1,5 +1,5 @@
 <?php 
-	define('PATH','http://localhost:8888/ngoclan/');
+	define('PATH','http://huongdichvu.com:8888/');
 	$sever ="localhost";
 	$username = "root";
 	$password = "";

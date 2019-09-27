@@ -8,7 +8,7 @@ class AuthController extends Controller
     public function __construct($param = NULL)
     {
         parent::__construct();
-        include 'models/api/AuthModel.php';
+        include 'models/AuthModel.php';
     }
 
 

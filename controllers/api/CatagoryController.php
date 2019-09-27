@@ -10,7 +10,7 @@ class CatagoryController extends Controller
     public function __construct($param = NULL)
     {
         parent::__construct();
-        include 'models/api/CatagoryModel.php';
+        include 'models/CatagoryModel.php';
         $this->catagoryModel = new CatagoryModel();
     }
     public function getAllCatagory()
