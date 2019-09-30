@@ -2212,10 +2212,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
-.p1-gradient-bg, .banner-area .overlay-bg, .sidebar .single-slidebar .cat-list li:hover, .callto-action-area, .single-price:hover .price-bottom, .single-service:hover, .submit-right, .submit-left, .contact-btns, .form-area .primary-btn {
-  background-image: -moz-linear-gradient(0deg, #bfacff00  0%, #795fff 100%);
-  background-image: -webkit-linear-gradient(0deg, #bfacff00  0%, #795fff 100%);
-  background-image: -ms-linear-gradient(0deg, #bfacff00  0%, #795fff 100%);
+.p1-gradient-bg, .sidebar .single-slidebar .cat-list li:hover, .callto-action-area, .single-price:hover .price-bottom, .single-service:hover, .submit-right, .submit-left, .contact-btns, .form-area .primary-btn {
+  background-image: -moz-linear-gradient(0deg, #bfacff    0%, #795fff 100%);
+  background-image: -webkit-linear-gradient(0deg, #bfacff    0%, #795fff 100%);
+  background-image: -ms-linear-gradient(0deg, #bfacff    0%, #795fff 100%);
+}
+.banner-area .overlay-bg{
+  background-image: -moz-linear-gradient(0deg, #bfacff00    0%, #795fff 100%);
+  background-image: -webkit-linear-gradient(0deg, #bfacff00    0%, #795fff 100%);
+  background-image: -ms-linear-gradient(0deg, #bfacff00   0%, #795fff 100%);
 }
 
 .p1-gradient-color, .feat-txt h1 {

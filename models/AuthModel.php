@@ -18,4 +18,11 @@
 			$result = $this->db->Executequery($sql);
 			return $result;
 		}
+
+		public function attempt_user($username)
+		{
+			$sql  = "SELECT * FROM user WHERE username = '$username'";
+			$result = $this->db->Executequery($sql);
+			return $result;
+		}
 	}

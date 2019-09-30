@@ -22,6 +22,8 @@
 	   	display: inline-block;
 	   	margin-right: 10px;
 	   	font-size: 0.3rem;
+      text-align: center;
+      margin-left: 10px;
 	}
 }
 
@@ -183,8 +185,9 @@ span.vote {
 .vote{
 	float: right;
 }
-.support-active{
+.support_active{
 	color:#28a745!important;
+  text-shadow: 0px 0px 10px green;
 }
 .options .answer,.options .opt{
 	display: inline-block;
@@ -222,4 +225,94 @@ span.vote {
 }
 .forget-password {
   float: right;
+}
+
+.form-area .form-select .current {
+    margin-right: 50px;
+    font-weight: 300;
+    line-height: 50px;
+}
+
+.ti-tag{
+  height: 30px;
+}
+
+.vue-tags-input {
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    max-width: 100% !important;
+}
+
+.ti-input{
+    height: auto;
+    display: block;
+    width: 100%;
+    line-height: 40px;
+    border: none !important;
+    outline: none  !important;
+    background: #f9f9ff;
+    padding: 10px !important;
+
+
+}
+
+.ti-new-tag-input{
+  background: #f9f9ff;
+}
+.ti-new-tag-input-wrapper input {
+    flex: 1 0 auto;
+    min-width: 100px;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    padding-left: 30px !important;
+}
+ul.ti-tags li.ti-tag:nth-child(1){
+  margin-left: 40px !important;
+}
+
+.error {
+    margin-top: 20px;
+}
+
+.content-question{
+  height: 80px;
+  overflow: hidden;
+
+}
+.content-question p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    text-indent: 20px;
+
+}
+
+
+.option-list{
+  margin-bottom: 20px;
+  text-align: right;
+}
+.option-list .nice-select ul.list li{
+  text-align: right;
+}
+.option-list .nice-select span{
+  float: right;
+}
+
+ul.list-tag li {
+    display: inline-block;
+    border: 1px solid #795fff;
+    padding: 2px 9px;
+    margin: 5px 3px;
+    background: #795fff;
+    border-radius: 4px;
+}
+
+ul.list-tag li a{
+   color: white;
+   text-transform: lowercase;
 }

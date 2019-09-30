@@ -272,14 +272,14 @@ $(document).ready(function(){
 
 
 
-        $('.vote .support').click(function(){
-          $(this).addClass('support-active');
-        });
+        // $('.vote .support').click(function(){
+        //   $(this).addClass('support-active');
+        // });
 
         // ClassicEditor
         // .create( document.querySelector( '#editor' ) )
         // .catch( error => {
-        //     console.error( error );
+        //     //console.error( error );
         // } );
 
 

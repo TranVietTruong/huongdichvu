@@ -166,7 +166,17 @@
 						</div>																	
 					</div>
 				</div>							
-
+				<div class="single-slidebar">
+					<h4>Thẻ tags</h4>
+					<div class="tags">
+						<ul class="list-tag">
+							<li><a href="">kinh doanh</a></li>
+							<li><a href="">khởi nghiệp</a></li>
+							<li><a href="">vay vốn</a></li>
+							<li><a href="">pháp luật</a></li>
+						</ul>
+					</div>
+				</div>
 
 				<div class="single-slidebar">
 					<h4>Tin tức</h4>

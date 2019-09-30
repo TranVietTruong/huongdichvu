@@ -8,7 +8,7 @@ class LoginController extends Controller
     public function __construct($param = NULL)
     {
         parent::__construct();
-
+        $this->view->js = '<script src="resources/js/login.js"></script>';
     }
 
     public function login()

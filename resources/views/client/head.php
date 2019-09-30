@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 	<html lang="zxx" class="no-js">
 	<head>
+		 <base href="http://huongdichvu.com:8888/">
 		<!-- Mobile Specific Meta -->
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<!-- Favicon-->
@@ -28,6 +29,7 @@
 		<link rel="stylesheet" href="public/client/css/owl.carousel.css">
 		<link rel="stylesheet" href="public/client/css/main.css">
 		<link rel="stylesheet" href="public/client/css/mycustom.css">
+		
 
 		
 	</head>

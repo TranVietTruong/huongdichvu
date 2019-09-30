@@ -22,8 +22,8 @@ class Database
 		global $option;
 		try 
 		{
-			$this->conn = new PDO("mysql:host=$server;dbname=$database",$username,$password,$option);
-			$this->conn->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
+			$this->_conn = new PDO("mysql:host=$server;dbname=$database",$username,$password,$option);
+			$this->_conn->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
 		} 
 		catch (Exception $e) 
 		{
@@ -35,7 +35,7 @@ class Database
 
 	public function Disconnect()
 	{
-		$this->conn = null;
+		$this->_conn = null;
 	}
 
 	public function Executequery($sql)
@@ -43,7 +43,7 @@ class Database
 		$this->Connect();
 		$this->SetQuery($sql);
 		
-		$stmt = $this->conn->prepare($this->_sql);
+		$stmt = $this->_conn->prepare($this->_sql);
 		$stmt->execute();
 		$result = $stmt->fetchAll(PDO::FETCH_ASSOC);
 		
@@ -59,14 +59,13 @@ class Database
 		$this->SetQuery($sql);
 		try
 		{
-			$result = $this->conn->prepare($this->_sql);
+			$result = $this->_conn->prepare($this->_sql);
 			$result->execute();
 		}
 		catch(Exception $e)
 		{
-			echo 'Câu truy vẫn lỗi hoặc bị lỗi đâu đó <br>';
-			echo $e->getMessage();
-			die;
+			$this->Disconnect();
+			throw new Exception($e->getMessage(),500);
 		}
 		$this->Disconnect();
 	}
@@ -86,10 +85,8 @@ class Database
 		}
 		catch(Exception $e)
 		{
-			echo 'Câu truy vẫn lỗi hoặc bị lỗi đâu đó <br>';
-			echo $e->getMessage();
 			$this->Disconnect();
-			die;
+			throw new Exception($e->getMessage(),500);
 		}
 	}
 }

@@ -17,8 +17,8 @@
     <link href="public/admin/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!--external css-->
     <link href="public/admin/lib/font-awesome/css/font-awesome.css" rel="stylesheet" />
-    <link rel="stylesheet" type="text/css" href="public/admin/css/zabuto_calendar.css">
-    <link rel="stylesheet" type="text/css" href="public/admin/lib/gritter/css/jquery.gritter.css" />
+    <link href="public/admin/css/zabuto_calendar.css" rel="stylesheet" type="text/css">
+    <link href="public/admin/lib/gritter/css/jquery.gritter.css" rel="stylesheet" type="text/css" />
     <!-- Custom styles for this template -->
     <link href="public/admin/css/style.css" rel="stylesheet">
     <link href="public/admin/css/style-responsive.css" rel="stylesheet">

@@ -78,10 +78,14 @@ Bài tập lớn môn học phát triển phầm mềm hướng dịch vụ <i c
 	
 			<!-- End footer Area -->		
 			
-
+			
 			<script src="public/client/js/vendor/jquery-2.2.4.min.js"></script>
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-			<script src="public/client/js/vendor/bootstrap.min.js"></script>			
+			<script src="public/client/js/vendor/bootstrap.min.js"></script>	
+
+			<script src="https://cdn.ckeditor.com/4.13.0/standard/ckeditor.js"></script>
+			
+
 			<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
   			<script src="public/client/js/easing.min.js"></script>			
 			<script src="public/client/js/hoverIntent.js"></script>
@@ -93,14 +97,33 @@ Bài tập lớn môn học phát triển phầm mềm hướng dịch vụ <i c
 			<script src="public/client/js/jquery.nice-select.min.js"></script>			
 			<script src="public/client/js/parallax.min.js"></script>		
 			<script src="public/client/js/mail-script.js"></script>
-			<!-- <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js"></script> -->
-				
-		
+			
+
 			<script src="public/admin/vue.js"></script>
 			<script src="public/admin/vee-validate.js"></script>
 			<script src="public/admin/axios.min.js"></script>
 			<script src="public/admin/sweetalert.js"></script>
+			<script src="public/admin/vue-tags-input.js"></script>
+			
 			<script src="public/client/js/main.js"></script>
 			<?php if(isset($this->js)) echo $this->js; ?>
+
+			<style>
+				.swal2-select {
+				    display: none !important;
+				}
+			</style>
+			<script>
+				CKEDITOR.replace( 'editor1' );
+			</script>
+
+			<script>
+
+				jQuery(document).ready(function($) {
+					if(document.getElementById("default-select")){
+						$('#select').niceSelect('update');
+					};
+				});
+			</script>
 		</body>
 	</html>

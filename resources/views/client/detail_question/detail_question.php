@@ -1,93 +1,98 @@
 <!-- Start post Area -->
 <section class="post-area section-gap">
-	<div class="container">
+	<div class="container" id="detail_question">
 		<div class="row justify-content-center d-flex">
-			<div class="col-lg-8 post-list">
+			<div class="col-lg-8 post-list" >
 				
 				<div class="single-post job-details">
-					<h4 class="single-title">Xin sát nhập doanh nghiệp ở đâu?</h4>
+					<h4 class="single-title">{{detailQuestion.title}}</h4>
 					<div class="post-by">
 						<span><i class="far fa-user"></i></span>
 						Đăng bởi:
-						<a href=""> Trần Viết Trưởng</a>
+						<a href="">{{detailQuestion.full_name}}</a>
 					</div>	
 					<div class="post-in">
 						<span><i class="far fa-clock"></i></span>
 						Lĩnh vực: 
-						<a href=""> Công nghệ thông tin</a>
+						<a href="">{{detailQuestion.catagory}}</a>
 					</div>
-					<div class="content">
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur.
-						</p>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-						</p>
+					<div class="content" v-html="detailQuestion.content">
+				
 					</div>
+					<div class="time-post">
+								<span><i class="far fa-calendar-alt"></i></span>
+								Ngày đăng: 
+								<span class="text-primary">{{detailQuestion.time}}</span>
+							</div>
+							<div class="view">
+								<span><i class="fas fa-eye"></i></span>
+								Lượt xem: 
+								<span>{{detailQuestion.view}}</span>
+							</div>
+
 					<div class="vote">
-						
-						<div>
-							<span class="support"><i class="fas fa-check"></i></span>
+						<div @click="voteQuestion">
+							<span :class="{support_active:detailQuestion.voted}" class="support"><i class="fas fa-check"></i></span>
 						</div>
-						<div class="text-success fw400">
-							<span class="fz-18">3000</span>
+						<div class="text-dark fw400">
+							<span class="fz-18">{{detailQuestion.vote}}</span>
 						</div>
 						
 					</div>
 				</div>
 				<div class="options">
 					<div class="answer mt-10">
-						<span class="fz-18">35 câu trả lời</span>
+						<span class="fz-18">{{listAnswer.length}} câu trả lời</span>
 					</div>
 					<div class="opt">
-						<div class="form-select" id="default-select"">
+						<div class="form-select" id="default-select">
 							<select>
 								<option value="1">Tùy Chọn</option>
 								<option value="1">Mới nhât</option>
-								<option value="1">Cao nhất</option>
+								<option value="1">Bình chọn nhiều nhất</option>
 							</select>
 						</div>
 					</div>
 					<hr>
 				</div>
+				
 
-				<div class="single-post job-details answer">
+				<div v-for="answer in listAnswer" class="single-post job-details answer">
 					<div class="post-by">
 						<span><i class="far fa-user"></i></span>
 						Đăng bởi:
-						<a href=""> Trần Viết Trưởng</a>
+						<a href="">{{answer.full_name}}</a>
 					</div>	
 					<div class="post-in">
 						<span><i class="far fa-calendar-alt"></i></span>
 						Ngày đăng: 
-						<span class="text-primary">12/09/2019</span>
+						<span class="text-primary">{{answer.time}}</span>
 					</div>
-					<div class="content">
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur.
-						</p>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-						</p>
+					<div class="content" v-html="answer.content">
+						
 					</div>
 					<div class="vote">
-						
-						<div>
-							<span class="support"><i class="fas fa-check"></i></span>
+						<div @click="voteAnswer(answer)">
+							<span :class="{support_active:answer.voted}" class="support"><i class="fas fa-check"></i></span>
 						</div>
-						<div class="text-success fw400">
-							<span class="fz-18">3000</span>
+						<div class="text-dark fw400">
+							<span class="fz-18">{{answer.vote}}</span>
 						</div>
-						
 					</div>
 				</div>
-				<hr>
-				<div class="cmt">
+			
+				<!-- <hr> -->
+				<div class="cmt mt-30">
 					<div class="tl">
-						<textarea class="form-control" style="height: 200px;width: 100%" name="content" id="editor"></textarea>
+						<textarea name="editor1" id="txtFT_Content" name ="txtFT_Content"></textarea>
+					</div>
+					<div class="error" v-if="error.length > 0">
+						<ul>
+							<li v-for="err in error" class="text-danger"><p><i class="fa fa-times"></i> {{err}}</p></li>
+						</ul>
 					</div>
 					<div class="mt-30 float-right">
-						<button class="genric-btn success"> Đăng </button>
+						<button @click="post_answer" class="genric-btn success"> Đăng </button>
 					</div>
 				</div>
 				

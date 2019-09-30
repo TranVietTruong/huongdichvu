@@ -11,10 +11,28 @@
 					<li><a href="category.html">Tin Tức</a></li>
 					<li><a href="price.html">Giới Thiệu</a></li>
 					<li><a href="/lien-he">Liên Hệ</a></li>
+					
 
-					<li><a class="ticker-btn" href="#">Đặt Câu Hỏi</a></li>
-					<li><a class="ticker-btn" href="/dang-ky">Đăng ký</a></li>
+					<?php if(isset($_SESSION['user'])) { ?>
+						<li><a class="ticker-btn" href="dat-cau-hoi">Đặt Câu Hỏi</a></li>
+					<?php } ?>
+					
+
+					<?php if(!isset($_SESSION['user'])) { ?>
+						<li><a class="ticker-btn" href="/dang-ky">Đăng ký</a></li>
+					<?php } ?>
+					
+					<?php if(!isset($_SESSION['user'])) { ?>
 					<li><a class="ticker-btn" href="/dang-nhap">Đăng nhập</a></li>
+					<?php } ?>
+
+					<?php if(isset($_SESSION['user'])) { ?>
+						<li><a class="ticker-btn" href="/dang-ky"><span style="font-size: 16px;" class="fa fa-user"></span></a></li>
+					<?php } ?>
+
+					<?php if(isset($_SESSION['user'])) { ?>
+						<li><a class="ticker-btn" href="/dang-xuat">Đăng Xuất</a></li>
+					<?php } ?>
 
 				</ul>
 			</nav><!-- #nav-menu-container -->		    		
