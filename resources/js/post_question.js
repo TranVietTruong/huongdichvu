@@ -72,7 +72,7 @@ var slogan = new Vue({
 
 				})
 				.catch(error=>{
-					thongbao("error",error.response.data);
+					thongbao("error",'Không thể đăng câu hỏi');
 				})
 			}
 

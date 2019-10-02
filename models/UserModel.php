@@ -30,5 +30,16 @@
 	    	return $this->db->ExecuteNonQuery($sql);
 	    }
 
+	    public function update_tag($id,$tag)
+	    {
+	    	$sql = "UPDATE user SET tag = '$tag' WHERE id = '$id'";
+	    	return $this->db->ExecuteNonQuery($sql);
+	    }
+
+	    public function find($id)
+	    {
+	    	$sql = "SELECT * FROM user WHERE id = '$id'";
+	    	return $this->db->Executequery($sql);
+	    }
 
 	}

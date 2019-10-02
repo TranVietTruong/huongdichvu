@@ -4,6 +4,7 @@ class CatagoryController extends Controller
     /**
      * summary
      */
+    
     public function __construct($param = NULL)
     {
         parent::__construct();
@@ -12,6 +13,7 @@ class CatagoryController extends Controller
 
     public function catagory()
     {
+
         $this->view->Render('admin/head');
         $this->view->Render('admin/header');
         $this->view->Render('admin/menu');

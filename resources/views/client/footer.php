@@ -100,6 +100,7 @@ Bài tập lớn môn học phát triển phầm mềm hướng dịch vụ <i c
 			
 
 			<script src="public/admin/vue.js"></script>
+			<script src="public/admin/vuejs-paginate.js"></script>
 			<script src="public/admin/vee-validate.js"></script>
 			<script src="public/admin/axios.min.js"></script>
 			<script src="public/admin/sweetalert.js"></script>

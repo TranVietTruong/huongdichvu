@@ -2479,7 +2479,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   
 }
 
-.single-popular-post .thumb {
+/*.single-popular-post .thumb {
   display: inline-block;
   
 }
@@ -2491,7 +2491,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   height: 70px;
   border-radius: 50%;
 }
-
+*/
 .single-popular-post .btns {
   background-color: #49e4fa;
   color: #fff;

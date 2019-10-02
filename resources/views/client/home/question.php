@@ -6,20 +6,21 @@
 				<div class="row d-flex justify-content-center">
 					<div class="menu-content pb-60 col-lg-10">
 						<div class="title text-center">
-							<h1 class="mb-10">Câu Hỏi Khởi Nghiệp</h1>
+							<h1 class="mb-10">Câu Hỏi</h1>
 							
 						</div>
 					</div>
 				</div>	
+				<?php  foreach ($this->questions as $question) { ?>
 				<div class="single-post d-flex flex-row">
 					<div class="thumb">
 						<div class="info-review">
 							<div class="count-review">
-								<span class="vote text-success">3000</span>
+								<span class="vote text-success"><?php echo $question['vote'] ?></span>
 								<span class="fz-13 fw500">đánh giá</span>
 							</div>
 							<div class="support">
-								<span class="vote text-success">31</span>
+								<span class="vote text-success"><?php echo $question['count_reply'] ?></span>
 								<span class="fz-13 fw500">câu trả lời</span>
 							</div>
 							<div class="share">
@@ -31,11 +32,11 @@
 						</div>
 						<div class="mobile-info-review">
 							<div class="mobile-count-review">
-								<span class="vote text-success">3000</span>
+								<span class="vote text-success"><?php echo $question['vote'] ?></span>
 								<span class="fz-13 fw500">đánh giá</span>
 							</div>
 							<div class="mobile-support">
-								<span class="vote text-success">31</span>
+								<span class="vote text-success"><?php echo $question['count_reply'] ?></span>
 								<span class="fz-13 fw500">câu trả lời</span>
 							</div>
 							<div class="mobile-share">
@@ -49,40 +50,42 @@
 					<div class="details">
 						<div class="title d-flex flex-row justify-content-between">
 							<div class="titles">
-								<a href="single.html"><h4>Xin sát nhập doanh nghiệp ở đâu?</h4></a>
+								<a href="/cau-hoi/<?php echo $question['slug']?>"><h4><?php echo $question['title'] ?></h4></a>
 								<div class="post-by">
 									<span><i class="far fa-user"></i></span>
 									Đăng bởi:
-									<a href=""> Trần Viết Trưởng</a>
+									<a href=""><?php echo $question['full_name'] ?></a>
 								</div>	
 								<div class="post-in">
 									<span><i class="far fa-clock"></i></span>
 									Lĩnh vực: 
-									<a href=""> Công nghệ thông tin</a>
+									<a href=""><?php echo $question['catagory'] ?></a>
 								</div>				
 							</div>
 						</div>
-						<p>
-							<span class="text-primary">Câu hỏi: </span>Lorem ipsum dolor213123123123123213123123123123123123123123123213123213 sit amet, consectetur adipisicing elit, sed do eiusmod temporinc ididunt ut dolore magna aliqua.
-						</p>
+						<div class="content-question">
+							<span class="text-primary">Câu hỏi: </span>
+							<?php echo $question['content'] ?>
+						</div>
 						<div class="time-post">
 							<span><i class="far fa-calendar-alt"></i></span>
 							Ngày đăng: 
-							<span class="text-primary">12/09/2019</span>
+							<span class="text-primary"><?php echo $question['time'] ?></span>
 						</div>
 						<div class="view">
 							<span><i class="fas fa-eye"></i></span>
 							Lượt xem: 
-							<span>129</span>
+							<span><?php echo $question['view'] ?></span>
 						</div>
 						<div class="read-more">
-							<a href="#" class="genric-btn info circle arrow small">Xem thêm<span class="lnr lnr-arrow-right"></span></a>
+							<a href="/cau-hoi/<?php echo $question['slug']?>" class="genric-btn info circle arrow small">Xem thêm<span class="lnr lnr-arrow-right"></span></a>
 						</div>
 					</div>
 				</div>
+				<?php }?>
 				
 				
-				<a  style="background: #38a4ff" class="text-uppercase loadmore-btn mx-auto d-block" href="category.html">Xem Thêm</a>
+				<a  style="background: #38a4ff" class="text-uppercase loadmore-btn mx-auto d-block" href="/cau-hoi">Xem Thêm</a>
 
 			</div>
 			

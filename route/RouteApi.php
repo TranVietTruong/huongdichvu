@@ -103,7 +103,11 @@
 	},'post');
 
 
+	// ******************************************* USER ***************************************************
 
+	Route::add('/api/user/get_tag',function(){
+	    Load::Controller('controllers/api/UserController.php','UserController','get_tag');
+	},'post');
 
 
 

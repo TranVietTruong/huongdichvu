@@ -36,13 +36,13 @@ class DetailQuestionController extends Controller
         $question = $this->QuestionModel->find($slug);
 
         if(isset($_SESSION['user']))
-                $id_user = $_SESSION['user']['id'];
-            else
-                $id_user = -1;
+            $id_user = $_SESSION['user']['id'];
+        else
+            $id_user = -1;
 
         $vote_question = $this->VoteQuestionModel->where($id_user,$question[0]['id']);
 
-        if(count($vote_question) == 1)
+        if(!empty($vote_question))
         {
             $question[0]['voted'] = true;
         }

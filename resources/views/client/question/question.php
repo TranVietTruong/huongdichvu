@@ -1,29 +1,13 @@
 <!-- Start post Area -->
 <section class="post-area section-gap">
 	<div class="container" id="list-question">
-		<div class="row">
-			<div class="col-lg-8 post-list">
-
-			</div>
-		</div>
+		
 		<div class="row justify-content-center d-flex">
 			<div class="col-lg-8 post-list">
-				
-					<div class="option-list">
-						<div class="form-select" id="default-select">
-							<select>
-								<option value="1">Tùy Chọn</option>
-								<option value="1">Mới nhât</option>
-								<option value="1">Hot nhât</option>
-								<option value="1">Trong ngày</option>
-								<option value="1">Trong tuần</option>
-								<option value="1">Trong tháng</option>
-							</select>
-						</div>
-					</div>
-				
+				<div>
+					
+				</div>
 
-				
 				<div v-for="question in listQuestion" class="single-post d-flex flex-row">
 					<div class="thumb">
 						<div class="info-review">
@@ -96,6 +80,16 @@
 						</div>
 					</div>
 				</div>
-				
+				<paginate
+					v-if="pagination.last_page > 1"
+					:page-count="pagination.last_page"
+					:click-handler="FetchPagination"
+					:prev-text="'&lt;'"
+					:next-text="'&gt;'"
+					:container-class="'paginate'"
+					:first-button-text="'&laquo;'"
+					:last-button-text="'&raquo;'"
+					:first-last-button="true">
+				</paginate>
 			</div>
 			

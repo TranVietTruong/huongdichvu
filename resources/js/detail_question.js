@@ -15,6 +15,7 @@ var slogan = new Vue({
 			listAnswer: [],
 			detailQuestion: {},
 			error: [],
+			tags:[]
 		}
 	},
 	methods: {
@@ -44,7 +45,6 @@ var slogan = new Vue({
 			axios.post('/api/question/detail_question',fd)
 			.then(response=>{
 				this.detailQuestion = response.data[0];
-				console.log(this.detailQuestion);
 			})
 			.catch(error=>{
 				window.location.href = '/404';
@@ -171,6 +171,13 @@ var slogan = new Vue({
 			.catch(error=>{
 				thongbao('error',error.response.data);
 			})
+		},
+		getTags()
+		{
+			axios.post('/api/user/get_tag')
+			.then(response=>{
+				this.tags = response.data;
+			})
 		}
 		
 	},
@@ -179,6 +186,7 @@ var slogan = new Vue({
 		this.get_detail_question();
 		this.get_all_answer_by_id_question();
 		this.update_view();
+		this.getTags();
 
 	}
 

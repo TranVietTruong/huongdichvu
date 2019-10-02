@@ -50,3 +50,4 @@ Route::add('/verify-email',function(){
 	Load::Controller('controllers/client/HomeController.php','HomeController','verify_email');
 },'get');
 
+

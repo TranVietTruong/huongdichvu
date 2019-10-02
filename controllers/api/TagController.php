@@ -16,6 +16,7 @@ class TagController extends Controller
 
     public function get_all()
     {
+
     	$data = $this->TagModel->all();
     	echo json_encode($data,JSON_UNESCAPED_UNICODE);
     }
