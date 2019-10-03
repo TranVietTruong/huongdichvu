@@ -453,3 +453,7 @@ ul.list-tag li a{
 .detail_news ul{
   list-style: unset;
 }
+
+.content-question h1,.content-question h2,.content-question h3, .content-question h4, .content-question h4{
+   display: none;
+}
