@@ -8,8 +8,8 @@
 				<ul class="nav-menu">
 					<li class="menu-active"><a href="/">Trang Chủ</a></li>
 					<li><a href="/cau-hoi">Câu Hỏi</a></li>
-					<li><a href="category.html">Tin Tức</a></li>
-					<li><a href="price.html">Giới Thiệu</a></li>
+					<li><a href="/tin-tuc">Tin Tức</a></li>
+					<li><a href="/gioi-thieu">Giới Thiệu</a></li>
 					<li><a href="/lien-he">Liên Hệ</a></li>
 					
 

@@ -80,55 +80,28 @@
 					<h4>Thẻ tags</h4>
 					<div class="tags">
 						<ul class="list-tag">
-							<li v-for="tag in tags"><a href="">{{tag.name}}</a></li>
+							<li v-for="tag in tags"><a href="">{{tag.name}} ( {{tag.total}} )</a></li>
 						</ul>
 					</div>
 				</div>
 
 				<div class="single-slidebar">
 					<h4>Tin tức</h4>
-					<div class="blog-list mb-30">
-						<div class="single-blog " style="background:#000 url(img/blog1.jpg);">
-							<a href="single.html"><h4 class="text-dark">Home Audio Recording <br>
-							For Everyone</h4></a>
-							<div class="time text-dark">
-								<span><i class="far fa-calendar-alt"></i></span>
+					<?php foreach ($this->news as $new) { ?>
+					<div class="blog-listt mb-30">
+						<div class="img">
+							<img src="<?php echo $new['image'] ?>" alt="">
+						</div>
+						<div class="title">
+							<a href="">
+								<h5><?php echo $new['title'] ?></h5>
+							</a>
+							<span><i class="far fa-calendar-alt"></i></span>
 								Ngày đăng: 
-								<span class="text-dark">12/09/2019</span>
-							</div>
-							<div class="read-more text-center">
-								<a href="#" class="genric-btn info circle arrow small">Xem thêm<span class="lnr lnr-arrow-right"></span></a>
-							</div>
-						</div>																
+							<span class="text-dark"><?php echo $new['time'] ?></span>
+						</div>
 					</div>
-					<div class="blog-list mb-30">
-						<div class="single-blog " style="background:#000 url(img/blog1.jpg);">
-							<a href="single.html"><h4 class="text-dark">Home Audio Recording <br>
-							For Everyone</h4></a>
-							<div class="time text-dark">
-								<span><i class="far fa-calendar-alt"></i></span>
-								Ngày đăng: 
-								<span class="text-dark">12/09/2019</span>
-							</div>
-							<div class="read-more text-center">
-								<a href="#" class="genric-btn info circle arrow small">Xem thêm<span class="lnr lnr-arrow-right"></span></a>
-							</div>
-						</div>																
-					</div>
-					<div class="blog-list">
-						<div class="single-blog " style="background:#000 url(img/blog1.jpg);">
-							<a href="single.html"><h4 class="text-dark">Home Audio Recording <br>
-							For Everyone</h4></a>
-							<div class="time text-dark">
-								<span><i class="far fa-calendar-alt"></i></span>
-								Ngày đăng: 
-								<span class="text-dark">12/09/2019</span>
-							</div>
-							<div class="read-more text-center">
-								<a href="#" class="genric-btn info circle arrow small">Xem thêm<span class="lnr lnr-arrow-right"></span></a>
-							</div>
-						</div>																
-					</div>
+					<?php } ?>
 				</div>							
 
 			</div>

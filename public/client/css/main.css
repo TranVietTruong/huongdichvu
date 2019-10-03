@@ -2569,7 +2569,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .post-list .cat-list {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: -1px;
 }
 
 .post-list .cat-list li {
@@ -2578,7 +2578,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   width: 100px;
   display: inline-block;
   background-color: #fff;
-  border: 1px solid #eee333;
+  border: 1px solid black;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -2588,16 +2588,23 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .post-list .cat-list li a {
   text-transform: uppercase;
-  font-weight: 600;
+  /*font-weight: 600;*/
   color: #222;
 }
 
 .post-list .cat-list li:hover {
-  background-color: #49e4fa;
+  background-color: #f9f9ff;
+  border: none;
+  cursor: pointer;
+}
+
+.post-list .cat-list .active{
+  background-color: #f9f9ff;
+  border: none;
 }
 
 .post-list .cat-list li:hover a {
-  color: #fff;
+  color: #222;
 }
 
 @media (max-width: 414px) {
@@ -3919,14 +3926,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: none;
   float: left;
   width: 80%;
-  background: #eee;
+  background: #fff;
 }
 
 .search-widget form.example button {
   float: left;
   width: 20%;
   padding: 10px;
-  background: #eee;
+  background: #fff;
   color: white;
   font-size: 17px;
   border: none;

@@ -70,6 +70,28 @@
 	    Load::Controller('controllers/api/QuestionController.php','QuestionController','get_question');
 	},'post');
 
+	Route::add('/api/question/xem_nhieu',function(){
+	    Load::Controller('controllers/api/QuestionController.php','QuestionController','xem_nhieu');
+	},'post');
+
+	Route::add('/api/question/vote_nhieu',function(){
+	    Load::Controller('controllers/api/QuestionController.php','QuestionController','vote_nhieu');
+	},'post');
+
+	Route::add('/api/question/trong_ngay',function(){
+	    Load::Controller('controllers/api/QuestionController.php','QuestionController','trong_ngay');
+	},'post');
+
+	Route::add('/api/question/trong_tuan',function(){
+	    Load::Controller('controllers/api/QuestionController.php','QuestionController','trong_tuan');
+	},'post');
+
+	Route::add('/api/question/trong_thang',function(){
+	    Load::Controller('controllers/api/QuestionController.php','QuestionController','trong_thang');
+	},'post');
+
+
+
 	Route::add('/api/question/post_question',function(){
 	    Load::Controller('controllers/api/QuestionController.php','QuestionController','post_question');
 	},'post');
@@ -113,8 +135,20 @@
 
 //==================================== END ==========================================================
 
+
 //************************************ HOME PAGES **********************************************************
 
 	Route::add('/api/register',function(){
 	    Load::Controller('controllers/api/RegisterController.php','RegisterController','register');
+	},'post');
+
+
+
+//************************************* NEWS *************************************************************
+	Route::add('/api/news/get_news',function(){
+	    Load::Controller('controllers/api/NewsController.php','NewsController','get_news');
+	},'post');
+
+	Route::add('/api/news/search',function(){
+	    Load::Controller('controllers/api/NewsController.php','NewsController','search');
 	},'post');

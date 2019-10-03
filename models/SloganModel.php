@@ -22,7 +22,7 @@
 
 		public function all()
 		{
-			$sql = 'SELECT * FROM slogan ORDER BY rank ASC';
+			$sql = 'SELECT * FROM slogan WHERE active = 1 ORDER BY rank ASC';
 			$result = $this->db->Executequery($sql);
 			return $result;
 		}

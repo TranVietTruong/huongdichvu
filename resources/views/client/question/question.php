@@ -4,9 +4,14 @@
 		
 		<div class="row justify-content-center d-flex">
 			<div class="col-lg-8 post-list">
-				<div>
-					
-				</div>
+				<ul class="cat-list">
+					<li :class="object" @click="getQuestion"><a>Mới nhất</a></li>
+					<li :class="object1" @click="getQuestionOrderByView"><a>Xem nhiều</a></li>
+					<li :class="object2" @click="getQuestionOrderByVote"><a>Vote nhiều</a></li>
+					<li :class="object3" @click="getQuestionInDay"><a>Trong ngày</a></li>
+					<li :class="object4" @click="getQuestionInWeek"><a>Trong tuần</a></li>
+					<li :class="object5" @click="getQuestionInMonth"><a>Trong tháng</a></li>
+				</ul>
 
 				<div v-for="question in listQuestion" class="single-post d-flex flex-row">
 					<div class="thumb">

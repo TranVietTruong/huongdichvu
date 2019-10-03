@@ -8,6 +8,7 @@ class DetaiQuestionController extends Controller
     public $QuestionModel;
     public $VoteQuestionModel;
     public $UserModel;
+    public $NewsModel;
 
     public function __construct($param = NULL)
     {
@@ -17,11 +18,13 @@ class DetaiQuestionController extends Controller
         include 'models/VoteQuestionModel.php';
         include 'models/QuestionModel.php';
         include 'models/UserModel.php';
+        include 'models/NewsModel.php';
 
         $this->CatagoryModel = new CatagoryModel();
         $this->QuestionModel = new QuestionModel();
         $this->VoteQuestionModel = new VoteQuestionModel();
         $this->UserModel = new UserModel();
+        $this->NewsModel = new NewsModel();
 
         $this->view->js = '<script src="resources/js/detail_question.js"></script>';
     }
@@ -47,20 +50,34 @@ class DetaiQuestionController extends Controller
                 }
 
                 $data = [];
+                $tintuc = [];
+
                 foreach ($tag_user as $value) 
                 {
                     $results = $this->QuestionModel->find_by_tag($value);
+
                     foreach ($results as $result) 
                     {
                         if(!in_array($result,$data))
                             array_push($data,$result);
                     }
+
+                    $news = $this->NewsModel->find_by_tag($value);
+
+                    foreach ($news as $new) 
+                    {
+                        if(!in_array($new,$tintuc))
+                            array_push($tintuc,$new);
+                    }
                 }
+
                 if(count($data) != 0)
                 {
                     foreach ($data as $value) {
                         if(count($data) > 5)
-                            array_pop($data);
+                            //array_shift($data);
+                            array_splice($data,rand(0,count($data)),1);
+
                         else
                             break;
                     }
@@ -68,15 +85,31 @@ class DetaiQuestionController extends Controller
                 }
                 else
                     $this->view->questions = $this->QuestionModel->order_by_time_and_count_reply();
+
+                if(count($tintuc) != 0)
+                {
+                    foreach ($tintuc as $value) {
+                        if(count($tintuc) > 6)
+                            //array_pop($tintuc);
+                            array_splice($tintuc,rand(0,count($tintuc)),1);
+                        else
+                            break;
+                    }
+                    $this->view->news = $tintuc;
+                }
+                else
+                    $this->view->news = $this->NewsModel->rand();
             }
             else
-            {
+            {   
                 $this->view->questions = $this->QuestionModel->order_by_time_and_count_reply();
+                $this->view->news = $this->NewsModel->rand();
             }
         }
         else
         {
             $this->view->questions = $this->QuestionModel->order_by_time_and_count_reply();
+            $this->view->news = $this->NewsModel->rand();
         }
 
         

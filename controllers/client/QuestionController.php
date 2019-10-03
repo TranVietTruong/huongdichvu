@@ -73,7 +73,8 @@ class QuestionController extends Controller
                 {
                     foreach ($data as $value) {
                         if(count($data) > 5)
-                            array_shift($data);
+                            //array_shift($data);
+                            array_splice($data,rand(0,count($data)),1);
                         else
                             break;
                     }
@@ -85,8 +86,9 @@ class QuestionController extends Controller
                 if(count($tintuc) != 0)
                 {
                     foreach ($tintuc as $value) {
-                        if(count($tintuc) > 6)
-                            array_pop($tintuc);
+                        if(count($tintuc) > 7)
+                            //array_pop($tintuc);
+                            array_splice($tintuc,rand(0,count($tintuc)),1);
                         else
                             break;
                     }
@@ -107,6 +109,8 @@ class QuestionController extends Controller
             $this->view->news = $this->NewsModel->rand();
         }
         //---------------------------------------- END ------------------------------------------------
+        
+
 
         $this->view->Render('client/head');
         $this->view->Render('client/header');

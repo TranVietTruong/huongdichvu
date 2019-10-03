@@ -67,9 +67,13 @@ class QuestionController extends Controller
             }
 
             if($update)
+            {
                 $this->TagModel->update_total($id);
+            }
             else
-                $this->TagModel->add($value);
+            {
+                $this->TagModel->add($value,SlugService::slug($value));
+            }
 		}
     }
 
@@ -101,6 +105,234 @@ class QuestionController extends Controller
             $pre_page_url = null;
         else
             $pre_page_url = "/api/question/get_question?page=".($page-1);
+
+        $pagination = [
+            'current_page' => $current_page,
+            'data' => $data,
+            'from' => $from,
+            'to'   => $to,
+            'per_page' => $per_page,
+            'total' => $total,
+            'last_page' => $last_page,
+            'fist_page_url' => $first_page_url,
+            'last_page_url' => $last_page_url,
+            'next_page_url' => $next_page_url,
+            'pre_page_url' => $pre_page_url
+        ];
+
+        echo json_encode($pagination,JSON_UNESCAPED_UNICODE);
+    }
+
+    public function xem_nhieu()
+    {
+        if(isset($_GET['page']))
+            $page = $_GET['page'];
+        else
+            $page = 1;
+
+        $total = $this->QuestionModel->count(); // tổng số post;
+        $per_page = 7;                          // số post trên 1 trang;
+        $last_page = ceil($total/$per_page);     // tổng số trang;
+        $from = ($page - 1) * $per_page;        // bắt đầu lấy từ vị trí $from
+        $to = $from + $per_page;                // đến vị trí $to
+
+        $data = $this->QuestionModel->paginate_orderBy_view($from,$per_page);// lấy từ ị trí $from với $per_page bài tính từ vị trí $from
+
+        $current_page = $page;
+        $first_page_url = "/api/question/xem_nhieu?page=1";
+        $last_page_url = "/api/question/xem_nhieu?page=".$last_page;
+        if($page == $last_page)
+            $next_page_url = null;
+        else
+            $next_page_url = "/api/question/xem_nhieu?page=".($page+1);
+
+        if($page == 1)
+            $pre_page_url = null;
+        else
+            $pre_page_url = "/api/question/xem_nhieu?page=".($page-1);
+
+        $pagination = [
+            'current_page' => $current_page,
+            'data' => $data,
+            'from' => $from,
+            'to'   => $to,
+            'per_page' => $per_page,
+            'total' => $total,
+            'last_page' => $last_page,
+            'fist_page_url' => $first_page_url,
+            'last_page_url' => $last_page_url,
+            'next_page_url' => $next_page_url,
+            'pre_page_url' => $pre_page_url
+        ];
+
+        echo json_encode($pagination,JSON_UNESCAPED_UNICODE);
+    }
+
+
+    public function vote_nhieu()
+    {
+        if(isset($_GET['page']))
+            $page = $_GET['page'];
+        else
+            $page = 1;
+
+        $total = $this->QuestionModel->count(); // tổng số post;
+        $per_page = 7;                          // số post trên 1 trang;
+        $last_page = ceil($total/$per_page);     // tổng số trang;
+        $from = ($page - 1) * $per_page;        // bắt đầu lấy từ vị trí $from
+        $to = $from + $per_page;                // đến vị trí $to
+
+        $data = $this->QuestionModel->paginate_orderBy_vote($from,$per_page);// lấy từ ị trí $from với $per_page bài tính từ vị trí $from
+
+        $current_page = $page;
+        $first_page_url = "/api/question/vote_nhieu?page=1";
+        $last_page_url = "/api/question/vote_nhieu?page=".$last_page;
+        if($page == $last_page)
+            $next_page_url = null;
+        else
+            $next_page_url = "/api/question/vote_nhieu?page=".($page+1);
+
+        if($page == 1)
+            $pre_page_url = null;
+        else
+            $pre_page_url = "/api/question/vote_nhieu?page=".($page-1);
+
+        $pagination = [
+            'current_page' => $current_page,
+            'data' => $data,
+            'from' => $from,
+            'to'   => $to,
+            'per_page' => $per_page,
+            'total' => $total,
+            'last_page' => $last_page,
+            'fist_page_url' => $first_page_url,
+            'last_page_url' => $last_page_url,
+            'next_page_url' => $next_page_url,
+            'pre_page_url' => $pre_page_url
+        ];
+
+        echo json_encode($pagination,JSON_UNESCAPED_UNICODE);
+    }
+
+
+    public function trong_ngay()
+    {
+        if(isset($_GET['page']))
+            $page = $_GET['page'];
+        else
+            $page = 1;
+
+        $total = $this->QuestionModel->count_paginate_inday(); // tổng số post;
+        $per_page = 7;                          // số post trên 1 trang;
+        $last_page = ceil($total/$per_page);     // tổng số trang;
+        $from = ($page - 1) * $per_page;        // bắt đầu lấy từ vị trí $from
+        $to = $from + $per_page;                // đến vị trí $to
+
+        $data = $this->QuestionModel->paginate_inday($from,$per_page);// lấy từ ị trí $from với $per_page bài tính từ vị trí $from
+
+        $current_page = $page;
+        $first_page_url = "/api/question/trong_ngay?page=1";
+        $last_page_url = "/api/question/trong_ngay?page=".$last_page;
+        if($page == $last_page)
+            $next_page_url = null;
+        else
+            $next_page_url = "/api/question/trong_ngay?page=".($page+1);
+
+        if($page == 1)
+            $pre_page_url = null;
+        else
+            $pre_page_url = "/api/question/trong_ngay?page=".($page-1);
+
+        $pagination = [
+            'current_page' => $current_page,
+            'data' => $data,
+            'from' => $from,
+            'to'   => $to,
+            'per_page' => $per_page,
+            'total' => $total,
+            'last_page' => $last_page,
+            'fist_page_url' => $first_page_url,
+            'last_page_url' => $last_page_url,
+            'next_page_url' => $next_page_url,
+            'pre_page_url' => $pre_page_url
+        ];
+
+        echo json_encode($pagination,JSON_UNESCAPED_UNICODE);
+    }
+
+
+    public function trong_tuan()
+    {
+        if(isset($_GET['page']))
+            $page = $_GET['page'];
+        else
+            $page = 1;
+
+        $total = $this->QuestionModel->count_paginate_inweek(); // tổng số post;
+        $per_page = 7;                          // số post trên 1 trang;
+        $last_page = ceil($total/$per_page);     // tổng số trang;
+        $from = ($page - 1) * $per_page;        // bắt đầu lấy từ vị trí $from
+        $to = $from + $per_page;                // đến vị trí $to
+
+        $data = $this->QuestionModel->paginate_inweek($from,$per_page);// lấy từ ị trí $from với $per_page bài tính từ vị trí $from
+
+        $current_page = $page;
+        $first_page_url = "/api/question/trong_tuan?page=1";
+        $last_page_url = "/api/question/trong_tuan?page=".$last_page;
+        if($page == $last_page)
+            $next_page_url = null;
+        else
+            $next_page_url = "/api/question/trong_tuan?page=".($page+1);
+
+        if($page == 1)
+            $pre_page_url = null;
+        else
+            $pre_page_url = "/api/question/trong_tuan?page=".($page-1);
+
+        $pagination = [
+            'current_page' => $current_page,
+            'data' => $data,
+            'from' => $from,
+            'to'   => $to,
+            'per_page' => $per_page,
+            'total' => $total,
+            'last_page' => $last_page,
+            'fist_page_url' => $first_page_url,
+            'last_page_url' => $last_page_url,
+            'next_page_url' => $next_page_url,
+            'pre_page_url' => $pre_page_url
+        ];
+
+        echo json_encode($pagination,JSON_UNESCAPED_UNICODE);
+    }
+
+    public function trong_thang()
+    {
+        if(isset($_GET['page']))
+            $page = $_GET['page'];
+        else
+            $page = 1;
+
+        $total = $this->QuestionModel->count_paginate_inmonth(); // tổng số post;
+        $per_page = 7;                          // số post trên 1 trang;
+        $last_page = ceil($total/$per_page);     // tổng số trang;
+        $from = ($page - 1) * $per_page;        // bắt đầu lấy từ vị trí $from
+        $to = $from + $per_page;                // đến vị trí $to
+
+        $data = $this->QuestionModel->paginate_inmonth($from,$per_page);// lấy từ ị trí $from với $per_page bài tính từ vị trí $from
+
+        $current_page = $page;
+        $first_page_url = "/api/question/trong_thang?page=1";
+        $last_page_url = "/api/question/trong_thang?page=".$last_page;
+        if($page == $last_page)
+            $next_page_url = null;
+        else
+            $next_page_url = "/api/question/trong_thang?page=".($page+1);
+
+        if($page == 1)
+            $pre_page_url = null;
+        else
+            $pre_page_url = "/api/question/trong_thang?page=".($page-1);
 
         $pagination = [
             'current_page' => $current_page,

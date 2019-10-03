@@ -14,10 +14,10 @@
 			<div class="col-md-4 mb-3">
 				<div class="single-new">
 					<div class="thumbail">
-						<a href=""><img class="img-fluid" src="<?php echo $new['image']?>" alt=""></a>
+						<a href="tin-tuc/<?php echo $new['slug']?>"><img class="img-fluid" src="<?php echo $new['image']?>" alt=""></a>
 					</div>
 					<div class="new-content">
-						<a href="">
+						<a href="tin-tuc/<?php echo $new['slug']?>">
 							<h4 class="title"><?php echo $new['title']?></h4>
 						</a>
 						
@@ -27,7 +27,7 @@
 							<span class="text-primary"><?php echo $new['time']?></span>
 						</div>
 						<div class="read-more">
-							<a target="_blank" href="https://khoinghiep.org.vn/khoi-nghiep-tu-lo-dao-tao-17118.html" class="genric-btn info circle arrow small">Xem thêm<span class="lnr lnr-arrow-right"></span></a>
+							<a href="tin-tuc/<?php echo $new['slug']?>" class="genric-btn info circle arrow small">Xem thêm<span class="lnr lnr-arrow-right"></span></a>
 						</div>
 					</div>
 				</div>

@@ -25,6 +25,17 @@
       text-align: center;
       margin-left: 10px;
 	}
+
+  .single-popular-post {
+      background-color: #222;
+      padding: 20px;
+      height: auto;
+  }
+
+  .single-popular-post .thumb {
+      margin-left: 50%;
+      transform: translateX(-50%);
+  }
 }
 
 .info-review {
@@ -322,8 +333,8 @@ ul.list-tag li a{
     padding-left: 0;
     margin: 20px 0;
     border-radius: 4px;
-    margin-left: 77%;
-    transform: translateX(-50%);
+    /*margin-left: 77%;
+    transform: translateX(-50%);*/
     width: 100%;
 }
 
@@ -386,7 +397,7 @@ ul.list-tag li a{
 }
 .blog-listt .img {
     width: 28%;
-    height: 73px;
+    height: auto;
     margin-right: 10px;
 }
 .blog-listt.mb-30 .img img {
@@ -404,4 +415,41 @@ ul.list-tag li a{
     display: -webkit-box;
     -webkit-box-orient: vertical;
     margin-bottom: 5px;
+}
+
+.post-list .cat-list li a {
+    text-transform: uppercase;
+    /* font-weight: 600; */
+    font-size: 12px;
+    color: #222;
+}
+
+.single-post .img {
+    width: 30%;
+    margin-right: 45px;
+    height: 150px;
+}
+
+.single-post .img img {
+    height: 100%;
+}
+.single-post .title-news h4 {
+    margin-bottom: 10px;
+}
+
+.single-post .title-news {
+    width: 65%;
+}
+
+.detail_news img{
+  width: 100%;
+  height: 100%;
+}
+
+.detail_news table{
+  width: 100% !important;
+}
+
+.detail_news ul{
+  list-style: unset;
 }

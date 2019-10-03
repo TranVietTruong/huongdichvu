@@ -41,9 +41,21 @@ Route::add('/cau-hoi/([a-z0-9\-]+$)',function(){
 	Load::Controller('controllers/client/DetailQuestionController.php','DetaiQuestionController','detail_question');
 },'get');
 
+Route::add('/tin-tuc',function(){
+	Load::Controller('controllers/client/NewsController.php','NewsController','news');
+},'get');
+
+Route::add('/tin-tuc/([A-Za-z0-9\-]+$)',function(){
+	Load::Controller('controllers/client/DetailNewsController.php','DetailNewsController','detail_news');
+},'get');
+
 
 Route::add('/lien-he',function(){
 	Load::Controller('controllers/client/ContactController.php','ContactController','contact');
+},'get');
+
+Route::add('/gioi-thieu',function(){
+	Load::Controller('controllers/client/ContactController.php','ContactController','about');
 },'get');
 
 Route::add('/verify-email',function(){

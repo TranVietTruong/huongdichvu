@@ -93,7 +93,7 @@
 							<img src="<?php echo $new['image'] ?>" alt="">
 						</div>
 						<div class="title">
-							<a href="">
+							<a href="tin-tuc/<?php echo $new['slug'] ?>">
 								<h5><?php echo $new['title'] ?></h5>
 							</a>
 							<span><i class="far fa-calendar-alt"></i></span>

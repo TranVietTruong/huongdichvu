@@ -73,7 +73,8 @@ class HomeController extends Controller
                 {
                     foreach ($data as $value) {
                         if(count($data) > 5)
-                            array_pop($data);
+                            //array_pop($data);
+                            array_splice($data,rand(0,count($data)),1);
                         else
                             break;
                     }
@@ -86,7 +87,8 @@ class HomeController extends Controller
                 {
                     foreach ($tintuc as $value) {
                         if(count($tintuc) > 6)
-                            array_pop($tintuc);
+                            //array_pop($tintuc);
+                            array_splice($tintuc,rand(0,count($tintuc)),1);
                         else
                             break;
                     }

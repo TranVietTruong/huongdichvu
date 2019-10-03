@@ -18,4 +18,13 @@ class ContactController extends Controller
         $this->view->Render('client/contact/contact');
         $this->view->Render('client/footer');
     }
+
+    public function about()
+    {
+        $this->view->Render('client/head');
+        $this->view->Render('client/header');
+        $this->view->Render('client/about/banner');
+        $this->view->Render('client/about/about');
+        $this->view->Render('client/footer');
+    }
 }

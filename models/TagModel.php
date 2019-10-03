@@ -6,9 +6,9 @@
 	        parent::__construct();
 	    }
 
-	    public function add($name)
+	    public function add($name,$slug)
 	    {
-	    	$sql = "INSERT INTO tag(name) VALUES('$name')";
+	    	$sql = "INSERT INTO tag(name,slug) VALUES('$name','$slug')";
 	    	$this->db->ExecuteNonQuery($sql);
 	    }
 
