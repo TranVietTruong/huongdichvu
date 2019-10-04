@@ -571,7 +571,7 @@ ul.manager li:hover{
   right: 0;
 }
 
-.single-answer .answer p {
+/*.single-answer .answer p {
     overflow: hidden;
     text-overflow: ellipsis;
     -webkit-line-clamp: 2;
@@ -579,7 +579,7 @@ ul.manager li:hover{
     -webkit-box-orient: vertical;
     text-indent: 20px;
 }
-
+*/
 
 .single-answer .action {
     position: absolute;
@@ -604,3 +604,4 @@ ul.manager li:hover{
 .notActive{
   display: none !important;
 }
+

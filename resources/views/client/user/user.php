@@ -57,70 +57,22 @@
 					
 				</div>	
 				<div class="tab-answer" :class="{notActive: current != 'answer'}">
-					<div class="single-answer">
-						<div class="answer">
-							<a href=""><h5>Câu hỏi: Dữ liệu về sản xuất chè theo tiêu chuẩn GAP của các tỉnh thành ở VN hiện nay</h5></a>
-							<p>Lorem </p>
+					<div v-for="answer in answers" class="single-answer">
+						<div class="answer"  >
+							<a href=""><h5>Câu hỏi: {{answer.title}}</h5></a>
+							Trả lời:
+							<div v-html="answer.content" class="content-answer"> 
+								
+							</div>
 						</div>
 						<div class="info">
 							<div class="time">
 								<span><i class="far fa-calendar-alt"></i> Ngày đăng: </span>
-								<span class="text-primary">12/12/2012</span>
+								<span class="text-primary">{{answer.time}}</span>
 							</div>
 							<div class="view">
 								<span><i class="fas fa-check"></i> Lượt vote:</span>
-								<span>123</span>
-							</div>
-						</div>	
-						<div class="action">
-							<div class="edit">
-								<i class="fa fa-pencil"></i>
-							</div>
-							<div class="remove">
-								<i class="fa fa-times"></i>
-							</div>
-						</div>	
-
-					</div>
-
-					<div class="single-answer">
-						<div class="answer">
-							<a href=""><h5>Câu hỏi: Dữ liệu về sản xuất chè theo tiêu chuẩn GAP của các tỉnh thành ở VN hiện nay</h5></a>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam deserunt odio, fugit id, maxime molestiae provident fugiat aliquid voluptatibus sunt, labore est dolore ullam explicabo inventore. Sed nobis ex maiores.</p>
-						</div>
-						<div class="info">
-							<div class="time">
-								<span><i class="far fa-calendar-alt"></i> Ngày đăng: </span>
-								<span class="text-primary">12/12/2012</span>
-							</div>
-							<div class="view">
-								<span><i class="fas fa-check"></i> Lượt vote:</span>
-								<span>123</span>
-							</div>
-						</div>	
-						<div class="action">
-							<div class="edit">
-								<i class="fa fa-pencil"></i>
-							</div>
-							<div class="remove">
-								<i class="fa fa-times"></i>
-							</div>
-						</div>	
-
-					</div>
-					<div class="single-answer">
-						<div class="answer">
-							<a href=""><h5>Câu hỏi: Dữ liệu về sản xuất chè theo tiêu chuẩn GAP của các tỉnh thành ở VN hiện nay</h5></a>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam deserunt odio, fugit id, maxime molestiae provident fugiat aliquid voluptatibus sunt, labore est dolore ullam explicabo inventore. Sed nobis ex maiores.</p>
-						</div>
-						<div class="info">
-							<div class="time">
-								<span><i class="far fa-calendar-alt"></i> Ngày đăng: </span>
-								<span class="text-primary">12/12/2012</span>
-							</div>
-							<div class="view">
-								<span><i class="fas fa-check"></i> Lượt vote:</span>
-								<span>123</span>
+								<span>{{answer.vote}}</span>
 							</div>
 						</div>	
 						<div class="action">
