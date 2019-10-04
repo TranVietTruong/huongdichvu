@@ -58,6 +58,14 @@ Route::add('/gioi-thieu',function(){
 	Load::Controller('controllers/client/ContactController.php','ContactController','about');
 },'get');
 
+Route::add('/user',function(){
+	if(!isset($_SESSION['user']))
+	{
+		header('location:/404');
+	}
+	Load::Controller('controllers/client/UserController.php','UserController','user');
+},'get');
+
 Route::add('/verify-email',function(){
 	Load::Controller('controllers/client/HomeController.php','HomeController','verify_email');
 },'get');

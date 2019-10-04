@@ -27,7 +27,7 @@
 					<?php } ?>
 
 					<?php if(isset($_SESSION['user'])) { ?>
-						<li><a class="ticker-btn" href="/dang-ky"><span style="font-size: 16px;" class="fa fa-user"></span></a></li>
+						<li><a class="ticker-btn" href="/user"><span style="font-size: 16px;" class="fa fa-user"></span></a></li>
 					<?php } ?>
 
 					<?php if(isset($_SESSION['user'])) { ?>
