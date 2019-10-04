@@ -30,7 +30,7 @@
 				</a>
 			</li>
 			<li class="sub-menu">
-				<a href="javascript:;">
+				<a href="/admin/news">
 					<i class="fa fa-coffee"></i>
 					<span>Tin tức</span>
 				</a>
@@ -57,6 +57,3 @@
 		<!-- sidebar menu end-->
 	</div>
 </aside>
-
-
-
