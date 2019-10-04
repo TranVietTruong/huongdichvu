@@ -60,7 +60,7 @@
 					<div class="single-answer">
 						<div class="answer">
 							<a href=""><h5>Câu hỏi: Dữ liệu về sản xuất chè theo tiêu chuẩn GAP của các tỉnh thành ở VN hiện nay</h5></a>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam deserunt odio, fugit id, maxime molestiae provident fugiat aliquid voluptatibus sunt, labore est dolore ullam explicabo inventore. Sed nobis ex maiores.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam deserunt odio, fugit id, maxime molestiae fugiat aliquid voluptatibus sunt, labore est dolore ullam explicabo inventore. Sed nobis ex maiores.</p>
 						</div>
 						<div class="info">
 							<div class="time">
