@@ -58,6 +58,11 @@ var slogan = new Vue({
 				this.url_trongngay = '/api/question/trong_ngay?page='+page_number;
 				this.getQuestionInDay();
 			}
+			else if(this.current == 'trongtuan')
+			{
+				this.url_trongtuan = '/api/question/trong_tuan?page='+page_number;
+				this.getQuestionInWeek();
+			}
 			else if(this.current == 'trongthang')
 			{
 				this.url_trongthang = '/api/question/trong_thang?page='+page_number;

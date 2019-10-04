@@ -9,6 +9,12 @@
 
 
 				<div class="cmt-facebook">
+<<<<<<< HEAD
 					<div class="fb-comments" data-href="http://huongdichvu.com:8888/tin-tuc/<?php echo $this->news[0]['slug'] ?>" data-width="100%" data-numposts="10"></div>
 				</div>
 			</div>
+=======
+					<div class="fb-comments" data-href="http://huongdichvu.com:8888/tin-tuc/<?php echo $this->news[0]['slug'] ?>" href="http://huongdichvu.com:8888/tin-tuc/<?php echo $this->news[0]['slug'] ?>" data-width="100%" data-numposts="10"></div>
+				</div>																		
+			</div>
+>>>>>>> 03e04fd7ce0ab8c3b4235dda219dbaea0fe1afc3
