@@ -123,6 +123,15 @@
 			return $this->db->Executequery($sql);
 		}
 
+		public function find_by_user($id_user)
+		{
+			$sql = "SELECT question.*,DATE_FORMAT(question.created_at, '%d/%m/%Y %H:%i') as time, user.full_name, catagory.name as catagory FROM question 
+					INNER JOIN user ON question.id_user = user.id
+					INNER JOIN catagory ON question.id_catagory = catagory.id
+					WHERE question.active = 1 AND question.id_user  = '$id_user'";
+			return $this->db->Executequery($sql);
+		}
+
 		public function update_view($id)
 		{
 			$sql = "UPDATE question SET view = view + 1 WHERE id = '$id'";

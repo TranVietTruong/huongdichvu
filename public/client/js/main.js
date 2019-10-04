@@ -272,6 +272,7 @@ $(document).ready(function(){
 
 
 
+
         // $('.vote .support').click(function(){
         //   $(this).addClass('support-active');
         // });

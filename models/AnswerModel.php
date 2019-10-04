@@ -14,7 +14,8 @@
 					FROM answer 
 					INNER JOIN user ON answer.id_user = user.id
 					INNER JOIN question ON answer.id_question = question.id
-					WHERE answer.active = 1 AND answer.id_question  = '$id'";
+					WHERE answer.active = 1 AND answer.id_question  = '$id' 
+					ORDER BY question.vote DESC";
 			return $this->db->Executequery($sql);
 		}
 

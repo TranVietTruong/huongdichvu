@@ -131,6 +131,10 @@
 	    Load::Controller('controllers/api/UserController.php','UserController','get_tag');
 	},'post');
 
+	Route::add('/api/user/get_question',function(){
+	    Load::Controller('controllers/api/UserController.php','UserController','get_question');
+	},'post');
+
 
 
 //==================================== END ==========================================================

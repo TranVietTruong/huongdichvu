@@ -24,7 +24,9 @@
 								<span class="vote text-success">{{question.count_reply}}</span>
 								<span class="fz-13 fw500">câu trả lời</span>
 							</div>
-							<div class="share">
+							<div
+								@click="share('http://huongdichvu.com:8888/cau-hoi/'+question.slug)" 
+								class="share">
 								<span class="vote text-success">
 									<i class="fas fa-share-alt"></i>
 								</span>
@@ -40,7 +42,9 @@
 								<span class="vote text-success">{{question.count_reply}}</span>
 								<span class="fz-13 fw500">câu trả lời</span>
 							</div>
-							<div class="mobile-share">
+							<div 
+								@click="share('http://huongdichvu.com:8888/cau-hoi/'+question.slug)" 
+							 	class="mobile-share">
 								<span class="vote text-success">
 									<i class="fas fa-share-alt"></i>
 								</span>

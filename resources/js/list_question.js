@@ -121,7 +121,17 @@ var slogan = new Vue({
 				this.tags = response.data;
 			})
 		},
-
+		share(url)
+		{
+			Swal.fire({
+				input: 'text',
+				inputValue: url,
+				inputAttributes: {
+					readonly: false,
+				},
+				showConfirmButton: false
+			})
+		}
 	},
 	mounted()
 	{

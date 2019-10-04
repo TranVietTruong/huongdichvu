@@ -37,7 +37,9 @@
 									<span class="vote text-success"><?php echo $question['count_reply'] ?></span>
 									<span class="fz-13 fw500">câu trả lời</span>
 								</div>
-								<div class="ask-share">
+								<div
+									onclick="share('http://huongdichvu.com:8888/cau-hoi/<?php echo $question['slug'] ?>')" 
+									class="ask-share">
 									<span class="vote text-success">
 										<i class="fas fa-share-alt"></i>
 									</span>
