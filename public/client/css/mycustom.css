@@ -485,10 +485,16 @@ ul.manager li:hover{
   background: #f9f9ff;
   border-right: 2px solid orange;
 }
+
 .left{
   position: relative;
   height: 100%;
   border-right: 2px solid #dfdfdf;
+}
+
+.left ul li.active{
+  background: #f9f9ff;
+  border-right: 2px solid orange;
 }
 .user{
   position: sticky;
@@ -508,11 +514,11 @@ ul.manager li:hover{
   margin-bottom: 10px;
 }
 
-.tags ul{
+.single-question .tags ul{
   display: inline-block;
   margin-left: 5px;
 }
-.tags ul li{
+.single-question .tags ul li{
     display: inline-block;
     border: 1px solid #795fff;
     padding: 2px 9px;
@@ -548,4 +554,53 @@ ul.manager li:hover{
 .single-question .action .edit:hover, .single-question .action .remove:hover{
   background: #a08ff999;
 } 
+/*------------------------------------------*/
+.single-answer {
+    padding: 20px 30px;
+    border-top: 1px solid #dfdfdf;
+    overflow: hidden;
+    position: relative;
+    transition: all .2s;
+}
 
+.single-answer:hover{
+  cursor: pointer;
+  background: #f9f9ff;
+}
+.single-answer:hover .action{
+  right: 0;
+}
+
+.single-answer .answer p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    text-indent: 20px;
+}
+
+
+.single-answer .action {
+    position: absolute;
+    right: -40px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 0.4s linear;
+}
+
+.single-answer .action .edit, .single-answer .action .remove {
+    padding: 5px 11px;
+    background: #795fff; 
+    margin: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.single-answer  .action .edit:hover, .single-answer  .action .remove:hover{
+  background: #a08ff999;
+} 
+
+.notActive{
+  display: none !important;
+}
