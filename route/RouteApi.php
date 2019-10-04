@@ -138,6 +138,10 @@
 	    Load::Controller('controllers/api/UserController.php','UserController','get_answer');
 	},'post');
 
+	Route::add('/api/user/remove_question',function(){
+	    Load::Controller('controllers/api/UserController.php','UserController','remove_question');
+	},'post');
+
 
 
 

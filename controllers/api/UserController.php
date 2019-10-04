@@ -8,6 +8,7 @@ class UserController extends Controller
     public $TagModel;
     public $QuestionModel;
     public $AnswerModel;
+   
 
     public function __construct($param = NULL)
     {
@@ -17,11 +18,12 @@ class UserController extends Controller
         include 'models/TagModel.php';
         include 'models/QuestionModel.php';
         include 'models/AnswerModel.php';
-
+       
         $this->UserModel = new UserModel();
         $this->TagModel = new TagModel();
         $this->QuestionModel = new QuestionModel();
         $this->AnswerModel = new AnswerModel();
+       
     }
 
     public function get_tag()
@@ -83,7 +85,19 @@ class UserController extends Controller
         {
             $data = $this->AnswerModel->find_by_id_user($_SESSION['user']['id']);
             echo json_encode($data,JSON_UNESCAPED_UNICODE);
-        }
-        
+        } 
+    }
+
+    public function remove_question()
+    {
+        if(isset($_SESSION['user']))
+        {
+            if(isset($_POST['id']))
+                $id = $_POST['id'];
+            else
+                http_response_code(500);
+
+            $this->QuestionModel->delete($id);
+        } 
     }
  }

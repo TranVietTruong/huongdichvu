@@ -29,7 +29,7 @@ var slogan = new Vue({
 		return{
 			questions: [],
 			answers: [],
-			current: 'question'
+			current: 'question',
 		}
 	},
 	methods: {
@@ -37,7 +37,10 @@ var slogan = new Vue({
 		{
 			axios.post('/api/user/get_question')
 			.then(response=>{
-				console.log(response.data);
+				for(let i=0;i<response.data.length;i++)
+				{
+					response.data[i].showEdit = false;
+				}
 				this.questions = response.data;
 			})
 		},
@@ -48,6 +51,41 @@ var slogan = new Vue({
 				console.log(response.data);
 				this.answers = response.data;
 			})
+		},
+		get_category()
+		{
+			axios.post('/api/catagory/get_all')
+			.then(response=>{
+				this.categories = response.data;
+			})
+		},
+		remove_question(question)
+		{
+			Swal.fire({
+				title: 'Bạn có muốn xóa ?',
+				text: "",
+				type: 'warning',
+				showCancelButton: true,
+				confirmButtonColor: '#3085d6',
+				cancelButtonColor: '#d33',
+				confirmButtonText: 'Xóa'
+			}).then((result) => {
+				if (result.value) {
+
+					const fd = new FormData();
+					fd.append('id',question.id);
+					axios.post('/api/user/remove_question',fd)
+					.then(response=>{
+						this.questions.splice(this.questions.indexOf(question),1);
+						Swal.fire(
+							'Xóa thành công!',
+							'Câu hỏi đã được xóa',
+							'success'
+						)
+					})	
+				}
+			})
+			
 		},
 		question()
 		{
@@ -79,7 +117,7 @@ var slogan = new Vue({
 			return {
 				active: this.current == 'info'
 			}
-		},
+		}
 	}
 
 });
