@@ -7,6 +7,7 @@ class UserController extends Controller
     public $UserModel;
     public $TagModel;
     public $QuestionModel;
+    public $AnswerModel;
 
     public function __construct($param = NULL)
     {
@@ -15,10 +16,12 @@ class UserController extends Controller
        	include 'models/UserModel.php';
         include 'models/TagModel.php';
         include 'models/QuestionModel.php';
+        include 'models/AnswerModel.php';
 
         $this->UserModel = new UserModel();
         $this->TagModel = new TagModel();
         $this->QuestionModel = new QuestionModel();
+        $this->AnswerModel = new AnswerModel();
     }
 
     public function get_tag()
@@ -55,19 +58,32 @@ class UserController extends Controller
 
     public function get_question()
     {
-        $data = $this->QuestionModel->find_by_user($_SESSION['user']['id']);
-
-        $i = 0;
-        foreach ($data as $question) 
+        if(isset($_SESSION['user']))
         {
-            $tags = explode(',',$question['tag']);
-            $tag_user = [];
-            foreach ($tags as $tag) {
-                array_push($tag_user,['name'=> $tag]);
+            $data = $this->QuestionModel->find_by_user($_SESSION['user']['id']);
+            $i = 0;
+            foreach ($data as $question) 
+            {
+                $tags = explode(',',$question['tag']);
+                $tag_user = [];
+                foreach ($tags as $tag) {
+                    array_push($tag_user,['name'=> $tag]);
+                }
+                $data[$i]['tags'] = $tag_user;
+                $i++;
             }
-            $data[$i]['tags'] = $tag_user;
-            $i++;
+            echo json_encode($data,JSON_UNESCAPED_UNICODE);
         }
-        echo json_encode($data,JSON_UNESCAPED_UNICODE);
+       
+    }
+
+    public function get_answer()
+    {
+        if(isset($_SESSION['user']))
+        {
+            $data = $this->AnswerModel->find_by_id_user($_SESSION['user']['id']);
+            echo json_encode($data,JSON_UNESCAPED_UNICODE);
+        }
+        
     }
  }

@@ -134,6 +134,10 @@
 	Route::add('/api/user/get_question',function(){
 	    Load::Controller('controllers/api/UserController.php','UserController','get_question');
 	},'post');
+	Route::add('/api/user/get_answer',function(){
+	    Load::Controller('controllers/api/UserController.php','UserController','get_answer');
+	},'post');
+
 
 
 

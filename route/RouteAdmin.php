@@ -67,7 +67,14 @@ Route::add('/admin/catagory/edit/([0-9]*)',function(){
 	Load::Controller('controllers/admin/CatagoryController.php','CatagoryController','editCatagory');
 },'get');
 
-
+	// =================================== NEWS ================================================
+	Route::add('/admin/news',function(){
+		if(!isset($_SESSION['admin']))
+		{
+			header('location:/admin/login');
+		}
+		Load::Controller('controllers/admin/NewsController.php','NewsController','news');
+	},'get');
 
 
 // =================================== END ===================================================

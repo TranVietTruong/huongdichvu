@@ -28,6 +28,7 @@ var slogan = new Vue({
 	data(){
 		return{
 			questions: [],
+			answers: [],
 			current: 'question'
 		}
 	},
@@ -38,6 +39,14 @@ var slogan = new Vue({
 			.then(response=>{
 				console.log(response.data);
 				this.questions = response.data;
+			})
+		},
+		get_answer_user()
+		{
+			axios.post('/api/user/get_answer')
+			.then(response=>{
+				console.log(response.data);
+				this.answers = response.data;
 			})
 		},
 		question()
@@ -52,6 +61,7 @@ var slogan = new Vue({
 	mounted()
 	{
 		this.get_question_user();
+		this.get_answer_user();
 	},
 	computed:
 	{
