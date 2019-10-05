@@ -76,9 +76,9 @@
 							</div>
 						</div>	
 						<div class="action">
-							<!-- <div class="edit">
+							<div class="edit">
 								<i class="fa fa-pencil"></i>
-							</div> -->
+							</div>
 							<div class="remove">
 								<i class="fa fa-times"></i>
 							</div>
