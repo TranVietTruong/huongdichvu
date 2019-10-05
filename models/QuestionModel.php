@@ -128,7 +128,8 @@
 			$sql = "SELECT question.*,DATE_FORMAT(question.created_at, '%d/%m/%Y %H:%i') as time, user.full_name, catagory.name as catagory FROM question 
 					INNER JOIN user ON question.id_user = user.id
 					INNER JOIN catagory ON question.id_catagory = catagory.id
-					WHERE question.active = 1 AND question.id_user  = '$id_user'";
+					WHERE question.active = 1 AND question.id_user  = '$id_user' 
+					ORDER BY question.created_at DESC";
 			return $this->db->Executequery($sql);
 		}
 
@@ -156,6 +157,12 @@
 					INNER JOIN catagory ON question.id_catagory = catagory.id
 					WHERE question.active = 1 ORDER BY question.vote DESC, question.count_reply ASC, question.created_at DESC LIMIT 5";
 			return $this->db->Executequery($sql);
+		}
+
+		public function delete($id)
+		{
+			$sql = "UPDATE question SET active = 0 WHERE id = '$id'";
+			$this->db->ExecuteNonQuery($sql);
 		}
 
 	}
