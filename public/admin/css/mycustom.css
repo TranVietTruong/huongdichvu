@@ -78,3 +78,44 @@ label.input-img b{
     color: white;
     cursor: pointer;
 }
+
+.paginate {
+    padding-left: 0;
+    margin: 20px 0;
+    border-radius: 4px;
+    /*margin-left: 77%;
+    transform: translateX(-50%);*/
+    width: 100%;
+}
+
+.paginate>.active>a, .paginate>.active>a:focus, .paginate>.active>a:hover, .paginate>.active>a, .paginate>.active>a:focus, .paginate>.active>a:hover {
+    z-index: 3;
+    color: #303030;
+    cursor: default;
+    background-color: #f9f9ff;
+    border-color: #f9f9ff;
+}
+
+.paginate>li>a{
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #303030;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #1f1f1f6e;
+    border-radius: 0px 0px;
+}
+
+.paginate>li:first-child>a, .paginate>li:first-child>span {
+    margin-left: 0;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.paginate>li:last-child>a, .paginate>li:last-child>span {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}

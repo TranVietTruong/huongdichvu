@@ -453,10 +453,12 @@ ul.list-tag li a{
 .detail_news ul{
   list-style: unset;
 }
-}
+<<<<<<< HEAD
 
 .content-question h1,.content-question h2,.content-question h3, .content-question h4, .content-question h4{
    display: none;
+<<<<<<< Updated upstream
+=======
 }
 
 
@@ -524,7 +526,7 @@ ul.manager li:hover{
     padding: 2px 9px;
     margin: 4px 2px;
     background: #795fff;
-    border-radius: 4px; 
+    border-radius: 4px;
     color: white;
     font-size: 12px;
 }
@@ -545,7 +547,7 @@ ul.manager li:hover{
 }
 .single-question .action .edit, .single-question .action .remove {
     padding: 5px 11px;
-    background: #795fff; 
+    background: #795fff;
     margin: 5px;
     color: white;
     cursor: pointer;
@@ -553,7 +555,7 @@ ul.manager li:hover{
 
 .single-question .action .edit:hover, .single-question .action .remove:hover{
   background: #a08ff999;
-} 
+}
 /*------------------------------------------*/
 .single-answer {
     padding: 20px 30px;
@@ -591,7 +593,7 @@ ul.manager li:hover{
 
 .single-answer .action .edit, .single-answer .action .remove {
     padding: 5px 11px;
-    background: #795fff; 
+    background: #795fff;
     margin: 5px;
     color: white;
     cursor: pointer;
@@ -599,9 +601,16 @@ ul.manager li:hover{
 
 .single-answer  .action .edit:hover, .single-answer  .action .remove:hover{
   background: #a08ff999;
-} 
+}
 
 .notActive{
   display: none !important;
+<<<<<<< HEAD
 }
 
+=======
+>>>>>>> 3c48ae0d1595d9156edde5b5e2615af4a0c3fad3
+=======
+>>>>>>> Stashed changes
+}
+>>>>>>> master
