@@ -44,7 +44,7 @@
 
 		public function like($keyword)
 		{
-			$sql = "SELECT *,DATE_FORMAT(created_at, '%d/%m/%Y %H:%i') as time FROM news WHERE title LIKE '%$keyword%'LIMIT 10";
+			$sql = "SELECT *,DATE_FORMAT(created_at, '%d/%m/%Y %H:%i') as time FROM news WHERE title LIKE '%$keyword%'LIMIT 15";
 			return $this->db->Executequery($sql);
 		}
 

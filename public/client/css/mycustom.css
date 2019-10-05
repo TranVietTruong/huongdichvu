@@ -453,10 +453,12 @@ ul.list-tag li a{
 .detail_news ul{
   list-style: unset;
 }
-}
+<<<<<<< HEAD
 
 .content-question h1,.content-question h2,.content-question h3, .content-question h4, .content-question h4{
    display: none;
+<<<<<<< Updated upstream
+=======
 }
 
 
@@ -485,10 +487,16 @@ ul.manager li:hover{
   background: #f9f9ff;
   border-right: 2px solid orange;
 }
+
 .left{
   position: relative;
   height: 100%;
   border-right: 2px solid #dfdfdf;
+}
+
+.left ul li.active{
+  background: #f9f9ff;
+  border-right: 2px solid orange;
 }
 .user{
   position: sticky;
@@ -508,17 +516,17 @@ ul.manager li:hover{
   margin-bottom: 10px;
 }
 
-.tags ul{
+.single-question .tags ul{
   display: inline-block;
   margin-left: 5px;
 }
-.tags ul li{
+.single-question .tags ul li{
     display: inline-block;
     border: 1px solid #795fff;
     padding: 2px 9px;
     margin: 4px 2px;
     background: #795fff;
-    border-radius: 4px; 
+    border-radius: 4px;
     color: white;
     font-size: 12px;
 }
@@ -539,7 +547,7 @@ ul.manager li:hover{
 }
 .single-question .action .edit, .single-question .action .remove {
     padding: 5px 11px;
-    background: #795fff; 
+    background: #795fff;
     margin: 5px;
     color: white;
     cursor: pointer;
@@ -547,5 +555,93 @@ ul.manager li:hover{
 
 .single-question .action .edit:hover, .single-question .action .remove:hover{
   background: #a08ff999;
-} 
+}
+/*------------------------------------------*/
+.single-answer {
+    padding: 20px 30px;
+    border-top: 1px solid #dfdfdf;
+    overflow: hidden;
+    position: relative;
+    transition: all .2s;
+}
 
+.single-answer:hover{
+  cursor: pointer;
+  background: #f9f9ff;
+}
+.single-answer:hover .action{
+  right: 0;
+}
+
+/*.single-answer .answer p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    text-indent: 20px;
+}
+*/
+
+.single-answer .action {
+    position: absolute;
+    right: -40px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 0.4s linear;
+}
+
+.single-answer .action .edit, .single-answer .action .remove {
+    padding: 5px 11px;
+    background: #795fff;
+    margin: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.single-answer  .action .edit:hover, .single-answer  .action .remove:hover{
+  background: #a08ff999;
+}
+
+.notActive{
+  display: none !important;
+
+}
+
+ul.detail li {
+    padding: 11px 0px;
+    border-top: 1px solid #d2d2d28a;
+}
+ul.detail li:hover{
+  background: #d2d2d28a;
+  cursor: pointer;
+}
+ul.detail {
+    border-top: 2px solid #d2d2d28a;
+    border-bottom: 2px solid #d2d2d28a;
+}
+
+ul.detail li span.head {
+    width: 125px;
+    display: inline-block;
+}
+
+ul.detail li span.name i{
+       margin-left: 10px;
+    cursor: pointer;
+}
+
+ul.detail li span.edit-name i.fa-check{
+    margin-left: 10px;
+    cursor: pointer;
+    padding: 3px 3px;
+    color: green;
+    transition: all 0.3s linear;
+}
+ul.detail li span.edit-name i.fa-times{
+    margin-left: 10px;
+    cursor: pointer;
+    padding: 3px 3px;
+    color: red;
+    transition: all 0.3s linear;
+}

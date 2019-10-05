@@ -5,7 +5,7 @@
 			<div class="row d-flex align-items-center justify-content-center">
 				<div class="about-content col-lg-12">
 					<h1 class="text-white">
-						Quản trị			
+						<?php echo $_SESSION['user']['full_name'] ?>	
 					</h1>	
 					<p class="text-white"><a href="index.html">Trang chủ </a>  <span class="lnr lnr-arrow-right"></span>  <a href="contact.html"> Quản trị</a></p>
 				</div>											

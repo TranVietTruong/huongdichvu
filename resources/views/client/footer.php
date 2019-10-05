@@ -52,9 +52,9 @@
 							<div class="single-footer-widget">
 								<h6>Thành viên</h6>
 								<ul class="footer-nav">
-									<li><a href="#">Trần Viết Trưởng</a></li>
-									<li><a href="#">Vũ Ngọc Đức Long</a></li>
-									<li><a href="#">Đoàn Quang Nhật</a></li>
+									<li><a href="#">Trần Viết Trưởng, Vũ Ngọc Đức Long, Đoàn Quang Nhật</a></li>
+									<!-- <li><a href="#">Vũ Ngọc Đức Long</a></li>
+									<li><a href="#">Đoàn Quang Nhật</a></li> -->
 								</ul>
 							</div>
 						</div>						

@@ -35,4 +35,20 @@
 					WHERE answer.active = 1 AND answer.id  = '$id'";
 			return $this->db->Executequery($sql);
 		}
+
+		public function find_by_id_user($id)
+		{
+			$sql = "SELECT answer.*,DATE_FORMAT(answer.created_at, '%d/%m/%Y %H:%i') as time, user.full_name,question.title,question.slug 
+					FROM answer 
+					INNER JOIN user ON answer.id_user = user.id
+					INNER JOIN question ON answer.id_question = question.id
+					WHERE answer.active = 1 AND answer.id_user  = '$id'";
+			return $this->db->Executequery($sql);
+		}
+
+		public function delete($id)
+		{
+			$sql = "DELETE FROM answer WHERE id = '$id'";
+			$this->db->ExecuteNonQuery($sql);
+		}
 	}
