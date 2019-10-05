@@ -605,12 +605,43 @@ ul.manager li:hover{
 
 .notActive{
   display: none !important;
-<<<<<<< HEAD
+
 }
 
-=======
->>>>>>> 3c48ae0d1595d9156edde5b5e2615af4a0c3fad3
-=======
->>>>>>> Stashed changes
+ul.detail li {
+    padding: 11px 0px;
+    border-top: 1px solid #d2d2d28a;
 }
->>>>>>> master
+ul.detail li:hover{
+  background: #d2d2d28a;
+  cursor: pointer;
+}
+ul.detail {
+    border-top: 2px solid #d2d2d28a;
+    border-bottom: 2px solid #d2d2d28a;
+}
+
+ul.detail li span.head {
+    width: 125px;
+    display: inline-block;
+}
+
+ul.detail li span.name i{
+       margin-left: 10px;
+    cursor: pointer;
+}
+
+ul.detail li span.edit-name i.fa-check{
+    margin-left: 10px;
+    cursor: pointer;
+    padding: 3px 3px;
+    color: green;
+    transition: all 0.3s linear;
+}
+ul.detail li span.edit-name i.fa-times{
+    margin-left: 10px;
+    cursor: pointer;
+    padding: 3px 3px;
+    color: red;
+    transition: all 0.3s linear;
+}

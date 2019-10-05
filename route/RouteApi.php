@@ -142,6 +142,19 @@
 	    Load::Controller('controllers/api/UserController.php','UserController','remove_question');
 	},'post');
 
+	Route::add('/api/user/remove_answer',function(){
+	    Load::Controller('controllers/api/UserController.php','UserController','remove_answer');
+	},'post');
+
+	Route::add('/api/user/update_name',function(){
+	    Load::Controller('controllers/api/UserController.php','UserController','update_name');
+	},'post');
+
+	Route::add('/api/user/update_pass',function(){
+	    Load::Controller('controllers/api/UserController.php','UserController','update_pass');
+	},'post');
+
+
 
 
 

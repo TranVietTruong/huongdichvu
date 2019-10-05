@@ -45,4 +45,10 @@
 					WHERE answer.active = 1 AND answer.id_user  = '$id'";
 			return $this->db->Executequery($sql);
 		}
+
+		public function delete($id)
+		{
+			$sql = "DELETE FROM answer WHERE id = '$id'";
+			$this->db->ExecuteNonQuery($sql);
+		}
 	}

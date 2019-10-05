@@ -42,4 +42,17 @@
 	    	return $this->db->Executequery($sql);
 	    }
 
+	    public function update_name($id,$name)
+	    {
+	    	$sql = "UPDATE user SET full_name = '$name' WHERE id = '$id'";
+	    	return $this->db->ExecuteNonQuery($sql);
+	    }
+
+	    public function update_password($id,$newpass)
+	    {
+	    	$sql = "UPDATE user SET password = '$newpass' WHERE id = '$id'";
+	    	return $this->db->ExecuteNonQuery($sql);
+	    }
+
+
 	}
