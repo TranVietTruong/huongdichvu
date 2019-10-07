@@ -25,6 +25,8 @@ class HomeController extends Controller
         $this->UserModel = new UserModel();
         $this->QuestionModel = new QuestionModel();
         $this->NewsModel = new NewsModel(); 
+
+        $this->view->js = '<script src="resources/js/home.js"></script>';
     }
 
     public function home()

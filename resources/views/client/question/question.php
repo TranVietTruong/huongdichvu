@@ -1,6 +1,6 @@
 <!-- Start post Area -->
 <section class="post-area section-gap">
-	<div class="container" id="list-question">
+	<div class="container">
 		
 		<div class="row justify-content-center d-flex">
 			<div class="col-lg-8 post-list">

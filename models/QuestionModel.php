@@ -165,4 +165,16 @@
 			$this->db->ExecuteNonQuery($sql);
 		}
 
+		public function like($keyword)
+		{
+			$sql = "SELECT * FROM question WHERE title LIKE '%$keyword%' ORDER BY vote LIMIT 5";
+			return $this->db->Executequery($sql);
+		}
+
+		public function like_and_cate($id_catagory,$keyword)
+		{
+			$sql = "SELECT * FROM question WHERE id_catagory = '$id_catagory' AND title LIKE '%$keyword%' ORDER BY vote LIMIT 5";
+			return $this->db->Executequery($sql);
+		}
+
 	}

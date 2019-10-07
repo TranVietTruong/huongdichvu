@@ -75,10 +75,11 @@ class NewsController extends Controller
         }
 
         $this->view->newsTop5 = $this->NewsModel->top5();
-
+        $this->view->name_banner = 'Tin Tức';
+        
         $this->view->Render('client/head');
         $this->view->Render('client/header');
-        $this->view->Render('client/news/banner');
+        $this->view->Render('client/banner');
         $this->view->Render('client/news/news');
         $this->view->Render('client/news/option');
         $this->view->Render('client/footer');

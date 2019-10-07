@@ -645,3 +645,45 @@ ul.detail li span.edit-name i.fa-times{
     color: red;
     transition: all 0.3s linear;
 }
+.keyword {
+  position: relative;
+}
+
+.search {
+    position: absolute;
+    top: 128%;
+    width: 95%;
+    height: auto;
+    background: white;
+    z-index: 9;
+    border-radius: 5px;
+    box-shadow: 1px 1px 20px 2px;
+      border: 1px solid #2522229e;
+      text-align: left;
+      padding: 10px 20px;
+
+}
+.search b{
+  color: black;
+}
+
+.search::before {
+    content: '';
+    width: 14px;
+    height: 14px;
+    background: white;
+    position: absolute;
+    transform: rotate(45deg);
+    left: 21px;
+    top: -8px;
+    border-top: 1px solid #2522229e;
+    border-left: 1px solid #2522229e;
+}
+.search  ul{
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.search a{
+  color: #007bff;
+}
