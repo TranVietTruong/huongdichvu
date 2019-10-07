@@ -34,6 +34,10 @@ Route::add('/cau-hoi',function(){
 },'get');
 
 Route::add('/dat-cau-hoi',function(){
+	if(!isset($_SESSION['user']))
+	{
+		header('location:/404');
+	}
 	Load::Controller('controllers/client/PostQuestionController.php','PostQuestionController','post_question');
 },'get');
 

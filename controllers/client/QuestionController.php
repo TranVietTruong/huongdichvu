@@ -29,6 +29,8 @@ class QuestionController extends Controller
 
     public function question()
     {
+        $this->view->name_banner = 'Câu Hỏi';
+
         $this->view->catagories = $this->CatagoryModel->all();
 
         // -------------- Lấy các câu hỏi phần CÓ THỂ BẠN BIẾT để hiển thị ------------------------
@@ -114,7 +116,7 @@ class QuestionController extends Controller
 
         $this->view->Render('client/head');
         $this->view->Render('client/header');
-        $this->view->Render('client/question/banner');
+        $this->view->Render('client/banner');
         $this->view->Render('client/question/question');
         $this->view->Render('client/question/option');
         $this->view->Render('client/footer');

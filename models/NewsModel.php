@@ -48,4 +48,10 @@
 			return $this->db->Executequery($sql);
 		}
 
+		public function like_top_5($keyword)
+		{
+			$sql = "SELECT * FROM news WHERE title LIKE '%$keyword%' LIMIT 5";
+			return $this->db->Executequery($sql);
+		}
+
 	}

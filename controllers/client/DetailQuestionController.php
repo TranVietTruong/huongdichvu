@@ -31,7 +31,7 @@ class DetaiQuestionController extends Controller
 
     public function detail_question()
     {
-
+        $this->view->name_banner = 'Câu Hỏi';
         $this->view->catagories = $this->CatagoryModel->all();
 
         if(isset($_SESSION['user']))
@@ -116,7 +116,7 @@ class DetaiQuestionController extends Controller
         
         $this->view->Render('client/head');
         $this->view->Render('client/header');
-        $this->view->Render('client/detail_question/banner');
+        $this->view->Render('client/banner');
         $this->view->Render('client/detail_question/detail_question');
         $this->view->Render('client/detail_question/option');
         $this->view->Render('client/footer');

@@ -177,3 +177,8 @@
 	Route::add('/api/news/search',function(){
 	    Load::Controller('controllers/api/NewsController.php','NewsController','search');
 	},'post');
+// ************************************ SEARCH ******************************************************
+
+	Route::add('/api/search/keyword',function(){
+	    Load::Controller('controllers/api/SearchController.php','SearchController','search');
+	},'post');
