@@ -1,6 +1,6 @@
 <?php
 
-class QuestionController extends Controller
+class CategoryController extends Controller
 {
     /**
      * summary
@@ -24,13 +24,15 @@ class QuestionController extends Controller
         $this->UserModel = new UserModel();
         $this->NewsModel = new NewsModel();
 
-        $this->view->js = '<script src="resources/js/list_question.js"></script>';
+        $this->view->js = '<script src="resources/js/category.js"></script>';
     }
 
-    public function question()
+    public function cate()
     {
-        $this->view->title = "Câu hỏi";
-        $this->view->name_banner = 'Câu Hỏi';
+        
+        $this->view->title = 'Câu hỏi';
+
+        $this->view->name_banner = 'Lĩnh Vực';
 
         $this->view->catagories = $this->CatagoryModel->all();
 
@@ -118,7 +120,7 @@ class QuestionController extends Controller
         $this->view->Render('client/head');
         $this->view->Render('client/header');
         $this->view->Render('client/banner');
-        $this->view->Render('client/question/question');
+        $this->view->Render('client/category/category');
         $this->view->Render('client/question/option');
         $this->view->Render('client/footer');
     }

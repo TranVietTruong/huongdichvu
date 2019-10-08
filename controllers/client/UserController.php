@@ -18,6 +18,8 @@ class UserController extends Controller
 
     public function user()
     {
+        $this->view->title = $_SESSION['user']['full_name'];
+        
         $this->view->catagories = $this->CatagoryModel->all();
         
         $this->view->Render('client/head');

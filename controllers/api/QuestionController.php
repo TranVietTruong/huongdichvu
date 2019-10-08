@@ -9,6 +9,7 @@ class QuestionController extends Controller
      */
    	public $QuestionModel;
    	public $TagModel;
+    public $CatagoryModel;
 
     public function __construct($param = NULL)
     {
@@ -16,9 +17,11 @@ class QuestionController extends Controller
 
         include 'models/QuestionModel.php';
         include 'models/TagModel.php';
+        include 'models/CatagoryModel.php';
 
         $this->QuestionModel = new QuestionModel();
         $this->TagModel = new TagModel();
+        $this->CatagoryModel = new CatagoryModel();
     }
 
   
@@ -333,6 +336,62 @@ class QuestionController extends Controller
             $pre_page_url = null;
         else
             $pre_page_url = "/api/question/trong_thang?page=".($page-1);
+
+        $pagination = [
+            'current_page' => $current_page,
+            'data' => $data,
+            'from' => $from,
+            'to'   => $to,
+            'per_page' => $per_page,
+            'total' => $total,
+            'last_page' => $last_page,
+            'fist_page_url' => $first_page_url,
+            'last_page_url' => $last_page_url,
+            'next_page_url' => $next_page_url,
+            'pre_page_url' => $pre_page_url
+        ];
+
+        echo json_encode($pagination,JSON_UNESCAPED_UNICODE);
+    }
+
+
+    public function get_by_category()
+    {
+        if(isset($_POST['slug']))
+            $slug = $_POST['slug'];
+        else
+            http_response_code(404);
+
+        if(isset($_GET['page']))
+            $page = $_GET['page'];
+        else
+            $page = 1;
+
+        $category = $this->CatagoryModel->find_by_slug($slug);
+
+        if(empty($category))
+            http_response_code(404);
+
+        $total = $this->QuestionModel->count_paginate_category($category['id']); // tổng số post;
+        $per_page = 7;                          // số post trên 1 trang;
+        $last_page = ceil($total/$per_page);     // tổng số trang;
+        $from = ($page - 1) * $per_page;        // bắt đầu lấy từ vị trí $from
+        $to = $from + $per_page;                // đến vị trí $to
+
+        $data = $this->QuestionModel->paginate_category($category['id'],$from,$per_page);// lấy từ ị trí $from với $per_page bài tính từ vị trí $from
+
+        $current_page = $page;
+        $first_page_url = "/api/question/get_by_category?page=1";
+        $last_page_url = "/api/question/get_by_category?page=".$last_page;
+        if($page == $last_page)
+            $next_page_url = null;
+        else
+            $next_page_url = "/api/question/get_by_category?page=".($page+1);
+
+        if($page == 1)
+            $pre_page_url = null;
+        else
+            $pre_page_url = "/api/question/get_by_category?page=".($page-1);
 
         $pagination = [
             'current_page' => $current_page,

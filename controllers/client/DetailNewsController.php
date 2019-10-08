@@ -38,6 +38,7 @@ class DetailNewsController extends Controller
         {
             header('location:/404');
         }
+        $this->view->title = $news[0]['title'];
 
         $this->view->url = $news[0]['content'];
         $this->view->post = $news[0]['post_by'];

@@ -3,6 +3,10 @@ Route::add('/',function(){
 	Load::Controller('controllers/client/HomeController.php','HomeController','home');
 },'get');
 
+Route::add('/linh-vuc/([a-z0-9\-]+$)',function(){
+	Load::Controller('controllers/client/CategoryController.php','CategoryController','cate');
+},'get');
+
 Route::add('/dang-nhap',function(){
 	if(isset($_SESSION['user']))
 	{
