@@ -26,7 +26,7 @@
 
 	   	public function update($id)
 	   	{
-	   		$sql = "UPDATE search SET total = total + 1";
+	   		$sql = "UPDATE search SET total = total + 1 WHERE id = '$id'";
 	   		return $this->db->ExecuteNonQuery($sql);
 	   	}
 	}

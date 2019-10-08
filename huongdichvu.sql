@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 02, 2019 at 03:54 PM
+-- Generation Time: Oct 08, 2019 at 05:39 PM
 -- Server version: 10.1.37-MariaDB
 -- PHP Version: 7.3.1
 
@@ -78,6 +78,16 @@ CREATE TABLE `answer` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
+-- Dumping data for table `answer`
+--
+
+INSERT INTO `answer` (`id`, `id_question`, `id_user`, `content`, `tag`, `vote`, `active`, `created_at`, `updated_at`) VALUES
+(1, 61, 23, '<p>Căn cứ để kết luận về chất lượng sản phẩm h&agrave;ng h&oacute;a l&agrave; ph&acirc;n b&oacute;n lưu th&ocirc;ng tr&ecirc;n thị trường l&agrave; dựa kết quả thử nghiệm h&agrave;m lượng định lượng c&aacute;c chỉ ti&ecirc;u chất lượng của ph&acirc;n b&oacute;n được thực hiện bởi ph&ograve;ng thử nghiệm được&nbsp;cơ quan quản l&yacute; nh&agrave; nước c&oacute; thẩm quyền chỉ định đối chiếu với chỉ ti&ecirc;u chất lượng của sản phẩm ph&acirc;n b&oacute;n đ&oacute;.</p>\n\n<p>- Trường hợp kết quả thử nghiệm ph&acirc;n b&oacute;n ph&aacute;t hiện h&agrave;m lượng định lượng chỉ ti&ecirc;u chất lượng của sản phẩm ph&acirc;n b&oacute;n&nbsp;&lt;70% so với ti&ecirc;u chuẩn chất lượng hoặc quy chuẩn kỹ thuật, c&ocirc;ng bố &aacute;p dụng hoặc ghi tr&ecirc;n nh&atilde;n, bao b&igrave; sản phẩm ph&acirc;n b&oacute;n th&igrave; được coi l&agrave; ph&acirc;n b&oacute;n giả&nbsp;<em>(</em><em>điểm b khoản 8 Điều 3&nbsp;</em><em>Nghị định số 185/2013/NĐ-CP ng&agrave;y 15/11/2013 của Ch&iacute;nh phủ</em>&nbsp;<em>quy định xử phạt vi phạm h&agrave;nh ch&iacute;nh trong hoạt động thương mại, sản xuất, bu&ocirc;n b&aacute;n h&agrave;ng giả, h&agrave;ng cấm v&agrave; bảo vệ quyền lợi người ti&ecirc;u d&ugrave;ng, được sủa đổi bổ sung bởi Nghị định s&ocirc;́ 124/2015/NĐ-CP ngày 19/11/2015 của Ch&iacute;nh phủ)</em>.</p>\n\n<p>Việc xử phạt vi phạm h&agrave;nh ch&iacute;nh đối với h&agrave;nh vi vi phạm n&agrave;y &aacute;p dụng theo quy định tại Nghị định số 185/2013/NĐ-CP v&agrave; Nghị định s&ocirc;́ 124/2015/NĐ-CP sửa đổi, bổ sung một số điều của Nghị định số 185/2013/NĐ-CP.</p>\n\n<p>- Trong trường hợp kết quả thử nghiệm ph&acirc;n b&oacute;n ph&aacute;t hiện h&agrave;m lượng định lượng chỉ ti&ecirc;u chất lượng &gt;70% v&agrave; nhỏ hơn chỉ ti&ecirc;u chất lượng so với quy chuẩn kỹ thuật đ&atilde; đăng k&yacute;, c&ocirc;ng bố &aacute;p dụng hoặc ghi tr&ecirc;n nh&atilde;n, bao b&igrave; sản phẩm ph&acirc;n b&oacute;n th&igrave; &aacute;p dụng xử phạt vi phạm h&agrave;nh ch&iacute;nh theo quy định tại Nghị định số 119/2017/NĐ-CP ng&agrave;y 01/11/2017 của Ch&iacute;nh phủ quy định về xử phạt vi phạm h&agrave;nh ch&iacute;nh trong lĩnh vực ti&ecirc;u chuẩn, đo lường v&agrave; chất lượng sản phẩm, h&agrave;ng h&oacute;a.</p>\n', 'nông nghiệp,xử phạt,phân hữu cơ', 3, 1, '2019-10-04 07:45:26', 2147483647),
+(2, 65, 25, '<p>Thời trang l&agrave; một ng&agrave;nh kh&ocirc;ng phải mới mẻ, nhưng lại l&agrave; ng&agrave;nh lu&ocirc;n c&oacute; sức h&uacute;t đầu tư đ&aacute;ng kinh ngạc từ đủ mọi c&aacute; nh&acirc;n, tổ chức lớn nhỏ. L&agrave; con đường m&agrave; c&oacute; tới 30% người bắt đầu kinh doanh chọn để khởi nghiệp. V&agrave; đ&acirc;y l&agrave; những l&yacute; do giải th&iacute;ch tại sao bạn n&ecirc;n kinh doanh thời trang thay v&igrave; những lĩnh vực kh&aacute;c:</p>\n\n<ul>\n	<li>Tập kh&aacute;ch h&agrave;ng lớn, thị trường tiềm năng v&agrave; chưa từng c&oacute; dấu hiệu chững lại</li>\n	<li>Tỉ lệ rủi ro khi đầu tư thấp hơn một số ng&agrave;nh thương mại kh&aacute;c</li>\n	<li>Vốn khởi nghiệp nhỏ</li>\n	<li>C&aacute;ch thức tiếp cận kh&aacute;ch h&agrave;ng dễ d&agrave;ng</li>\n</ul>\n\n<p>N&oacute;i tỉ lệ rủi ro thấp kh&ocirc;ng c&oacute; nghĩa l&agrave; bạn c&oacute; thể kinh doanh c&oacute; l&atilde;i nếu kh&ocirc;ng c&oacute; một kế hoạch kinh doanh cụ thể v&agrave; quyết t&acirc;m theo đuổi mục ti&ecirc;u. Thực tế, cứ 100 cửa h&agrave;ng mở ra c&oacute; đến gần 40 cửa h&agrave;ng thời trang sang nhượng lại cửa h&agrave;ng hoăc đ&oacute;ng cửa do kinh doanh thất bại. Ch&iacute;nh v&igrave; thế, h&atilde;y nắm chắc những kinh nghiệm đắt gi&aacute; dưới đ&acirc;y để kinh doanh thật th&agrave;nh c&ocirc;ng nh&eacute;!</p>\n', 'kinh nghiệm,quần áo,shop', 2, 1, '2019-10-04 08:00:47', 2147483647),
+(3, 67, 31, '<p>Việc thi c&ocirc;ng x&acirc;y dựng c&ocirc;ng tr&igrave;nh, th&igrave; đơn vị thi c&ocirc;ng v&agrave; chủ đầu tư phải c&oacute; giải ph&aacute;p thi c&ocirc;ng hợp l&yacute;, đảm bảo an to&agrave;n x&acirc;y dựng,&hellip; v&agrave; phải c&oacute; giải ph&aacute;p thi c&ocirc;ng ph&ugrave; hợp. Tuyệt đối phải x&acirc;y dựng đ&uacute;ng quy hoạch, đ&uacute;ng lộ giới, khoảng l&ugrave;i x&acirc;y dựng v&agrave; quy chế quản l&yacute; kiến tr&uacute;c x&acirc;y dựng được duyệt của dự &aacute;n.</p>\n', 'công trình,biện pháp,thi công', 3, 1, '2019-10-07 19:29:49', 2147483647),
+(4, 68, 32, '<p>Sau khi nghi&ecirc;n cứu, Cục Gi&aacute;m định Nh&agrave; nước về chất lượng c&ocirc;ng tr&igrave;nh x&acirc;y dựng c&oacute; &yacute; kiến như sau:<br />\n1. Theo quy định tại mục 1.2 v&agrave; mục 1.13.18 Th&ocirc;ng tư số 33/2009/TT-BXD ng&agrave;y 30/9/2009 của Bộ X&acirc;y dựng về ban h&agrave;nh quy chuẩn kỹ thuật quốc gia ph&acirc;n loại, ph&acirc;n cấp c&ocirc;ng tr&igrave;nh x&acirc;y dựng d&acirc;n dụng, c&ocirc;ng nghiệp v&agrave; hạ tầng kỹ thuật đ&ocirc; thị th&igrave; c&aacute;c c&ocirc;ng tr&igrave;nh hạ tầng kỹ thuật đ&ocirc; thị bao gồm: kết cấu hạ tầng giao th&ocirc;ng đ&ocirc; thị; cấp nước, tho&aacute;t nước, xử l&yacute; nước thải, chiếu s&aacute;ng, c&ocirc;ng vi&ecirc;n c&acirc;y xanh, nghĩa trang, r&aacute;c thải trong đ&ocirc; thị.<br />\nC&aacute;c c&ocirc;ng tr&igrave;nh giao th&ocirc;ng được n&ecirc;u tại phụ lục C.1 k&egrave;m theo Th&ocirc;ng tư n&agrave;y nằm trong đ&ocirc; thị được xếp v&agrave;o loại kết cấu hạ tầng giao th&ocirc;ng đ&ocirc; thị.<br />\n2. C&aacute;c c&ocirc;ng tr&igrave;nh giao th&ocirc;ng, c&ocirc;ng tr&igrave;nh thủy lợi v&agrave; c&ocirc;ng tr&igrave;nh hạ tầng kỹ thuật ngo&agrave;i đ&ocirc; thị vẫn &aacute;p dụng ph&acirc;n loại, ph&acirc;n cấp theo quy định tại Nghị định số 209/2004/NĐ-CP ng&agrave;y 16/12/2009 của Ch&iacute;nh phủ về quản l&yacute; chất lượng c&ocirc;ng tr&igrave;nh x&acirc;y dựng.<br />\nTheo www.moc.gov.vn</p>\n', 'phân loại,công trình,xây dựng', 2, 1, '2019-10-07 19:33:01', 2147483647);
+
+--
 -- Triggers `answer`
 --
 DELIMITER $$
@@ -107,6 +117,7 @@ CREATE TABLE `catagory` (
   `id` int(11) NOT NULL,
   `image` text NOT NULL,
   `name` varchar(255) NOT NULL,
+  `slug` varchar(255) NOT NULL,
   `rank` int(11) DEFAULT NULL,
   `created_at` datetime DEFAULT NULL,
   `updated_at` datetime DEFAULT NULL
@@ -116,20 +127,20 @@ CREATE TABLE `catagory` (
 -- Dumping data for table `catagory`
 --
 
-INSERT INTO `catagory` (`id`, `image`, `name`, `rank`, `created_at`, `updated_at`) VALUES
-(2, 'public/upload/catagory/1571693606icons8_tractor_96px.png', 'Nông nghiệp', 4, '2019-09-24 19:26:29', '2019-09-25 21:39:16'),
-(3, 'public/upload/catagory/696258064icons8_hospital_3_96px.png', 'Y tế', 5, '2019-09-24 19:27:09', '2019-09-25 21:39:18'),
-(16, 'public/upload/catagory/1316256150icons8_media_queries_96px.png', 'Công nghệ', 1, '2019-09-24 21:16:55', '2019-09-25 21:39:09'),
-(17, 'public/upload/catagory/717986872icons8_student_male_96px.png', 'Giáo dục', 3, '2019-09-25 21:37:16', '2019-09-25 21:39:12'),
-(18, 'public/upload/catagory/739613276icons8_link_company_parent_96px.png', 'Bất động sản', 2, '2019-09-25 21:38:34', '2019-09-25 21:39:11'),
-(19, 'public/upload/catagory/182524334icons8_Healthy_Food_Calories_Calculator_96px.png', 'Thực phẩm', 6, '2019-09-25 21:46:48', '2019-09-25 21:47:44'),
-(20, 'public/upload/catagory/836498596icons8_nature_96px.png', 'Kinh doanh', 7, '2019-09-25 21:48:55', '2019-10-01 16:55:32'),
-(21, 'public/upload/catagory/1522363727icons8_delivery_96px.png', 'Vấn đề pháp lý', 8, '2019-09-25 21:54:39', '2019-09-29 17:51:29'),
-(22, 'public/upload/catagory/1692089907icons8_doctors_laboratory_coat_96px.png', 'Thời trang', 9, '2019-09-25 21:56:13', '2019-09-25 21:56:23'),
-(23, 'public/upload/catagory/259839968icons8_worker_male_96px.png', 'Xây dựng', 10, '2019-09-25 22:01:13', '2019-09-25 22:01:20'),
-(24, 'public/upload/catagory/1477128289icons8_airplane_take_off_96px.png', 'Du lịch, dịch vụ', 11, '2019-09-25 22:03:31', '2019-09-25 22:04:00'),
-(25, 'public/upload/catagory/519323757icons8_europe_96px.png', 'Lĩnh vực khác', 13, '2019-09-25 22:04:54', '2019-10-01 17:04:25'),
-(26, 'public/upload/catagory/1582944570icons8_musical_notes_96px.png', 'Giải trí', 12, '2019-10-01 17:02:53', '2019-10-01 17:04:26');
+INSERT INTO `catagory` (`id`, `image`, `name`, `slug`, `rank`, `created_at`, `updated_at`) VALUES
+(2, 'public/upload/catagory/1571693606icons8_tractor_96px.png', 'Nông nghiệp', 'nong-nghiep', 4, '2019-09-24 19:26:29', '2019-10-08 21:39:28'),
+(3, 'public/upload/catagory/696258064icons8_hospital_3_96px.png', 'Y tế', 'y-te', 5, '2019-09-24 19:27:09', '2019-10-08 21:39:28'),
+(16, 'public/upload/catagory/1316256150icons8_media_queries_96px.png', 'Công nghệ', 'cong-nghe', 1, '2019-09-24 21:16:55', '2019-10-08 21:39:27'),
+(17, 'public/upload/catagory/717986872icons8_student_male_96px.png', 'Giáo dục', 'giao-duc', 3, '2019-09-25 21:37:16', '2019-10-08 21:39:28'),
+(18, 'public/upload/catagory/739613276icons8_link_company_parent_96px.png', 'Bất động sản', 'bat-dong-san', 2, '2019-09-25 21:38:34', '2019-10-08 21:39:28'),
+(19, 'public/upload/catagory/182524334icons8_Healthy_Food_Calories_Calculator_96px.png', 'Thực phẩm', 'thuc-pham', 6, '2019-09-25 21:46:48', '2019-10-08 21:39:28'),
+(20, 'public/upload/catagory/836498596icons8_nature_96px.png', 'Kinh doanh', 'kinh-doanh', 7, '2019-09-25 21:48:55', '2019-10-08 21:39:28'),
+(21, 'public/upload/catagory/1522363727icons8_delivery_96px.png', 'Vấn đề pháp lý', 'van-de-phap-ly', 8, '2019-09-25 21:54:39', '2019-10-08 21:39:28'),
+(22, 'public/upload/catagory/1692089907icons8_doctors_laboratory_coat_96px.png', 'Thời trang', 'thoi-trang', 9, '2019-09-25 21:56:13', '2019-10-08 21:39:28'),
+(23, 'public/upload/catagory/259839968icons8_worker_male_96px.png', 'Xây dựng', 'xay-dung', 10, '2019-09-25 22:01:13', '2019-10-08 21:39:28'),
+(24, 'public/upload/catagory/1477128289icons8_airplane_take_off_96px.png', 'Du lịch, dịch vụ', 'du-lich-dich-vu', 11, '2019-09-25 22:03:31', '2019-10-08 21:39:28'),
+(25, 'public/upload/catagory/519323757icons8_europe_96px.png', 'Lĩnh vực khác', 'linh-vuc-khac', 13, '2019-09-25 22:04:54', '2019-10-08 21:39:28'),
+(26, 'public/upload/catagory/1582944570icons8_musical_notes_96px.png', 'Giải trí', 'giai-tri', 12, '2019-10-01 17:02:53', '2019-10-08 21:39:28');
 
 --
 -- Triggers `catagory`
@@ -770,31 +781,38 @@ CREATE TABLE `question` (
 --
 
 INSERT INTO `question` (`id`, `id_catagory`, `id_user`, `title`, `slug`, `content`, `tag`, `view`, `vote`, `count_reply`, `active`, `created_at`, `updated_at`) VALUES
-(36, 16, 23, 'Cách có tên miền mình mong muốn', 'cach-co-ten-mien-minh-mong-muon', '<p><strong>Ch&uacute;ng t&ocirc;i đang cần một t&ecirc;n miền cho website của c&ocirc;ng ty m&igrave;nh nhưng kh&ocirc;ng biết&nbsp;l&agrave;m thế n&agrave;o để ch&uacute;ng t&ocirc;i c&oacute; được t&ecirc;n miền m&agrave; m&igrave;nh muốn?</strong></p>\n', 'tên miền,tên miền đẹp', 9, 5, 0, 1, '2019-09-29 17:08:07', '2019-10-02 19:06:34'),
-(37, 18, 23, 'Số vốn để kinh doanh bất động sản', 'so-von-de-kinh-doanh-bat-dong-san', '<p>T&ocirc;i đang c&oacute; một v&agrave;i &yacute; định để khởi nghiệp với bất động sản, t&ocirc;i n&ecirc;n d&agrave;nh ra số vốn bao nhi&ecirc;u để khởi nghiệp với bất động sản</p>\n', 'bất động sản,vốn,kinh doanh', 6, 3, 0, 1, '2019-09-29 17:49:14', '2019-10-01 22:58:46'),
-(38, 25, 23, 'Tôi muốn khởi sự kinh doanh nhưng không có vốn, tôi phải làm gì đây???', 'toi-muon-khoi-su-kinh-doanh-nhung-khong-co-von-toi-phai-lam-gi-day', '<p>&ldquo;T&ocirc;i đang ch&aacute;n nản với thực tại &ndash; một cuộc sống m&agrave; h&agrave;ng ng&agrave;y cứ 8h s&aacute;ng s&aacute;ch cặp đi l&agrave;m c&ocirc;ng ty đến 5h chiều lại cắp cặp s&aacute;ch về nh&agrave; v&agrave; đợi chờ đến ng&agrave;y trả lương cuối th&aacute;ng trong khi đ&atilde; ti&ecirc;u hết khoản tiền lương của th&aacute;ng trước từ trước đ&oacute; mấy ng&agrave;y rồi. T&ocirc;i đang lo lắng cho những kế hoạch tương lai đầy tham vọng nhưng lại chưa t&igrave;m được hướng đi n&agrave;o khả thi để thực hiện n&oacute;, t&ocirc;i muốn kiếm thật nhiều tiền để được sở hữu những thứ m&igrave;nh th&iacute;ch, l&agrave;m những thứ m&igrave;nh muốn l&agrave;m, được nghỉ tho&aacute;i m&aacute;i khi ốm đau, được đầu tư cho con c&aacute;i học h&agrave;nh, được đi du lịch đ&oacute; đ&acirc;y, được&hellip;l&agrave;m chủ đồng tiền v&agrave; l&agrave;m cuộc sống của m&igrave;nh. Nhưng t&ocirc;i thực sự kh&ocirc;ng c&oacute; vốn t&iacute;ch lũy để bắt đầu khởi nghiệp, những &yacute; tưởng đến rồi lại đi, những kế hoạch lập rồi lại bỏ. T&ocirc;i thấy rằng cứ tiếp tục thế n&agrave;y l&agrave; kh&ocirc;ng ổn nhưng T&ocirc;i phải bắt đầu từ đ&acirc;u đ&acirc;y???&rdquo;</p>\n', 'khởi nghiệp,kinh doanh', 5, 3, 0, 1, '2019-09-29 17:56:28', '2019-10-01 22:58:55'),
+(36, 16, 23, 'Cách có tên miền mình mong muốn', 'cach-co-ten-mien-minh-mong-muon', '<p><strong>Ch&uacute;ng t&ocirc;i đang cần một t&ecirc;n miền cho website của c&ocirc;ng ty m&igrave;nh nhưng kh&ocirc;ng biết&nbsp;l&agrave;m thế n&agrave;o để ch&uacute;ng t&ocirc;i c&oacute; được t&ecirc;n miền m&agrave; m&igrave;nh muốn?</strong></p>\n', 'tên miền,tên miền đẹp', 14, 5, 0, 1, '2019-09-29 17:08:07', '2019-10-08 18:31:48'),
+(37, 18, 23, 'Số vốn để kinh doanh bất động sản', 'so-von-de-kinh-doanh-bat-dong-san', '<p>T&ocirc;i đang c&oacute; một v&agrave;i &yacute; định để khởi nghiệp với bất động sản, t&ocirc;i n&ecirc;n d&agrave;nh ra số vốn bao nhi&ecirc;u để khởi nghiệp với bất động sản</p>\n', 'bất động sản,vốn,kinh doanh', 7, 3, 0, 1, '2019-09-29 17:49:14', '2019-10-02 21:00:47'),
+(38, 25, 23, 'Tôi muốn khởi sự kinh doanh nhưng không có vốn, tôi phải làm gì đây???', 'toi-muon-khoi-su-kinh-doanh-nhung-khong-co-von-toi-phai-lam-gi-day', '<p>&ldquo;T&ocirc;i đang ch&aacute;n nản với thực tại &ndash; một cuộc sống m&agrave; h&agrave;ng ng&agrave;y cứ 8h s&aacute;ng s&aacute;ch cặp đi l&agrave;m c&ocirc;ng ty đến 5h chiều lại cắp cặp s&aacute;ch về nh&agrave; v&agrave; đợi chờ đến ng&agrave;y trả lương cuối th&aacute;ng trong khi đ&atilde; ti&ecirc;u hết khoản tiền lương của th&aacute;ng trước từ trước đ&oacute; mấy ng&agrave;y rồi. T&ocirc;i đang lo lắng cho những kế hoạch tương lai đầy tham vọng nhưng lại chưa t&igrave;m được hướng đi n&agrave;o khả thi để thực hiện n&oacute;, t&ocirc;i muốn kiếm thật nhiều tiền để được sở hữu những thứ m&igrave;nh th&iacute;ch, l&agrave;m những thứ m&igrave;nh muốn l&agrave;m, được nghỉ tho&aacute;i m&aacute;i khi ốm đau, được đầu tư cho con c&aacute;i học h&agrave;nh, được đi du lịch đ&oacute; đ&acirc;y, được&hellip;l&agrave;m chủ đồng tiền v&agrave; l&agrave;m cuộc sống của m&igrave;nh. Nhưng t&ocirc;i thực sự kh&ocirc;ng c&oacute; vốn t&iacute;ch lũy để bắt đầu khởi nghiệp, những &yacute; tưởng đến rồi lại đi, những kế hoạch lập rồi lại bỏ. T&ocirc;i thấy rằng cứ tiếp tục thế n&agrave;y l&agrave; kh&ocirc;ng ổn nhưng T&ocirc;i phải bắt đầu từ đ&acirc;u đ&acirc;y???&rdquo;</p>\n', 'khởi nghiệp,kinh doanh', 7, 4, 0, 1, '2019-09-29 17:56:28', '2019-10-05 07:34:09'),
 (39, 25, 24, 'Làm thế nào để các nhà đầu tư mạo hiểm chú ý đến tôi ? ', 'lam-the-nao-de-cac-nha-dau-tu-mao-hiem-chu-y-den-toi-', '<p>L&agrave;m c&aacute;ch n&agrave;o để t&ocirc;i c&oacute; thể thu h&uacute;t c&aacute;c nh&agrave; đầu tư mạo hiểm khi m&agrave; c&aacute;c nh&agrave; đầu tư thường đặt sự an to&agrave;n l&ecirc;n tr&ecirc;n hết. V&agrave; t&ocirc;i c&oacute; thể t&igrave;m c&aacute;c nh&agrave; đầu tư mạo hiểm ở đ&acirc;u. M&ocirc; h&igrave;nh kinh doanh của ch&uacute;ng t&ocirc;i c&oacute; tăng trưởng ng&agrave;y c&agrave;ng lớn v&agrave; c&oacute; nhiều sức h&uacute;t tới thị trường. t&ocirc;i xin cảm ơn !</p>\n', 'đầu tư,mạo hiểm,chú ý', 2, 2, 0, 1, '2019-10-01 15:44:41', '2019-10-02 19:13:13'),
-(40, 22, 24, 'Đặt tên doanh nghiệp và thiết kế logo cho doanh nghiệp', 'dat-ten-doanh-nghiep-va-thiet-ke-logo-cho-doanh-nghiep', '<p>C&ocirc;ng ty của ch&uacute;ng t&ocirc;i l&agrave; một c&ocirc;ng ty chuy&ecirc;n về thiết kế v&agrave; ph&acirc;n phối thời trang.C&ocirc;ng ty của t&ocirc;i đ&atilde; gi&agrave;nh rất nhiều thời gian v&agrave; tiền bạc để c&oacute; một c&aacute;i t&ecirc;n v&agrave; biểu tượng hay. Theo t&ocirc;i một c&aacute;i t&ecirc;n c&ocirc;ng ty phải g&acirc;y ấn tượng . Mọi người c&oacute; thể tư vấn gi&uacute;p t&ocirc;i để c&ocirc;ng ty t&ocirc;i c&oacute; được một c&aacute;i t&ecirc;n v&agrave; logo tốt nhất.</p>\n', 'logo ,đặt tên doanh nghiệp', 2, 1, 0, 1, '2019-10-01 15:50:55', '2019-10-02 19:12:22'),
-(41, 21, 24, 'Các nguồn vốn của doanh nghiệp ', 'cac-nguon-von-cua-doanh-nghiep', '<p>M&igrave;nh muốn hỏi về c&aacute;c nguồn vốn của doanh nghiệp trong nền kinh tế thị trường v&agrave; c&aacute;c nh&acirc;n tố tới việc huy động vốn của doanh nghiệp.</p>\n', 'vốn,doanh nghiệp', 1, 1, 0, 1, '2019-10-01 15:54:26', '2019-10-02 20:53:18'),
-(42, 21, 23, 'Thủ tục mở nhà hàng kinh doanh dịch vụ ăn uống', 'thu-tuc-mo-nha-hang-kinh-doanh-dich-vu-an-uong', '<p>T&ocirc;i muốn mở một nh&agrave; h&agrave;ng kinh doanh dịch vụ ăn uống th&igrave; cần phải c&oacute; c&aacute;c thủ tục cần thiết n&agrave;o để xin giấy ph&eacute;p kinh doanh?</p>\n', 'nhà hàng,thủ tục,kinh doanh', 2, 2, 0, 1, '2019-10-01 15:56:05', '2019-10-02 20:53:46'),
+(40, 22, 24, 'Đặt tên doanh nghiệp và thiết kế logo cho doanh nghiệp', 'dat-ten-doanh-nghiep-va-thiet-ke-logo-cho-doanh-nghiep', '<p>C&ocirc;ng ty của ch&uacute;ng t&ocirc;i l&agrave; một c&ocirc;ng ty chuy&ecirc;n về thiết kế v&agrave; ph&acirc;n phối thời trang.C&ocirc;ng ty của t&ocirc;i đ&atilde; gi&agrave;nh rất nhiều thời gian v&agrave; tiền bạc để c&oacute; một c&aacute;i t&ecirc;n v&agrave; biểu tượng hay. Theo t&ocirc;i một c&aacute;i t&ecirc;n c&ocirc;ng ty phải g&acirc;y ấn tượng . Mọi người c&oacute; thể tư vấn gi&uacute;p t&ocirc;i để c&ocirc;ng ty t&ocirc;i c&oacute; được một c&aacute;i t&ecirc;n v&agrave; logo tốt nhất.</p>\n', 'logo ,đặt tên doanh nghiệp', 4, 3, 0, 1, '2019-10-01 15:50:55', '2019-10-07 20:44:39'),
+(41, 21, 24, 'Các nguồn vốn của doanh nghiệp ', 'cac-nguon-von-cua-doanh-nghiep', '<p>M&igrave;nh muốn hỏi về c&aacute;c nguồn vốn của doanh nghiệp trong nền kinh tế thị trường v&agrave; c&aacute;c nh&acirc;n tố tới việc huy động vốn của doanh nghiệp.</p>\n', 'vốn,doanh nghiệp', 2, 1, 0, 1, '2019-10-01 15:54:26', '2019-10-08 20:01:06'),
+(42, 21, 23, 'Thủ tục mở nhà hàng kinh doanh dịch vụ ăn uống', 'thu-tuc-mo-nha-hang-kinh-doanh-dich-vu-an-uong', '<p>T&ocirc;i muốn mở một nh&agrave; h&agrave;ng kinh doanh dịch vụ ăn uống th&igrave; cần phải c&oacute; c&aacute;c thủ tục cần thiết n&agrave;o để xin giấy ph&eacute;p kinh doanh?</p>\n', 'nhà hàng,thủ tục,kinh doanh', 3, 3, 0, 1, '2019-10-01 15:56:05', '2019-10-03 23:21:53'),
 (43, 25, 24, 'Start up là gì', 'start-up-la-gi', '<p>Hiện nay t&ocirc;i nghe n&oacute;i rất nhiều kh&aacute;i niệm về start up nhưng t&ocirc;i thực sự rất mơ hồ về kh&aacute;i niệm n&agrave;y mong được sự g&oacute;p &yacute; của mọi người&nbsp;</p>\n', 'start up', 1, 0, 0, 1, '2019-10-01 15:58:03', '2019-10-02 07:11:29'),
-(44, 16, 25, 'Cách tìm một nhà đầu tư nước ngoài', 'cach-tim-mot-nha-dau-tu-nuoc-ngoai', '<p>T&ocirc;i c&oacute; một sản phẩm về c&ocirc;ng nghệ m&agrave; t&ocirc;i cho rằng sẽ đặc biệt hấp dẫn đối với&nbsp;giới trẻ ch&acirc;u &Aacute; ở Nhật Bản, Trung Quốc v&agrave; H&agrave;n Quốc. C&ocirc;ng ty của t&ocirc;i đặt trụ sở tại New York, nhưng t&ocirc;i cảm thấy c&aacute;c nh&agrave; đầu tư của&nbsp;t&ocirc;i&nbsp;kh&ocirc;ng hiểu nhiều về thị trường m&agrave; t&ocirc;i đang hướng tới. Vậy l&agrave;m thế n&agrave;o t&ocirc;i c&oacute; thể t&igrave;m được một nh&agrave; đầu tư được đ&agrave;o tạo tại c&aacute;c thị trường nước ngo&agrave;i?</p>\n', 'đầu tư,nước ngoài', 1, 0, 0, 1, '2019-10-01 16:14:17', '2019-10-01 21:47:27'),
+(44, 16, 25, 'Cách tìm một nhà đầu tư nước ngoài', 'cach-tim-mot-nha-dau-tu-nuoc-ngoai', '<p>T&ocirc;i c&oacute; một sản phẩm về c&ocirc;ng nghệ m&agrave; t&ocirc;i cho rằng sẽ đặc biệt hấp dẫn đối với&nbsp;giới trẻ ch&acirc;u &Aacute; ở Nhật Bản, Trung Quốc v&agrave; H&agrave;n Quốc. C&ocirc;ng ty của t&ocirc;i đặt trụ sở tại New York, nhưng t&ocirc;i cảm thấy c&aacute;c nh&agrave; đầu tư của&nbsp;t&ocirc;i&nbsp;kh&ocirc;ng hiểu nhiều về thị trường m&agrave; t&ocirc;i đang hướng tới. Vậy l&agrave;m thế n&agrave;o t&ocirc;i c&oacute; thể t&igrave;m được một nh&agrave; đầu tư được đ&agrave;o tạo tại c&aacute;c thị trường nước ngo&agrave;i?</p>\n', 'đầu tư,nước ngoài', 3, 1, 0, 1, '2019-10-01 16:14:17', '2019-10-08 19:01:53'),
 (45, 25, 25, 'Tránh tình trạng các nhà đầu tư kéo dài thời gian xác nhận có đầu tư hay không', 'tranh-tinh-cac-nha-dau-tu-keo-dai-thoi-gian-xac-nhan-co-dau-tu-hay-khong', '<p>Ch&uacute;ng t&ocirc;i đ&atilde; nhận được c&aacute;c c&acirc;u trả lời &ldquo;<strong>Kh&ocirc;ng</strong>&rdquo; chắc như đinh đ&oacute;ng cột từ hầu hết c&aacute;c nh&agrave; đầu tư m&agrave; ch&uacute;ng t&ocirc;i tiếp cận, tuy nhi&ecirc;n c&ograve;n một hai người kh&ocirc;ng trả lời, để ch&uacute;ng t&ocirc;i chờ đợi h&agrave;ng tuần m&agrave; chẳng n&oacute;i kh&ocirc;ng cũng chẳng n&oacute;i c&oacute;, rồi cuối c&ugrave;ng vẫn để ch&uacute;ng t&ocirc;i rớt đ&agrave;i. Đ&acirc;y c&oacute; phải l&agrave; t&igrave;nh trạng chung kh&ocirc;ng? Ch&uacute;ng t&ocirc;i c&oacute; thể l&agrave;m g&igrave; để tr&aacute;nh t&igrave;nh trạng bị k&eacute;o d&agrave;i thời gian m&agrave; kh&ocirc;ng đầy c&aacute;c nh&agrave; đầu tư đến c&acirc;u trả lời &ldquo;<strong>kh&ocirc;ng</strong>&rdquo;?</p>\n', 'thời gian,xác nhận đầu tư', 2, 1, 0, 1, '2019-10-01 16:19:05', '2019-10-02 20:52:18'),
 (46, 2, 25, 'Xác định loại hình kinh doanh ', 'xac-dinh-loai-hinh-kinh-doanh', '<p>T&ocirc;i muốn khởi sự doanh nghiệp của ri&ecirc;ng m&igrave;nh về lĩnh vực n&ocirc;ng nghiệp&nbsp;nhưng kh&ocirc;ng biết n&ecirc;n bắt đầu từ loại kinh doanh n&agrave;o. Mọi người c&oacute; thể gợi &yacute; c&aacute;ch tốt nhất để t&igrave;m một việc kinh doanh ph&ugrave; hợp với lĩnh vực n&agrave;y kh&ocirc;ng?</p>\n', 'loại hình,kinh doanh', 0, 0, 0, 1, '2019-10-01 16:29:13', '2019-10-01 16:29:13'),
-(47, 21, 27, 'Đăng kí doanh nghiệp', 'dang-ki-doanh-nghiep', '<p>T&ocirc;i n&ecirc;n đăng k&yacute; doanh nghiệp của t&ocirc;i l&agrave; c&ocirc;ng ty hay hợp doanh? Ưu v&agrave; nhược điểm của hai sự lựa chọn n&agrave;y l&agrave; g&igrave;?</p>\n', 'đăng ký,doanh nghiệp', 0, 0, 0, 1, '2019-10-01 16:35:19', '2019-10-01 16:35:19'),
+(47, 21, 27, 'Đăng kí doanh nghiệp', 'dang-ki-doanh-nghiep', '<p>T&ocirc;i n&ecirc;n đăng k&yacute; doanh nghiệp của t&ocirc;i l&agrave; c&ocirc;ng ty hay hợp doanh? Ưu v&agrave; nhược điểm của hai sự lựa chọn n&agrave;y l&agrave; g&igrave;?</p>\n', 'đăng ký,doanh nghiệp', 1, 1, 0, 1, '2019-10-01 16:35:19', '2019-10-07 19:35:03'),
 (48, 23, 27, 'Thị trường cạnh tranh gay gắt', 'thi-truong-canh-tranh-gay-gat', '<p>L&agrave;m thế n&agrave;o t&ocirc;i c&oacute; thể th&agrave;nh c&ocirc;ng tr&ecirc;n thị trường x&acirc;y dựng&nbsp;được khi tất cả mọi người đều b&aacute;m v&agrave;o c&aacute;c hợp đồng, cạnh tranh gay gắt v&agrave; kh&ocirc;ng cho sản phẩm của t&ocirc;i một ch&uacute;t cơ hội n&agrave;o?</p>\n', 'thị trường,cạnh tranh', 1, 0, 0, 1, '2019-10-01 16:38:04', '2019-10-01 21:36:41'),
-(49, 25, 27, 'Làm gì để trở thành nhà đầu tư vốn khi là sinh viên', 'lam-gi-de-tro-thanh-nha-dau-tu-von-khi-la-sinh-vien', '<p>T&ocirc;i l&agrave; sinh vi&ecirc;n năm thứ hai đại học. T&ocirc;i muốn biết t&ocirc;i cần phải học g&igrave; để trở th&agrave;nh một nh&agrave; đầu tư vốn. Người ta c&oacute; cần c&aacute;i gọi l&agrave; &ldquo;sinh ra trong gi&agrave;u c&oacute;&rdquo; để th&agrave;nh c&ocirc;ng trong nghề nghiệp n&agrave;y kh&ocirc;ng</p>\n', 'sinh viên,đầu tư vốn ', 0, 0, 0, 1, '2019-10-01 16:41:36', '2019-10-01 16:41:36'),
-(50, 16, 27, 'Cách thu hút vốn tài trợ ', 'cach-thu-hut-von-tai-tro', '<p>Hiện nay t&ocirc;i đang l&agrave;m việc với tư c&aacute;ch l&agrave; kế to&aacute;n trưởng của một nh&agrave; ph&acirc;n phối cỡ trung trong ng&agrave;nh c&ocirc;ng nghệ th&ocirc;ngtin. Tuy nhi&ecirc;n, t&ocirc;i nhận thấy rằng cuộc chơi ng&agrave;y c&agrave;ng chuyển sang hướng dịch vụ, v&agrave; t&ocirc;i muốn khởi sự doanh nghiệp của ri&ecirc;ng m&igrave;nh v&agrave; đi v&agrave;o cửa ng&aacute;ch n&agrave;y. Vậy c&aacute;ch tốt nhất để thu h&uacute;t được vốn t&agrave;i trợ l&agrave; g&igrave; v&agrave; t&ocirc;i n&ecirc;n t&igrave;m tới ai? T&ocirc;i sẽ cần giấy tờ/ kế hoạch/dự &aacute;n g&igrave;? T&ocirc;i c&oacute; thể t&igrave;m nguồn</p>\n', 'công nghệ,thu hút vốn,ngách', 1, 1, 0, 1, '2019-10-01 16:46:15', '2019-10-02 16:08:48'),
+(49, 25, 27, 'Làm gì để trở thành nhà đầu tư vốn khi là sinh viên', 'lam-gi-de-tro-thanh-nha-dau-tu-von-khi-la-sinh-vien', '<p>T&ocirc;i l&agrave; sinh vi&ecirc;n năm thứ hai đại học. T&ocirc;i muốn biết t&ocirc;i cần phải học g&igrave; để trở th&agrave;nh một nh&agrave; đầu tư vốn. Người ta c&oacute; cần c&aacute;i gọi l&agrave; &ldquo;sinh ra trong gi&agrave;u c&oacute;&rdquo; để th&agrave;nh c&ocirc;ng trong nghề nghiệp n&agrave;y kh&ocirc;ng</p>\n', 'sinh viên,đầu tư vốn ', 2, 1, 0, 1, '2019-10-01 16:41:36', '2019-10-07 17:57:27'),
+(50, 16, 27, 'Cách thu hút vốn tài trợ ', 'cach-thu-hut-von-tai-tro', '<p>Hiện nay t&ocirc;i đang l&agrave;m việc với tư c&aacute;ch l&agrave; kế to&aacute;n trưởng của một nh&agrave; ph&acirc;n phối cỡ trung trong ng&agrave;nh c&ocirc;ng nghệ th&ocirc;ngtin. Tuy nhi&ecirc;n, t&ocirc;i nhận thấy rằng cuộc chơi ng&agrave;y c&agrave;ng chuyển sang hướng dịch vụ, v&agrave; t&ocirc;i muốn khởi sự doanh nghiệp của ri&ecirc;ng m&igrave;nh v&agrave; đi v&agrave;o cửa ng&aacute;ch n&agrave;y. Vậy c&aacute;ch tốt nhất để thu h&uacute;t được vốn t&agrave;i trợ l&agrave; g&igrave; v&agrave; t&ocirc;i n&ecirc;n t&igrave;m tới ai? T&ocirc;i sẽ cần giấy tờ/ kế hoạch/dự &aacute;n g&igrave;? T&ocirc;i c&oacute; thể t&igrave;m nguồn</p>\n', 'công nghệ,thu hút vốn,ngách', 1, 2, 0, 1, '2019-10-01 16:46:15', '2019-10-04 07:52:29'),
 (51, 20, 27, 'Hỏi về việc mở rộng kinh doanh cửa hàng cà phê vào thành phố Hồ Chí Minh', 'hoi-ve-viec-mo-rong-kinh-doanh-cua-hang-ca-phe-vao-thanh-pho-ho-chi-minh', '<p>T&ocirc;i đang kinh doanh 3 cửa h&agrave;ng caf&eacute; c&oacute; tiếng tại H&agrave; Nội. T&ocirc;i muốn mở rộng kinh doanh v&agrave;o khu vực TP Hồ Ch&iacute; Minh nhưng kh&ocirc;ng c&oacute; đủ vốn, c&oacute; phương &aacute;n n&agrave;o cho t&ocirc;i kh&ocirc;ng? Thủ tục như thế n&agrave;o? Hợp đồng c&oacute; cần lưu &yacute; g&igrave; kh&ocirc;ng?. Thủ tục nhượng quyền như thế n&agrave;o? Hợp đồng nhượng quyền c&oacute; những nội dung g&igrave;?</p>\n', 'kinh doanh,quán cafe', 0, 0, 0, 1, '2019-10-01 16:56:13', '2019-10-01 16:56:13'),
-(52, 20, 28, 'Góp vốn kinh doanh như thế nào ', 'gop-von-kinh-doanh-nhu-the-nao', '<p>Tổ chức x&atilde; hội - nghề nghiệp c&oacute; thuộc đối tượng cấm g&oacute;p vốn kinh doanh kh&ocirc;ng?</p>\n', 'vốn,kinh doanh', 0, 0, 0, 1, '2019-10-01 17:00:21', '2019-10-01 17:00:21'),
-(53, 26, 28, 'Sinh viên bắt đầu kinh doanh từ đâu', 'sinh-vien-bat-dau-kinh-doanh-tu-dau', '<p>T&ocirc;i l&agrave; một nh&agrave; kinh doanh nhiều tham vọng. T&ocirc;i mới v&agrave;o năm thứ nhất trường đại học v&agrave; t&ocirc;i c&oacute; một kế hoạch kinh doanh cụ cụ thể. T&ocirc;i rất quan t&acirc;m đến ng&agrave;nh giải tr&iacute;, nhưng lại định khởi sự doanh nghiệp ngo&agrave;i ng&agrave;nh n&agrave;y. T&ocirc;i n&ecirc;n bắt đầu từ đ&acirc;u? T&ocirc;i cần t&igrave;m hiểu vấn đề g&igrave;? T&ocirc;i sẽ nhận được bằng cử nh&acirc;n về quản trị doanh nghiệp. Đ&oacute; c&oacute; phải l&agrave; một bước khởi đầu tốt kh&ocirc;ng?</p>\n', 'sinh viên,kinh doanh,giải trí', 0, 0, 0, 1, '2019-10-01 17:05:33', '2019-10-01 17:05:33'),
+(52, 20, 28, 'Góp vốn kinh doanh như thế nào ', 'gop-von-kinh-doanh-nhu-the-nao', '<p>Tổ chức x&atilde; hội - nghề nghiệp c&oacute; thuộc đối tượng cấm g&oacute;p vốn kinh doanh kh&ocirc;ng?</p>\n', 'vốn,kinh doanh', 1, 1, 0, 1, '2019-10-01 17:00:21', '2019-10-08 11:53:06'),
+(53, 26, 28, 'Sinh viên bắt đầu kinh doanh từ đâu', 'sinh-vien-bat-dau-kinh-doanh-tu-dau', '<p>T&ocirc;i l&agrave; một nh&agrave; kinh doanh nhiều tham vọng. T&ocirc;i mới v&agrave;o năm thứ nhất trường đại học v&agrave; t&ocirc;i c&oacute; một kế hoạch kinh doanh cụ cụ thể. T&ocirc;i rất quan t&acirc;m đến ng&agrave;nh giải tr&iacute;, nhưng lại định khởi sự doanh nghiệp ngo&agrave;i ng&agrave;nh n&agrave;y. T&ocirc;i n&ecirc;n bắt đầu từ đ&acirc;u? T&ocirc;i cần t&igrave;m hiểu vấn đề g&igrave;? T&ocirc;i sẽ nhận được bằng cử nh&acirc;n về quản trị doanh nghiệp. Đ&oacute; c&oacute; phải l&agrave; một bước khởi đầu tốt kh&ocirc;ng?</p>\n', 'sinh viên,kinh doanh,giải trí', 1, 1, 0, 1, '2019-10-01 17:05:33', '2019-10-04 08:38:27'),
 (54, 20, 28, 'Nền tìm sản phẩm trước hay tìm thị trường trước', 'nen-tim-san-pham-truoc-hay-tim-thi-truong-truoc', '<p>C&aacute;i g&igrave; c&oacute; trước, sản phẩm hay thị trường? T&ocirc;i n&ecirc;n t&igrave;m một sản phẩm rồi sau đ&oacute; mới t&igrave;m c&aacute;ch b&aacute;n n&oacute;, hay t&ocirc;i n&ecirc;n t&igrave;m một thị trường chưa được khai th&aacute;c v&agrave; rồi t&igrave;m sản phẩm để đưa v&agrave;o đ&oacute;</p>\n', 'thị trường,sản phầm,tìm', 1, 1, 0, 1, '2019-10-01 17:08:26', '2019-10-02 08:33:38'),
-(55, 21, 28, 'Thành lập công ty riêng khi chỉ mới 18 tuổi', 'thanh-lap-cong-ty-rieng-khi-chi-moi-18-tuoi', '<p>T&ocirc;i rất muốn th&agrave;nh lập c&ocirc;ng ty ri&ecirc;ng, nhưng giờ t&ocirc;i mới 18 tuổi, t&ocirc;i c&oacute; thể l&agrave;m g&igrave; để c&aacute;c nh&agrave; đầu tư nh&igrave;n nhận m&igrave;nhmột c&aacute;ch nghi&ecirc;m t&uacute;c được?</p>\n', 'thành lập công ty,công ty riêng', 0, 0, 0, 1, '2019-10-01 17:12:04', '2019-10-01 17:12:04'),
-(56, 20, 28, 'Bảo vệ ý tưởng kinh doanh', 'bao-ve-y-tuong-kinh-doanh', '<p>T&ocirc;i nghĩ rằng &yacute; tưởng kinh doanh của t&ocirc;i sẽ th&agrave;nh c&ocirc;ng, nhưng t&ocirc;i lo rằng n&oacute; c&oacute; thể bị người kh&aacute;c đ&aacute;nh cắp nếu t&ocirc;i đến gặp nhữngnh&agrave; đầu tư. T&ocirc;i c&oacute; thể bảo vệ &yacute; tưởng kinh doanh của m&igrave;nh tốt nhất bằng c&aacute;ch n&agrave;o?</p>\n', 'ý tưởng ,kinh doanh,bảo vê', 0, 0, 0, 1, '2019-10-01 17:13:37', '2019-10-01 17:13:37'),
-(57, 17, 28, 'Tính cách, phẩm chất để trở thành một doanh nghiệp thành công', 'tinh-cach-pham-chat-de-tro-thanh-mot-doanh-nghiep-thanh-cong', '<p>Cần phải c&oacute; những t&iacute;nh c&aacute;ch/phẩm chất n&agrave;o để trở th&agrave;nh một doanh nghiệp th&agrave;nh c&ocirc;ng?</p>\n', 'doanh nghiệp,tính cách', 0, 0, 0, 1, '2019-10-01 17:14:59', '2019-10-01 17:14:59'),
-(58, 25, 29, 'Các lĩnh vực có thể lựa chọn để bắt đầu khởi nghiệp', 'cac-linh-vuc-co-the-lua-chon-de-bat-dau-khoi-nghiep', '<p>L&agrave;m c&aacute;ch n&agrave;o để t&ocirc;i c&oacute; thể x&aacute;c định v&agrave; lựa chọn một lĩnh vực, một ng&agrave;nh nghề đ&uacute;ng, ph&ugrave; hợp với bản th&acirc;n m&igrave;nh?</p>\n', 'lĩnh vực,Kinh doanh,khởi nghiệp', 0, 0, 0, 1, '2019-10-01 18:54:39', '2019-10-01 18:54:39'),
-(59, 20, 29, 'Tôi có nên thuê ai viết kế hoạch kinh doanh hay không', 'toi-co-nen-thue-ai-viet-ke-hoach-kinh-doanh-hay-khong', '<p>T&ocirc;i&nbsp;đang chuẩn bị k&ecirc;u gọi vốn&nbsp;đầu tư của quỹ Hỗ trợ doanh nghiệp khởi nghiệp. Vậy&nbsp;để cho chuy&ecirc;n nghiệp t&ocirc;i c&oacute; n&ecirc;n thu&ecirc; ai viết kế hoạch kinh doanh hay kh&ocirc;ng ?&nbsp;</p>\n', 'Kinh doanh,khởi nghiệp', 1, 0, 0, 1, '2019-10-01 18:55:45', '2019-10-02 08:34:05'),
-(60, 3, 29, 'Khởi nghiệp về y tế cần gì', 'khoi-nghiep-ve-y-te-can-gi', '<p>Theo mọi người để khởi nghiệp th&agrave;nh c&ocirc;ng trong lĩnh vực &yacute; tế cần những yếu tố g&igrave;</p>\n', 'khởi nghiệp,ý tế', 3, 0, 0, 1, '2019-10-01 18:59:48', '2019-10-02 19:06:03');
+(55, 21, 28, 'Thành lập công ty riêng khi chỉ mới 18 tuổi', 'thanh-lap-cong-ty-rieng-khi-chi-moi-18-tuoi', '<p>T&ocirc;i rất muốn th&agrave;nh lập c&ocirc;ng ty ri&ecirc;ng, nhưng giờ t&ocirc;i mới 18 tuổi, t&ocirc;i c&oacute; thể l&agrave;m g&igrave; để c&aacute;c nh&agrave; đầu tư nh&igrave;n nhận m&igrave;nhmột c&aacute;ch nghi&ecirc;m t&uacute;c được?</p>\n', 'thành lập công ty,công ty riêng', 1, 1, 0, 1, '2019-10-01 17:12:04', '2019-10-07 19:35:24'),
+(56, 20, 28, 'Bảo vệ ý tưởng kinh doanh', 'bao-ve-y-tuong-kinh-doanh', '<p>T&ocirc;i nghĩ rằng &yacute; tưởng kinh doanh của t&ocirc;i sẽ th&agrave;nh c&ocirc;ng, nhưng t&ocirc;i lo rằng n&oacute; c&oacute; thể bị người kh&aacute;c đ&aacute;nh cắp nếu t&ocirc;i đến gặp nhữngnh&agrave; đầu tư. T&ocirc;i c&oacute; thể bảo vệ &yacute; tưởng kinh doanh của m&igrave;nh tốt nhất bằng c&aacute;ch n&agrave;o?</p>\n', 'ý tưởng ,kinh doanh,bảo vê', 1, 1, 0, 1, '2019-10-01 17:13:37', '2019-10-03 09:07:56'),
+(57, 17, 28, 'Tính cách, phẩm chất để trở thành một doanh nghiệp thành công', 'tinh-cach-pham-chat-de-tro-thanh-mot-doanh-nghiep-thanh-cong', '<p>Cần phải c&oacute; những t&iacute;nh c&aacute;ch/phẩm chất n&agrave;o để trở th&agrave;nh một doanh nghiệp th&agrave;nh c&ocirc;ng?</p>\n', 'doanh nghiệp,tính cách', 3, 2, 0, 1, '2019-10-01 17:14:59', '2019-10-08 19:11:34'),
+(58, 25, 29, 'Các lĩnh vực có thể lựa chọn để bắt đầu khởi nghiệp', 'cac-linh-vuc-co-the-lua-chon-de-bat-dau-khoi-nghiep', '<p>L&agrave;m c&aacute;ch n&agrave;o để t&ocirc;i c&oacute; thể x&aacute;c định v&agrave; lựa chọn một lĩnh vực, một ng&agrave;nh nghề đ&uacute;ng, ph&ugrave; hợp với bản th&acirc;n m&igrave;nh?</p>\n', 'lĩnh vực,Kinh doanh,khởi nghiệp', 3, 4, 0, 1, '2019-10-01 18:54:39', '2019-10-07 22:09:40'),
+(59, 20, 29, 'Tôi có nên thuê ai viết kế hoạch kinh doanh hay không', 'toi-co-nen-thue-ai-viet-ke-hoach-kinh-doanh-hay-khong', '<p>T&ocirc;i&nbsp;đang chuẩn bị k&ecirc;u gọi vốn&nbsp;đầu tư của quỹ Hỗ trợ doanh nghiệp khởi nghiệp. Vậy&nbsp;để cho chuy&ecirc;n nghiệp t&ocirc;i c&oacute; n&ecirc;n thu&ecirc; ai viết kế hoạch kinh doanh hay kh&ocirc;ng ?&nbsp;</p>\n', 'Kinh doanh,khởi nghiệp', 4, 3, 0, 1, '2019-10-01 18:55:45', '2019-10-05 20:21:45'),
+(60, 3, 29, 'Khởi nghiệp về y tế cần gì', 'khoi-nghiep-ve-y-te-can-gi', '<p>Theo mọi người để khởi nghiệp th&agrave;nh c&ocirc;ng trong lĩnh vực &yacute; tế cần những yếu tố g&igrave;</p>\n', 'khởi nghiệp,ý tế', 8, 4, 0, 1, '2019-10-01 18:59:48', '2019-10-08 11:47:34'),
+(61, 2, 30, 'Bộ nông nghiệp xử phạt phân hữu cơ', 'bo-nong-nghiep-xu-phat-phan-huu-co', '<p>T&ocirc;i c&oacute; thắc mắc xin hỏi.</p>\n\n<p>&nbsp;T&ocirc;i la doanh nghiệp nhập khẩu v&agrave; bu&ocirc;n b&aacute;n ph&acirc;n hữu cơ.</p>\n\n<p>Vừa qua cty c&oacute; nhập khẩu 1 l&ocirc; h&agrave;ng ph&acirc;n hưu cơ th&agrave;nh phẩm để kinh doanh về thủ tục qui định đầy đủ hết v&agrave; kiểm tra nh&agrave; nước đạt y&ecirc;u cầu để lưu th&ocirc;ng tr&ecirc;n thị trường.</p>\n\n<p>trong qu&aacute; tr&igrave;nh&nbsp;lưu th&ocirc;ng tr&ecirc;n thị trường thanh tra sở NN.. lấy mẫu kiểm tra v&agrave; cho kết quả kh&ocirc;ng đạt chất lượng, v&agrave; sở NN .. ra quyết định xử phạt vi phạm h&agrave;nh ch&iacute;nh theo nghị định 185/2013.</p>\n\n<p>Xin hỏi so NN xử phạt c&oacute; đ&uacute;ng kh&ocirc;ng, v&agrave; nếu phạt th&igrave; theo nghị định n&agrave;o.</p>\n', 'nông nghiệp,xử phạt,phân hữu cơ', 5, 3, 1, 1, '2019-10-04 07:44:39', '2019-10-05 11:29:35'),
+(62, 2, 30, 'Dữ liệu về sản xuất chè theo tiêu chuẩn GAP của các tỉnh thành ở VN hiện nay', 'du-lieu-ve-san-xuat-che-theo-tieu-chuan-gap-cua-cac-tinh-thanh-o-vn-hien-nay', '<p>Em t&igrave;m dữ liệu ở mục dữ liệu trồng trọt th&igrave; kh&ocirc;ng c&oacute;, vậy cho e hỏi e cần li&ecirc;n hệ đến bộ phận n&agrave;o hay qua k&ecirc;nh n&agrave;o để e c&oacute; thể c&oacute; dữ liệu về sản xuất ch&egrave; theo ti&ecirc;u chuẩn GAP của c&aacute;c tỉnh th&agrave;nh ở VN hiện nay? Tr&acirc;n trọng!</p>\r\n', 'dữ liệu,sản xuất,chè,GAP', 4, 3, 0, 1, '2019-10-04 07:48:42', '2019-10-07 20:45:37'),
+(63, 2, 30, 'Gia hạn giấy phép nhập thóc giống', 'gia-han-giay-phep-nhap-thoc-giong', '<p>Trước đ&acirc;y c&ocirc;ng ty em đ&atilde; nhập th&oacute;c giống từ nhật về nhưng đến ng&agrave;y 30/10/2017 giấy ph&eacute;p nhập khẩu của bộn n&ocirc;ng nghiệp&nbsp;cho c&ocirc;ng ty em đ&atilde; hết hạn, n&ecirc;n em muốn xin gia hạn giấy ph&eacute;p th&igrave; phải l&agrave;m những g&igrave; ạ? V&agrave; cần những giấy tờ cần thiết g&igrave; để gia hạn giấy ph&eacute;p kh&ocirc;ng ạ?</p>\n', 'thóc,giấy phép,gia hạn', 7, 3, 0, 1, '2019-10-04 07:51:30', '2019-10-08 22:17:09'),
+(64, 2, 27, 'Xin số liệu về tình hình sản xuất rau an toàn trên địa bàn TP. HCM', 'xin-so-lieu-ve-tinh-hinh-san-xuat-rau-an-toan-tren-dia-ban-tp-hcm', '<p>Anh, Chị cho em hỏi em muốn xin số liệu về t&igrave;nh h&igrave;nh sản xuất rau an to&agrave;n tr&ecirc;n địa b&agrave;n Tp. HCM tờ năm 2010 đến nay th&igrave; phải l&agrave;m c&aacute;ch n&agrave;o. Em c&oacute; v&agrave;o mục t&igrave;m kiếm nhưng kh&ocirc;ng c&oacute; t&agrave;i khoản vậy l&agrave;m sao em đăng k&yacute; được t&agrave;i khoản để lấy số liệu m&agrave; em c&agrave;n t&igrave;m? Xin Anh, Chị hổ trợ gi&uacute;p em em cảm ơn nhiều</p>\n', 'số liệu,rau,sản xuất', 6, 3, 0, 1, '2019-10-04 07:54:18', '2019-10-08 21:21:39'),
+(65, 22, 31, 'Kinh nghiệm mở shop quần áo', 'kinh-nghiem-mo-shop-quan-ao', '<p>T&ocirc;i đang c&oacute; dự định kinh doanh quần &aacute;o, thời trang nhưng chưa biết bắt đầu từ đ&acirc;u? Nhập quần &aacute;o ở đ&acirc;u gi&aacute; rẻ, chọn mặt bằng kinh doanh thế n&agrave;o, l&agrave;m c&aacute;ch n&agrave;o để thu h&uacute;t kh&aacute;ch h&agrave;ng?</p>\n', 'kinh nghiệm,quần áo,shop', 6, 2, 1, 1, '2019-10-04 07:59:37', '2019-10-08 22:27:16'),
+(67, 23, 32, 'Biện pháp thi công công trình ', 'bien-phap-thi-cong-cong-trinh', '<p>Để kh&ocirc;ng vi phạm trong qu&aacute; tr&igrave;nh x&acirc;y dựng, khi thi c&ocirc;ng c&ocirc;ng tr&igrave;nh, ch&uacute;ng t&ocirc;i thi c&ocirc;ng từ sau ra trước được kh&ocirc;ng, hay l&agrave; phải thi c&ocirc;ng từ mặt tiền v&agrave;o?</p>\n', 'công trình,biện pháp,thi công', 2, 2, 1, 1, '2019-10-07 19:28:30', '2019-10-08 19:26:36'),
+(68, 23, 31, 'Phân loại, phân cấp công trình xây dựng', 'phan-loai-phan-cap-cong-trinh-xay-dung', '<p>Theo khoản 1-điều 1-Nghị định 49/2008/NĐ-CP th&igrave; c&ocirc;ng tr&igrave;nh x&acirc;y dựng được ph&acirc;n th&agrave;nh 5 loại: C&ocirc;ng tr&igrave;nh d&acirc;n dụng, c&ocirc;ng tr&igrave;nh c&ocirc;ng nghiệp, c&ocirc;ng tr&igrave;nh giao th&ocirc;ng, c&ocirc;ng tr&igrave;nh thủy lợi, c&ocirc;ng tr&igrave;nh hạ tầng kỹ thuật. Tuy nhi&ecirc;n, theo Th&ocirc;ng tư 33/2009/TT-BXD th&igrave; c&ocirc;ng tr&igrave;nh giao th&ocirc;ng được gộp với c&ocirc;ng tr&igrave;nh hạ tầng kỹ thuật v&agrave; kh&ocirc;ng thấy đề cập tới c&ocirc;ng tr&igrave;nh thủy lợi. Như vậy, xin ph&eacute;p hỏi Qu&yacute; Bộ l&agrave; Th&ocirc;ng tư 33/2009/TT-BXD c&oacute; ph&ugrave; hợp với Nghị định 49/2008/NĐ-CP v&agrave; việc ph&acirc;n cấp c&ocirc;ng tr&igrave;nh thủy lợi t&ocirc;i phải tu&acirc;n thủ theo văn bản n&agrave;o?</p>\n', 'phân loại,công trình,xây dựng', 3, 2, 1, 1, '2019-10-07 19:32:22', '2019-10-08 21:23:55');
 
 --
 -- Triggers `question`
@@ -805,6 +823,40 @@ $$
 DELIMITER ;
 DELIMITER $$
 CREATE TRIGGER `2q` BEFORE UPDATE ON `question` FOR EACH ROW SET NEW.updated_at = NOW()
+$$
+DELIMITER ;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `search`
+--
+
+CREATE TABLE `search` (
+  `id` int(11) NOT NULL,
+  `keyword` text NOT NULL,
+  `species` text,
+  `total` int(11) NOT NULL DEFAULT '1',
+  `created_at` datetime NOT NULL,
+  `updated_at` datetime NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `search`
+--
+
+INSERT INTO `search` (`id`, `keyword`, `species`, `total`, `created_at`, `updated_at`) VALUES
+(2, 'khởi nghiệp là gì', 'news', 1, '2019-10-08 18:10:41', '2019-10-08 18:10:41'),
+(3, 'start up là gì', 'question', 1, '2019-10-08 18:11:24', '2019-10-08 18:11:24'),
+(4, 'khởi nghiệp về y tế', 'question', 1, '2019-10-08 19:04:54', '2019-10-08 19:04:54'),
+(5, 'xử phạt phân hữu cơ', 'question', 1, '2019-10-08 19:32:29', '2019-10-08 19:32:29'),
+(9, 'google', 'news', 1, '2019-10-08 20:12:30', '2019-10-08 20:12:30');
+
+--
+-- Triggers `search`
+--
+DELIMITER $$
+CREATE TRIGGER `ádasd` BEFORE INSERT ON `search` FOR EACH ROW SET NEW.created_at = NOW(), NEW.updated_at = NOW()
 $$
 DELIMITER ;
 
@@ -833,7 +885,7 @@ CREATE TABLE `slogan` (
 
 INSERT INTO `slogan` (`id`, `author`, `image`, `description`, `content`, `post_by`, `rank`, `active`, `created_at`, `updated_at`) VALUES
 (18, 'Thủ tướng Nguyễn Xuân Phúc', 'public/upload/slogan/1788323647thu-tuong_mxmo.jpg', 'Thủ tướng nước CHXHCNVN', 'Chưa bao giờ khởi nghiệp có điều kiện như lúc này.', 'trần viết trưởng', 1, 1, '2019-09-20 19:39:51', '2019-09-26 13:49:47'),
-(19, 'Nguyễn Mạnh Hùng', 'public/upload/slogan/999471708btnguyenmanhhung_qcyp.jpg', 'Bộ trưởng bộ thông tin và truyền thông', 'Điều kiện quan trọng nhất của khởi nghiệp là trong tay chẳng có gì cả. Chúng ta phải bán đi cái xe máy của mình bán đi cả chiếc áo vest đang mặc thì mới là khởi nghiệp. Vì chỉ khi ấy mình mới xả thân.', 'trần viết trưởng', 5, 1, '2019-09-20 19:44:26', '2019-09-25 21:05:39'),
+(19, 'Nguyễn Mạnh Hùng', 'public/upload/slogan/999471708btnguyenmanhhung_qcyp.jpg', 'Bộ trưởng bộ thông tin và truyền thông', 'Điều kiện quan trọng nhất của khởi nghiệp là trong tay chẳng có gì cả. Chúng ta phải bán đi cái xe máy của mình bán đi cả chiếc áo vest đang mặc thì mới là khởi nghiệp. Vì chỉ khi ấy mình mới xả thân.', 'trần viết trưởng', 5, 0, '2019-09-20 19:44:26', '2019-10-02 20:59:23'),
 (20, 'Trần Bá Dương', 'public/upload/slogan/55568417photo-1-1520415240196945071866-1035.jpg', 'Chủ tịch HĐQT công ty cổ phần ô tô Trường Hải', 'Chúng ta đang mải mê cuốn theo phong trào mà quên đi mất giá trị khởi nghiệp.', 'trần viết trưởng', 4, 1, '2019-09-20 19:46:58', '2019-09-25 21:05:37'),
 (21, 'Trịnh Văn Quyết ', 'public/upload/slogan/1928435683trinh_van_quyet_zing.jpg', 'Chủ tịch HĐQT FLC', 'Đừng sợ thất bại khi khởi nghiệp.', 'trần viết trưởng', 2, 1, '2019-09-20 19:48:49', '2019-09-25 21:05:33'),
 (22, 'Trương Gia Bình ', 'public/upload/slogan/1341433286truong-gia-binh-1469586921563-0-0-936-1834-crop-1469586958690.jpg', 'Chủ tịch HĐQT FPT', 'Làm startup là mạo hiểm, đôi khi bất cần.', 'trần viết trưởng', 1, 1, '2019-09-20 19:50:02', '2019-09-25 21:11:40');
@@ -898,7 +950,7 @@ INSERT INTO `tag` (`id`, `name`, `slug`, `total`) VALUES
 (11, 'tên miền', 'ten-mien', 2),
 (12, 'tên miền đẹp', 'ten-mien-dep', 1),
 (13, 'bất động sản', 'bat-dong-san', 1),
-(15, 'kinh doanh', 'kinh-doanh', 1),
+(15, 'kinh doanh', 'kinh-doanh', 3),
 (16, 'khởi nghiệp', 'khoi-nghiep', 1),
 (19, 'mạo hiểm', 'mao-hiem', 1),
 (20, 'chú ý', 'chu-y', 1),
@@ -932,8 +984,28 @@ INSERT INTO `tag` (`id`, `name`, `slug`, `total`) VALUES
 (59, 'doanh nghiệp', 'doanh-nghiep', 1),
 (60, 'tính cách', 'tinh-cach', 1),
 (61, 'lĩnh vực', 'linh-vuc', 1),
-(62, 'tên miền ', '', 1),
-(63, 'y tế', 'y-te', 1);
+(63, 'y tế', 'y-te', 1),
+(64, 'test', 'test', 1),
+(65, 'nông nghiệp', 'nong-nghiep', 1),
+(66, 'xử phạt', 'xu-phat', 1),
+(67, 'phân hữu cơ', 'phan-huu-co', 1),
+(68, 'dữ liệu', 'du-lieu', 1),
+(69, 'sản xuất', 'san-xuat', 2),
+(70, 'chè', 'che', 1),
+(71, 'GAP', 'gap', 1),
+(72, 'thóc', 'thoc', 1),
+(73, 'giấy phép', 'giay-phep', 1),
+(74, 'gia hạn', 'gia-han', 1),
+(75, 'số liệu', 'so-lieu', 1),
+(76, 'rau', 'rau', 1),
+(77, 'kinh nghiệm', 'kinh-nghiem', 1),
+(78, 'quần áo', 'quan-ao', 1),
+(79, 'shop', 'shop', 1),
+(80, 'công trình', 'cong-trinh', 2),
+(81, 'biện pháp', 'bien-phap', 1),
+(82, 'thi công', 'thi-cong', 1),
+(83, 'phân loại', 'phan-loai', 1),
+(84, 'xây dựng', 'xay-dung', 1);
 
 -- --------------------------------------------------------
 
@@ -961,12 +1033,15 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id`, `full_name`, `email`, `username`, `password`, `code_email`, `email_verified`, `reset_password`, `active`, `tag`, `created_at`, `updated_at`) VALUES
-(23, 'Trần Viết Trưởng', 'tranviettruong1998@gmail.com', 'truong', '$2y$10$8n02muh8l98uWJfTj8a7Ue2SmR8e6ypYSdTyePzFQR2pBwnOfvRIG', '', 1, NULL, 1, 'tên miền,đầu tư,mạo hiểm,chú ý,logo ,đặt tên doanh nghiệp,vốn,nhà hàng,thủ tục,kinh doanh', '2019-09-28 10:46:40', '2019-10-02 20:53:41'),
+(23, 'Trần Viết Trưởng', 'tranviettruong1998@gmail.com', 'truong', '$2y$10$3CT2jngDlSpb6OSRLZFG.ukNANdqrOTf0eO8dGryDKrTQr7sjlZei', '', 1, NULL, 1, 'thóc,giấy phép,gia hạn,công trình,biện pháp,thi công,,kinh nghiệm,quần áo,shop', '2019-09-28 10:46:40', '2019-10-08 22:27:11'),
 (24, 'Nguyễn Văn Nam', 'nguyenvannamhero40@gmail.com', 'nam', '$2y$10$2dt3dAbRYDeaUD8ilm3GFupRk2UGzZHWWZu04fKS95efxxt1jbjDm', '', 1, NULL, 1, 'tên miền,tên miền đẹp,bất động sản,vốn,kinh doanh,khởi nghiệp,nhà hàng,thủ tục,thời gian,xác nhận đầu tư', '2019-10-01 15:33:49', '2019-10-01 23:01:10'),
-(25, 'Đoàn Quang Nhật', 'mrnhatdoan98@gmail.com', 'nhat', '$2y$10$Zm3JwtCUkU1nylbARcCTf.XkCEOetxJQ/LVzijweRHv3LTbNg/EOC', '', 1, NULL, 1, ',tên miền,tên miền đẹp,đầu tư,mạo hiểm,chú ý', '2019-10-01 15:59:52', '2019-10-02 19:16:27'),
-(27, 'Trần Thị Thu', 'thu@gmail.com', 'thu', '$2y$10$3k3opE39HcP3FxHN7NwQquc5dVcJVBC6zk0OkJeUqNkRJ324qXp3W', '', 1, NULL, 1, '', '2019-10-01 16:33:02', '2019-10-01 16:33:28'),
-(28, 'Hồ Văn Đồ', 'do@gmail.com', 'hodo', '$2y$10$Mqp4ggJBo0N8XOukRwPGx.DIr531v08c7LvqImHus9KX5GuvLi1dm', '', 1, NULL, 1, ',tên miền,tên miền đẹp,bất động sản,vốn,kinh doanh,khởi nghiệp,đầu tư,mạo hiểm,chú ý', '2019-10-01 16:58:14', '2019-10-01 22:58:59'),
-(29, 'Nguyễn Thị Hà', 'ha@gmail.com', 'thuha', '$2y$10$.vBoNGkGYuOzAugyrA1LUOuNakYfGqHm1GyeY3gc2PZVDeLYllD6O', '', 1, NULL, 1, ',tên miền,tên miền đẹp,ý tưởng ,kinh doanh,bảo vê,đăng ký,doanh nghiệp,đầu tư,nước ngoài', '2019-10-01 18:50:00', '2019-10-01 22:55:04');
+(25, 'Đoàn Quang Nhật', 'mrnhatdoan98@gmail.com', 'nhat', '$2y$10$Zm3JwtCUkU1nylbARcCTf.XkCEOetxJQ/LVzijweRHv3LTbNg/EOC', '', 1, NULL, 1, 'chú ý,bất động sản,vốn,kinh doanh,kinh nghiệm,quần áo,shop,nước ngoài,Kinh doanh,khởi nghiệp', '2019-10-01 15:59:52', '2019-10-05 08:17:58'),
+(27, 'Trần Thị Thu', 'thu@gmail.com', 'thu', '$2y$10$3k3opE39HcP3FxHN7NwQquc5dVcJVBC6zk0OkJeUqNkRJ324qXp3W', '', 1, NULL, 1, 'xử phạt,phân hữu cơ,thóc,giấy phép,gia hạn,dữ liệu,chè,GAP,số kiệu],rau', '2019-10-01 16:33:02', '2019-10-04 07:55:56'),
+(28, 'Hồ Văn Đồ', 'do@gmail.com', 'hodo', '$2y$10$Mqp4ggJBo0N8XOukRwPGx.DIr531v08c7LvqImHus9KX5GuvLi1dm', '', 1, NULL, 1, 'bất động sản,vốn,kinh doanh,khởi nghiệp,đầu tư,mạo hiểm,chú ý,ý tế,Kinh doanh,lĩnh vực', '2019-10-01 16:58:14', '2019-10-03 10:51:29'),
+(29, 'Nguyễn Thị Hà', 'ha@gmail.com', 'thuha', '$2y$10$.vBoNGkGYuOzAugyrA1LUOuNakYfGqHm1GyeY3gc2PZVDeLYllD6O', '', 1, NULL, 1, ',tên miền,tên miền đẹp,ý tưởng ,kinh doanh,bảo vê,đăng ký,doanh nghiệp,đầu tư,nước ngoài', '2019-10-01 18:50:00', '2019-10-01 22:55:04'),
+(30, 'Đoàn Thị Mai', 'mai@gmail.com', 'mai', '$2y$10$eA7O56./rhWwBCxeJV6tAuElXGbGcCVPNR.QMuTnbumLvjkvTsPAm', '', 1, NULL, 1, 'nông nghiệp,xử phạt,phân hữu cơ,Kinh doanh,lĩnh vực,doanh nghiệp,tính cách,công nghệ,thu hút vốn,ngách', '2019-10-04 07:40:03', '2019-10-04 07:52:36'),
+(31, 'Vũ Đình Công', 'cong@gmail.com', 'cong', '$2y$10$96./xE5ilVqg9dDP.Gt5/urFmE0x7x15qxFlemXF74eut.RptqBGO', '', 1, NULL, 1, ',công trình,biện pháp,thi công', '2019-10-04 07:56:38', '2019-10-07 19:29:32'),
+(32, 'Nguyễn Thị Ngân', 'ngan@gmail.com', 'ngan', '$2y$10$nmnm/kXlS3.4iskMOHJTCO2flHu6pblTnLNY0CBOkyP7Sqh6hwgm.', '', 1, NULL, 1, 'sản xuất,chè,GAP,số liệu,rau,tên miền,tên miền đẹp,phân loại,công trình,xây dựng', '2019-10-07 19:24:14', '2019-10-08 13:23:42');
 
 --
 -- Triggers `user`
@@ -991,6 +1066,22 @@ CREATE TABLE `vote_answer` (
   `id_answer` int(11) NOT NULL,
   `id_user` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `vote_answer`
+--
+
+INSERT INTO `vote_answer` (`id`, `id_answer`, `id_user`) VALUES
+(1, 1, 23),
+(5, 2, 23),
+(9, 3, 23),
+(10, 4, 23),
+(4, 2, 25),
+(3, 1, 27),
+(2, 1, 30),
+(6, 3, 31),
+(7, 3, 32),
+(8, 4, 32);
 
 --
 -- Triggers `vote_answer`
@@ -1031,16 +1122,59 @@ INSERT INTO `vote_question` (`id`, `id_user`, `id_question`) VALUES
 (100, 28, 37),
 (91, 23, 38),
 (96, 24, 38),
+(114, 27, 38),
 (101, 28, 38),
 (105, 25, 39),
 (102, 28, 39),
 (93, 23, 40),
+(116, 27, 40),
+(148, 32, 40),
 (106, 23, 41),
 (92, 23, 42),
 (97, 24, 42),
+(117, 27, 42),
+(133, 25, 44),
 (98, 24, 45),
+(146, 32, 47),
+(139, 23, 49),
 (104, 23, 50),
-(103, 23, 54);
+(126, 30, 50),
+(140, 23, 52),
+(135, 23, 53),
+(103, 23, 54),
+(147, 32, 55),
+(107, 23, 56),
+(149, 23, 57),
+(125, 30, 57),
+(112, 23, 58),
+(115, 27, 58),
+(110, 28, 58),
+(124, 30, 58),
+(134, 25, 59),
+(109, 28, 59),
+(123, 30, 59),
+(111, 23, 60),
+(113, 27, 60),
+(108, 28, 60),
+(121, 30, 60),
+(118, 23, 61),
+(128, 27, 61),
+(122, 30, 61),
+(131, 27, 62),
+(120, 30, 62),
+(143, 32, 62),
+(138, 23, 63),
+(130, 27, 63),
+(119, 30, 63),
+(137, 23, 64),
+(127, 27, 64),
+(145, 32, 64),
+(136, 23, 65),
+(132, 25, 65),
+(141, 31, 67),
+(144, 32, 67),
+(150, 23, 68),
+(142, 32, 68);
 
 --
 -- Triggers `vote_question`
@@ -1076,7 +1210,8 @@ ALTER TABLE `answer`
 -- Indexes for table `catagory`
 --
 ALTER TABLE `catagory`
-  ADD PRIMARY KEY (`id`);
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `slug` (`slug`);
 
 --
 -- Indexes for table `comment`
@@ -1106,6 +1241,14 @@ ALTER TABLE `question`
   ADD UNIQUE KEY `slug` (`slug`),
   ADD KEY `foregin_key_catagory` (`id_catagory`),
   ADD KEY `foregin_key_user` (`id_user`);
+ALTER TABLE `question` ADD FULLTEXT KEY `title` (`title`);
+
+--
+-- Indexes for table `search`
+--
+ALTER TABLE `search`
+  ADD PRIMARY KEY (`id`);
+ALTER TABLE `search` ADD FULLTEXT KEY `keyword` (`keyword`);
 
 --
 -- Indexes for table `slogan`
@@ -1125,8 +1268,7 @@ ALTER TABLE `sub_comment`
 --
 ALTER TABLE `tag`
   ADD PRIMARY KEY (`id`),
-  ADD UNIQUE KEY `slug` (`slug`),
-  ADD KEY `name` (`name`) USING BTREE;
+  ADD UNIQUE KEY `slug` (`slug`);
 
 --
 -- Indexes for table `user`
@@ -1164,7 +1306,7 @@ ALTER TABLE `admin`
 -- AUTO_INCREMENT for table `answer`
 --
 ALTER TABLE `answer`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT for table `catagory`
@@ -1194,7 +1336,13 @@ ALTER TABLE `news`
 -- AUTO_INCREMENT for table `question`
 --
 ALTER TABLE `question`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=61;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=69;
+
+--
+-- AUTO_INCREMENT for table `search`
+--
+ALTER TABLE `search`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 
 --
 -- AUTO_INCREMENT for table `slogan`
@@ -1212,25 +1360,25 @@ ALTER TABLE `sub_comment`
 -- AUTO_INCREMENT for table `tag`
 --
 ALTER TABLE `tag`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=64;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=85;
 
 --
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=30;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=33;
 
 --
 -- AUTO_INCREMENT for table `vote_answer`
 --
 ALTER TABLE `vote_answer`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 
 --
 -- AUTO_INCREMENT for table `vote_question`
 --
 ALTER TABLE `vote_question`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=107;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=151;
 
 --
 -- Constraints for dumped tables

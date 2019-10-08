@@ -7,7 +7,7 @@
 							<ul class="cat-list">
 								<?php for($j=6*$i;$j<6*($i+1);$j++){ if(isset($this->catagories[$j])){ ?>
 								<li>
-									<a class="justify-content-between d-flex" href="category.html">
+									<a class="justify-content-between d-flex" href="/linh-vuc/<?php echo $this->catagories[$j]['slug'] ?>">
 										<p>
 											<?php 
 												echo $this->catagories[$j]['name'] 

@@ -31,6 +31,8 @@ class HomeController extends Controller
 
     public function home()
     {
+        $this->view->title = 'Trang chủ';
+
         $this->view->catagories = $this->CatagoryModel->all();
         $this->view->slogans = $this->SloganModel->all();
 
