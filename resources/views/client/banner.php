@@ -2,11 +2,14 @@
 <section class="banner-area relative" id="home">	
 	<div class="overlay overlay-bg"></div>
 	<div class="container">
-		<div class="row fullscreen d-flex align-items-center justify-content-center">
-			<div class="banner-content col-lg-12">
+		<div class="row d-flex align-items-center justify-content-center">
+			<div class="about-content col-lg-12">
 				<h1 class="text-white">
-					<span>Khởi nghiệp</span> là đam mê 			
+					<?php echo $this->name_banner ?>				
 				</h1>	
+				<p class="text-white link-nav"><a href="index.html">Trang Chủ </a>  <span class="lnr lnr-arrow-right"></span>  <a href="category.html"> Câu Hỏi</a></p>
+
+
 				<form action="/tim-kiem/cau-hoi" method="get" class="serach-form-area" id="form-search">
 					<div class="row justify-content-center form-wrap">
 						<div class="col-lg-2 form-cols">
@@ -61,7 +64,6 @@
 									</div>
 								</div>
 								<hr>
-								<!-- <div @click="" class="text-danger text-center" style="cursor: pointer;"><i class="fa fa-times"></i></div> -->
 							</div>
 						</div>
 						<div class="col-lg-2 form-cols">
@@ -71,9 +73,10 @@
 						</div>								
 					</div>
 				</form>		
-				<p class="text-white">Kẻ chiến thắng không bao giờ bỏ cuộc, kẻ bỏ cuộc không bao giờ chiến thắng</p>
-			</div>											
+
+			</div>
+
 		</div>
 	</div>
 </section>
-			<!-- End banner Area -->
+<!-- End banner Area -->	
