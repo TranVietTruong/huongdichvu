@@ -70,6 +70,17 @@ Route::add('/user',function(){
 	Load::Controller('controllers/client/UserController.php','UserController','user');
 },'get');
 
+Route::add('/tim-kiem/cau-hoi',function(){
+	Load::Controller('controllers/client/SearchController.php','SearchController','question');
+},'get');
+
+Route::add('/tim-kiem/tin-tuc',function(){
+	Load::Controller('controllers/client/SearchController.php','SearchController','news');
+},'get');
+
+
+
+
 Route::add('/verify-email',function(){
 	Load::Controller('controllers/client/HomeController.php','HomeController','verify_email');
 },'get');

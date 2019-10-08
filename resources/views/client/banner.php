@@ -10,7 +10,7 @@
 				<p class="text-white link-nav"><a href="index.html">Trang Chủ </a>  <span class="lnr lnr-arrow-right"></span>  <a href="category.html"> Câu Hỏi</a></p>
 
 
-				<form action="search.html" class="serach-form-area">
+				<form action="/tim-kiem/cau-hoi" method="get" class="serach-form-area" id="form-search">
 					<div class="row justify-content-center form-wrap">
 						<div class="col-lg-2 form-cols">
 							<div class="default-select" id="default-selects">
@@ -23,7 +23,7 @@
 						</div>
 						<div class="col-lg-2 form-cols">
 							<div class="default-select" id="default-selects2">
-								<select id="category">
+								<select id="category" name="cate">
 									<option value="NULL">Lĩnh vực</option>
 									<?php foreach ($this->catagories as $catagory) { ?>
 										<option value="<?php echo $catagory['id'] ?>"><?php echo $catagory['name'] ?></option>
@@ -32,14 +32,14 @@
 							</div>										
 						</div>
 						<div class="col-lg-6 form-cols" class="keyword">
-							<input @keyup="intanceSearch" v-model="keysearch" type="text" class="form-control" placeholder="Tìm kiếm . . .">
+							<input @keyup="intanceSearch" v-model="keysearch" name="key" type="text" class="form-control" autocomplete="off" placeholder="Tìm kiếm . . .">
 					
 							<div class="search" v-if="searchs.length > 0 || questions.length > 0 || news.length > 0">
 								<div v-if="searchs.length > 0">
 									<b class="text-left">Có phải bạn tìm </b>
 									<div class="key-search">
 										<ul>
-											<li v-for="search in searchs"><a href="">{{search.keyword}}</a></li>
+											<li @click="keysearch = search.keyword" v-for="search in searchs"><span>{{search.keyword}}</span></li>
 										</ul>
 									</div>
 								</div>
@@ -67,7 +67,7 @@
 							</div>
 						</div>
 						<div class="col-lg-2 form-cols">
-							<button type="button" class="btn btn-info">
+							<button type="submit" class="btn btn-info">
 								<span class="lnr lnr-magnifier"></span> Tìm kiếm
 							</button>
 						</div>								

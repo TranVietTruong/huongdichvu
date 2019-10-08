@@ -13,6 +13,7 @@ var app = new Vue({
 	methods: {
 		intanceSearch()
 		{
+		
 			if(this.keysearch == '')
 			{
 				this.searchs = [];
@@ -38,6 +39,7 @@ var app = new Vue({
 			.catch(error=>{
 				thongbao('error',error.response.data);
 			})
+			
 		}
 	}
 

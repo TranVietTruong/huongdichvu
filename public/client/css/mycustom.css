@@ -687,3 +687,7 @@ ul.detail li span.edit-name i.fa-times{
 .search a{
   color: #007bff;
 }
+.search span{
+  color: #007bff;
+  cursor: pointer;
+}

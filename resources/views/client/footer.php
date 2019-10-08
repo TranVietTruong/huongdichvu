@@ -140,5 +140,20 @@
 					})
 				}
 			</script>
+
+			<script>
+				$('#species').change(function(event) {
+					if($(this).val() == 'news')
+					{
+						$('#category').removeAttr('name');
+						$("#form-search").attr('action','/tim-kiem/tin-tuc');
+					}
+					else
+					{
+						$('#category').attr('name','cate');
+						$("#form-search").attr('action','/tim-kiem/cau-hoi');
+					}
+				});
+			</script>
 		</body>
 	</html>
