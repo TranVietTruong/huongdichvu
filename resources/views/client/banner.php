@@ -7,7 +7,7 @@
 				<h1 class="text-white">
 					<?php echo $this->name_banner ?>				
 				</h1>	
-				<p class="text-white link-nav"><a href="index.html">Trang Chủ </a>  <span class="lnr lnr-arrow-right"></span>  <a href="category.html"> Câu Hỏi</a></p>
+				<p class="text-white link-nav"><a href="index.html">Trang Chủ </a>  <span class="lnr lnr-arrow-right"></span>  <a href="category.html"> <?php echo $this->name_banner ?></a></p>
 
 
 				<form action="/tim-kiem/cau-hoi" method="get" class="serach-form-area" id="form-search">

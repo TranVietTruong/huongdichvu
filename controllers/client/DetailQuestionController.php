@@ -31,6 +31,16 @@ class DetaiQuestionController extends Controller
 
     public function detail_question()
     {
+        $url = $_SERVER['REQUEST_URI'];
+        $url = explode('/', $url);
+        $slug = $url[count($url)-1];
+        $qt = $this->QuestionModel->find($slug);
+        if(empty($qt))
+            header('location:/404');
+        else
+            $this->view->title = $qt[0]['title'];
+
+
         $this->view->name_banner = 'Câu Hỏi';
         $this->view->catagories = $this->CatagoryModel->all();
 
@@ -118,7 +128,7 @@ class DetaiQuestionController extends Controller
         $this->view->Render('client/header');
         $this->view->Render('client/banner');
         $this->view->Render('client/detail_question/detail_question');
-        $this->view->Render('client/detail_question/option');
+        $this->view->Render('client/question/option');
         $this->view->Render('client/footer');
 
         
