@@ -9,15 +9,21 @@ class DetailNewsController extends Controller
      */
     public $NewsModel;
     public $UserModel;
-  
+    public $CatagoryModel;
+
+
     public function __construct($param = NULL)
     {
         parent::__construct();
         include 'models/NewsModel.php';
         include 'models/UserModel.php';
+        include 'models/CatagoryModel.php';
 
+        $this->CatagoryModel = new CatagoryModel();
         $this->NewsModel = new NewsModel();
         $this->UserModel = new UserModel();
+
+        $this->view->js = '<script src="resources/js/detail_news.js"></script>';
     }
 
     public function detail_news()
@@ -91,10 +97,12 @@ class DetailNewsController extends Controller
         }
 
         $this->view->newsTop5 = $this->NewsModel->top5();
-
+        $this->view->catagories = $this->CatagoryModel->all();
+        $this->view->name_banner = 'Tin Tức';
+        
         $this->view->Render('client/head');
         $this->view->Render('client/header');
-        $this->view->Render('client/news/banner');
+        $this->view->Render('client/banner');
         $this->view->Render('client/detail_news/detail_news');
         $this->view->Render('client/news/option');
         $this->view->Render('client/footer');

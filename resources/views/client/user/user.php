@@ -129,7 +129,7 @@
 											<input data-vv-name="renewpass" v-validate="{required:true,is:newpass}" type="password" v-model="renewpass" placeholder="Nhập lại mật khẩu mới">
 											<span class="text-danger " v-if="errors.has('password.renewpass')">{{errors.first('password.renewpass')}}</span>
 										</div>
-										<div class="input-group-icon mt-10">
+										<div class="input-group-icon mt-10 aa">
 											<button @click="update_pass" type="button" class="genric-btn small">Đổi</button>
 										</div>
 									</form>

@@ -74,6 +74,7 @@
 					</div>
 				</div>
 			</footer>
+		</div>
 	
 			<!-- End footer Area -->		
 			

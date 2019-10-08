@@ -18,12 +18,12 @@ class PostQuestionController extends Controller
 
     public function post_question()
     {
-        
+        $this->view->name_banner = "Đặt Câu Hỏi";
         $this->view->catagories = $this->CatagoryModel->all();
 
         $this->view->Render('client/head');
         $this->view->Render('client/header');
-        $this->view->Render('client/post_question/banner');
+        $this->view->Render('client/banner');
         $this->view->Render('client/post_question/post_question');
         $this->view->Render('client/footer');
     }

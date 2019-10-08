@@ -22,8 +22,8 @@ function thongbao(type,message)
     })
 }
 
-var slogan = new Vue({
-	el: '#post_question',
+var app = new Vue({
+	el: '#app',
 	data(){
 		return{
 			title:'',
@@ -31,7 +31,13 @@ var slogan = new Vue({
 			tags: [],
 			items: [], // danh sách tag gợi ý
 			error: [],
-			maxLength: 50 // Số lượng độ dài tối đa của 1 tag
+			maxLength: 50, // Số lượng độ dài tối đa của 1 tag,
+
+			// --------------------
+			keysearch: '',
+			questions: [],
+			news: [],
+			searchs: []
 		}
 	},
 	methods: {
@@ -86,6 +92,34 @@ var slogan = new Vue({
 				{
 					this.items.push({'text':response.data[i].name});
 				}
+			})
+		},
+		intanceSearch()
+		{
+			if(this.keysearch == '')
+			{
+				this.searchs = [];
+				this.questions = [];
+				this.news = [];
+				return;
+			}	
+
+			let species = $("#species").val();
+			let category = $("#category").val();
+
+			const fd = new FormData();
+			fd.append('species',species);
+			fd.append('category',category);
+			fd.append('keysearch',this.keysearch);
+
+			axios.post('/api/search/keyword',fd)
+			.then(response=>{
+				this.searchs = response.data.searchs;
+				this.questions = response.data.questions;
+				this.news = response.data.news;
+			})
+			.catch(error=>{
+				thongbao('error',error.response.data);
 			})
 		}
 		

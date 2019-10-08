@@ -11,7 +11,7 @@ function thongbao(type,message)
 Vue.component('paginate', VuejsPaginate)
 
 var slogan = new Vue({
-	el: '#list-question',
+	el: '#app',
 	data(){
 		return{
 			listQuestion: [],
@@ -23,7 +23,13 @@ var slogan = new Vue({
 			url_votenhieu: '/api/question/vote_nhieu',
 			url_trongngay: '/api/question/trong_ngay',
 			url_trongtuan: '/api/question/trong_tuan',
-			url_trongthang: '/api/question/trong_thang'
+			url_trongthang: '/api/question/trong_thang',
+
+			// -----------------------
+			keysearch: '',
+			questions: [],
+			news: [],
+			searchs: []
 		}
 	},
 	methods: {
@@ -130,6 +136,34 @@ var slogan = new Vue({
 					readonly: false,
 				},
 				showConfirmButton: false
+			})
+		},
+		intanceSearch()
+		{
+			if(this.keysearch == '')
+			{
+				this.searchs = [];
+				this.questions = [];
+				this.news = [];
+				return;
+			}	
+
+			let species = $("#species").val();
+			let category = $("#category").val();
+
+			const fd = new FormData();
+			fd.append('species',species);
+			fd.append('category',category);
+			fd.append('keysearch',this.keysearch);
+
+			axios.post('/api/search/keyword',fd)
+			.then(response=>{
+				this.searchs = response.data.searchs;
+				this.questions = response.data.questions;
+				this.news = response.data.news;
+			})
+			.catch(error=>{
+				thongbao('error',error.response.data);
 			})
 		}
 	},
