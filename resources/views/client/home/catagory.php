@@ -13,7 +13,7 @@
 			<?php foreach ($this->catagories as $catagory) { ?>
 			<div class="col-lg-2 col-md-4 col-sm-6">
 				<div class="single-fcat">
-					<a href="category.html">
+					<a href="/linh-vuc/<?php echo $catagory['slug'] ?>">
 						<img src="<?php echo $catagory['image']?>" alt="">
 					</a>
 					<p><?php echo $catagory['name']?></p>

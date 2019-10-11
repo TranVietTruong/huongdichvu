@@ -124,6 +124,11 @@
 	    Load::Controller('controllers/api/DetailQuestionController.php','DetailQuestionController','vote_answer');
 	},'post');
 
+	Route::add('/api/question/get_by_category',function(){
+	    Load::Controller('controllers/api/QuestionController.php','QuestionController','get_by_category');
+	},'post');
+
+
 
 	// ******************************************* USER ***************************************************
 

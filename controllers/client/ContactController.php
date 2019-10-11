@@ -20,6 +20,8 @@ class ContactController extends Controller
     public function contact()
     { 
         $this->view->name_banner = 'Liên Hệ';
+        $this->view->title = "Liên hệ";
+
         $this->view->catagories = $this->CatagoryModel->all();
         $this->view->Render('client/head');
         $this->view->Render('client/header');
@@ -32,6 +34,8 @@ class ContactController extends Controller
     public function about()
     {
         $this->view->name_banner = 'Giới Thiệu';
+        $this->view->title = "Giới thiệu";
+
         $this->view->catagories = $this->CatagoryModel->all();
         $this->view->Render('client/head');
         $this->view->Render('client/header');

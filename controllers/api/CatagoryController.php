@@ -1,5 +1,7 @@
 <?php 
 
+require 'controllers/service/SlugService.php';
+
 class CatagoryController extends Controller
 {
     /**
@@ -80,7 +82,7 @@ class CatagoryController extends Controller
             }
         }
 
-        $this->catagoryModel->add($image,$name);
+        $this->catagoryModel->add($image,$name,SlugService::slug($name));
     }
 
     public function getCurrentCatagory()
@@ -184,7 +186,7 @@ class CatagoryController extends Controller
         else
             http_response_code(500);
 
-        $this->catagoryModel->updateName($id,$name);
+        $this->catagoryModel->updateName($id,$name,SlugService::slug($name));
     }
 
     public function removeCatagory()

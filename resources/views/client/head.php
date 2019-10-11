@@ -17,8 +17,9 @@
 
 		<meta property="fb:app_id" content="301226570676398">
 		<!-- Site Title -->
-		<title>Job Listing</title>
+		<title><?php echo $this->title ?></title>
 
+		<link rel="shortcut icon" type="image/x-icon" href="public/client/img/icons8_rocket_50px.png" />
 		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
 			<!-- CSS============================================= -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
