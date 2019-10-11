@@ -14,6 +14,7 @@
 	</footer>
 <!--footer end-->
 </section>
+
 <!-- js placed at the end of the document so the pages load faster -->
 <script src="public/admin/lib/jquery/jquery.min.js"></script>
 

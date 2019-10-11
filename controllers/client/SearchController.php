@@ -36,6 +36,7 @@ class SearchController extends Controller
     public function question()
     {
         $this->view->name_banner = 'Tìm Kiếm';
+        $this->view->title = 'Tìm kiếm';
 
         $this->view->catagories = $this->CatagoryModel->all();
 

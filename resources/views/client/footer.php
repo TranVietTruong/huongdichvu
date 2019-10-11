@@ -6,11 +6,11 @@
 							<div class="single-footer-widget">
 								<h6>Menu</h6>
 								<ul class="footer-nav">
-									<li><a href="#">Trang chủ</a></li>
-									<li><a href="#">Câu hỏi</a></li>
-									<li><a href="#">Tin tức</a></li>
-									<li><a href="#">Giới thiệu</a></li>
-									<li><a href="#">Liên hệ</a></li>
+									<li><a href="/">Trang chủ</a></li>
+									<li><a href="/cau-hoi">Câu hỏi</a></li>
+									<li><a href="/tin-tuc">Tin tức</a></li>
+									<li><a href="/gioi-thieu">Giới thiệu</a></li>
+									<li><a href="/lien-he">Liên hệ</a></li>
 
 								</ul>
 							</div>

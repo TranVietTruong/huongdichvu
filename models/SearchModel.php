@@ -8,7 +8,7 @@
 
 	    public function like($keyword)
 	    {
-	    	$sql = "SELECT * FROM search WHERE keyword LIKE '%$keyword%' ORDER BY total DESC";
+	    	$sql = "SELECT * FROM search WHERE MATCH(keyword) AGAINST('$keyword') ORDER BY total DESC";
 	    	return $this->db->Executequery($sql);
 	    }
 
