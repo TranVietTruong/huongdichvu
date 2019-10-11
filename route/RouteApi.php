@@ -177,6 +177,14 @@
 	Route::add('/api/news/search',function(){
 	    Load::Controller('controllers/api/NewsController.php','NewsController','search');
 	},'post');
+
+	Route::add('/api/news/remove',function(){
+			Load::Controller('controllers/api/NewsController.php','NewsController','remove');
+	},'post');
+
+	Route::add('/api/news/preview',function(){
+			Load::Controller('controllers/api/NewsController.php','NewsController','preview');
+	},'post');
 // ************************************ SEARCH ******************************************************
 
 	Route::add('/api/search/keyword',function(){

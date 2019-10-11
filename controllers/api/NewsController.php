@@ -70,4 +70,32 @@ class NewsController extends Controller
         $data = $this->NewsModel->like($keyword);
         echo json_encode($data,JSON_UNESCAPED_UNICODE);
     }
+
+    public function remove()
+    {
+      if(isset($_POST['id']))
+          $id = $_POST['id'];
+      $this->NewsModel->remove($id);
+    }
+
+    public function preview()
+    {
+      if(isset($_POST['link']))
+      {
+        $link = $_POST['link'];
+
+        include 'vendor/Simple_HTML_Dom/simple_html_dom.php';
+        $html = file_get_html($link);
+        $home = explode("/", $link)[2];
+        if($home == "www.brandsvietnam.com")
+        {
+          $data = $html->find('div.reading-content', 0);
+          echo json_encode($data, JSON_UNESCAPED_UNICODE);
+        }else {
+          echo 'Nothing';
+        }
+
+      }
+
+    }
  }

@@ -54,4 +54,10 @@
 			return $this->db->Executequery($sql);
 		}
 
+		public function remove($id)
+		{
+			$sql = "DELETE FROM news WHERE id = '$id'";
+			return $this->db->ExecuteNonQuery($sql);
+		}
+
 	}
