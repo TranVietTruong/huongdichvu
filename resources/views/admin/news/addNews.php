@@ -35,8 +35,8 @@
 													<div class="row">
 														<label class="col-sm-2 col-sm-2 control-label">Preview</label>
 														<div class="col-sm-10" v-if="hasPreview">
-																<div style="width: 450px; height: 720px">
-																	{{preview}}
+																<div style="width: 450px; height: 720px" v-html='preview'>
+																	
 																</div>
 														</div>
 													</div>

@@ -90,6 +90,7 @@ class NewsController extends Controller
         if($home == "www.brandsvietnam.com")
         {
           $data = $html->find('div.reading-content', 0);
+          // $data = "ok";
           echo json_encode($data, JSON_UNESCAPED_UNICODE);
         }else {
           echo 'Nothing';

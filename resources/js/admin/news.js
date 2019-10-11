@@ -70,7 +70,7 @@ var app = new Vue({
 			.then(response=>{
 				this.preview = response.data;
 				this.hasPreview = true;
-				// console.log(this.preview);
+				console.log(this.preview);
 			});
 
 		}
