@@ -6,11 +6,11 @@
 							<div class="single-footer-widget">
 								<h6>Menu</h6>
 								<ul class="footer-nav">
-									<li><a href="#">Trang chủ</a></li>
-									<li><a href="#">Câu hỏi</a></li>
-									<li><a href="#">Tin tức</a></li>
-									<li><a href="#">Giới thiệu</a></li>
-									<li><a href="#">Liên hệ</a></li>
+									<li><a href="/">Trang chủ</a></li>
+									<li><a href="/cau-hoi">Câu hỏi</a></li>
+									<li><a href="/tin-tuc">Tin tức</a></li>
+									<li><a href="/gioi-thieu">Giới thiệu</a></li>
+									<li><a href="/lien-he">Liên hệ</a></li>
 
 								</ul>
 							</div>
@@ -46,13 +46,13 @@
 							<div class="single-footer-widget">
 								<h6>Giảng viên hướng dẫn</h6>
 								<ul class="footer-nav">
-									<li><a href="#">Ths. Hoàng Quang Huy</a></li>
+									<li><a href="https://www.facebook.com/profile.php?id=100008363386568">Ths. Hoàng Quang Huy</a></li>
 								</ul>
 							</div>
 							<div class="single-footer-widget">
 								<h6>Thành viên</h6>
 								<ul class="footer-nav">
-									<li><a href="#">Trần Viết Trưởng, Vũ Ngọc Đức Long, Đoàn Quang Nhật</a></li>
+									<li><a href="/gioi-thieu">Trần Viết Trưởng, Vũ Ngọc Đức Long, Đoàn Quang Nhật</a></li>
 									<!-- <li><a href="#">Vũ Ngọc Đức Long</a></li>
 									<li><a href="#">Đoàn Quang Nhật</a></li> -->
 								</ul>

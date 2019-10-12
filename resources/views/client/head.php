@@ -5,7 +5,7 @@
 		<!-- Mobile Specific Meta -->
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<!-- Favicon-->
-		<link rel="shortcut icon" href="img/fav.png">
+		<!-- <link rel="shortcut icon" href="img/fav.png"> -->
 		<!-- Author Meta -->
 		<meta name="author" content="codepixer">
 		<!-- Meta Description -->
@@ -19,7 +19,7 @@
 		<!-- Site Title -->
 		<title><?php echo $this->title ?></title>
 
-		<link rel="shortcut icon" type="image/x-icon" href="public/client/img/icons8_rocket_50px.png" />
+		<link rel="shortcut icon" type="image/x-icon" href="public/client/img/icons8_Fire_50px.png" />
 		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
 			<!-- CSS============================================= -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">

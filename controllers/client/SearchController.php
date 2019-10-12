@@ -36,6 +36,7 @@ class SearchController extends Controller
     public function question()
     {
         $this->view->name_banner = 'Tìm Kiếm';
+        $this->view->title = 'Tìm kiếm';
 
         $this->view->catagories = $this->CatagoryModel->all();
 
@@ -128,6 +129,9 @@ class SearchController extends Controller
         else
             $keyword = null;
 
+
+        $search_questions = '';
+
         if($cate == 'NULL')
         {
 
@@ -140,36 +144,39 @@ class SearchController extends Controller
             $this->view->search_questions = $search_questions;
         }
 
+        $result = $this->SearchModel->where('keyword',$keyword);
+
+        if(count($result) > 0)
+        {
+            if(count($search_questions) == 0 && $result[0]['total'] > 1)
+            {
+                $this->view->search_questions = $this->QuestionModel->search_fulltext($keyword);
+            }
+        }
+        
         $this->view->Render('client/head');
         $this->view->Render('client/header');
         $this->view->Render('client/banner');
         $this->view->Render('client/search/search_question');
         $this->view->Render('client/question/option');
         $this->view->Render('client/footer');
-
-
   
-        if(count($search_questions) > 0)
+        if($keyword != '')
         {
             $searchs = $this->SearchModel->all();
             $update = 0;
             $id = -1;
-            foreach ($searchs as $value) {
-                if($keyword == $value['keyword'])
-                {
-                    $update = 1;
-                    $id = $value['id'];
-                    break;
-                }
-            }
+
+            if(count($result) > 0)
+                $update = 1;
+    
             if($update == 1)
             {
-                $this->SearchModel->update($id);
+                $this->SearchModel->update($result[0]['id']);
             }
             else{
                 $this->SearchModel->add($keyword,'question',$cate);
             }
-
         }
     }
 
@@ -272,27 +279,23 @@ class SearchController extends Controller
         $this->view->Render('client/question/option');
         $this->view->Render('client/footer');  
 
-        if(count($search_news) > 0)
+        if($keyword != '')
         {
             $searchs = $this->SearchModel->all();
             $update = 0;
             $id = -1;
-            foreach ($searchs as $value) {
-                if($keyword == $value['keyword'])
-                {
-                    $update = 1;
-                    $id = $value['id'];
-                    break;
-                }
-            }
+
+            $result = $this->SearchModel->where('keyword',$keyword);
+            if(count($result) > 0)
+                $update = 1;
+    
             if($update == 1)
             {
-                $this->SearchModel->update($id);
+                $this->SearchModel->update($result[0]['id']);
             }
             else{
-                $this->SearchModel->add($keyword,'news');
+                $this->SearchModel->add($keyword,'news',$cate);
             }
-
         }  
 
 

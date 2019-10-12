@@ -1,5 +1,5 @@
 <?php
-    function verify($url)
+    function verify_password($password)
     {
         return '<div class="">
     <div class="aHl"></div>
@@ -40,7 +40,7 @@
                                 <tbody>
                                     <tr>
                                         <td>
-                                            <h1 style="font-family:tahoma;color:#ffffff;font-size:18px;margin:5px 0">Thư xác nhận tài khoản</h1>
+                                            <h1 style="font-family:tahoma;color:#ffffff;font-size:18px;margin:5px 0">Thư cấp lại mật khẩu</h1>
                                         </td>
                                     </tr>
                                 </tbody>
@@ -72,7 +72,11 @@
                                     <tr>
                                         <td>
                                             <p style="font-family:tahoma;font-size:16px;color:#363636">ĐÂY LÀ EMAIL TỰ ĐỘNG CỦA HỆ THỐNG. VUI LÒNG KHÔNG TRẢ LỜI LẠI EMAIL NÀY. </p>
-                                            <p style="font-family:tahoma;font-size:12px;color:#363636;line-height:18px"><br><a href="'.$url.'"> Nhấp vào đây để xác nhận tài khoản</a></p>
+                                            <p style="font-family:tahoma;font-size:12px;color:#363636;line-height:18px">
+                                                <br>
+                                                Mật khẩu của bạn là: <strong>"'.$password.'"</strong>
+                                            </p>
+                                            <p style="font-family:tahoma;font-size:12px;color:#363636;line-height:18px"><br>Bạn vui lòng đổi mật khẩu sau khi đăng nhập</p>
                                         </td>
                                     </tr>
                                     <tr>

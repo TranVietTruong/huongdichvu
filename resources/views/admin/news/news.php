@@ -1,4 +1,4 @@
-<div id="news">
+<div id="app">
 <section id="main-content">
 	<section class="wrapper">
 		<div class="row mt">

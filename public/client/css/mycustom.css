@@ -691,3 +691,11 @@ ul.detail li span.edit-name i.fa-times{
   color: #007bff;
   cursor: pointer;
 }
+
+blockquote {
+    margin: 0 0 1rem;
+    background: black;
+    padding: 5px;
+    color: white;
+    border-left: 3px solid orange;
+}
