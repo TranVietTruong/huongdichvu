@@ -46,13 +46,13 @@
 							<div class="single-footer-widget">
 								<h6>Giảng viên hướng dẫn</h6>
 								<ul class="footer-nav">
-									<li><a href="#">Ths. Hoàng Quang Huy</a></li>
+									<li><a href="https://www.facebook.com/profile.php?id=100008363386568">Ths. Hoàng Quang Huy</a></li>
 								</ul>
 							</div>
 							<div class="single-footer-widget">
 								<h6>Thành viên</h6>
 								<ul class="footer-nav">
-									<li><a href="#">Trần Viết Trưởng, Vũ Ngọc Đức Long, Đoàn Quang Nhật</a></li>
+									<li><a href="/gioi-thieu">Trần Viết Trưởng, Vũ Ngọc Đức Long, Đoàn Quang Nhật</a></li>
 									<!-- <li><a href="#">Vũ Ngọc Đức Long</a></li>
 									<li><a href="#">Đoàn Quang Nhật</a></li> -->
 								</ul>

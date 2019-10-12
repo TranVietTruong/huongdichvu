@@ -16,8 +16,8 @@
 								<div class="text-danger " v-if="errors.has('password')">{{errors.first('password')}}</div>
 							</div>
 
-							<div class="forget-password">
-								<a href="">Quên mật khẩu ?</a>
+							<div class="forget-password" @click="forgetPass">
+								<span class="text-primary" style="cursor: pointer;">Quên mật khẩu ?</span>
 							</div>
 
 							<button @click="login" type="button" class="primary-btn mt-20 text-white">Đăng Nhập</button>

@@ -191,7 +191,7 @@
 
 		public function like_and_cate($id_catagory,$keyword)
 		{
-			$sql = "SELECT * FROM question WHERE id_catagory = '$id_catagory' AND MATCH(title) AGAINST('$keyword' WITH QUERY EXPANSION) DESC LIMIT 5";
+			$sql = "SELECT * FROM question WHERE id_catagory = '$id_catagory' AND MATCH(title) AGAINST('$keyword' WITH QUERY EXPANSION) LIMIT 5";
 			return $this->db->Executequery($sql);
 		}
 
@@ -201,7 +201,7 @@
 			$sql = "SELECT question.*,DATE_FORMAT(question.created_at, '%d/%m/%Y %H:%i') as time, user.full_name, catagory.name as catagory FROM question 
 					INNER JOIN user ON question.id_user = user.id
 					INNER JOIN catagory ON question.id_catagory = catagory.id
-					WHERE question.active = 1 AND question.title LIKE '%$keyword%' ORDER BY question.vote DESC LIMIT 15";
+					WHERE question.active = 1 AND question.title LIKE '%$keyword%' LIMIT 15";
 			return $this->db->Executequery($sql);
 		}
 
@@ -210,7 +210,17 @@
 			$sql = "SELECT question.*,DATE_FORMAT(question.created_at, '%d/%m/%Y %H:%i') as time, user.full_name, catagory.name as catagory FROM question 
 					INNER JOIN user ON question.id_user = user.id
 					INNER JOIN catagory ON question.id_catagory = catagory.id
-					WHERE question.active = 1 AND question.id_catagory = '$id_cate' AND question.title LIKE '%$keyword%' ORDER BY question.vote DESC LIMIT 15";
+					WHERE question.active = 1 AND question.id_catagory = '$id_cate' AND question.title LIKE '%$keyword%' LIMIT 15";
+			return $this->db->Executequery($sql);
+		}
+
+
+		public function search_fulltext($keyword)
+		{
+			$sql = "SELECT question.*,DATE_FORMAT(question.created_at, '%d/%m/%Y %H:%i') as time, user.full_name, catagory.name as catagory FROM question 
+					INNER JOIN user ON question.id_user = user.id
+					INNER JOIN catagory ON question.id_catagory = catagory.id
+					WHERE question.active = 1 AND MATCH(question.title) AGAINST('$keyword' WITH QUERY EXPANSION) LIMIT 7";
 			return $this->db->Executequery($sql);
 		}
 
