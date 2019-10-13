@@ -453,12 +453,9 @@ ul.list-tag li a{
 .detail_news ul{
   list-style: unset;
 }
-<<<<<<< HEAD
 
 .content-question h1,.content-question h2,.content-question h3, .content-question h4, .content-question h4{
    display: none;
-<<<<<<< Updated upstream
-=======
 }
 
 
@@ -698,4 +695,77 @@ blockquote {
     padding: 5px;
     color: white;
     border-left: 3px solid orange;
+}
+
+.bg {
+    width: 100%;
+    height: 113px;
+    background: url(https://cdn.sstatic.net/img/ask/background.svg?v=6084701e738a) no-repeat;
+    background-position: center;
+}
+
+.steps ul li {
+  cursor: pointer;
+  padding: 10px 5px;
+  border-bottom: 1px solid #90909036;
+}
+.steps ul li:last-child {
+  border-bottom: none;
+}
+.steps{
+      box-shadow: 0 4px 8px rgba(59,64,69,0.2) !important;
+    padding: 20px 10px;
+}
+.step{
+  display: flex;
+}
+.step span {
+    padding-top: 5px;
+    padding-left: 9px;
+}
+
+.step-down {
+    padding-top: 5px;
+    position: absolute;
+    right: 24px;
+}
+
+.detail-step {
+    padding: 20px 20px;
+    text-align: justify;
+    font-size: 13px;
+}
+
+.my-post {
+      box-shadow: 0 4px 8px rgba(59,64,69,0.2) !important;
+    padding: 20px 20px;
+}
+
+.steps h5 {
+    display: block;
+    background: #8e84840d;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+section#login {
+    background: url(https://cdn.sstatic.net/img/home/illo-hero-full.svg?v=e2018a5f9272) no-repeat;
+    background-position:top center;
+        background-size: 93%;
+
+}
+
+section#register {
+  background: url(https://cdn.sstatic.net/img/teams/overview/hero-left.png?v=e5ef709106d1) no-repeat 0 50% / contain,url(https://cdn.sstatic.net/img/teams/overview/hero-right.png?v=07bc4978ecf4) no-repeat 100% 50% / contain;
+  background-size: 36% 50%;
+}
+
+.fly {
+    width: 100px;
+    position: absolute;
+    top: -62px;
+    right: 100px;
 }

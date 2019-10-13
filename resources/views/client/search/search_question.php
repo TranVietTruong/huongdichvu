@@ -3,6 +3,12 @@
 	<div class="container">
 		<div class="row justify-content-center d-flex">
 			<div class="col-lg-8 post-list">
+				<?php
+					if(count($this->search_questions) == 0)
+					{
+						echo '<h4> Không có kết quả nào </h4>';
+					} 
+				?>
 				<?php foreach ($this->search_questions as $question) { ?>
 				<div class="single-post d-flex flex-row">
 					<div class="thumb">

@@ -2306,6 +2306,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .banner-area {
   background: url(../img/header-bg.jpg) center;
   background-size: cover;
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 2vw), 0 100%);
 }
 
 .banner-area .overlay-bg {
@@ -2997,7 +2998,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .download-area {
-  background-color: #f9f9ff;
+  /*background-color: #f9f9ff;*/
 }
 
 @media (max-width: 960px) {
@@ -3130,6 +3131,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 .footer-area {
   padding-top: 100px;
   background-color: #222222;
+      clip-path: polygon(0 0, 100% 2vw, 100% 100%, 0 100%);
+
 }
 
 .footer-area .footer-nav li {
