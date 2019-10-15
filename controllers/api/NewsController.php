@@ -78,22 +78,25 @@ class NewsController extends Controller
       $this->NewsModel->remove($id);
     }
 
-    public function preview()
+    public function addNews()
     {
       if(isset($_POST['link']))
       {
         $link = $_POST['link'];
+        $from_site = $_POST['from_site'];
 
-        include 'vendor/Simple_HTML_Dom/simple_html_dom.php';
-        $html = file_get_html($link);
+        include 'vendor/Simple_HTML_Dom/crawl_news.php';
+
         $home = explode("/", $link)[2];
-        if($home == "www.brandsvietnam.com")
+        if($home == $from_site)
         {
-          $data = $html->find('div.reading-content', 0);
-          // $data = "ok";
-          echo json_encode($data, JSON_UNESCAPED_UNICODE);
+          $sql_crawl = crawl_brandsvietnam($link);
+          // $data = ['status'=>'success', 'title'=> 'Thêm thành công!'];
+          $this->NewsModel->add($sql_crawl);
+          // echo json_encode($data, JSON_UNESCAPED_UNICODE);
         }else {
-          echo 'Nothing';
+          // $data = ['status'=>'error', 'title'=>'Thiếu trang đích'];
+          // echo json_encode($data, JSON_UNESCAPED_UNICODE);
         }
 
       }

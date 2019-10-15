@@ -187,8 +187,8 @@
 			Load::Controller('controllers/api/NewsController.php','NewsController','remove');
 	},'post');
 
-	Route::add('/api/news/preview',function(){
-			Load::Controller('controllers/api/NewsController.php','NewsController','preview');
+	Route::add('/api/news/add',function(){
+			Load::Controller('controllers/api/NewsController.php','NewsController','addNews');
 	},'post');
 // ************************************ SEARCH ******************************************************
 

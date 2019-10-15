@@ -60,4 +60,8 @@
 			return $this->db->ExecuteNonQuery($sql);
 		}
 
+		public function add($sql)
+		{
+			return $this->db->ExecuteNonQuery($sql);
+		}
 	}

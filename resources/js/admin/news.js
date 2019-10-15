@@ -3,7 +3,10 @@ const dictionary = {
 		link: {
 			required: () => 'Đường dẫn không hợp lệ',
 			max: () => 'Đường dẫn không hợp lệ',
-		}
+		},
+		sites: {
+			required: () => 'Yêu cầu chọn trang'
+		},
 	}
 };
 VeeValidate.Validator.localize('en',dictionary);
@@ -12,9 +15,18 @@ Vue.use(VeeValidate);
 function thongbao(type,message)
 {
 	Swal.fire({
-        type: type,
+        type: type, //success, info, error, // WARNING
         title: 'Thông báo',
         text: message,
+    })
+}
+
+function thongbao2(type,message)
+{
+	Swal.fire({
+        type: type,
+        text: message,
+        showConfirmButton: false,
     })
 }
 
@@ -25,11 +37,12 @@ var app = new Vue({
 	data(){
 		return{
 			listNews: [],
+			sites: ['www.brandsvietnam.com', 'www.khoinghiepvietnam.org', 'www.khoi.nghiep.vn'],
+			message: '',
 			url: '/api/news/get_news',
 			pagination: {},
 			keyword: '',
-			preview: '',
-			hasPreview: false,
+			from_site: '',
 			link: ''
 		}
 	},
@@ -58,21 +71,24 @@ var app = new Vue({
 		},
 		addNews()
 		{
-
-		},
-		changeLink(event)
-		{
-			this.link = event.target.value;
 			const fd = new FormData();
 			fd.append('link', this.link);
+			fd.append('from_site', this.from_site);
 
-			axios.post('/api/news/preview', fd)
-			.then(response=>{
-				this.preview = response.data;
-				this.hasPreview = true;
-				console.log(this.preview);
-			});
+			if(this.link.split("/")[2] != this.from_site)
+			{
+				thongbao('error', 'Thiếu trang đích');
+			}
+			else {
+				thongbao('success', 'Thêm thành công!');
+				axios.post('/api/news/add', fd)
+				.then(response=>{
+						// this.message = response.data;
+				});
 
+				this.link = "";
+				this.from_site = "";
+			}
 		}
 	},
 	mounted(){
