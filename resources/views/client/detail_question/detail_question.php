@@ -83,6 +83,8 @@
 			
 				<!-- <hr> -->
 				<div class="cmt mt-30">
+					<hr>
+					<h5 class="mb-2">Câu trả lời của bạn</h5>
 					<div class="tl">
 						<textarea name="editor1" id="txtFT_Content" name ="txtFT_Content"></textarea>
 					</div>

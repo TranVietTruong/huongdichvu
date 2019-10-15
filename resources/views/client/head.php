@@ -32,9 +32,9 @@
 		<link rel="stylesheet" href="public/client/css/owl.carousel.css">
 		<link rel="stylesheet" href="public/client/css/main.css">
 		<link rel="stylesheet" href="public/client/css/mycustom.css">
-		
-
-		
+		<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+	
+			
 	</head>
 		<body>
 		<div id="fb-root"></div>

@@ -41,7 +41,10 @@
 									<input v-model="repassword" v-validate="{required:true,is:password}"type="password" data-vv-name="repassword" placeholder="Nhập lại mật khẩu" class="single-input form-control">
 									<div class="text-danger " v-if="errors.has('repassword')">{{errors.first('repassword')}}</div>
 								</div>
-								
+								<div class="g-recaptcha" data-sitekey="6LcSgb0UAAAAAKN9tJ0LXQQO4GDeKLQhfNFum9yp"></div>
+								<div class="text-danger " v-if="errorCaptcha">{{errorCaptcha}}</div>
+
+
 								<button @click="register" type="button"  class="primary-btn mt-20 text-white">Đăng Ký</button>
 								<div class="mt-20 alert-msg" style="text-align: left;"></div>
 							</div>

@@ -114,6 +114,8 @@
 				    display: none !important;
 				}
 			</style>
+			
+
 			<script>
 				CKEDITOR.replace( 'editor1' );
 			</script>

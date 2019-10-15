@@ -109,6 +109,21 @@
 									
 								</ul>
 							</div>
+							<div class="rule">
+								<p>Cảm ơn bạn đã đặt câu hỏi cho chúng tôi</p>
+								<p>Tuy nhiên câu hỏi của bạn sẽ được công bố rộng rãi đến mọi người vì vậy bạn hãy chắc chắn về câu hỏi của mình nên có những điều sau đây</p>
+								<ul>
+									<li><i class="fa fa-check text-success"></i> Nên có những phép lịch sự tối thiểu</li>
+									<li><i class="fa fa-check text-success"></i> Ngôn từ trong sáng dễ hiểu</li>
+									<li><i class="fa fa-check text-success"></i> Cung cấp đẩy đủ các thông tin cần thiết</li>
+								</ul>
+								<p class="mt-2">Và cần tránh tuyệt đối những điều sau đây</p>
+								<ul>
+									<li><i class="fa fa-times text-danger"></i> Các vấn đề tôn giáo, sắc tộc</li>
+									<li><i class="fa fa-times text-danger"></i> Ngôn từ thô tục, đả kích</li>
+									<li><i class="fa fa-times text-danger"></i> Nói xấu cá nhân, tổ chức</li>
+								</ul>
+							</div>
 						</div>
 					</div>
 				</form>

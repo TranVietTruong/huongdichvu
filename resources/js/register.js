@@ -59,6 +59,7 @@ var app = new Vue({
 			password: '',
 			repassword: '',
 			message: '',
+			errorCaptcha: '',
 
 			// ---------------
 			keysearch: '',
@@ -69,15 +70,21 @@ var app = new Vue({
 	},
 	methods: {
 		register(){
+			let captcha = grecaptcha.getResponse();
 			this.$validator.validate().then(valid=>{
 				if(valid)
 				{
+					if(captcha == '')
+					{
+						this.errorCaptcha = 'Nhập captcha';
+						return;
+					}
 					const fd = new FormData();
 					fd.append('full_name',this.full_name);
 					fd.append('email',this.email);
 					fd.append('username',this.username);
 					fd.append('password',this.password);
-
+					fd.append('captcha',captcha);
 					axios.post('api/register',fd,{
             			onUploadProgress: uploadEvent => {
             				this.message = 'Đang đăng ký ... '+ Math.round((uploadEvent.loaded * 99) / uploadEvent.total)+"%";
@@ -85,15 +92,19 @@ var app = new Vue({
             			}
             		})
 					.then(response=>{
-						thongbao('success','Một email đã được gửi đến hòm thư của bạn, vui lòng kiểm tra hòm thư');
 						this.full_name = '';
 						this.email = '';
 						this.username = '';
 						this.password = '';
 						this.repassword = '';
+						this.errorCaptcha = '';
+						thongbao('success','Một email đã được gửi đến hòm thư của bạn, vui lòng kiểm tra hòm thư');
 					})
 					.catch(error=>{
 						thongbao('error',error.response.data);
+					})
+					.finally(function(){
+						grecaptcha.reset();
 					})
 				}
 			});
