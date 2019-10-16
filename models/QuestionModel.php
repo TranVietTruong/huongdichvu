@@ -185,13 +185,12 @@
 
 		public function like($keyword)
 		{
-			$sql = "SELECT * FROM question WHERE MATCH(title) AGAINST('$keyword' WITH QUERY EXPANSION) ORDER BY vote DESC LIMIT 15";
+			$sql = "SELECT * FROM question WHERE MATCH(title) AGAINST('$keyword' WITH QUERY EXPANSION) LIMIT 5";
 			return $this->db->Executequery($sql);
 		}
-
 		public function like_and_cate($id_catagory,$keyword)
 		{
-			$sql = "SELECT * FROM question WHERE id_catagory = '$id_catagory' AND MATCH(title) AGAINST('$keyword' WITH QUERY EXPANSION) ORDER BY vote DESC LIMIT 15";
+			$sql = "SELECT * FROM question WHERE id_catagory = '$id_catagory' AND MATCH(title) AGAINST('$keyword' WITH QUERY EXPANSION) LIMIT 5";
 			return $this->db->Executequery($sql);
 		}
 

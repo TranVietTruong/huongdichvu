@@ -54,5 +54,39 @@
 	    	return $this->db->ExecuteNonQuery($sql);
 	    }
 
+			public function count()
+			{
+				$sql = "SELECT COUNT(*) AS count FROM user";
+				return $this->db->Executequery($sql)[0]['count'];
+			}
+
+			public function paginate($trang,$user_display)
+			{
+				$sql = "SELECT *,DATE_FORMAT(created_at, '%d/%m/%Y %H:%i') as time FROM user LIMIT $trang,$user_display";
+				return $this->db->Executequery($sql);
+			}
+
+			public function updateActive($id)
+			{
+				$sql = "SELECT * FROM user WHERE id ='$id'";
+				$user = $this->db->Executequery($sql)[0];
+				if($user['active'] == 1)
+				{
+					$sql = "UPDATE user SET active = '0' WHERE id = '$id'";
+					$this->db->ExecuteNonQuery($sql);
+				}
+				else
+				{
+					$sql = "UPDATE user SET active = '1' WHERE id = '$id'";
+					$this->db->ExecuteNonQuery($sql);
+				}
+
+			}
+
+			public function remove($id)
+			{
+				$sql = "DELETE user WHERE id = '$id'";
+				$this->db->ExecuteNonQuery($sql);
+			}
 
 	}

@@ -159,6 +159,17 @@
 	    Load::Controller('controllers/api/UserController.php','UserController','update_pass');
 	},'post');
 
+	Route::add('/api/user/get_users',function(){
+		    Load::Controller('controllers/api/UserController.php','UserController','get_users');
+		},'post');
+
+	Route::add('/api/users/update-active',function(){
+			   Load::Controller('controllers/api/UserController.php','UserController','updateActive');
+		},'post');
+
+	Route::add('/api/user/remove',function(){
+				  Load::Controller('controllers/api/UserController.php','UserController','remove');
+		},'post');
 
 
 
