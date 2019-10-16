@@ -89,4 +89,9 @@
 				$this->db->ExecuteNonQuery($sql);
 			}
 
+			public function update_code($email,$code_email)
+	    {
+	    	$sql = "UPDATE user SET code_email = '$code_email' WHERE email = '$email'";
+	    	return $this->db->ExecuteNonQuery($sql);
+	    }
 	}
