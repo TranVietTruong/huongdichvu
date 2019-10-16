@@ -37,7 +37,7 @@ var app = new Vue({
 	data(){
 		return{
 			listNews: [],
-			sites: ['www.brandsvietnam.com', 'www.khoinghiepvietnam.org', 'www.khoi.nghiep.vn'],
+			sites: ['www.brandsvietnam.com'],
 			message: '',
 			url: '/api/news/get_news',
 			pagination: {},

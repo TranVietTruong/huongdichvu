@@ -163,7 +163,7 @@
 		    Load::Controller('controllers/api/UserController.php','UserController','get_users');
 		},'post');
 
-	Route::add('/api/users/update-active',function(){
+	Route::add('/api/user/update-active',function(){
 			   Load::Controller('controllers/api/UserController.php','UserController','updateActive');
 		},'post');
 
@@ -214,5 +214,3 @@
 	Route::add('/api/user/forget_password',function(){
 	    Load::Controller('controllers/api/UserController.php','UserController','forget_password');
 	},'post');
-
-

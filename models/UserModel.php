@@ -85,8 +85,8 @@
 
 			public function remove($id)
 			{
-				$sql = "DELETE user WHERE id = '$id'";
-				$this->db->ExecuteNonQuery($sql);
+				$sql = "DELETE FROM user WHERE id = '$id'";
+				return $this->db->ExecuteQuery($sql);
 			}
 
 			public function update_code($email,$code_email)
