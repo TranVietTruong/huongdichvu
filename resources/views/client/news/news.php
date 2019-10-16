@@ -8,7 +8,7 @@
 					</div>
 					<div class="title-news">
 						<a :href="'tin-tuc/'+tintuc.slug">
-							<h4>{{tintuc.title}}</h4>
+							<h4 v-html="tintuc.title"></h4>
 						</a>
 						<div class="time">
 							<span><i class="far fa-calendar-alt"></i></span>

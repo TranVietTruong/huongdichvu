@@ -10,7 +10,7 @@
 							<li @click="question" :class="{active: current == 'question'}">Câu hỏi</li>
 							<li @click="answer" :class="{active: current == 'answer'}">Câu trả lời</li>
 							<li @click="user" :class="{active: current == 'user'}">Thông tin cá nhân</li>
-							<li><a href="/dang-xuat">Đăng Xuất </a></li>
+							<li><a href="/dang-xuat" style="display: block;width: 100%;height: 100%">Đăng Xuất </a></li>
 						</ul>
 					</div>
 				</div>

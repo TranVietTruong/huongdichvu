@@ -89,4 +89,12 @@ Route::add('/verify-email',function(){
 	Load::Controller('controllers/client/HomeController.php','HomeController','verify_email');
 },'get');
 
+Route::add('/forget-password',function(){
+	if(isset($_SESSION['user']))
+	{
+		header('location:/404');
+	}
+	Load::Controller('controllers/client/HomeController.php','HomeController','verify_forget_password');
+},'get');
+
 

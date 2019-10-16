@@ -12,7 +12,7 @@ class Error404Controller extends Controller
 
     public function error404()
     {
-        $this->view->Render('admin/404');
+        $this->view->Render('client/404');
     }
 }
 

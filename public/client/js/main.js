@@ -283,5 +283,14 @@ $(document).ready(function(){
         //     //console.error( error );
         // } );
 
+        $('.detail-step').hide();
 
+        $('.step').click(function(event) {
+            $(this).next().slideToggle(400);
+            let i = $(this).find('i');
+            if(i.hasClass('fa-sort-down'))
+              i.addClass('fa-sort-up').removeClass('fa-sort-down');
+            else
+              i.addClass('fa-sort-down').removeClass('fa-sort-up');
+        });
  });

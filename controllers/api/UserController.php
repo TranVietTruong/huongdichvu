@@ -1,4 +1,11 @@
 <?php
+    use PHPMailer\PHPMailer\PHPMailer;
+    use PHPMailer\PHPMailer\Exception;
+
+    require 'vendor/PHPMailer/src/Exception.php';
+    require 'vendor/PHPMailer/src/PHPMailer.php';
+    require 'vendor/PHPMailer/src/SMTP.php';
+
 class UserController extends Controller
 {
     /**
@@ -232,60 +239,61 @@ class UserController extends Controller
 
     public function forget_password()
     {
-      try
-      {
-          if(isset($_POST['email']))
-              $email = $_POST['email'];
+        try
+        {
+            if(isset($_POST['email']))
+                $email = $_POST['email'];
 
-          $user = $this->UserModel->where('email',$email);
-          if($user[0]['email_verified'] == 0)
-              throw new Exception();
-
-
-
-          $code_email = mt_rand(100000,999999);
-
-          $this->UserModel->update_code($email,$code_email);
-
-          $url = 'http://huongdichvu.com:8888/forget-password?code_email='.$code_email;
-
-          $this->view->Render('email/forget_password');
-
-          $mail = new PHPMailer(true);
+            $user = $this->UserModel->where('email',$email);
+            if($user[0]['email_verified'] == 0)
+                throw new Exception();
 
 
-          //Server settings
-          $mail->CharSet = "UTF-8";
-          $mail->SMTPDebug = 2;                                       // Enable verbose debug output
-          $mail->isSMTP();                                            // Set mailer to use SMTP
-          $mail->Host       = 'smtp.gmail.com';  // Specify main and backup SMTP servers
-          $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
-          $mail->Username   = 'tranviettruong1998@gmail.com';                     // SMTP username
-          $mail->Password   = '1141360217';                               // SMTP password
-          $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;         // Enable TLS encryption, `PHPMailer::ENCRYPTION_SMTPS` also accepted
-          $mail->Port       = 587;                                    // TCP port to connect to
 
-          //Recipients
-          $mail->setFrom('tranviettruong1998@gmail.com', 'Tư Vấn Khởi Nghiệp');
-          $mail->addAddress($email, 'User');     // Add a recipient
+            $code_email = mt_rand(100000,999999);
 
-          // Attachments
-          //$mail->addAttachment('/var/tmp/file.tar.gz');         // Add attachments
-          //$mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
+            $this->UserModel->update_code($email,$code_email);
 
-          // Content
-          $mail->isHTML(true);                                  // Set email format to HTML
-          $mail->Subject = 'THƯ CẤP LẠI MẬT KHẨU';
-          $mail->Body    = forget_password($url);
-          $mail->AltBody = 'Tư Vấn Khởi Nghiệp';
+            $url = 'http://huongdichvu.com:8888/forget-password?code_email='.$code_email;
 
-          $mail->send();
+            $this->view->Render('email/forget_password');
 
-      }
-      catch (Exception $e) {
-          http_response_code(500);
-          echo json_encode($e->getMessage(),JSON_UNESCAPED_UNICODE);
-      }
+            $mail = new PHPMailer(true);
+
+
+            //Server settings
+            $mail->CharSet = "UTF-8";
+            $mail->SMTPDebug = 2;                                       // Enable verbose debug output
+            $mail->isSMTP();                                            // Set mailer to use SMTP
+            $mail->Host       = 'smtp.gmail.com';  // Specify main and backup SMTP servers
+            $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
+            $mail->Username   = 'tranviettruong1998@gmail.com';                     // SMTP username
+            $mail->Password   = '1141360217';                               // SMTP password
+            $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;         // Enable TLS encryption, `PHPMailer::ENCRYPTION_SMTPS` also accepted
+            $mail->Port       = 587;                                    // TCP port to connect to
+
+            //Recipients
+            $mail->setFrom('tranviettruong1998@gmail.com', 'Tư Vấn Khởi Nghiệp');
+            $mail->addAddress($email, 'User');     // Add a recipient
+
+            // Attachments
+            //$mail->addAttachment('/var/tmp/file.tar.gz');         // Add attachments
+            //$mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
+
+            // Content
+            $mail->isHTML(true);                                  // Set email format to HTML
+            $mail->Subject = 'THƯ CẤP LẠI MẬT KHẨU';
+            $mail->Body    = forget_password($url);
+            $mail->AltBody = 'Tư Vấn Khởi Nghiệp';
+
+            $mail->send();
+
+        }
+        catch (Exception $e) {
+            http_response_code(500);
+            echo json_encode($e->getMessage(),JSON_UNESCAPED_UNICODE);
+        }
 
     }
+
  }

@@ -57,6 +57,43 @@ var app = new Vue({
 			});
 		},
 
+		forgetPass()
+		{
+			(async () => {
+				const { value: email } = await Swal.fire({
+					text: "Nhập địa chỉ email",
+					input: "email",
+					inputPlaceholder: "Nhập đia chỉ email"
+				});
+
+				if (email) {
+					const fd = new FormData();
+					fd.append('email',email);
+
+					axios.post('/api/user/forget_password',fd,{
+						onUploadProgress: uploadEvent => {
+            				Swal.fire({
+								type: 'info',
+								title: 'Thông báo',
+								text: 'Đang xử lý...',
+								showConfirmButton: false
+							})
+            			}
+					})
+					.then(response=>{
+						Swal.fire({
+							type: 'success',
+							title: 'Thông báo',
+							text: 'Một tin nhắn đã được gửi đến email của bạn',
+						})
+					})
+					.catch(error=>{
+						
+					})
+				}
+			})();
+		},
+
 		intanceSearch()
 		{
 			if(this.keysearch == '')

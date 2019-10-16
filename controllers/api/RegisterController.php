@@ -23,6 +23,28 @@ class RegisterController extends Controller
     public function register()
     {
     	try {
+    		if(isset($_POST['captcha']))
+    		{
+    			$secret = '6LcSgb0UAAAAAIFY3J1gQYnjrTFNs9AeYpfTkCdd';
+    			$verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret='.$secret.'&response='.$_POST['captcha']);
+    			$responseData = json_decode($verifyResponse);
+    			if($responseData->success)
+    			{
+    				$succMsg = 'Your contact request have submitted successfully.';
+    			}
+    			else
+    			{
+    				throw new Exception('Nhập captcha');
+    			}
+    		}
+    		else
+    		{
+    			throw new Exception('Nhập captcha');
+    		}
+
+
+
+
 	    	if(isset($_POST['full_name']))
 	    		$full_name = $_POST['full_name'];
 	    	else
@@ -67,7 +89,7 @@ class RegisterController extends Controller
     	
 		    //Server settings
 		    $mail->CharSet = "UTF-8"; 
-		    $mail->SMTPDebug = 2;                                       // Enable verbose debug output
+		    $mail->SMTPDebug = 0;                                       // Enable verbose debug output
 		    $mail->isSMTP();                                            // Set mailer to use SMTP
 		    $mail->Host       = 'smtp.gmail.com';  // Specify main and backup SMTP servers
 		    $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
@@ -96,7 +118,7 @@ class RegisterController extends Controller
 		    }
 		} 
 		catch (Exception $e) {
-		   	http_response_code(500);
+		   	http_response_code(401);
 		   	echo json_encode($e->getMessage(),JSON_UNESCAPED_UNICODE);
 		}
     }

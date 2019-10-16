@@ -4,7 +4,7 @@
 			<div class="menu-content pb-70 col-lg-8">
 				<div class="title text-center">
 					<h1 class="mb-10">Thành Viên</h1>
-					<p>Who are in extremely love with eco friendly system.</p>
+					<p>We are a TEAM</p>
 				</div>
 			</div>
 		</div>						

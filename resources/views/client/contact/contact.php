@@ -8,7 +8,7 @@
 				<a class="contact-btns" href="#">Ý tưởng</a>
 			</div>
 			<div class="col-lg-8">
-				<form class="form-area " id="myForm" action="mail.php" method="post" class="contact-form text-right">
+				<form class="form-area " id="myForm" class="contact-form text-right">
 					<div class="row">	
 						<div class="col-lg-12 form-group">
 							<input name="name" placeholder="Họ tên" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Họ tên'" class="common-input mb-20 form-control" required="" type="text">
@@ -17,7 +17,7 @@
 
 							<input name="subject" placeholder="Tiêu đề" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Tiêu đề'" class="common-input mb-20 form-control" required="" type="text">
 							<textarea class="common-textarea mt-10 form-control" name="message" placeholder="Nội dung" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Nội dung'" required=""></textarea>
-							<button class="primary-btn mt-20 text-white" style="float: right;">Gửi</button>
+							<button onclick="alert('Gửi thành công')" type="button" class="primary-btn mt-20 text-white" style="float: right;">Gửi</button>
 							<div class="mt-20 alert-msg" style="text-align: left;"></div>
 						</div>
 					</div>

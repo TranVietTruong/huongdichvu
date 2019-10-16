@@ -206,3 +206,13 @@
 	Route::add('/api/search/keyword',function(){
 	    Load::Controller('controllers/api/SearchController.php','SearchController','search');
 	},'post');
+
+
+
+
+//************************************ FOREGET PASSWORD ********************************************
+	Route::add('/api/user/forget_password',function(){
+	    Load::Controller('controllers/api/UserController.php','UserController','forget_password');
+	},'post');
+
+
