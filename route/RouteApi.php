@@ -128,6 +128,9 @@
 	    Load::Controller('controllers/api/QuestionController.php','QuestionController','get_by_category');
 	},'post');
 
+	Route::add('/api/question/de_xuat_cau_tra_loi',function(){
+	    Load::Controller('controllers/api/DetailQuestionController.php','DetailQuestionController','de_xuat_cau_tra_loi');
+	},'post');
 
 
 	// ******************************************* USER ***************************************************

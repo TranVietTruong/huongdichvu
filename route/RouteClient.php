@@ -1,7 +1,14 @@
 <?php
+// ==================================== ERROR 404 =================================================
+Route::add('/404',function(){
+    Load::Controller('controllers/error/Error404Controller.php','Error404Controller','error404');
+},'get');
+// ====================================== END ====================================================
+
 Route::add('/',function(){
 	Load::Controller('controllers/client/HomeController.php','HomeController','home');
 },'get');
+
 
 Route::add('/linh-vuc/([a-z0-9\-]+$)',function(){
 	Load::Controller('controllers/client/CategoryController.php','CategoryController','cate');

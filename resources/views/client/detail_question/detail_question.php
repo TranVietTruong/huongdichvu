@@ -80,7 +80,37 @@
 						</div>
 					</div>
 				</div>
-			
+				
+				<div class="options" v-if="dexuat.length > 0 && listAnswer.length == 0">
+					<div class="answer mt-10">
+						<span class="fz-18"> {{dexuat.length}} câu trả lời đề xuất</span>
+					</div>
+					
+					<hr>
+				</div>
+				<div v-for="answer in dexuat" v-if="answer.sucsong != 0" class="single-post job-details answer">
+					<div class="post-by">
+						<span><i class="far fa-user"></i></span>
+						Đăng bởi:
+						<a href="">{{answer.full_name}}</a>
+					</div>	
+					<div class="post-in">
+						<span><i class="far fa-calendar-alt"></i></span>
+						Ngày đăng: 
+						<span class="text-primary">{{answer.time}}</span>
+					</div>
+					<div class="content" v-html="answer.content">
+						
+					</div>
+					<div class="vote">
+						<div @click="voteAnswer(answer)">
+							<span :class="{support_active:answer.voted}" class="support"><i class="fas fa-check"></i></span>
+						</div>
+						<div class="text-dark fw400">
+							<span class="fz-18">{{answer.vote}}</span>
+						</div>
+					</div>
+				</div>
 				<!-- <hr> -->
 				<div class="cmt mt-30">
 					<hr>
