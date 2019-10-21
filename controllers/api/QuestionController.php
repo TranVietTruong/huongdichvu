@@ -1,6 +1,7 @@
 <?php
 
 require 'controllers/service/SlugService.php';
+require 'vendor/captcha/captcha.php';
 
 class QuestionController extends Controller
 {
@@ -24,60 +25,80 @@ class QuestionController extends Controller
         $this->CatagoryModel = new CatagoryModel();
     }
 
+    public function get_captcha()
+    {
+        $captcha = new captcha();
+        $captcha->get_captcha();
+    }
+
   
     public function post_question()
     {
-    	
-		if(isset($_POST['major']))
-    		$major = $_POST['major'];
-    	else
-    		throw new Exception('Không thể đăng câu hỏi',500);
+    	try 
+        {
+        
+    		if(isset($_POST['major']))
+        		$major = $_POST['major'];
+        	else
+        		throw new Exception('Không thể đăng câu hỏi',500);
 
-    	if(isset($_POST['title']))
-    		$title = $_POST['title'];
-    	else
-    		throw new Exception('Không thể đăng câu hỏi',500);
+        	if(isset($_POST['title']))
+        		$title = $_POST['title'];
+        	else
+        		throw new Exception('Không thể đăng câu hỏi',500);
 
-    	if(isset($_POST['tags']))
-    		$tags = $_POST['tags'][0];
-    	else
-    		throw new Exception('Không thể đăng câu hỏi',500);
+        	if(isset($_POST['tags']))
+        		$tags = $_POST['tags'][0];
+        	else
+        		throw new Exception('Không thể đăng câu hỏi',500);
 
-    	if(isset($_POST['content']))
-    		$content = $_POST['content'];
-    	else
-    		throw new Exception('Không thể đăng câu hỏi',500);
+        	if(isset($_POST['content']))
+        		$content = $_POST['content'];
+        	else
+        		throw new Exception('Không thể đăng câu hỏi',500);
 
-    	$slug = SlugService::slug($title);
+            // if($_SESSION['captcha'] != md5($_POST['captcha']))
+            //     throw new Exception('Nhập captcha',500);
 
-		$this->QuestionModel->add($major,$_SESSION['user']['id'],$title,$slug,$content,$tags);
+            if(captcha::verify_captcha($_POST['captcha']) == false)
+                throw new Exception('Nhập captcha',500);
 
 
-		$insertTag = explode(',',$tags);
+        	$slug = SlugService::slug($title);
 
-        $tag_model = $this->TagModel->all();
+    		$this->QuestionModel->add($major,$_SESSION['user']['id'],$title,$slug,$content,$tags);
 
-		foreach ($insertTag as $value) {
-            $update = 0;
-            $id = -1;
-            foreach ($tag_model as $tag) {
-                if($tag['slug'] == SlugService::slug($value))
-                {
-                    $update = 1;
-                    $id = $tag['id'];
-                    break;
+
+    		$insertTag = explode(',',$tags);
+
+            $tag_model = $this->TagModel->all();
+
+    		foreach ($insertTag as $value) {
+                $update = 0;
+                $id = -1;
+                foreach ($tag_model as $tag) {
+                    if($tag['slug'] == SlugService::slug($value))
+                    {
+                        $update = 1;
+                        $id = $tag['id'];
+                        break;
+                    }
                 }
-            }
 
-            if($update)
-            {
-                $this->TagModel->update_total($id);
-            }
-            else
-            {
-                $this->TagModel->add($value,SlugService::slug($value));
-            }
-		}
+                if($update)
+                {
+                    $this->TagModel->update_total($id);
+                }
+                else
+                {
+                    $this->TagModel->add($value,SlugService::slug($value));
+                }
+    		}
+        } 
+        catch (Exception $e) {
+            http_response_code(401);
+            echo json_encode($e->getMessage(),JSON_UNESCAPED_UNICODE);
+        }
     }
 
 

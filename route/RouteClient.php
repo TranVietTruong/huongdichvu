@@ -105,3 +105,7 @@ Route::add('/forget-password',function(){
 },'get');
 
 
+Route::add('/get_captcha',function(){
+	Load::Controller('controllers/api/QuestionController.php','QuestionController','get_captcha');
+},'get');
+
