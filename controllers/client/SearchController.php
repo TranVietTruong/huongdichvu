@@ -1,4 +1,5 @@
 <?php
+require 'controllers/service/TimeAgo.php';
 class SearchController extends Controller
 {
     /**
@@ -36,11 +37,13 @@ class SearchController extends Controller
     public function question()
     {
         $this->view->name_banner = 'Tìm Kiếm';
-        $this->view->title = 'Tìm kiếm';
+        $this->view->title = 'Tìm kiếm câu hỏi';
 
         $this->view->catagories = $this->CatagoryModel->all();
 
         // -------------- Lấy các câu hỏi phần CÓ THỂ BẠN BIẾT để hiển thị ------------------------
+        $data = [];
+        $tintuc = [];
         if(isset($_SESSION['user']))
         {
             $user = $this->UserModel->find($_SESSION['user']['id']);
@@ -55,9 +58,6 @@ class SearchController extends Controller
                     else
                         break;
                 }
-
-                $data = [];
-                $tintuc = [];
 
                 foreach ($tag_user as $value) 
                 {
@@ -87,10 +87,10 @@ class SearchController extends Controller
                         else
                             break;
                     }
-                    $this->view->questions = $data;
+                    //$this->view->questions = $data;
                 }
                 else
-                    $this->view->questions = $this->QuestionModel->order_by_time_and_count_reply();
+                    $data = $this->QuestionModel->order_by_time_and_count_reply();
 
                 if(count($tintuc) != 0)
                 {
@@ -108,15 +108,28 @@ class SearchController extends Controller
             }
             else
             {   
-                $this->view->questions = $this->QuestionModel->order_by_time_and_count_reply();
+                $data = $this->QuestionModel->order_by_time_and_count_reply();
                 $this->view->news = $this->NewsModel->rand();
             }
         }
         else
         {
-            $this->view->questions = $this->QuestionModel->order_by_time_and_count_reply();
+            $data = $this->QuestionModel->order_by_time_and_count_reply();
             $this->view->news = $this->NewsModel->rand();
         }
+
+        //------------- THỜI GIAN ĐĂNG -----------------------------------
+        $i = 0;
+        foreach ($data as $value) {
+            $data[$i]['time'] = TimeAgo::time_ago($value['created_at']);
+            $i++;
+        }
+        //----------------------------------------------------------------
+
+        $this->view->questions = $data;
+
+
+
         //---------------------------------------- END ------------------------------------------------
         
         if(isset($_GET['cate']))
@@ -130,17 +143,31 @@ class SearchController extends Controller
             $keyword = null;
 
 
-        $search_questions = '';
+        $search_questions = [];
 
         if($cate == 'NULL')
         {
 
             $search_questions = $this->QuestionModel->search_no_cate($keyword);
+            //------------- THỜI GIAN ĐĂNG -----------------------------------
+            $i = 0;
+            foreach ($search_questions as $value) {
+                $search_questions[$i]['time'] = TimeAgo::time_ago($value['created_at']);
+                $i++;
+            }
+            //----------------------------------------------------------------
             $this->view->search_questions = $search_questions;
         }
         else
         {
             $search_questions = $this->QuestionModel->search_cate($cate,$keyword);
+            //------------- THỜI GIAN ĐĂNG -----------------------------------
+            $i = 0;
+            foreach ($search_questions as $value) {
+                $search_questions[$i]['time'] = TimeAgo::time_ago($value['created_at']);
+                $i++;
+            }
+            //----------------------------------------------------------------
             $this->view->search_questions = $search_questions;
         }
 
@@ -150,7 +177,15 @@ class SearchController extends Controller
         {
             if(count($search_questions) == 0 && $result[0]['total'] > 1)
             {
-                $this->view->search_questions = $this->QuestionModel->search_fulltext($keyword);
+                $search_questions = $this->QuestionModel->search_fulltext($keyword);
+                //------------- THỜI GIAN ĐĂNG -----------------------------------
+                $i = 0;
+                foreach ($search_questions as $value) {
+                    $search_questions[$i]['time'] = TimeAgo::time_ago($value['created_at']);
+                    $i++;
+                }
+                //----------------------------------------------------------------
+                $this->view->search_questions = $search_questions;
             }
         }
         
@@ -183,10 +218,12 @@ class SearchController extends Controller
     public function news()
     {
         $this->view->name_banner = 'Tìm Kiếm';
-
+        $this->view->title = 'Tìm kiếm tin tức';
         $this->view->catagories = $this->CatagoryModel->all();
 
         // -------------- Lấy các câu hỏi phần CÓ THỂ BẠN BIẾT để hiển thị ------------------------
+        $data = [];
+        $tintuc = [];
         if(isset($_SESSION['user']))
         {
             $user = $this->UserModel->find($_SESSION['user']['id']);
@@ -201,9 +238,6 @@ class SearchController extends Controller
                     else
                         break;
                 }
-
-                $data = [];
-                $tintuc = [];
 
                 foreach ($tag_user as $value) 
                 {
@@ -233,10 +267,10 @@ class SearchController extends Controller
                         else
                             break;
                     }
-                    $this->view->questions = $data;
+                    //$this->view->questions = $data;
                 }
                 else
-                    $this->view->questions = $this->QuestionModel->order_by_time_and_count_reply();
+                    $data = $this->QuestionModel->order_by_time_and_count_reply();
 
                 if(count($tintuc) != 0)
                 {
@@ -254,15 +288,25 @@ class SearchController extends Controller
             }
             else
             {   
-                $this->view->questions = $this->QuestionModel->order_by_time_and_count_reply();
+                $data = $this->QuestionModel->order_by_time_and_count_reply();
                 $this->view->news = $this->NewsModel->rand();
             }
         }
         else
         {
-            $this->view->questions = $this->QuestionModel->order_by_time_and_count_reply();
+            $data = $this->QuestionModel->order_by_time_and_count_reply();
             $this->view->news = $this->NewsModel->rand();
         }
+
+        //------------- THỜI GIAN ĐĂNG -----------------------------------
+        $i = 0;
+        foreach ($data as $value) {
+            $data[$i]['time'] = TimeAgo::time_ago($value['created_at']);
+            $i++;
+        }
+        //----------------------------------------------------------------
+
+        $this->view->questions = $data;
         //---------------------------------------- END ------------------------------------------------
         if(isset($_GET['key']))
             $keyword = $_GET['key'];

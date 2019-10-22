@@ -117,12 +117,17 @@ class DetailQuestionController extends Controller
             else
                 http_response_code(500);
 
+            if(isset($_POST['content_text']))
+                $content_text = $_POST['content_text'];
+            else
+                http_response_code(500);
+
             if(isset($_POST['tag']))
                 $tag = $_POST['tag'];
             else
                 http_response_code(500);
 
-            $id = $this->AnswerModel->add($id_question,$_SESSION['user']['id'],$content,$tag);
+            $id = $this->AnswerModel->add($id_question,$_SESSION['user']['id'],$content,$content_text,$tag);
 
             $data = $this->AnswerModel->find($id);
 
@@ -221,6 +226,87 @@ class DetailQuestionController extends Controller
                 default:
                     break;
             }
+        }
+    }
+
+
+    public function de_xuat_cau_tra_loi()
+    {
+        if(isset($_POST['slug']))
+            $slug = $_POST['slug'];
+        else
+            http_response_code(500);
+
+        $question = $this->QuestionModel->find($slug);
+
+        if(count($question) == 0)
+            http_response_code(404);
+
+        $answer = $this->AnswerModel->findByIdQuestion($question[0]['id']);
+        if(count($answer) == 0)
+        {
+            $tags = explode(',',$question[0]['tag']);
+            $cathe = $this->AnswerModel->choncathe();
+
+            $k = 0;
+            foreach ($cathe as $value) {
+                $cathe[$k]['sucsong'] = 0;
+                if($value['id_catagory'] == $question[0]['id_catagory'])
+                    $cathe[$k]['sucsong'] += 3;
+
+                $tag_answers = explode(',', $value['tag']);
+               
+                foreach ($tag_answers as $tag_answer) {
+                    $result = substr_count($question[0]['title'],$tag_answer);
+                    $cathe[$k]['sucsong'] += $result * 7;
+                }
+
+                $k++;
+            }
+
+            foreach ($tags as $tag) {
+                $i = 0;
+                foreach ($cathe as $value) {
+                    $solanxuathien = substr_count($value['content_text'],$tag);
+                    $cathe[$i]['sucsong'] += $solanxuathien;
+
+                    $solanxuathien_trongtitle = substr_count($value['title'],$tag);
+                    $cathe[$i]['sucsong'] += $solanxuathien_trongtitle*10;
+
+                    $i++;
+                }
+            }
+            
+            $j = 0;
+            foreach ($cathe as $value) {
+                if($value['sucsong'] < 7)
+                    unset($cathe[$j]);
+                $j++;
+            }
+
+            $data = array_values($cathe);
+
+
+            if(isset($_SESSION['user']))
+                $id_user = $_SESSION['user']['id'];
+            else
+                $id_user = -1;
+            $i = 0;
+            foreach ($data as $answer) {
+                $vote_answer = $this->VoteAnswerModel->where($id_user,$answer['id']);
+                
+                if(count($vote_answer) == 1)
+                {
+                    $data[$i]['voted'] = true;
+                }
+                else
+                {
+                    $data[$i]['voted'] = false;
+                }
+                $i++;
+            }
+
+            echo json_encode($data,JSON_UNESCAPED_UNICODE);
         }
     }
 

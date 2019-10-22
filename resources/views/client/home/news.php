@@ -1,5 +1,5 @@
 <!-- Start download Area -->
-<section class="download-area section-gap" id="app">
+<section class="download-area section-gap">
 	<div class="container">
 		<div class="row d-flex justify-content-center">
 			<div class="menu-content pb-60 col-lg-10">

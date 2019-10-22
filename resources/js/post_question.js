@@ -17,8 +17,9 @@ function thongbao(type,message)
 {
 	Swal.fire({
         type: type,
-        title: 'Thông báo',
-        text: message,
+        title: 'Câu hỏi đăng thành công',
+        html: message ,
+        showConfirmButton: false
     })
 }
 
@@ -32,6 +33,7 @@ var app = new Vue({
 			items: [], // danh sách tag gợi ý
 			error: [],
 			maxLength: 50, // Số lượng độ dài tối đa của 1 tag,
+			captcha:'',
 
 			// --------------------
 			keysearch: '',
@@ -56,6 +58,8 @@ var app = new Vue({
 				this.error.push('Hãy thêm tối thiểu 1 thẻ tag.');
 			if(content == '')
 				this.error.push('Nội dung bạn muốn hỏi là gì ?');
+			if(this.captcha == '')
+				this.error.push('Bạn chưa nhập captcha');
 			
 			if(this.error.length == 0)
 			{
@@ -67,18 +71,23 @@ var app = new Vue({
 				fd.append('title',this.title);
 				fd.append('tags[]',tags);
 				fd.append('content',content);
+				fd.append('captcha',this.captcha);
 
 				axios.post('/api/question/post_question',fd)
 				.then(response=>{
-					thongbao("success","Câu hỏi đã được đăng");
+					thongbao("success","<a href='/cau-hoi/"+response.data+"'>Xem chi tiết</a>");
+
 					$('#major').val(null);
 					CKEDITOR.instances["txtFT_Content"].setData('');
 					this.tags = [];
 					this.title = '';
-
+					this.captcha = '';
+					document.getElementById('captcha').src='/get_captcha';
 				})
 				.catch(error=>{
-					thongbao("error",'Không thể đăng câu hỏi');
+					document.getElementById('captcha').src='/get_captcha';
+					this.captcha = '';
+					this.error.push(error.response.data);
 				})
 			}
 
@@ -93,6 +102,10 @@ var app = new Vue({
 					this.items.push({'text':response.data[i].name});
 				}
 			})
+		},
+		refesh_captcha()
+		{
+
 		},
 		intanceSearch()
 		{
@@ -134,6 +147,7 @@ var app = new Vue({
 	mounted()
 	{
 		this.getTag();
+		
 	}
 
 });
