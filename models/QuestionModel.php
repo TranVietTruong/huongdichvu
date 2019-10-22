@@ -123,7 +123,7 @@
 
 		public function paginate_category($id_catagory,$trang,$question_display)
 		{
-			$sql = "SELECT question.*,DATE_FORMAT(question.created_at, '%d/%m/%Y %H:%i') as time, user.full_name, catagory.name as catagory FROM question 
+			$sql = "SELECT question.*, user.full_name, catagory.name as catagory FROM question 
 					INNER JOIN user ON question.id_user = user.id
 					INNER JOIN catagory ON question.id_catagory = catagory.id
 					WHERE question.active = 1 AND question.id_catagory = '$id_catagory'

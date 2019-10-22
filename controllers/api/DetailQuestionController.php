@@ -245,7 +245,7 @@ class DetailQuestionController extends Controller
         $answer = $this->AnswerModel->findByIdQuestion($question[0]['id']);
         if(count($answer) == 0)
         {
-            $tags = explode(',',$question[0]['tag']);
+           
             $cathe = $this->AnswerModel->choncathe();
 
             $k = 0;
@@ -264,6 +264,7 @@ class DetailQuestionController extends Controller
                 $k++;
             }
 
+            $tags = explode(',',$question[0]['tag']);
             foreach ($tags as $tag) {
                 $i = 0;
                 foreach ($cathe as $value) {
@@ -291,6 +292,7 @@ class DetailQuestionController extends Controller
                 $id_user = $_SESSION['user']['id'];
             else
                 $id_user = -1;
+        
             $i = 0;
             foreach ($data as $answer) {
                 $vote_answer = $this->VoteAnswerModel->where($id_user,$answer['id']);
