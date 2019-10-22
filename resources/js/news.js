@@ -57,7 +57,7 @@ var app = new Vue({
 				this.questions = [];
 				this.news = [];
 				return;
-			}	
+			}
 
 			let species = $("#species").val();
 			let category = $("#category").val();
@@ -75,9 +75,11 @@ var app = new Vue({
 			})
 			.catch(error=>{
 				thongbao('error',error.response.data);
-			})
-		}
-	},
+			});
+
+			}
+
+		},
 	mounted(){
 		this.get_news();
 	}

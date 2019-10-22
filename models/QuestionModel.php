@@ -16,7 +16,7 @@
 
 		public function all()
 		{
-			$sql = "SELECT question.*,DATE_FORMAT(question.created_at, '%d/%m/%Y %H:%i') as time, user.full_name, catagory.name as catagory FROM question 
+			$sql = "SELECT question.*,DATE_FORMAT(question.created_at, '%d/%m/%Y %H:%i') as time, user.full_name, catagory.name as catagory FROM question
 					INNER JOIN user ON question.id_user = user.id
 					INNER JOIN catagory ON question.id_catagory = catagory.id
 					WHERE question.active = 1";
@@ -32,11 +32,12 @@
 
 		public function paginate($trang,$question_display)
 		{
+
 			
 			$sql = "SELECT question.*, user.full_name, catagory.name as catagory FROM question 
 					INNER JOIN user ON question.id_user = user.id
 					INNER JOIN catagory ON question.id_catagory = catagory.id
-					WHERE question.active = 1 
+					WHERE question.active = 1
 					ORDER BY created_at DESC
 					LIMIT $trang,$question_display";
 			return $this->db->Executequery($sql);
@@ -44,10 +45,11 @@
 
 		public function paginate_orderBy_view($trang,$question_display)
 		{
+
 			$sql = "SELECT question.*, user.full_name, catagory.name as catagory FROM question 
 					INNER JOIN user ON question.id_user = user.id
 					INNER JOIN catagory ON question.id_catagory = catagory.id
-					WHERE question.active = 1 
+					WHERE question.active = 1
 					ORDER BY view DESC
 					LIMIT $trang,$question_display";
 			return $this->db->Executequery($sql);
@@ -58,16 +60,16 @@
 			$sql = "SELECT question.*, user.full_name, catagory.name as catagory FROM question 
 					INNER JOIN user ON question.id_user = user.id
 					INNER JOIN catagory ON question.id_catagory = catagory.id
-					WHERE question.active = 1 
+					WHERE question.active = 1
 					ORDER BY vote DESC
 					LIMIT $trang,$question_display";
 			return $this->db->Executequery($sql);
 		}
 
-		//*************************************************************
+		
 		public function count_paginate_inday()
 		{
-			$sql = "SELECT count(*) as count FROM question 
+			$sql = "SELECT count(*) as count FROM question
 					WHERE question.active = 1 AND DAYOFYEAR(question.created_at) = DAYOFYEAR(CURDATE())";
 			return $this->db->Executequery($sql)[0]['count'];
 		}
@@ -80,10 +82,10 @@
 					LIMIT $trang,$question_display";
 			return $this->db->Executequery($sql);
 		}
-		//*****************************************************************
+		
 		public function count_paginate_inweek()
 		{
-			$sql = "SELECT count(*) as count FROM question 
+			$sql = "SELECT count(*) as count FROM question
 					WHERE question.active = 1 AND WEEKOFYEAR(question.created_at) = WEEKOFYEAR(CURDATE())";
 			return $this->db->Executequery($sql)[0]['count'];
 		}
@@ -96,11 +98,11 @@
 					LIMIT $trang,$question_display";
 			return $this->db->Executequery($sql);
 		}
-		//**************************************************************************
+		
 
 		public function count_paginate_inmonth()
 		{
-			$sql = "SELECT count(*) as count FROM question 
+			$sql = "SELECT count(*) as count FROM question
 					WHERE question.active = 1 AND MONTH(question.created_at) = MONTH(CURDATE())";
 			return $this->db->Executequery($sql)[0]['count'];
 		}
@@ -116,7 +118,7 @@
 
 		public function count_paginate_category($id_catagory)
 		{
-			$sql = "SELECT count(*) as count FROM question 
+			$sql = "SELECT count(*) as count FROM question
 					WHERE question.active = 1 AND id_catagory = '$id_catagory'";
 			return $this->db->Executequery($sql)[0]['count'];
 		}
@@ -135,7 +137,7 @@
 
 		public function find($slug)
 		{
-			$sql = "SELECT question.*,DATE_FORMAT(question.created_at, '%d/%m/%Y %H:%i') as time, user.full_name, catagory.name as catagory FROM question 
+			$sql = "SELECT question.*,DATE_FORMAT(question.created_at, '%d/%m/%Y %H:%i') as time, user.full_name, catagory.name as catagory FROM question
 					INNER JOIN user ON question.id_user = user.id
 					INNER JOIN catagory ON question.id_catagory = catagory.id
 					WHERE question.active = 1 AND question.slug  = '$slug'";
@@ -144,10 +146,10 @@
 
 		public function find_by_user($id_user)
 		{
-			$sql = "SELECT question.*,DATE_FORMAT(question.created_at, '%d/%m/%Y %H:%i') as time, user.full_name, catagory.name as catagory FROM question 
+			$sql = "SELECT question.*,DATE_FORMAT(question.created_at, '%d/%m/%Y %H:%i') as time, user.full_name, catagory.name as catagory FROM question
 					INNER JOIN user ON question.id_user = user.id
 					INNER JOIN catagory ON question.id_catagory = catagory.id
-					WHERE question.active = 1 AND question.id_user  = '$id_user' 
+					WHERE question.active = 1 AND question.id_user  = '$id_user'
 					ORDER BY question.created_at DESC";
 			return $this->db->Executequery($sql);
 		}
@@ -163,7 +165,7 @@
 			$sql = "SELECT question.*, user.full_name, catagory.name as catagory FROM question 
 					INNER JOIN user ON question.id_user = user.id
 					INNER JOIN catagory ON question.id_catagory = catagory.id
-					WHERE question.active = 1 AND question.tag  LIKE '%$tag%' AND question.title LIKE '%$tag%' 
+					WHERE question.active = 1 AND question.tag  LIKE '%$tag%' AND question.title LIKE '%$tag%'
 					ORDER BY question.vote DESC,question.count_reply ASC";
 			return $this->db->Executequery($sql);
 		}
@@ -171,6 +173,7 @@
 
 		public function order_by_time_and_count_reply()
 		{
+
 			$sql = "SELECT question.*, user.full_name, catagory.name as catagory FROM question 
 					INNER JOIN user ON question.id_user = user.id
 					INNER JOIN catagory ON question.id_catagory = catagory.id
@@ -189,7 +192,6 @@
 			$sql = "SELECT * FROM question WHERE MATCH(title) AGAINST('$keyword' WITH QUERY EXPANSION) LIMIT 5";
 			return $this->db->Executequery($sql);
 		}
-
 		public function like_and_cate($id_catagory,$keyword)
 		{
 			$sql = "SELECT * FROM question WHERE id_catagory = '$id_catagory' AND MATCH(title) AGAINST('$keyword' WITH QUERY EXPANSION) LIMIT 5";

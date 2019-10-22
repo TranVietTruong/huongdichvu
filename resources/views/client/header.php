@@ -11,17 +11,17 @@
 					<li><a href="/tin-tuc">Tin Tức</a></li>
 					<li><a href="/gioi-thieu">Giới Thiệu</a></li>
 					<li><a href="/lien-he">Liên Hệ</a></li>
-					
+
 
 					<?php if(isset($_SESSION['user'])) { ?>
 						<li><a class="ticker-btn" href="dat-cau-hoi">Đặt Câu Hỏi</a></li>
 					<?php } ?>
-					
+
 
 					<?php if(!isset($_SESSION['user'])) { ?>
 						<li><a class="ticker-btn" href="/dang-ky">Đăng ký</a></li>
 					<?php } ?>
-					
+
 					<?php if(!isset($_SESSION['user'])) { ?>
 					<li><a class="ticker-btn" href="/dang-nhap">Đăng nhập</a></li>
 					<?php } ?>
@@ -32,7 +32,7 @@
 
 
 				</ul>
-			</nav><!-- #nav-menu-container -->		    		
+			</nav><!-- #nav-menu-container -->
 		</div>
 	</div>
 </header><!-- #header -->
