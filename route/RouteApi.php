@@ -128,6 +128,9 @@
 	    Load::Controller('controllers/api/QuestionController.php','QuestionController','get_by_category');
 	},'post');
 
+	Route::add('/api/question/de_xuat_cau_tra_loi',function(){
+	    Load::Controller('controllers/api/DetailQuestionController.php','DetailQuestionController','de_xuat_cau_tra_loi');
+	},'post');
 
 
 	// ******************************************* USER ***************************************************
@@ -159,6 +162,17 @@
 	    Load::Controller('controllers/api/UserController.php','UserController','update_pass');
 	},'post');
 
+	Route::add('/api/user/get_users',function(){
+		    Load::Controller('controllers/api/UserController.php','UserController','get_users');
+		},'post');
+
+	Route::add('/api/user/update-active',function(){
+			   Load::Controller('controllers/api/UserController.php','UserController','updateActive');
+		},'post');
+
+	Route::add('/api/user/remove',function(){
+				  Load::Controller('controllers/api/UserController.php','UserController','remove');
+		},'post');
 
 
 
@@ -182,8 +196,24 @@
 	Route::add('/api/news/search',function(){
 	    Load::Controller('controllers/api/NewsController.php','NewsController','search');
 	},'post');
+
+	Route::add('/api/news/remove',function(){
+			Load::Controller('controllers/api/NewsController.php','NewsController','remove');
+	},'post');
+
+	Route::add('/api/news/add',function(){
+			Load::Controller('controllers/api/NewsController.php','NewsController','addNews');
+	},'post');
 // ************************************ SEARCH ******************************************************
 
 	Route::add('/api/search/keyword',function(){
 	    Load::Controller('controllers/api/SearchController.php','SearchController','search');
+	},'post');
+
+
+
+
+//************************************ FOREGET PASSWORD ********************************************
+	Route::add('/api/user/forget_password',function(){
+	    Load::Controller('controllers/api/UserController.php','UserController','forget_password');
 	},'post');

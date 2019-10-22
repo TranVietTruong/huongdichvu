@@ -20,9 +20,9 @@
 		}
 
 
-		public function add($id_question,$id_user,$content,$tag)
+		public function add($id_question,$id_user,$content,$content_text,$tag)
 		{
-			$sql = "INSERT INTO answer(id_question,id_user,content,tag) VALUES ('$id_question','$id_user','$content','$tag')";
+			$sql = "INSERT INTO answer(id_question,id_user,content,content_text,tag) VALUES ('$id_question','$id_user','$content','$content_text','$tag')";
 			return $this->db->ExecuteQueryReturnID($sql);
 		}
 
@@ -51,4 +51,16 @@
 			$sql = "DELETE FROM answer WHERE id = '$id'";
 			$this->db->ExecuteNonQuery($sql);
 		}
+
+
+
+		// =============================  ĐỀ XUẤT CÂU HỎI ============================
+		public function choncathe()
+		{
+			$sql = "SELECT answer.*,DATE_FORMAT(answer.created_at, '%d/%m/%Y %H:%i') as time,question.id_catagory,question.title,user.full_name FROM answer
+					INNER JOIN user ON answer.id_user = user.id
+					INNER JOIN question ON answer.id_question = question.id";
+			return $this->db->Executequery($sql);		
+		}
+		// ============================= END =========================================
 	}

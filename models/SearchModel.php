@@ -8,7 +8,7 @@
 
 	    public function like($keyword)
 	    {
-	    	$sql = "SELECT * FROM search WHERE keyword LIKE '%$keyword%' ORDER BY total DESC";
+	    	$sql = "SELECT * FROM search WHERE MATCH(keyword) AGAINST('+$keyword')";
 	    	return $this->db->Executequery($sql);
 	    }
 
@@ -28,5 +28,11 @@
 	   	{
 	   		$sql = "UPDATE search SET total = total + 1 WHERE id = '$id'";
 	   		return $this->db->ExecuteNonQuery($sql);
+	   	}
+
+	   	public function where($column,$data)
+	   	{
+	   		$sql = "SELECT * FROM search WHERE $column = '$data'";
+	   		return $this->db->Executequery($sql);
 	   	}
 	}

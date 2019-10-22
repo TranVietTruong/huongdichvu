@@ -3,6 +3,12 @@
 	<div class="container">
 		<div class="row justify-content-center d-flex">
 			<div class="col-lg-8 post-list">
+				<?php
+					if(count($this->search_questions) == 0)
+					{
+						echo '<h4> Không có kết quả nào </h4>';
+					} 
+				?>
 				<?php foreach ($this->search_questions as $question) { ?>
 				<div class="single-post d-flex flex-row">
 					<div class="thumb">
@@ -16,6 +22,7 @@
 								<span class="fz-13 fw500">câu trả lời</span>
 							</div>
 							<div
+								onclick="share('http://huongdichvu.com:8888/cau-hoi/<?php echo $question['slug'] ?>')"
 								class="share">
 								<span class="vote text-success">
 									<i class="fas fa-share-alt"></i>
@@ -33,6 +40,7 @@
 								<span class="fz-13 fw500">câu trả lời</span>
 							</div>
 							<div 
+								onclick="share('http://huongdichvu.com:8888/cau-hoi/<?php echo $question['slug'] ?>')"
 							 	class="mobile-share">
 								<span class="vote text-success">
 									<i class="fas fa-share-alt"></i>
@@ -65,7 +73,7 @@
 						</div>
 						<div class="time-post">
 							<span><i class="far fa-calendar-alt"></i></span>
-							Ngày đăng: 
+							Thời gian:
 							<span class="text-primary"><?php echo $question['time'] ?> </span>
 						</div>
 						<div class="view">

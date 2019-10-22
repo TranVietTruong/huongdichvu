@@ -27,6 +27,18 @@ class LoginController extends Controller
         $this->view->Render('client/banner');
         $this->view->Render('client/login/login');
         $this->view->Render('client/footer');
+
+        if(isset($_SESSION['verify_password']) && $_SESSION['verify_password'] == 'verified')
+        {
+            echo "<script>
+                Swal.fire({
+                    type: 'success',
+                    text: 'Mật khẩu mới đã sẵn sàng trong email',
+                })
+            </script>";
+            unset($_SESSION['verify_password']);
+        }
+        
     }
 
 }

@@ -1,5 +1,5 @@
 <!-- Start feature-cat Area -->
-<section class="feature-cat-area pt-100" id="category">
+<section class="feature-cat-area pt-100" >
 	<div class="container">
 		<div class="row d-flex justify-content-center">
 			<div class="menu-content pb-60 col-lg-10">

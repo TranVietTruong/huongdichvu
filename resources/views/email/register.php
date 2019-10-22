@@ -72,7 +72,7 @@
                                     <tr>
                                         <td>
                                             <p style="font-family:tahoma;font-size:16px;color:#363636">ĐÂY LÀ EMAIL TỰ ĐỘNG CỦA HỆ THỐNG. VUI LÒNG KHÔNG TRẢ LỜI LẠI EMAIL NÀY. </p>
-                                            <p style="font-family:tahoma;font-size:12px;color:#363636;line-height:18px"><br><a href="'.$url.'"> Nhấp vào đấy để xác nhận tài khoản</a></p>
+                                            <p style="font-family:tahoma;font-size:12px;color:#363636;line-height:18px"><br><a href="'.$url.'"> Nhấp vào đây để xác nhận tài khoản</a></p>
                                         </td>
                                     </tr>
                                     <tr>

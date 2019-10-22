@@ -6,11 +6,11 @@
 							<div class="single-footer-widget">
 								<h6>Menu</h6>
 								<ul class="footer-nav">
-									<li><a href="#">Trang chủ</a></li>
-									<li><a href="#">Câu hỏi</a></li>
-									<li><a href="#">Tin tức</a></li>
-									<li><a href="#">Giới thiệu</a></li>
-									<li><a href="#">Liên hệ</a></li>
+									<li><a href="/">Trang chủ</a></li>
+									<li><a href="/cau-hoi">Câu hỏi</a></li>
+									<li><a href="/tin-tuc">Tin tức</a></li>
+									<li><a href="/gioi-thieu">Giới thiệu</a></li>
+									<li><a href="/lien-he">Liên hệ</a></li>
 
 								</ul>
 							</div>
@@ -25,14 +25,16 @@
 
 										<div class="form-group row" style="width: 100%">
 											<div class="col-lg-8 col-md-12">
-												<input name="EMAIL" placeholder="Tin nhắn" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email '" required="" type="email">
+												<label for="re_email" class="d-none">?</label>
+												<input id="re_email" name="EMAIL" placeholder="Tin nhắn" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Nhập email '" required="" type="email">
 												<div style="position: absolute; left: -5000px;">
-													<input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">
+													<label for="arrow" class="d-none">?</label>
+													<input id="arrow" name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">
 												</div>
 											</div> 
 										
 											<div class="col-lg-4 col-md-12">
-												<button class="nw-btn primary-btn">Gửi<span class="lnr lnr-arrow-right"></span></button>
+												<button name="gui" class="nw-btn primary-btn">Gửi<span class="lnr lnr-arrow-right"></span></button>
 											</div> 
 										</div>		
 										<div class="info"></div>
@@ -46,13 +48,13 @@
 							<div class="single-footer-widget">
 								<h6>Giảng viên hướng dẫn</h6>
 								<ul class="footer-nav">
-									<li><a href="#">Ths. Hoàng Quang Huy</a></li>
+									<li><a href="https://www.facebook.com/profile.php?id=100008363386568">Ths. Hoàng Quang Huy</a></li>
 								</ul>
 							</div>
 							<div class="single-footer-widget">
 								<h6>Thành viên</h6>
 								<ul class="footer-nav">
-									<li><a href="#">Trần Viết Trưởng, Vũ Ngọc Đức Long, Đoàn Quang Nhật</a></li>
+									<li><a href="/gioi-thieu">Trần Viết Trưởng, Vũ Ngọc Đức Long, Đoàn Quang Nhật</a></li>
 									<!-- <li><a href="#">Vũ Ngọc Đức Long</a></li>
 									<li><a href="#">Đoàn Quang Nhật</a></li> -->
 								</ul>
@@ -114,6 +116,8 @@
 				    display: none !important;
 				}
 			</style>
+			
+
 			<script>
 				CKEDITOR.replace( 'editor1' );
 			</script>

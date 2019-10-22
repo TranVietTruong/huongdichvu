@@ -7,15 +7,18 @@ class NewsController extends Controller
      */
     public $NewsModel;
     public $UserModel;
-  
+    public $CattagoryModel;
+
     public function __construct($param = NULL)
     {
         parent::__construct();
         include 'models/NewsModel.php';
         include 'models/UserModel.php';
+        include 'models/CatagoryModel.php';
 
         $this->NewsModel = new NewsModel();
         $this->UserModel = new UserModel();
+        $this->CatagoryModel = new CatagoryModel();
 
         $this->view->js = '<script src="resources/js/news.js"></script>';
     }
@@ -77,6 +80,7 @@ class NewsController extends Controller
         $this->view->newsTop5 = $this->NewsModel->top5();
         $this->view->name_banner = 'Tin Tức';
         $this->view->title = "Tin tức";
+        $this->view->catagories = $this->CatagoryModel->all();
 
         $this->view->Render('client/head');
         $this->view->Render('client/header');
