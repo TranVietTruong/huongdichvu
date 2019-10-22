@@ -46,6 +46,7 @@
 
 
 								<button @click="register" type="button"  class="primary-btn mt-20 text-white">Đăng Ký</button>
+								<p class="text-center mt-5">Tôi đã có tài khoản? <a href="/dang-nhap">Đăng nhập</a></p>
 								<div class="mt-20 alert-msg" style="text-align: left;"></div>
 							</div>
 						</div>
