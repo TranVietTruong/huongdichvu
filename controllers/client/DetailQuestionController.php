@@ -1,4 +1,6 @@
 <?php 
+require 'controllers/service/TimeAgo.php';
+
 class DetaiQuestionController extends Controller
 {
     /**
@@ -58,6 +60,9 @@ class DetaiQuestionController extends Controller
         $this->view->name_banner = 'Câu Hỏi';
         $this->view->catagories = $this->CatagoryModel->all();
 
+        $data = [];
+        $tintuc = [];
+
         if(isset($_SESSION['user']))
         {
             $user = $this->UserModel->find($_SESSION['user']['id']);
@@ -72,9 +77,6 @@ class DetaiQuestionController extends Controller
                     else
                         break;
                 }
-
-                $data = [];
-                $tintuc = [];
 
                 foreach ($tag_user as $value) 
                 {
@@ -104,10 +106,10 @@ class DetaiQuestionController extends Controller
                         else
                             break;
                     }
-                    $this->view->questions = $data;
+                    //$this->view->questions = $data;
                 }
                 else
-                    $this->view->questions = $this->QuestionModel->order_by_time_and_count_reply();
+                    $data = $this->QuestionModel->order_by_time_and_count_reply();
 
                 if(count($tintuc) != 0)
                 {
@@ -124,15 +126,25 @@ class DetaiQuestionController extends Controller
             }
             else
             {   
-                $this->view->questions = $this->QuestionModel->order_by_time_and_count_reply();
+                $data = $this->QuestionModel->order_by_time_and_count_reply();
                 $this->view->news = $this->NewsModel->rand();
             }
         }
         else
         {
-            $this->view->questions = $this->QuestionModel->order_by_time_and_count_reply();
+            $data = $this->QuestionModel->order_by_time_and_count_reply();
             $this->view->news = $this->NewsModel->rand();
         }
+
+        //------------- THỜI GIAN ĐĂNG -----------------------------------
+        $i = 0;
+        foreach ($data as $value) {
+            $data[$i]['time'] = TimeAgo::time_ago($value['created_at']);
+            $i++;
+        }
+        //----------------------------------------------------------------
+
+        $this->view->questions = $data;
 
         //============================= END ===========================================
 

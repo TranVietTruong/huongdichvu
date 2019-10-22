@@ -11,6 +11,7 @@
 					<div class="row justify-content-center form-wrap">
 						<div class="col-lg-2 form-cols">
 							<div class="default-select" id="default-selects">
+								
 								<select id="species">
 									<option value="NULL">Loại</option>
 									<option value="question">Câu hỏi</option>
@@ -20,6 +21,7 @@
 						</div>
 						<div class="col-lg-2 form-cols">
 							<div class="default-select" id="default-selects2">
+								
 								<select id="category" name="cate">
 									<option value="NULL">Lĩnh vực</option>
 									<?php foreach ($this->catagories as $catagory) { ?>
@@ -29,7 +31,8 @@
 							</div>										
 						</div>
 						<div class="col-lg-6 form-cols" class="keyword">
-							<input @keyup="intanceSearch" v-model="keysearch" name="key" type="text" class="form-control" autocomplete="off" placeholder="Tìm kiếm . . .">
+							
+							<input id="keysearch" @keyup="intanceSearch" v-model="keysearch" name="key" type="text" class="form-control" autocomplete="off" placeholder="Tìm kiếm . . .">
 					
 							<div class="search" v-if="searchs.length > 0 || questions.length > 0 || news.length > 0">
 								<div v-if="searchs.length > 0">
@@ -65,7 +68,7 @@
 							</div>
 						</div>
 						<div class="col-lg-2 form-cols">
-							<button type="submit" class="btn btn-info">
+							<button type="submit" class="btn btn-info" name="timkiem">
 								<span class="lnr lnr-magnifier"></span> Tìm kiếm
 							</button>
 						</div>								

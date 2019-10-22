@@ -1,4 +1,5 @@
 <?php
+require 'controllers/service/TimeAgo.php';
 
 class QuestionController extends Controller
 {
@@ -38,6 +39,9 @@ class QuestionController extends Controller
         if(isset($_SESSION['user']))
         {
             $user = $this->UserModel->find($_SESSION['user']['id']);
+
+            $data = [];
+            $tintuc = [];
             if(!empty($user[0]['tag']))
             {
                 $tag_user = explode(',',$user[0]['tag']);
@@ -49,9 +53,6 @@ class QuestionController extends Controller
                     else
                         break;
                 }
-
-                $data = [];
-                $tintuc = [];
 
                 foreach ($tag_user as $value) 
                 {
@@ -81,10 +82,10 @@ class QuestionController extends Controller
                         else
                             break;
                     }
-                    $this->view->questions = $data;
+                    //$this->view->questions = $data;
                 }
                 else
-                    $this->view->questions = $this->QuestionModel->order_by_time_and_count_reply();
+                    $data = $this->QuestionModel->order_by_time_and_count_reply();
 
                 if(count($tintuc) != 0)
                 {
@@ -102,15 +103,26 @@ class QuestionController extends Controller
             }
             else
             {   
-                $this->view->questions = $this->QuestionModel->order_by_time_and_count_reply();
+                $data = $this->QuestionModel->order_by_time_and_count_reply();
                 $this->view->news = $this->NewsModel->rand();
             }
         }
         else
         {
-            $this->view->questions = $this->QuestionModel->order_by_time_and_count_reply();
+            $data = $this->QuestionModel->order_by_time_and_count_reply();
             $this->view->news = $this->NewsModel->rand();
         }
+
+        //------------- THỜI GIAN ĐĂNG -----------------------------------
+        $i = 0;
+        foreach ($data as $value) {
+            $data[$i]['time'] = TimeAgo::time_ago($value['created_at']);
+            $i++;
+        }
+        //----------------------------------------------------------------
+
+        $this->view->questions = $data;
+
         //---------------------------------------- END ------------------------------------------------
         
 

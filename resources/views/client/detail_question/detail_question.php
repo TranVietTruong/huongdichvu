@@ -65,7 +65,7 @@
 					</div>	
 					<div class="post-in">
 						<span><i class="far fa-calendar-alt"></i></span>
-						Ngày đăng: 
+						Thời gian: 
 						<span class="text-primary">{{answer.time}}</span>
 					</div>
 					<div class="content" v-html="answer.content">
@@ -110,6 +110,7 @@
 							<span class="fz-18">{{answer.vote}}</span>
 						</div>
 					</div>
+					
 				</div>
 				<!-- <hr> -->
 				<div class="cmt mt-30">

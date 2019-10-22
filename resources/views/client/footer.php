@@ -25,14 +25,16 @@
 
 										<div class="form-group row" style="width: 100%">
 											<div class="col-lg-8 col-md-12">
-												<input name="EMAIL" placeholder="Tin nhắn" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email '" required="" type="email">
+												<label for="re_email" class="d-none">?</label>
+												<input id="re_email" name="EMAIL" placeholder="Tin nhắn" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Nhập email '" required="" type="email">
 												<div style="position: absolute; left: -5000px;">
-													<input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">
+													<label for="arrow" class="d-none">?</label>
+													<input id="arrow" name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">
 												</div>
 											</div> 
 										
 											<div class="col-lg-4 col-md-12">
-												<button class="nw-btn primary-btn">Gửi<span class="lnr lnr-arrow-right"></span></button>
+												<button name="gui" class="nw-btn primary-btn">Gửi<span class="lnr lnr-arrow-right"></span></button>
 											</div> 
 										</div>		
 										<div class="info"></div>

@@ -6,6 +6,8 @@
     require 'vendor/PHPMailer/src/PHPMailer.php';
     require 'vendor/PHPMailer/src/SMTP.php'; 
 
+    require 'controllers/service/TimeAgo.php';
+
 class HomeController extends Controller
 {
     /**
@@ -46,6 +48,9 @@ class HomeController extends Controller
         if(isset($_SESSION['user']))
         {
             $user = $this->UserModel->find($_SESSION['user']['id']);
+            $data = [];
+            $tintuc = [];
+
             if(!empty($user[0]['tag']))
             {
                 $tag_user = explode(',',$user[0]['tag']);
@@ -57,9 +62,6 @@ class HomeController extends Controller
                     else
                         break;
                 }
-
-                $data = [];
-                $tintuc = [];
 
                 foreach ($tag_user as $value) 
                 {
@@ -89,10 +91,11 @@ class HomeController extends Controller
                         else
                             break;
                     }
-                    $this->view->questions = $data;
+                    //$this->view->questions = $data;
                 }
                 else
-                    $this->view->questions = $this->QuestionModel->order_by_time_and_count_reply();
+                    //$this->view->questions = $this->QuestionModel->order_by_time_and_count_reply();
+                    $data = $this->QuestionModel->order_by_time_and_count_reply();
 
                 if(count($tintuc) != 0)
                 {
@@ -110,15 +113,25 @@ class HomeController extends Controller
             }
             else
             {   
-                $this->view->questions = $this->QuestionModel->order_by_time_and_count_reply();
+                $data = $this->QuestionModel->order_by_time_and_count_reply();
                 $this->view->news = $this->NewsModel->rand();
             }
         }
         else
         {
-            $this->view->questions = $this->QuestionModel->order_by_time_and_count_reply();
+            $data = $this->QuestionModel->order_by_time_and_count_reply();
             $this->view->news = $this->NewsModel->rand();
         }
+
+         //------------- THỜI GIAN ĐĂNG -----------------------------------
+        $i = 0;
+        foreach ($data as $value) {
+            $data[$i]['time'] = TimeAgo::time_ago($value['created_at']);
+            $i++;
+        }
+        //----------------------------------------------------------------
+
+        $this->view->questions = $data;
 
         $this->view->Render('client/head');
         $this->view->Render('client/header');

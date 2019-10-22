@@ -32,7 +32,8 @@
 
 		public function paginate($trang,$question_display)
 		{
-			$sql = "SELECT question.*,DATE_FORMAT(question.created_at, '%d/%m/%Y %H:%i') as time, user.full_name, catagory.name as catagory FROM question 
+			
+			$sql = "SELECT question.*, user.full_name, catagory.name as catagory FROM question 
 					INNER JOIN user ON question.id_user = user.id
 					INNER JOIN catagory ON question.id_catagory = catagory.id
 					WHERE question.active = 1 
@@ -43,7 +44,7 @@
 
 		public function paginate_orderBy_view($trang,$question_display)
 		{
-			$sql = "SELECT question.*,DATE_FORMAT(question.created_at, '%d/%m/%Y %H:%i') as time, user.full_name, catagory.name as catagory FROM question 
+			$sql = "SELECT question.*, user.full_name, catagory.name as catagory FROM question 
 					INNER JOIN user ON question.id_user = user.id
 					INNER JOIN catagory ON question.id_catagory = catagory.id
 					WHERE question.active = 1 
@@ -54,7 +55,7 @@
 
 		public function paginate_orderBy_vote($trang,$question_display)
 		{
-			$sql = "SELECT question.*,DATE_FORMAT(question.created_at, '%d/%m/%Y %H:%i') as time, user.full_name, catagory.name as catagory FROM question 
+			$sql = "SELECT question.*, user.full_name, catagory.name as catagory FROM question 
 					INNER JOIN user ON question.id_user = user.id
 					INNER JOIN catagory ON question.id_catagory = catagory.id
 					WHERE question.active = 1 
@@ -72,7 +73,7 @@
 		}
 		public function paginate_inday($trang,$question_display)
 		{
-			$sql = "SELECT question.*,DATE_FORMAT(question.created_at, '%d/%m/%Y %H:%i') as time, user.full_name, catagory.name as catagory FROM question 
+			$sql = "SELECT question.*, user.full_name, catagory.name as catagory FROM question 
 					INNER JOIN user ON question.id_user = user.id
 					INNER JOIN catagory ON question.id_catagory = catagory.id
 					WHERE question.active = 1 AND DAYOFYEAR(question.created_at) = DAYOFYEAR(CURDATE())
@@ -88,7 +89,7 @@
 		}
 		public function paginate_inweek($trang,$question_display)
 		{
-			$sql = "SELECT question.*,DATE_FORMAT(question.created_at, '%d/%m/%Y %H:%i') as time, user.full_name, catagory.name as catagory FROM question 
+			$sql = "SELECT question.*, user.full_name, catagory.name as catagory FROM question 
 					INNER JOIN user ON question.id_user = user.id
 					INNER JOIN catagory ON question.id_catagory = catagory.id
 					WHERE question.active = 1 AND WEEKOFYEAR(question.created_at) = WEEKOFYEAR(CURDATE())
@@ -105,7 +106,7 @@
 		}
 		public function paginate_inmonth($trang,$question_display)
 		{
-			$sql = "SELECT question.*,DATE_FORMAT(question.created_at, '%d/%m/%Y %H:%i') as time, user.full_name, catagory.name as catagory FROM question 
+			$sql = "SELECT question.*, user.full_name, catagory.name as catagory FROM question 
 					INNER JOIN user ON question.id_user = user.id
 					INNER JOIN catagory ON question.id_catagory = catagory.id
 					WHERE question.active = 1 AND MONTH(question.created_at) = MONTH(CURDATE())
@@ -159,7 +160,7 @@
 
 		public function find_by_tag($tag)
 		{
-			$sql = "SELECT question.*,DATE_FORMAT(question.created_at, '%d/%m/%Y %H:%i') as time, user.full_name, catagory.name as catagory FROM question 
+			$sql = "SELECT question.*, user.full_name, catagory.name as catagory FROM question 
 					INNER JOIN user ON question.id_user = user.id
 					INNER JOIN catagory ON question.id_catagory = catagory.id
 					WHERE question.active = 1 AND question.tag  LIKE '%$tag%' AND question.title LIKE '%$tag%' 
@@ -170,7 +171,7 @@
 
 		public function order_by_time_and_count_reply()
 		{
-			$sql = "SELECT question.*,DATE_FORMAT(question.created_at, '%d/%m/%Y %H:%i') as time, user.full_name, catagory.name as catagory FROM question 
+			$sql = "SELECT question.*, user.full_name, catagory.name as catagory FROM question 
 					INNER JOIN user ON question.id_user = user.id
 					INNER JOIN catagory ON question.id_catagory = catagory.id
 					WHERE question.active = 1 ORDER BY question.vote DESC, question.count_reply ASC, question.created_at DESC LIMIT 5";
@@ -198,7 +199,7 @@
 
 		public function search_no_cate($keyword)
 		{
-			$sql = "SELECT question.*,DATE_FORMAT(question.created_at, '%d/%m/%Y %H:%i') as time, user.full_name, catagory.name as catagory FROM question 
+			$sql = "SELECT question.*, user.full_name, catagory.name as catagory FROM question 
 					INNER JOIN user ON question.id_user = user.id
 					INNER JOIN catagory ON question.id_catagory = catagory.id
 					WHERE question.active = 1 AND question.title LIKE '%$keyword%' LIMIT 15";
@@ -207,7 +208,7 @@
 
 		public function search_cate($id_cate,$keyword)
 		{
-			$sql = "SELECT question.*,DATE_FORMAT(question.created_at, '%d/%m/%Y %H:%i') as time, user.full_name, catagory.name as catagory FROM question 
+			$sql = "SELECT question.*, user.full_name, catagory.name as catagory FROM question 
 					INNER JOIN user ON question.id_user = user.id
 					INNER JOIN catagory ON question.id_catagory = catagory.id
 					WHERE question.active = 1 AND question.id_catagory = '$id_cate' AND question.title LIKE '%$keyword%' LIMIT 15";
@@ -217,7 +218,7 @@
 
 		public function search_fulltext($keyword)
 		{
-			$sql = "SELECT question.*,DATE_FORMAT(question.created_at, '%d/%m/%Y %H:%i') as time, user.full_name, catagory.name as catagory FROM question 
+			$sql = "SELECT question.*, user.full_name, catagory.name as catagory FROM question 
 					INNER JOIN user ON question.id_user = user.id
 					INNER JOIN catagory ON question.id_catagory = catagory.id
 					WHERE question.active = 1 AND MATCH(question.title) AGAINST('$keyword' WITH QUERY EXPANSION) LIMIT 7";

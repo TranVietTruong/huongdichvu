@@ -76,7 +76,7 @@
 						</div>
 						<div class="time-post">
 							<span><i class="far fa-calendar-alt"></i></span>
-							Ngày đăng: 
+							Thời gian: 
 							<span class="text-primary">{{question.time}}</span>
 						</div>
 						<div class="view">

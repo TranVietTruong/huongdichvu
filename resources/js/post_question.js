@@ -17,8 +17,9 @@ function thongbao(type,message)
 {
 	Swal.fire({
         type: type,
-        title: 'Thông báo',
-        text: message ,
+        title: 'Câu hỏi đăng thành công',
+        html: message ,
+        showConfirmButton: false
     })
 }
 
@@ -74,12 +75,14 @@ var app = new Vue({
 
 				axios.post('/api/question/post_question',fd)
 				.then(response=>{
-					thongbao("success","Câu hỏi đã được đăng");
+					thongbao("success","<a href='/cau-hoi/"+response.data+"'>Xem chi tiết</a>");
+
 					$('#major').val(null);
 					CKEDITOR.instances["txtFT_Content"].setData('');
 					this.tags = [];
 					this.title = '';
 					this.captcha = '';
+					document.getElementById('captcha').src='/get_captcha';
 				})
 				.catch(error=>{
 					document.getElementById('captcha').src='/get_captcha';
