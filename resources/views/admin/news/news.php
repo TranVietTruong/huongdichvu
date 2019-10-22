@@ -5,11 +5,11 @@
 			<div class="col-lg-12">
 				<div class="content-panel">
 					<h4> Quản lý tin tức</h4>
-					<!-- <div class="add-slogan">
-						<a href="/admin/slogan/add">
-							<button type="button" id="tesst" class="btn btn-round btn-success">Thêm</button>
+					<div class="add-slogan">
+						<a href="/admin/news/add">
+							<button type="button"  class="btn btn-round btn-success">Thêm tin từ nguồn khác</button>
 						</a>
-					</div> -->
+					</div>
 					<section id="unseen">
 						<table class="table table-bordered table-striped table-condensed">
 							<thead>
@@ -33,29 +33,11 @@
 									<td class="numeric">{{news.id_category}}</td>
                   <td class="numeric">{{news.slug}}</td>
 									<td class="numeric">{{news.post_by}}</td>
-									<!-- <td class="numeric">
-
+									<td class="numeric">
 										<button
-											@click="updateActive(slogan)"
-											v-if="slogan.active"
-											type="button" class="btn btn-primary btn-xs"><i class="fa fa-eye"></i>
-										</button>
-
-										<button
-											@click="updateActive(slogan)"
-											v-if="!slogan.active"
-											type="button" class="btn btn-primary btn-xs"><i class="fa fa-eye-slash"></i>
-										</button>
-
-
-										<a :href="'/admin/slogan/edit/'+slogan.id">
-											<button type="button" class="btn btn-warning btn-xs"><i class="fa fa-pencil"></i></button>
-										</a>
-
-										<button
-											@click="removeSlogan(slogan)"
+											@click="removeNews(news)"
 											type="button" class="btn btn-danger btn-xs"><i class="fa fa-trash-o "></i></button>
-									</td> -->
+									</td>
 								</tr>
 							</tbody>
 						</table>

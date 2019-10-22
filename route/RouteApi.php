@@ -162,6 +162,17 @@
 	    Load::Controller('controllers/api/UserController.php','UserController','update_pass');
 	},'post');
 
+	Route::add('/api/user/get_users',function(){
+		    Load::Controller('controllers/api/UserController.php','UserController','get_users');
+		},'post');
+
+	Route::add('/api/user/update-active',function(){
+			   Load::Controller('controllers/api/UserController.php','UserController','updateActive');
+		},'post');
+
+	Route::add('/api/user/remove',function(){
+				  Load::Controller('controllers/api/UserController.php','UserController','remove');
+		},'post');
 
 
 
@@ -185,6 +196,14 @@
 	Route::add('/api/news/search',function(){
 	    Load::Controller('controllers/api/NewsController.php','NewsController','search');
 	},'post');
+
+	Route::add('/api/news/remove',function(){
+			Load::Controller('controllers/api/NewsController.php','NewsController','remove');
+	},'post');
+
+	Route::add('/api/news/add',function(){
+			Load::Controller('controllers/api/NewsController.php','NewsController','addNews');
+	},'post');
 // ************************************ SEARCH ******************************************************
 
 	Route::add('/api/search/keyword',function(){
@@ -198,5 +217,3 @@
 	Route::add('/api/user/forget_password',function(){
 	    Load::Controller('controllers/api/UserController.php','UserController','forget_password');
 	},'post');
-
-

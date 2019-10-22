@@ -70,4 +70,36 @@ class NewsController extends Controller
         $data = $this->NewsModel->like($keyword);
         echo json_encode($data,JSON_UNESCAPED_UNICODE);
     }
+
+    public function remove()
+    {
+      if(isset($_POST['id']))
+          $id = $_POST['id'];
+      $this->NewsModel->remove($id);
+    }
+
+    public function addNews()
+    {
+      if(isset($_POST['link']))
+      {
+        $link = $_POST['link'];
+        $from_site = $_POST['from_site'];
+
+        include 'vendor/Simple_HTML_Dom/crawl_news.php';
+
+        $home = explode("/", $link)[2];
+        if($home == $from_site)
+        {
+          $sql_crawl = crawl_brandsvietnam($link);
+          // $data = ['status'=>'success', 'title'=> 'Thêm thành công!'];
+          $this->NewsModel->add($sql_crawl);
+          // echo json_encode($data, JSON_UNESCAPED_UNICODE);
+        }else {
+          // $data = ['status'=>'error', 'title'=>'Thiếu trang đích'];
+          // echo json_encode($data, JSON_UNESCAPED_UNICODE);
+        }
+
+      }
+
+    }
  }

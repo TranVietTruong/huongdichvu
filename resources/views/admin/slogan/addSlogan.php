@@ -51,7 +51,7 @@
 				                	<a href="/admin/slogan">
 				                		<button type="button" class="btn btn-danger">Hủy</button>
 				                	</a>
-				                
+
 				                </div>
 							</div>
 						</div>
