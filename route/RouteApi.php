@@ -171,7 +171,22 @@
 				  Load::Controller('controllers/api/UserController.php','UserController','remove');
 		},'post');
 
+// ******************************************* ADMIN ***************************************************
+	Route::add('/api/admin/get_all',function(){
+					Load::Controller('controllers/api/AdministratorController.php','AdministratorController','getAll');
+		},'post');
 
+	Route::add('/api/admin/update_active',function(){
+					Load::Controller('controllers/api/AdministratorController.php','AdministratorController','updateActive');
+		},'post');
+
+	Route::add('/api/admin/remove',function(){
+					Load::Controller('controllers/api/AdministratorController.php','AdministratorController','remove');
+		},'post');
+
+	Route::add('/api/admin/add',function(){
+					Load::Controller('controllers/api/AdministratorController.php','AdministratorController','add');
+		},'post');
 
 
 //==================================== END ==========================================================

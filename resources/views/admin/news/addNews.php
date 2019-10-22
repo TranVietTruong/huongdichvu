@@ -5,7 +5,6 @@
 			<div class="col-lg-12">
 				<div class="content-panel">
 					<h4>Thêm tin</h4>
-
 					<section id="unseen">
 						<div class="row">
 							<div class="col-md-6 col-md-push-3">

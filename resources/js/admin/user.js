@@ -1,14 +1,30 @@
+function confirmSweet(message, callBack)
+{
+	Swal.fire({
+  title: message,
+  text: "Bạn sẽ không thể hoàn tác hành động này!",
+  type: 'warning',
+  showCancelButton: true,
+  confirmButtonColor: '#3085d6',
+  cancelButtonColor: '#d33',
+	cancelButtonText: "Thoát",
+  confirmButtonText: 'Xóa'
+	}).then((result) => {
+	  if (result.value) {
+	    callBack();
+	  }
+	});
+}
+
 Vue.component('paginate', VuejsPaginate)
 
 var app = new Vue({
 	el: '#app',
-	data(){
-		return{
+	data: {
 			listUsers: [],
 			// user: '',
 			url: '/api/user/get_users',
 			pagination: {}
-		}
 	},
 	methods: {
 		get_users()
@@ -35,12 +51,24 @@ var app = new Vue({
 		},
 		removeUser(user)
 		{
-			const fd = new FormData();
-			fd.append('id', user.id);
-			axios.post('/api/user/remove',fd)
-			.then(response=>{
-				this.listUsers.splice(this.listUsers.indexOf(user),1);
-			})
+
+			confirmSweet("Bạn có muốn xóa người dùng: "+user.username, function(){
+				Swal.fire(
+					'Deleted!',
+					'Bạn vừa xóa: '+user.username,
+					'success'
+				);
+
+				const fd = new FormData();
+				fd.append('id', user.id);
+				axios.post('/api/user/remove',fd)
+				.then(response=>{
+					 window.location="/admin/users";
+				});
+
+			});
+
+
 		},
 		updateActive(user)
 		{

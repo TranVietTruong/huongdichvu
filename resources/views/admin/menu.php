@@ -24,7 +24,7 @@
 				</a>
 			</li>
 			<li class="sub-menu">
-				<a href="javascript:;">
+				<a href="/admin/question">
 					<i class="fa fa-question"></i>
 					<span>Câu hỏi</span>
 				</a>
@@ -42,17 +42,12 @@
 				</a>
 			</li>
 			<li class="sub-menu">
-				<a href="javascript:;">
+				<a href="/admin/administrator">
 					<i class="fa fa-unlock-alt"></i>
 					<span>Tài khoản</span>
 				</a>
 			</li>
-			<li class="sub-menu">
-				<a href="javascript:;">
-					<i class="fa fa-user"></i>
-					<span>Thông tin cá nhân</span>
-				</a>
-			</li>
+
 		</ul>
 		<!-- sidebar menu end-->
 	</div>
