@@ -76,5 +76,21 @@ Route::add('/admin/catagory/edit/([0-9]*)',function(){
 		Load::Controller('controllers/admin/NewsController.php','NewsController','news');
 	},'get');
 
+	Route::add('/admin/news/add',function(){
+		if(!isset($_SESSION['admin']))
+		{
+			header('location:/admin/login');
+		}
+		Load::Controller('controllers/admin/NewsController.php','NewsController','addNews');
+	},'get');
+
+	// =================================== NEWS ================================================
+	Route::add('/admin/users',function(){
+		if(!isset($_SESSION['admin']))
+		{
+			header('location:/admin/login');
+		}
+		Load::Controller('controllers/admin/UsersController.php','UsersController','users');
+	},'get');
 
 // =================================== END ===================================================
