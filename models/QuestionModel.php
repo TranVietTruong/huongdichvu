@@ -189,7 +189,7 @@
 
 		public function like($keyword)
 		{
-			$sql = "SELECT * FROM question WHERE MATCH(title) AGAINST('$keyword' WITH QUERY EXPANSION) LIMIT 5";
+			$sql = "SELECT * FROM question WHERE MATCH(title) AGAINST('$keyword') LIMIT 15";
 			return $this->db->Executequery($sql);
 		}
 		public function like_and_cate($id_catagory,$keyword)
