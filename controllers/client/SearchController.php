@@ -175,7 +175,7 @@ class SearchController extends Controller
 
         if(count($result) > 0)
         {
-            if(count($search_questions) == 0 && $result[0]['total'] > 1)
+            if(count($search_questions) == 0 && $result[0]['total'] >= 1)
             {
                 $search_questions = $this->QuestionModel->search_fulltext($keyword);
                 //------------- THỜI GIAN ĐĂNG -----------------------------------

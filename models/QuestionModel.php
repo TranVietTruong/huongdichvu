@@ -66,7 +66,6 @@
 			return $this->db->Executequery($sql);
 		}
 
-		
 		public function count_paginate_inday()
 		{
 			$sql = "SELECT count(*) as count FROM question
@@ -82,7 +81,7 @@
 					LIMIT $trang,$question_display";
 			return $this->db->Executequery($sql);
 		}
-		
+
 		public function count_paginate_inweek()
 		{
 			$sql = "SELECT count(*) as count FROM question
@@ -189,7 +188,7 @@
 
 		public function like($keyword)
 		{
-			$sql = "SELECT * FROM question WHERE MATCH(title) AGAINST('$keyword' WITH QUERY EXPANSION) LIMIT 5";
+			$sql = "SELECT * FROM question WHERE MATCH(title) AGAINST('$keyword') LIMIT 15";
 			return $this->db->Executequery($sql);
 		}
 		public function like_and_cate($id_catagory,$keyword)
