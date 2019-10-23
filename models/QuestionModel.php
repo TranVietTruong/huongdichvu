@@ -66,7 +66,6 @@
 			return $this->db->Executequery($sql);
 		}
 
-		
 		public function count_paginate_inday()
 		{
 			$sql = "SELECT count(*) as count FROM question
@@ -82,7 +81,7 @@
 					LIMIT $trang,$question_display";
 			return $this->db->Executequery($sql);
 		}
-		
+
 		public function count_paginate_inweek()
 		{
 			$sql = "SELECT count(*) as count FROM question
