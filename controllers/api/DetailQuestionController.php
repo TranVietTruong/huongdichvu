@@ -272,7 +272,7 @@ class DetailQuestionController extends Controller
                     $cathe[$i]['sucsong'] += $solanxuathien;
 
                     $solanxuathien_trongtitle = substr_count($value['title'],$tag);
-                    $cathe[$i]['sucsong'] += $solanxuathien_trongtitle*10;
+                    $cathe[$i]['sucsong'] += $solanxuathien_trongtitle*7;
 
                     $i++;
                 }
