@@ -1,4 +1,4 @@
-f<?php
+<?php
 
 require 'controllers/service/SlugService.php';
 require 'controllers/service/TimeAgo.php';
