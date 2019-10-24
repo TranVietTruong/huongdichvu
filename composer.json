@@ -1,0 +1,6 @@
+{
+    "require": {
+        "slim/slim": "^3.12",
+        "php-ai/php-ml": "^0.8.0"
+    }
+}

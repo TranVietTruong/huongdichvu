@@ -8,6 +8,10 @@
 
     require 'controllers/service/TimeAgo.php';
 
+    require 'vendor/autoload.php';
+
+    use Phpml\Classification\KNearestNeighbors;
+
 class HomeController extends Controller
 {
     /**
@@ -235,4 +239,17 @@ class HomeController extends Controller
         }
     }
 
+
+
+    public function test()
+    {
+        $samples = [[1, 3], [1, 4], [2, 4], [3, 1], [4, 1], [4, 2]];
+        $labels = ['a', 'a', 'a', 'b', 'b', 'b'];
+
+        $classifier = new KNearestNeighbors();
+        $classifier->train($samples, $labels);
+
+        $resutl = $classifier->predict([3, 2]);
+        echo $resutl;
+    }
 }
