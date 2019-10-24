@@ -9,6 +9,10 @@ Route::add('/',function(){
 	Load::Controller('controllers/client/HomeController.php','HomeController','home');
 },'get');
 
+Route::add('/test',function(){
+	Load::Controller('controllers/client/HomeController.php','HomeController','test');
+},'get');
+
 
 Route::add('/linh-vuc/([a-z0-9\-]+$)',function(){
 	Load::Controller('controllers/client/CategoryController.php','CategoryController','cate');

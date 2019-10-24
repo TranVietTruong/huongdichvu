@@ -247,6 +247,7 @@ class DetailQuestionController extends Controller
         {
            
             $cathe = $this->AnswerModel->choncathe();
+            $canhtranh = 0;
 
             $k = 0;
             foreach ($cathe as $value) {
@@ -258,6 +259,8 @@ class DetailQuestionController extends Controller
                
                 foreach ($tag_answers as $tag_answer) {
                     $result = substr_count($question[0]['title'],$tag_answer);
+                    $canhtranh += $result;
+
                     $cathe[$k]['sucsong'] += $result * 7;
                 }
 
@@ -272,16 +275,22 @@ class DetailQuestionController extends Controller
                     $cathe[$i]['sucsong'] += $solanxuathien;
 
                     $solanxuathien_trongtitle = substr_count($value['title'],$tag);
+                    $canhtranh += $solanxuathien_trongtitle;
+
                     $cathe[$i]['sucsong'] += $solanxuathien_trongtitle*7;
 
                     $i++;
                 }
             }
+           
             
+
             $j = 0;
             foreach ($cathe as $value) {
-                if($value['sucsong'] < 7)
+                if($value['sucsong'] < $canhtranh)
+                {
                     unset($cathe[$j]);
+                }
                 $j++;
             }
 
