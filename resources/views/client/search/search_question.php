@@ -66,7 +66,7 @@
 							</div>
 						</div>
 						<div class="content-question">
-							<span class="text-primary">Câu hỏi: </span>
+							<span class="text-primary">Chi tiết: </span>
 							<div>
 								<?php echo $question['content'] ?>
 							</div>
