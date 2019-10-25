@@ -10,7 +10,7 @@ Route::add('/',function(){
 },'get');
 
 Route::add('/test',function(){
-	Load::Controller('controllers/client/HomeController.php','HomeController','test');
+	Load::Controller('controllers/api/DetailQuestionController.php','DetailQuestionController','test');
 },'get');
 
 

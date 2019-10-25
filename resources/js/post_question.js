@@ -51,13 +51,13 @@ var app = new Vue({
 			if(major == '')
 				this.error.push('Chọn một lĩnh vực mà bạn quan tâm.');
 			if(this.title == '')
-				this.error.push('Hãy đặt tiêu đề cho câu hỏi của bạn.');
+				this.error.push('Bạn chưa đặt câu hỏi');
 			if(this.title.length > 253)
-				this.error.push('Tiêu đề của bạn quá dài');
+				this.error.push('Câu hỏi của bạn quá dài');
 			if(this.tags.length == 0)
 				this.error.push('Hãy thêm tối thiểu 1 thẻ tag.');
 			if(content == '')
-				this.error.push('Nội dung bạn muốn hỏi là gì ?');
+				this.error.push('Hãy cố gắng mô tả thêm một chút về câu hỏi của bạn ?');
 			if(this.captcha == '')
 				this.error.push('Bạn chưa nhập captcha');
 			

@@ -62,5 +62,30 @@
 					INNER JOIN question ON answer.id_question = question.id";
 			return $this->db->Executequery($sql);		
 		}
+
+		public function all()
+		{
+			$sql = "SELECT answer.*,DATE_FORMAT(answer.created_at, '%d/%m/%Y %H:%i') as time,question.id_catagory,question.title,user.full_name FROM answer
+					INNER JOIN user ON answer.id_user = user.id
+					INNER JOIN question ON answer.id_question = question.id";
+			return $this->db->Executequery($sql);		
+		}
+
+		public function get_target($id)
+		{
+			$sql = "SELECT answer.*,DATE_FORMAT(answer.created_at, '%d/%m/%Y %H:%i') as time,question.id_catagory,question.title,user.full_name FROM answer
+					INNER JOIN user ON answer.id_user = user.id
+					INNER JOIN question ON answer.id_question = question.id
+					WHERE answer.id < '$id' ORDER BY answer.id DESC LIMIT 1";
+			return $this->db->Executequery($sql);	
+		}
+		public function get_target2($id)
+		{
+			$sql = "SELECT answer.*,DATE_FORMAT(answer.created_at, '%d/%m/%Y %H:%i') as time,question.id_catagory,question.title,user.full_name FROM answer
+					INNER JOIN user ON answer.id_user = user.id
+					INNER JOIN question ON answer.id_question = question.id
+					WHERE answer.id > '$id' LIMIT 1";
+			return $this->db->Executequery($sql);	
+		}
 		// ============================= END =========================================
 	}
