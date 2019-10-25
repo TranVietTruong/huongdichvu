@@ -21,8 +21,8 @@
 								</div>
 
 								<div class="input-group-icon mt-10">
-									<div class="icon"><i class="fa fa-bookmark"></i></div>
-									<input v-model="title" type="text" placeholder="Tiêu đề" class="single-input">
+									<div class="icon"><i class="fas fa-question-circle"></i></div>
+									<input v-model="title" type="text" placeholder="Nhập câu hỏi" class="single-input">
 								</div>
 
 								<div class="input-group-icon mt-10">
@@ -38,7 +38,9 @@
 									
 								</div>
 								<div class="input-group-icon mt-30">
-								  	<textarea name="editor1" id="txtFT_Content" name ="txtFT_Content"></textarea>
+								  	<textarea name="editor1" id="txtFT_Content" name ="txtFT_Content" placeholder="Chi tiết câu hỏi">
+								  		
+								  	</textarea>
 								</div>
 
 								<div class="input-group-icon mt-30">
@@ -68,6 +70,7 @@
 							</div>
 							
 							<button @click="register" type="button"  class="primary-btn mt-20 text-white">Hỏi</button>
+
 							<div class="mt-20 alert-msg" style="text-align: left;"></div>
 						</div>
 						<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
@@ -98,14 +101,14 @@
 												<img src="https://cdn.sstatic.net/Img/list-2.svg?v=e8dd475ba207" alt="">
 											</div>
 											<span>
-												<h6>Đặt tiêu đề cho câu hỏi</h6>
+												<h6>Nhập câu hỏi muốn hỏi</h6>
 											</span>
 											<div class="step-down">
 												<i class="fas fa-sort-down"></i>
 											</div>
 										</div>
 										<div class="detail-step">
-											Tiêu đề là bản mô tả ngắn gọn nội dung của câu hỏi giúp cho người tư vấn dễ dàng nắm bắt được nội dung mà bạn muốn hỏi là gì.
+											Hãy cố gắng mô tả ngắn gọn nội dung của câu hỏi,nó sẽ giúp cho người tư vấn dễ dàng nắm bắt được nội dung mà bạn muốn hỏi là gì nếu câu hỏi cần thêm thông tin bạn có thể bổ sung ở bên dưới.
 										</div>
 									</li>
 									<li>

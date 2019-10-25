@@ -58,9 +58,6 @@ class QuestionController extends Controller
         	else
         		throw new Exception('Không thể đăng câu hỏi',500);
 
-            // if($_SESSION['captcha'] != md5($_POST['captcha']))
-            //     throw new Exception('Nhập captcha',500);
-
             if(captcha::verify_captcha($_POST['captcha']) == false)
                 throw new Exception('Nhập captcha',500);
 
