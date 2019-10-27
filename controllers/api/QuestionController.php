@@ -1,4 +1,4 @@
-f<?php
+<?php
 
 require 'controllers/service/SlugService.php';
 require 'controllers/service/TimeAgo.php';
@@ -495,4 +495,17 @@ class QuestionController extends Controller
         echo json_encode($pagination,JSON_UNESCAPED_UNICODE);
     }
 
+    public function updateActive()
+    {
+      if(isset($_POST['id']))
+        $id = $_POST['id'];
+      $this->QuestionModel->updateActive($id);
+    }
+
+    public function remove()
+    {
+      if(isset($_POST['id']))
+        $id = $_POST['id'];
+      $this->QuestionModel->remove($id);
+    }
 }

@@ -95,7 +95,7 @@
 	},'post');
 
 	Route::add('/api/question/post_question',function(){
-	    Load::Controller('controllers/api/QuestionController.php','QuestionController','get_all');
+	    Load::Controller('controllers/api/QuestionController.php','QuestionController','post_question');
 	},'post');
 
 	Route::add('/api/tag/get_all',function(){
@@ -134,6 +134,22 @@
 	    Load::Controller('controllers/api/DetailQuestionController.php','DetailQuestionController','de_xuat_cau_tra_loi');
 	},'post');
 
+	Route::add('/api/question/remove',function(){
+			Load::Controller('controllers/api/QuestionController.php','QuestionController','remove');
+	},'post');
+
+	Route::add('/api/question/updateActive',function(){
+			Load::Controller('controllers/api/QuestionController.php','QuestionController','updateActive');
+	},'post');
+
+// ******************************************* ANSWER ***************************************************
+Route::add('/api/answer/remove',function(){
+		Load::Controller('controllers/api/AnswerController.php','AnswerController','remove');
+},'post');
+
+Route::add('/api/answer/updateActive',function(){
+		Load::Controller('controllers/api/AnswerController.php','AnswerController','updateActive');
+},'post');
 
 	// ******************************************* USER ***************************************************
 
