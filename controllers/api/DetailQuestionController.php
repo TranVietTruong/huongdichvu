@@ -1,5 +1,8 @@
 <?php
-
+require 'vendor/autoload.php';
+use Phpml\Classification\KNearestNeighbors;
+use Phpml\Classification\NaiveBayes;
+use Phpml\Regression\LeastSquares;
 
 class DetailQuestionController extends Controller
 {
@@ -10,6 +13,8 @@ class DetailQuestionController extends Controller
     public $QuestionModel;
     public $VoteQuestionModel;
     public $VoteAnswerModel;
+    public $TagModel;
+    public $CatagoryModel;
 
     public function __construct($param = NULL)
     {
@@ -19,11 +24,15 @@ class DetailQuestionController extends Controller
         include 'models/QuestionModel.php';
         include 'models/VoteQuestionModel.php';
         include 'models/VoteAnswerModel.php';
+        include 'models/TagModel.php';
+        include 'models/CatagoryModel.php';
 
         $this->QuestionModel = new QuestionModel();
         $this->AnswerModel = new AnswerModel();
         $this->VoteQuestionModel = new VoteQuestionModel();
         $this->VoteAnswerModel = new VoteAnswerModel();
+        $this->TagModel = new TagModel();
+        $this->CatagoryModel = new CatagoryModel();
     }
 
     public function detail_question()
@@ -230,8 +239,10 @@ class DetailQuestionController extends Controller
     }
 
 
+
     public function de_xuat_cau_tra_loi()
     {
+
         if(isset($_POST['slug']))
             $slug = $_POST['slug'];
         else
@@ -242,58 +253,65 @@ class DetailQuestionController extends Controller
         if(count($question) == 0)
             http_response_code(404);
 
-        $answer = $this->AnswerModel->findByIdQuestion($question[0]['id']);
-        if(count($answer) == 0)
+        $answer_question = $this->AnswerModel->findByIdQuestion($question[0]['id']);
+        // nếu câu hỏi này chưa có câu trả lời thì cho máy đề xuất trả lời
+        if(count($answer_question) == 0)
         {
-            $tags = explode(',',$question[0]['tag']);
-            $cathe = $this->AnswerModel->choncathe();
+            $tags = $this->TagModel->all();
+            $answers = $this->AnswerModel->all();
 
-            $k = 0;
-            foreach ($cathe as $value) {
-                $cathe[$k]['sucsong'] = 0;
-                if($value['id_catagory'] == $question[0]['id_catagory'])
-                    $cathe[$k]['sucsong'] += 3;
+            $i = 0;
+            $samples = [];
+            $targets = [];
 
-                $tag_answers = explode(',', $value['tag']);
-               
-                foreach ($tag_answers as $tag_answer) {
-                    $result = substr_count($question[0]['title'],$tag_answer);
-                    $cathe[$k]['sucsong'] += $result * 7;
+            foreach ($answers as $answer) 
+            {   
+                $answers[$i]['label'] = 0;
+
+                foreach ($tags as $tag) {
+                    $num = substr_count(mb_strtolower($answer['title'],'UTF-8'),$tag['name']);
+                    if($num > 0)
+                        $answers[$i]['label'] += $num*$tag['id'];
                 }
 
-                $k++;
+                array_push($samples,[ $answers[$i]['label'] ]);
+                array_push($targets,$answer['id']);
+
+                $i++;
             }
 
+            $regression = new NaiveBayes();
+            $regression->train($samples, $targets);
+
+
+            $target = 0;
             foreach ($tags as $tag) {
-                $i = 0;
-                foreach ($cathe as $value) {
-                    $solanxuathien = substr_count($value['content_text'],$tag);
-                    $cathe[$i]['sucsong'] += $solanxuathien;
-
-                    $solanxuathien_trongtitle = substr_count($value['title'],$tag);
-                    $cathe[$i]['sucsong'] += $solanxuathien_trongtitle*10;
-
-                    $i++;
-                }
-            }
-            
-            $j = 0;
-            foreach ($cathe as $value) {
-                if($value['sucsong'] < 7)
-                    unset($cathe[$j]);
-                $j++;
+                $num = substr_count(mb_strtolower($question[0]['title'],'UTF-8'),$tag['name']);
+                if($num > 0)
+                    $target += $num*$tag['id'];
+                
             }
 
-            $data = array_values($cathe);
+            $result = $regression->predict([ $target ]);
+            // echo "<pre>";
+            // echo $result;
+            // var_dump([$target ]);
+            // echo "--------------------";
+            // var_dump($samples);
+            // echo "----------------------";
+            // var_dump($targets);
 
-
+            $data = $this->AnswerModel->find($result);
+    
             if(isset($_SESSION['user']))
                 $id_user = $_SESSION['user']['id'];
             else
                 $id_user = -1;
+
             $i = 0;
-            foreach ($data as $answer) {
-                $vote_answer = $this->VoteAnswerModel->where($id_user,$answer['id']);
+            foreach ($data as $value) 
+            {
+                $vote_answer = $this->VoteAnswerModel->where($id_user,$value['id']);
                 
                 if(count($vote_answer) == 1)
                 {

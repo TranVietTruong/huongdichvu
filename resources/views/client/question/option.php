@@ -58,7 +58,7 @@
 								<a href=""><?php echo $question['catagory'] ?></a>
 							</div>
 							<div class="content-question">
-								<span class="text-primary">Câu hỏi: </span>
+								<span class="text-primary">Chi tiết: </span>
 								<?php echo $question['content'] ?>
 							</div>
 							<div class="time-post">

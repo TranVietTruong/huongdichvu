@@ -98,6 +98,7 @@ var slogan = new Vue({
 
 				axios.post('/api/question/add_answer',fd)
 				.then(response=>{
+					CKEDITOR.instances["txtFT_Content"].setData('');
 					this.listAnswer.push(response.data[0]);
 				})
 				.catch(error=>{

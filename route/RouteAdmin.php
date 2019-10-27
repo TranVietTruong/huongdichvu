@@ -17,6 +17,22 @@ Route::add('/admin/login',function(){
 	Load::Controller('controllers/admin/LoginController.php','LoginController','login');
 },'get');
 
+Route::add('/admin/administrator',function(){
+	if(!isset($_SESSION['admin']))
+	{
+		header('location:/404');
+	}
+	Load::Controller('controllers/admin/AdministratorController.php','AdministratorController','administrator');
+},'get');
+
+Route::add('/admin/administrator/add',function(){
+	if(!isset($_SESSION['admin']))
+	{
+		header('location:/404');
+	}
+	Load::Controller('controllers/admin/AdministratorController.php','AdministratorController','add');
+},'get');
+
 
 	// =================================== SLOGAN ================================================
 
@@ -83,6 +99,15 @@ Route::add('/admin/catagory/edit/([0-9]*)',function(){
 		}
 		Load::Controller('controllers/admin/NewsController.php','NewsController','addNews');
 	},'get');
+
+// =================================== QUESTION ================================================
+Route::add('/admin/question',function(){
+	if(!isset($_SESSION['admin']))
+	{
+		header('location:/admin/login');
+	}
+	Load::Controller('controllers/admin/QuestionController.php','QuestionController','question');
+},'get');
 
 	// =================================== NEWS ================================================
 	Route::add('/admin/users',function(){

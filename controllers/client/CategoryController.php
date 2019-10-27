@@ -1,5 +1,5 @@
 <?php
-
+   require 'controllers/service/TimeAgo.php';
 class CategoryController extends Controller
 {
     /**
@@ -37,6 +37,8 @@ class CategoryController extends Controller
         $this->view->catagories = $this->CatagoryModel->all();
 
         // -------------- Lấy các câu hỏi phần CÓ THỂ BẠN BIẾT để hiển thị ------------------------
+
+         $data = [];
         if(isset($_SESSION['user']))
         {
             $user = $this->UserModel->find($_SESSION['user']['id']);
@@ -52,7 +54,6 @@ class CategoryController extends Controller
                         break;
                 }
 
-                $data = [];
                 $tintuc = [];
 
                 foreach ($tag_user as $value) 
@@ -83,10 +84,9 @@ class CategoryController extends Controller
                         else
                             break;
                     }
-                    $this->view->questions = $data;
                 }
                 else
-                    $this->view->questions = $this->QuestionModel->order_by_time_and_count_reply();
+                    $data = $this->QuestionModel->order_by_time_and_count_reply();
 
                 if(count($tintuc) != 0)
                 {
@@ -104,17 +104,26 @@ class CategoryController extends Controller
             }
             else
             {   
-                $this->view->questions = $this->QuestionModel->order_by_time_and_count_reply();
+                $data = $this->QuestionModel->order_by_time_and_count_reply();
                 $this->view->news = $this->NewsModel->rand();
             }
         }
         else
         {
-            $this->view->questions = $this->QuestionModel->order_by_time_and_count_reply();
+            $data = $this->QuestionModel->order_by_time_and_count_reply();
             $this->view->news = $this->NewsModel->rand();
         }
         //---------------------------------------- END ------------------------------------------------
         
+        //------------- THỜI GIAN ĐĂNG -----------------------------------
+        $i = 0;
+        foreach ($data as $value) {
+            $data[$i]['time'] = TimeAgo::time_ago($value['created_at']);
+            $i++;
+        }
+        //----------------------------------------------------------------
+
+        $this->view->questions = $data;
 
 
         $this->view->Render('client/head');

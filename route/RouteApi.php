@@ -90,7 +90,9 @@
 	    Load::Controller('controllers/api/QuestionController.php','QuestionController','trong_thang');
 	},'post');
 
-
+	Route::add('/api/question/get_all',function(){
+	    Load::Controller('controllers/api/QuestionController.php','QuestionController','get_all');
+	},'post');
 
 	Route::add('/api/question/post_question',function(){
 	    Load::Controller('controllers/api/QuestionController.php','QuestionController','post_question');
@@ -132,6 +134,22 @@
 	    Load::Controller('controllers/api/DetailQuestionController.php','DetailQuestionController','de_xuat_cau_tra_loi');
 	},'post');
 
+	Route::add('/api/question/remove',function(){
+			Load::Controller('controllers/api/QuestionController.php','QuestionController','remove');
+	},'post');
+
+	Route::add('/api/question/updateActive',function(){
+			Load::Controller('controllers/api/QuestionController.php','QuestionController','updateActive');
+	},'post');
+
+// ******************************************* ANSWER ***************************************************
+Route::add('/api/answer/remove',function(){
+		Load::Controller('controllers/api/AnswerController.php','AnswerController','remove');
+},'post');
+
+Route::add('/api/answer/updateActive',function(){
+		Load::Controller('controllers/api/AnswerController.php','AnswerController','updateActive');
+},'post');
 
 	// ******************************************* USER ***************************************************
 
@@ -174,7 +192,22 @@
 				  Load::Controller('controllers/api/UserController.php','UserController','remove');
 		},'post');
 
+// ******************************************* ADMIN ***************************************************
+	Route::add('/api/admin/get_all',function(){
+					Load::Controller('controllers/api/AdministratorController.php','AdministratorController','getAll');
+		},'post');
 
+	Route::add('/api/admin/update_active',function(){
+					Load::Controller('controllers/api/AdministratorController.php','AdministratorController','updateActive');
+		},'post');
+
+	Route::add('/api/admin/remove',function(){
+					Load::Controller('controllers/api/AdministratorController.php','AdministratorController','remove');
+		},'post');
+
+	Route::add('/api/admin/add',function(){
+					Load::Controller('controllers/api/AdministratorController.php','AdministratorController','add');
+		},'post');
 
 
 //==================================== END ==========================================================

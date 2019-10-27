@@ -34,7 +34,6 @@ var app = new Vue({
 				this.searchs = response.data.searchs;
 				this.questions = response.data.questions;
 				this.news = response.data.news;
-				console.log(response.data);
 			})
 			.catch(error=>{
 				thongbao('error',error.response.data);

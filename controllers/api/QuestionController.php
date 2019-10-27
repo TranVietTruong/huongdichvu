@@ -32,12 +32,12 @@ class QuestionController extends Controller
         $captcha->get_captcha();
     }
 
-  
+
     public function post_question()
     {
-    	try 
+    	try
         {
-        
+
     		if(isset($_POST['major']))
         		$major = $_POST['major'];
         	else
@@ -57,9 +57,6 @@ class QuestionController extends Controller
         		$content = $_POST['content'];
         	else
         		throw new Exception('Không thể đăng câu hỏi',500);
-
-            // if($_SESSION['captcha'] != md5($_POST['captcha']))
-            //     throw new Exception('Nhập captcha',500);
 
             if(captcha::verify_captcha($_POST['captcha']) == false)
                 throw new Exception('Nhập captcha',500);
@@ -97,7 +94,7 @@ class QuestionController extends Controller
     		}
 
             echo json_encode($slug,JSON_UNESCAPED_UNICODE);
-        } 
+        }
         catch (Exception $e) {
             http_response_code(401);
             echo json_encode($e->getMessage(),JSON_UNESCAPED_UNICODE);
@@ -265,6 +262,11 @@ class QuestionController extends Controller
         echo json_encode($pagination,JSON_UNESCAPED_UNICODE);
     }
 
+    public function get_all()
+    {
+      $data = $this->QuestionModel->all();
+      echo json_encode($data, JSON_UNESCAPED_UNICODE);
+    }
 
     public function trong_ngay()
     {
@@ -490,4 +492,17 @@ class QuestionController extends Controller
         echo json_encode($pagination,JSON_UNESCAPED_UNICODE);
     }
 
+    public function updateActive()
+    {
+      if(isset($_POST['id']))
+        $id = $_POST['id'];
+      $this->QuestionModel->updateActive($id);
+    }
+
+    public function remove()
+    {
+      if(isset($_POST['id']))
+        $id = $_POST['id'];
+      $this->QuestionModel->remove($id);
+    }
 }
