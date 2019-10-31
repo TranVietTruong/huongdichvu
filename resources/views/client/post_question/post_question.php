@@ -41,6 +41,25 @@
 								  	<textarea name="editor1" id="txtFT_Content" name ="txtFT_Content"></textarea>
 								</div>
 
+								<div class="input-group-icon mt-30">
+									<div class="row">
+										<div class="col-md-5">
+											<img id="captcha" style="height:52px" src="/get_captcha" alt="">
+											<button 
+												onclick="document.getElementById('captcha').src='/get_captcha'" 
+												type="button" 
+												class="genric-btn info-border pl-4 pr-4"
+												>
+
+												<i class="fas fa-sync-alt"></i>
+											</button>
+										</div>
+										<div class="col-md-7">
+											<input v-model="captcha" type="text" placeholder="Nhập captcha" class="single-input form-control">
+										</div>
+									</div>
+								</div>
+
 								<div class="error" v-if="error.length > 0">
 									<ul>
 										<li v-for="err in error" class="text-danger"><p><i class="fa fa-times"></i> {{err}}</p></li>

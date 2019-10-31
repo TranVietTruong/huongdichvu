@@ -1,6 +1,8 @@
 f<?php
 
 require 'controllers/service/SlugService.php';
+require 'controllers/service/TimeAgo.php';
+require 'vendor/captcha/captcha.php';
 
 class QuestionController extends Controller
 {
@@ -24,6 +26,7 @@ class QuestionController extends Controller
         $this->CatagoryModel = new CatagoryModel();
     }
 
+<<<<<<< HEAD
 
     public function post_question()
     {
@@ -32,52 +35,84 @@ class QuestionController extends Controller
     		$major = $_POST['major'];
     	else
     		throw new Exception('Không thể đăng câu hỏi',500);
+=======
+    public function get_captcha()
+    {
+        $captcha = new captcha();
+        $captcha->get_captcha();
+    }
 
-    	if(isset($_POST['title']))
-    		$title = $_POST['title'];
-    	else
-    		throw new Exception('Không thể đăng câu hỏi',500);
+  
+    public function post_question()
+    {
+    	try 
+        {
+        
+    		if(isset($_POST['major']))
+        		$major = $_POST['major'];
+        	else
+        		throw new Exception('Không thể đăng câu hỏi',500);
 
-    	if(isset($_POST['tags']))
-    		$tags = $_POST['tags'][0];
-    	else
-    		throw new Exception('Không thể đăng câu hỏi',500);
+        	if(isset($_POST['title']))
+        		$title = $_POST['title'];
+        	else
+        		throw new Exception('Không thể đăng câu hỏi',500);
 
-    	if(isset($_POST['content']))
-    		$content = $_POST['content'];
-    	else
-    		throw new Exception('Không thể đăng câu hỏi',500);
+        	if(isset($_POST['tags']))
+        		$tags = $_POST['tags'][0];
+        	else
+        		throw new Exception('Không thể đăng câu hỏi',500);
+>>>>>>> 244ff4d2dab619fd8af4b63364e6c7ab76fbdb4f
 
-    	$slug = SlugService::slug($title);
+        	if(isset($_POST['content']))
+        		$content = $_POST['content'];
+        	else
+        		throw new Exception('Không thể đăng câu hỏi',500);
 
-		$this->QuestionModel->add($major,$_SESSION['user']['id'],$title,$slug,$content,$tags);
+            // if($_SESSION['captcha'] != md5($_POST['captcha']))
+            //     throw new Exception('Nhập captcha',500);
+
+            if(captcha::verify_captcha($_POST['captcha']) == false)
+                throw new Exception('Nhập captcha',500);
 
 
-		$insertTag = explode(',',$tags);
+        	$slug = SlugService::slug($title);
 
-        $tag_model = $this->TagModel->all();
+    		$this->QuestionModel->add($major,$_SESSION['user']['id'],$title,$slug,$content,$tags);
 
-		foreach ($insertTag as $value) {
-            $update = 0;
-            $id = -1;
-            foreach ($tag_model as $tag) {
-                if($tag['slug'] == SlugService::slug($value))
-                {
-                    $update = 1;
-                    $id = $tag['id'];
-                    break;
+
+    		$insertTag = explode(',',$tags);
+
+            $tag_model = $this->TagModel->all();
+
+    		foreach ($insertTag as $value) {
+                $update = 0;
+                $id = -1;
+                foreach ($tag_model as $tag) {
+                    if($tag['slug'] == SlugService::slug($value))
+                    {
+                        $update = 1;
+                        $id = $tag['id'];
+                        break;
+                    }
                 }
-            }
 
-            if($update)
-            {
-                $this->TagModel->update_total($id);
-            }
-            else
-            {
-                $this->TagModel->add($value,SlugService::slug($value));
-            }
-		}
+                if($update)
+                {
+                    $this->TagModel->update_total($id);
+                }
+                else
+                {
+                    $this->TagModel->add($value,SlugService::slug($value));
+                }
+    		}
+
+            echo json_encode($slug,JSON_UNESCAPED_UNICODE);
+        } 
+        catch (Exception $e) {
+            http_response_code(401);
+            echo json_encode($e->getMessage(),JSON_UNESCAPED_UNICODE);
+        }
     }
 
 
@@ -95,6 +130,14 @@ class QuestionController extends Controller
         $to = $from + $per_page;                // đến vị trí $to
 
         $data = $this->QuestionModel->paginate($from,$per_page);// lấy từ ị trí $from với $per_page bài tính từ vị trí $from
+
+        //------------- THỜI GIAN ĐĂNG -----------------------------------
+        $i = 0;
+        foreach ($data as $value) {
+            $data[$i]['time'] = TimeAgo::time_ago($value['created_at']);
+            $i++;
+        }
+        //----------------------------------------------------------------
 
         $current_page = $page;
         $first_page_url = "/api/question/get_question?page=1";
@@ -141,6 +184,14 @@ class QuestionController extends Controller
 
         $data = $this->QuestionModel->paginate_orderBy_view($from,$per_page);// lấy từ ị trí $from với $per_page bài tính từ vị trí $from
 
+        //------------- THỜI GIAN ĐĂNG -----------------------------------
+        $i = 0;
+        foreach ($data as $value) {
+            $data[$i]['time'] = TimeAgo::time_ago($value['created_at']);
+            $i++;
+        }
+        //----------------------------------------------------------------
+
         $current_page = $page;
         $first_page_url = "/api/question/xem_nhieu?page=1";
         $last_page_url = "/api/question/xem_nhieu?page=".$last_page;
@@ -186,6 +237,14 @@ class QuestionController extends Controller
         $to = $from + $per_page;                // đến vị trí $to
 
         $data = $this->QuestionModel->paginate_orderBy_vote($from,$per_page);// lấy từ ị trí $from với $per_page bài tính từ vị trí $from
+
+        //------------- THỜI GIAN ĐĂNG -----------------------------------
+        $i = 0;
+        foreach ($data as $value) {
+            $data[$i]['time'] = TimeAgo::time_ago($value['created_at']);
+            $i++;
+        }
+        //----------------------------------------------------------------
 
         $current_page = $page;
         $first_page_url = "/api/question/vote_nhieu?page=1";
@@ -238,6 +297,14 @@ class QuestionController extends Controller
 
         $data = $this->QuestionModel->paginate_inday($from,$per_page);// lấy từ ị trí $from với $per_page bài tính từ vị trí $from
 
+        //------------- THỜI GIAN ĐĂNG -----------------------------------
+        $i = 0;
+        foreach ($data as $value) {
+            $data[$i]['time'] = TimeAgo::time_ago($value['created_at']);
+            $i++;
+        }
+        //----------------------------------------------------------------
+
         $current_page = $page;
         $first_page_url = "/api/question/trong_ngay?page=1";
         $last_page_url = "/api/question/trong_ngay?page=".$last_page;
@@ -284,6 +351,14 @@ class QuestionController extends Controller
 
         $data = $this->QuestionModel->paginate_inweek($from,$per_page);// lấy từ ị trí $from với $per_page bài tính từ vị trí $from
 
+        //------------- THỜI GIAN ĐĂNG -----------------------------------
+        $i = 0;
+        foreach ($data as $value) {
+            $data[$i]['time'] = TimeAgo::time_ago($value['created_at']);
+            $i++;
+        }
+        //----------------------------------------------------------------
+
         $current_page = $page;
         $first_page_url = "/api/question/trong_tuan?page=1";
         $last_page_url = "/api/question/trong_tuan?page=".$last_page;
@@ -328,6 +403,14 @@ class QuestionController extends Controller
         $to = $from + $per_page;                // đến vị trí $to
 
         $data = $this->QuestionModel->paginate_inmonth($from,$per_page);// lấy từ ị trí $from với $per_page bài tính từ vị trí $from
+
+        //------------- THỜI GIAN ĐĂNG -----------------------------------
+        $i = 0;
+        foreach ($data as $value) {
+            $data[$i]['time'] = TimeAgo::time_ago($value['created_at']);
+            $i++;
+        }
+        //----------------------------------------------------------------
 
         $current_page = $page;
         $first_page_url = "/api/question/trong_thang?page=1";
@@ -384,6 +467,14 @@ class QuestionController extends Controller
         $to = $from + $per_page;                // đến vị trí $to
 
         $data = $this->QuestionModel->paginate_category($category['id'],$from,$per_page);// lấy từ ị trí $from với $per_page bài tính từ vị trí $from
+
+        //------------- THỜI GIAN ĐĂNG -----------------------------------
+        $i = 0;
+        foreach ($data as $value) {
+            $data[$i]['time'] = TimeAgo::time_ago($value['created_at']);
+            $i++;
+        }
+        //----------------------------------------------------------------
 
         $current_page = $page;
         $first_page_url = "/api/question/get_by_category?page=1";

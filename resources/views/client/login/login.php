@@ -23,6 +23,7 @@
 								</div>
 
 								<button @click="login" type="button" class="primary-btn mt-20 text-white">Đăng Nhập</button>
+								<p class="text-center mt-5">Bạn chưa có tài khoản? <a href="/dang-ky">Đăng ký tại đây</a></p>
 								<div class="mt-20 alert-msg" style="text-align: left;"></div>
 							</div>
 						</div>

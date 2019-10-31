@@ -16,6 +16,7 @@ var slogan = new Vue({
 			detailQuestion: {},
 			error: [],
 			tags:[],
+			dexuat: [], // câu trả lời đễ xuất
 			// --------------------
 
 			keysearch: '',
@@ -93,9 +94,11 @@ var slogan = new Vue({
 				fd.append('id_question',this.detailQuestion.id);
 				fd.append('content',content);
 				fd.append('tag',this.detailQuestion.tag);
+				fd.append('content_text',CKEDITOR.instances["txtFT_Content"].document.getBody().getText());
 
 				axios.post('/api/question/add_answer',fd)
 				.then(response=>{
+					CKEDITOR.instances["txtFT_Content"].setData('');
 					this.listAnswer.push(response.data[0]);
 				})
 				.catch(error=>{
@@ -212,6 +215,29 @@ var slogan = new Vue({
 			.catch(error=>{
 				thongbao('error',error.response.data);
 			})
+		},
+		cau_tra_loi_de_xuat()
+		{
+			let url = location.href.split('/');
+			let slug = url[url.length - 1];
+
+			const fd = new FormData();
+			fd.append('slug',slug);
+
+			axios.post('/api/question/de_xuat_cau_tra_loi',fd)
+			.then(response=>{
+				this.dexuat = response.data.sort((a,b)=>{
+					if(a.sucsong < b.sucsong)
+						return 1;
+					else
+						return -1;
+				});
+				console.log(this.dexuat);
+
+			})
+			.catch(error=>{
+				thongbao('error',error.response.data);
+			})
 		}
 		
 	},
@@ -221,6 +247,7 @@ var slogan = new Vue({
 		this.get_all_answer_by_id_question();
 		this.update_view();
 		this.getTags();
+		this.cau_tra_loi_de_xuat();
 
 	}
 
