@@ -90,10 +90,12 @@
 	    Load::Controller('controllers/api/QuestionController.php','QuestionController','trong_thang');
 	},'post');
 
-
+	Route::add('/api/question/get_all',function(){
+	    Load::Controller('controllers/api/QuestionController.php','QuestionController','get_all');
+	},'post');
 
 	Route::add('/api/question/post_question',function(){
-	    Load::Controller('controllers/api/QuestionController.php','QuestionController','post_question');
+	    Load::Controller('controllers/api/QuestionController.php','QuestionController','get_all');
 	},'post');
 
 	Route::add('/api/tag/get_all',function(){

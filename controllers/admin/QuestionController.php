@@ -7,7 +7,7 @@ class QuestionController extends Controller
     public function __construct($param = NULL)
     {
         parent::__construct();
-        $this->view->js = '<script src="resources/js/admin/administrator.js"></script>';
+        $this->view->js = '<script src="resources/js/admin/question.js"></script>';
     }
 
     public function question()

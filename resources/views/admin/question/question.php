@@ -4,7 +4,7 @@
 		<div class="row mt">
 			<div class="col-lg-12">
 				<div class="content-panel">
-					<h4> Quản lý Câu hỏi</h4>
+					<h4> Quản lý câu hỏi</h4>
 					<section id="unseen">
 						<table class="table table-bordered table-striped table-condensed">
 							<thead>
@@ -20,33 +20,49 @@
 								</tr>
 							</thead>
 							<tbody>
-								<tr v-for="(admin,index) in listAdmin">
+								<tr v-for="(question,index) in listQuestion">
 									<td class="numeric">{{index+1}}</td>
-									<td class="numeric">{{admin.full_name}}</td>
-									<td class="numeric">{{admin.email}}</td>
-									<td class="numeric">{{admin.username}}</td>
-									<td class="numeric">{{admin.active}}</td>
+									<td class="numeric">{{question.title}}</td>
+									<td class="numeric" v-html='question.content'></td>
+                  <td class="numeric">{{question.fullname}}</td>
+									<td class="numeric">{{question.view}}</td>
+									<td class="numeric">{{question.vote}}</td>
+                  <td class="numeric">{{question.count_reply}}</td>
 									<td class="numeric">
 										<button
-											@click="updateActive(admin)"
-											v-if="admin.active"
+											@click="updateActive(question)"
+											v-if="question.active"
 											type="button" class="btn btn-primary btn-xs"><i class="fa fa-eye"></i>
 										</button>
 
 										<button
-											@click="updateActive(admin)"
-											v-if="!admin.active"
+											@click="updateActive(question)"
+											v-if="!question.active"
 											type="button" class="btn btn-primary btn-xs"><i class="fa fa-eye-slash"></i>
 										</button>
 
 										<button
-											@click="removeAdmin(admin)"
+											@click="removeQuestion(question)"
 											type="button" class="btn btn-danger btn-xs"><i class="fa fa-trash-o "></i></button>
 									</td>
 								</tr>
 							</tbody>
 						</table>
+            <div class="col-lg-12">
+              <paginate
+                v-if="pagination.last_page > 1"
+                :page-count="pagination.last_page"
+                :click-handler="FetchPagination"
+                :prev-text="'&lt;'"
+                :next-text="'&gt;'"
+                :container-class="'paginate'"
+                :first-button-text="'&laquo;'"
+                :last-button-text="'&raquo;'"
+                :first-last-button="true">
+              </paginate>
+            </div>
 					</section>
+
 				</div>
 				<!-- /content-panel -->
 			</div>

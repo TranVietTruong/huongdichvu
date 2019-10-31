@@ -1,4 +1,4 @@
-<?php
+f<?php
 
 require 'controllers/service/SlugService.php';
 
@@ -24,10 +24,10 @@ class QuestionController extends Controller
         $this->CatagoryModel = new CatagoryModel();
     }
 
-  
+
     public function post_question()
     {
-    	
+
 		if(isset($_POST['major']))
     		$major = $_POST['major'];
     	else
@@ -217,6 +217,11 @@ class QuestionController extends Controller
         echo json_encode($pagination,JSON_UNESCAPED_UNICODE);
     }
 
+    public function get_all()
+    {
+      $data = $this->QuestionModel->all();
+      echo json_encode($data, JSON_UNESCAPED_UNICODE);
+    }
 
     public function trong_ngay()
     {

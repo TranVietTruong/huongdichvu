@@ -27,120 +27,67 @@ function thongbao(type,title)
 	})
 }
 
-const dictionary = {
-	custom: {
-		full_name: {
-			required: () => 'Họ và tên không được để trống',
-			max: () => 'Họ và tên không hợp lệ',
-		},
-		email: {
-			required: () => 'Bạn chưa điền Email',
-			max: () => 'Email không hợp lệ',
-		},
-		username: {
-			required: () => 'Chưa điền tên người dùng',
-			max: () => 'Tên người dùng quá dài',
-		},
-		password: {
-			required: () => 'Chưa nhập mật khẩu',
-			max: () => 'Mật khẩu quá dài',
-		},
-		confirm_password: {
-			required: () => 'Yêu cầu xác nhận mật khẩu',
-			max: () => 'Mật khẩu quá dài',
-		},
-	},
+Vue.component('paginate', VuejsPaginate);
 
-};
-VeeValidate.Validator.localize('en',dictionary);
-Vue.use(VeeValidate);
-
-var administrator = new Vue({
+var question = new Vue({
 	el: '#app',
 	data:{
-		full_name: '',
-		email: '',
-		username: '',
-		password: '',
-		confirm_password: '',
-		admin: '',
-		listAdmin: []
+		url: '/api/question/get_question',
+		pagination: {},
+		question: '',
+		listQuestion: []
 	},
 	methods:{
-		getAll(){
-			axios.post('/api/admin/get_all')
+		get_question(){
+			axios.post('/api/question/get_question')
 			.then(response=>{
-				for(let i=0;i<response.data.length;i++)
-				{
-					if(response.data[i].active == 1)
-						response.data[i].active = true;
-					else
-						response.data[i].active = false;
-				}
-				this.listAdmin = response.data;
-			})
-		},
-		updateActive(admin)
-		{
-			const fd = new FormData();
-			fd.append('id',admin.id);
-			axios.post('/api/admin/update_active',fd)
-			.then(response=>{
-				admin.active = !admin.active;
-			})
-		},
-		addAdmin(){
-			this.$validator.validate().then(valid=>{
-				if(valid)
-				{
-					const fd = new FormData();
-					fd.append('full_name',this.full_name);
-					fd.append('email',this.email);
-					fd.append('username',this.username);
-					fd.append('password',this.password);
-					if(!(this.password == this.confirm_password))
-					{
-						thongbao("error", "Mật khẩu xác nhận không giống nhau");
-						this.confirm_password = '';
-					}
-					else{
-						axios.post('/api/admin/add',fd)
-						.then(response=>{
-							console.log(response.data);
-							thongbao(response.data.type, response.data.message);
-							this.full_name = '';
-							this.email = '';
-							this.username = '';
-							this.password = '';
-							this.confirm_password = '';
-							if(response.data.type == "success")
-								window.location="/admin/administrator";
-						});
-					}
-
-				}
+				// for(let i=0;i<response.data.data.length;i++)
+				// {
+				// 	console.log("Có dữ liệu");
+				// 	if(response.data.data[i].active == 1)
+				// 		response.data.data[i].active = true;
+				// 	else
+				// 		response.data.data[i].active = false;
+				// }
+				this.listQuestion = response.data.data;
+				this.pagination = response.data;
+				console.log(response.data);
 			});
 		},
-		removeAdmin(admin)
+		updateActive(question)
 		{
-			confirmSweet("Bạn có muốn người dùng này? - "+admin.username, function(){
+			const fd = new FormData();
+			fd.append('id',question.id);
+			axios.post('/api/question/update_active',fd)
+			.then(response=>{
+				question.active = !question.active;
+			})
+		},
+		FetchPagination(page_number)
+		{
+			this.url = '/api/news/get_question?page='+page_number;
+			this.get_question();
+		},
+		removeQuestion(question)
+		{
+			confirmSweet("Bạn có muốn câu hỏi này?", function(){
 				Swal.fire(
 		      'Đã xóa!',
-		      'Bạn vừa xóa người dùng '+admin.username,
+		      'Bạn vừa xóa',
 		      'success'
 		    );
 
 				const fd = new FormData();
-				fd.append('id',admin.id);
-				axios.post('/api/admin/remove',fd)
+				fd.append('id',question.id);
+				axios.post('/api/question/remove',fd)
 				.then(response=>{
-					window.location="/admin/administrator";
+					window.location="/admin/question";
 				});
 			});
 		}
 	},
 	mounted()
 	{
-		this.getAll();
+		this.get_question();
 	}
 });
