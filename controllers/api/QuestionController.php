@@ -26,28 +26,18 @@ class QuestionController extends Controller
         $this->CatagoryModel = new CatagoryModel();
     }
 
-<<<<<<< HEAD
-
-    public function post_question()
-    {
-
-		if(isset($_POST['major']))
-    		$major = $_POST['major'];
-    	else
-    		throw new Exception('Không thể đăng câu hỏi',500);
-=======
     public function get_captcha()
     {
         $captcha = new captcha();
         $captcha->get_captcha();
     }
 
-  
+
     public function post_question()
     {
-    	try 
+    	try
         {
-        
+
     		if(isset($_POST['major']))
         		$major = $_POST['major'];
         	else
@@ -62,7 +52,6 @@ class QuestionController extends Controller
         		$tags = $_POST['tags'][0];
         	else
         		throw new Exception('Không thể đăng câu hỏi',500);
->>>>>>> 244ff4d2dab619fd8af4b63364e6c7ab76fbdb4f
 
         	if(isset($_POST['content']))
         		$content = $_POST['content'];
@@ -108,7 +97,7 @@ class QuestionController extends Controller
     		}
 
             echo json_encode($slug,JSON_UNESCAPED_UNICODE);
-        } 
+        }
         catch (Exception $e) {
             http_response_code(401);
             echo json_encode($e->getMessage(),JSON_UNESCAPED_UNICODE);
