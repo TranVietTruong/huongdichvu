@@ -1,8 +1,12 @@
 <?php
+require 'vendor/tokenizer/tokenizer.php';
+
 require 'vendor/autoload.php';
-use Phpml\Classification\KNearestNeighbors;
 use Phpml\Classification\NaiveBayes;
-use Phpml\Regression\LeastSquares;
+use Phpml\FeatureExtraction\TfIdfTransformer;
+use Phpml\FeatureExtraction\TokenCountVectorizer;
+use Phpml\Tokenization\WhitespaceTokenizer;
+
 
 class DetailQuestionController extends Controller
 {
@@ -136,7 +140,10 @@ class DetailQuestionController extends Controller
             else
                 http_response_code(500);
 
-            $id = $this->AnswerModel->add($id_question,$_SESSION['user']['id'],$content,$content_text,$tag);
+            $tokenizer = new Tokenizer($content_text);
+            $content_word = $tokenizer->stop_word();
+
+            $id = $this->AnswerModel->add($id_question,$_SESSION['user']['id'],$content,$content_text,$content_word,$tag);
 
             $data = $this->AnswerModel->find($id);
 
@@ -280,8 +287,8 @@ class DetailQuestionController extends Controller
                 $i++;
             }
 
-            $regression = new NaiveBayes();
-            $regression->train($samples, $targets);
+            $classifier = new NaiveBayes();
+            $classifier->train($samples, $targets);
 
 
             $target = 0;
@@ -292,7 +299,7 @@ class DetailQuestionController extends Controller
                 
             }
 
-            $result = $regression->predict([ $target ]);
+            $result = $classifier->predict([ $target ]);
             // echo "<pre>";
             // echo $result;
             // var_dump([$target ]);
@@ -328,4 +335,77 @@ class DetailQuestionController extends Controller
         }
     }
 
+
+    public function test()
+    {
+       
+        $samples = [];
+        $labels = [];
+        $fn = 'vendor/tokenizer/train_question.txt';
+        $fh = fopen($fn, "r");
+        while(!feof($fh)) 
+        {
+            $line = fgets($fh);
+            $arr_data = explode(':', trim($line));
+            
+            $label = explode(' ',trim($arr_data[1]));
+            array_push($labels,join('-',[ trim($arr_data[0]), $label[0] ]));
+
+            $question = explode(' ',trim($arr_data[1]));
+            array_shift($question);
+            $question = join(' ',$question);
+            array_push($samples,mb_strtolower($question,'UTF-8'));
+        }
+        fclose($fh);
+
+
+        // $samples = [
+        //     'định_nghĩa nghĩa_là gì là_gì cái_gì',
+        //     'tại_sao vì_sao làm_sao nghĩ_sao thì_sao sao thấy_sao lý_do lí_do nguyên_nhân',
+        //     'bao_nhiêu có_mấy mấy',
+        //     'thế_nào cách_nào như_nào',
+        //     'nơi_nào chỗ_nào ở_đâu nơi_đâu ',
+        //     'bao_giờ lúc_nào khi_nào thời_gian mấy_giờ',
+        //     'ai người người_nào là_ai người_nào của_ai',
+        //     'có_phải nên phải_không thật_không'
+        // ];
+
+        // $labels = [
+        //     "khai_niem",
+        //     "li_do",
+        //     "so_luong",
+        //     "cach_lam",
+        //     "dia_diem",
+        //     "thoi_gian",
+        //     "ten_nguoi",
+        //     "dung_sai"
+        // ];
+        
+        //chuyển về ma trận số
+        $vectorizer = new TokenCountVectorizer(new WhitespaceTokenizer());
+        $vectorizer->fit($samples);
+        $vocabulary  = $vectorizer->getVocabulary();
+        $vectorizer->transform($samples);
+
+        //đếm tần xuất quan trọng
+        $transformer = new TfIdfTransformer($samples);
+        $transformer->transform($samples);
+
+        // phân lớp
+        $classifier = new NaiveBayes();
+        $classifier->train($samples, $labels);
+
+        // test
+        $test = [
+            'shark hưng là ai',
+            'khởi nghiệp nghĩa_là gì',
+            'Cách có tên_miền mình mong_muốn'
+        ];
+        $vectorizer->transform($test);
+        $transformer->transform($test);
+
+        $result = $classifier->predict($test);
+        echo "<pre>";
+        var_dump($result);
+    }
 }

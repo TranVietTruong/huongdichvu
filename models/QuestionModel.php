@@ -7,10 +7,10 @@
 			parent::__construct();
 		}
 
-		public function add($id_catagory,$id_user,$title,$slug,$content,$tag)
+		public function add($id_catagory,$id_user,$title,$slug,$list_word,$content,$tag)
 		{
-			$sql = "INSERT INTO question(id_catagory,id_user,title,slug,content,tag) VALUES ('$id_catagory','$id_user','$title','$slug','$content','$tag')";
-			$this->db->ExecuteNonQuery($sql);
+			$sql = "INSERT INTO question(id_catagory,id_user,title,slug,list_word,content,tag) VALUES ('$id_catagory','$id_user','$title','$slug','$list_word','$content','$tag')";
+			return $this->db->ExecuteNonQuery($sql);
 		}
 
 
@@ -183,7 +183,7 @@
 		public function delete($id)
 		{
 			$sql = "UPDATE question SET active = 0 WHERE id = '$id'";
-			$this->db->ExecuteNonQuery($sql);
+			return $this->db->ExecuteNonQuery($sql);
 		}
 
 		public function like($keyword)
@@ -225,5 +225,29 @@
 					WHERE question.active = 1 AND MATCH(question.title) AGAINST('$keyword' WITH QUERY EXPANSION) LIMIT 7";
 			return $this->db->Executequery($sql);
 		}
+
+		// public function get_all_question()
+		// {
+		// 	$sql = "SELECT * FROM question";
+		// 	return $this->db->Executequery($sql);
+		// }
+
+		// public function update_word($id,$list_word)
+		// {
+		// 	$sql = "UPDATE question SET list_word = '$list_word' WHERE question.id = '$id'";
+		// 	return $this->db->ExecuteNonQuery($sql);
+		// }
+
+
+		// public function get_all_answer()
+		// {
+		// 	$sql = "SELECT * FROM answer";
+		// 	return $this->db->Executequery($sql);
+		// }
+		// public function update_content_word($id,$content_word)
+		// {
+		// 	$sql = "UPDATE answer SET content_word = '$content_word' WHERE answer.id = '$id'";
+		// 	return $this->db->ExecuteNonQuery($sql);
+		// }
 
 	}

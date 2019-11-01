@@ -3,6 +3,7 @@
 require 'controllers/service/SlugService.php';
 require 'controllers/service/TimeAgo.php';
 require 'vendor/captcha/captcha.php';
+require 'vendor/tokenizer/tokenizer.php';
 
 class QuestionController extends Controller
 {
@@ -61,10 +62,13 @@ class QuestionController extends Controller
             if(captcha::verify_captcha($_POST['captcha']) == false)
                 throw new Exception('Nhập captcha',500);
 
-
         	$slug = SlugService::slug($title);
 
-    		$this->QuestionModel->add($major,$_SESSION['user']['id'],$title,$slug,$content,$tags);
+            // tách từ
+            $tokenizer = new Tokenizer($title);
+            $list_word = $tokenizer->execute();
+
+    		$this->QuestionModel->add($major,$_SESSION['user']['id'],$title,$slug,$list_word,$content,$tags);
 
 
     		$insertTag = explode(',',$tags);
