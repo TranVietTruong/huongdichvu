@@ -339,7 +339,7 @@ class DetailQuestionController extends Controller
     public function test()
     {
        
-<<<<<<< HEAD
+
         // $samples = [];
         // $labels = [];
         // $fn = 'vendor/tokenizer/train_question.txt';
@@ -382,7 +382,6 @@ class DetailQuestionController extends Controller
             "dung_sai"
         ];
         
-=======
         $samples = [];
         $labels = [];
         $fn = 'vendor/tokenizer/train_question.txt';
@@ -424,7 +423,6 @@ class DetailQuestionController extends Controller
         //     "ten_nguoi",
         //     "dung_sai"
         // ];
->>>>>>> develop
         
         //chuyển về ma trận số
         $vectorizer = new TokenCountVectorizer(new WhitespaceTokenizer());
@@ -442,13 +440,11 @@ class DetailQuestionController extends Controller
 
         // test
         $test = [
-<<<<<<< HEAD
             'doanh_nghiệp abc thành_lập khi nào',
-=======
+
             'shark hưng là ai',
             'khởi nghiệp nghĩa_là gì',
             'Cách có tên_miền mình mong_muốn'
->>>>>>> develop
         ];
         $vectorizer->transform($test);
         $transformer->transform($test);
