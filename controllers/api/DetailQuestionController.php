@@ -375,11 +375,7 @@ class DetailQuestionController extends Controller
 
         // test
         $test = [
-            'doanh_nghiệp abc thành_lập khi nào',
-
-            'shark hưng là ai',
-            'khởi nghiệp nghĩa_là gì',
-            'Cách có tên_miền mình mong_muốn'
+            'khởi_nghiệp nghĩa_là gì'
         ];
         $vectorizer->transform($test);
         $transformer->transform($test);

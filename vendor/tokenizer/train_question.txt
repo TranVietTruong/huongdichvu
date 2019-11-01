@@ -1182,21 +1182,6 @@ HUM : ind Chủ_tịch quốc_hội nước CHXHCN Việt_Nam là ai ?
 HUM : ind Chủ_tịch thứ_hai của nước Việt_Nam dân_chủ cộng_hòa là ai ?
 HUM : ind Hình của ai được in trên tờ tiền Việt_Nam ?
 HUM : ind Nghệ_sĩ hài nào có câu nói đặc_trưng “ Can we talk ” ?
-HUM : ind Người da_màu đầu_tiên làm tổng_thống Mỹ là ai ?
-HUM : ind Người đàn_ông cao nhất thế_giới là ai ?
-HUM : ind Người đàn_ông đầu_tiên bay qua Thái_Bình_Dương là ai ?
-HUM : ind Người đầu_tiên đến Bắc_Cực là ai ?
-HUM : ind Người đứng đầu cuộc khởi_nghĩa Bãi_Sậy là ai ?
-HUM : ind Người_Mỹ đầu_tiên bước chân lên mặt_trăng là ai ?
-HUM : ind Người_Mỹ gốc châu Phi đầu_tiên giành chiến_thắng trong giải_thưởng Nobel văn_học là ai ?
-HUM : ind Người phát_hiện ra oxy ?
-HUM : ind Người phụ_nữ đầu_tiên thiệt_mạng trong cuộc chiến_tranh Việt_Nam là ai ?
-HUM : ind Nhà soạn nhạc người Mỹ đã viết bản_nhạc “ West_Side_Story ” là ai ?
-HUM : ind Phó tổng_thống đầu_tiên của Mỹ là ai ?
-HUM : ind Tên của người vợ của F . J . K là gì ?
-HUM : ind Tên của vợ Neil_Amstrong là gì ?
-HUM : ind Tên thật của nhà_văn Kim_Lân là gì ?
-HUM : ind Thống_đốc Alaska là ai ?
 HUM : ind Tổng_thống đầu_tiên của Mỹ xuất_hiện trên truyền_hình là ai ?
 HUM : ind Tổng_thống đầu_tiên đi một chiếc xe tự chạy để nhậm_chức là ai ?
 HUM : ind Tổng_thống duy_nhất đắc_cử 2 nhiệm_kỳ không liên_tiếp là ai ?
@@ -1532,19 +1517,6 @@ NUM : count Bao_nhiêu tuyết cho bằng một inch của mưa ?
 NUM : count Có bao_nhiêu thảm_thực_vật ?
 NUM : count Có bao_nhiêu thành_phố có ở Utah ?
 NUM : count Có bao_nhiêu thành_viên trong một gia_đình có_thể gia_nhập quân_đội Mĩ trong chiến_tranh thế_giới thứ II ?
-NUM : count Có bao_nhiêu thẻ Community_Chest trong Monopoly ?
-NUM : count Có bao_nhiêu tiểu_bang Richard_Nixon đã thắng_cử vào năm 1972 ?
-NUM : count Có bao_nhiêu tiểu thiên_sứ trên một bảng Trivial_Pursuit ?
-NUM : count Có bao_nhiêu tổng_thống Mĩ bị ám_sát trong triều_đại của nữ_hoàng Victoria ?
-NUM : count Có bao_nhiêu trái_cây trong một cái hộp của hãng Hawaiian_Punch ?
-NUM : count Có bao_nhiêu trận bóng_chày liên_tiếp Lou_Gehrig đã chơi ?
-NUM : count Có bao_nhiêu trang_web trên thế_giới ?
-NUM : count Có bao_nhiêu trẻ_em dưới 18 tuổi là nạn_nhân của một_số loại lạm_dụng thể_chất mỗi năm ?
-NUM : count Có bao_nhiêu trẻ_em trong độ tuổi từ hai tới 11 xem " The_Simpsons " ?
-NUM : count Có bao_nhiêu trò_chơi được chơi trong một giải đấu_vòng_tròn năm đội ?
-NUM : count Có bao nhiều trường cao_đẳng ở Hà_Nội ?
-NUM : count Có bao_nhiêu trường huấn_luyện nghiệp_vụ hàng_không ở Mỹ ?
-NUM : count Có bao_nhiêu từ fiddlers trong Old_King_Cole ?
 NUM : count Có bao_nhiêu từ trong tiếng Tây_Ban_Nha ?
 NUM : count Có bao_nhiêu vận_động_viên Isaraeli đã bị giết ở thảm_họa Olympics_Munich ?
 NUM : count Có bao_nhiêu vật_thể chuyển_động quanh Trái_Đất ?
