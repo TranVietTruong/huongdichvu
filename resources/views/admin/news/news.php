@@ -25,7 +25,7 @@
 							</thead>
 							<tbody>
 								<tr v-for="(news,index) in listNews">
-									<td class="numeric">{{index+1+(pagination.current_page-1)*10}}</td>
+									<td class="numeric">{{index+1+(pagination.current_page-1)*pagination.per_page}}</td>
 									<td class="numeric">{{news.title}}</td>
 									<td class="numeric">
 										<img :src="news.image" alt="" style="width: 40px;height: 40px;">

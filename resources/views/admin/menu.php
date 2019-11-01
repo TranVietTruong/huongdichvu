@@ -5,12 +5,7 @@
 		<ul class="sidebar-menu" id="nav-accordion">
 			<p class="centered"><a href="profile.html"><img src="public/admin/img/ui-sam.jpg" class="img-circle" width="80"></a></p>
 			<h5 class="centered"><?php if(isset($_SESSION['admin'])) echo $_SESSION['admin']['full_name'] ?></h5>
-			<li class="sub-menu">
-				<a href="/admin">
-					<i class="fa fa-home"></i>
-					<span>Tổng quan</span>
-				</a>
-			</li>
+
 			<li class="sub-menu">
 				<a href="/admin/slogan">
 					<i class="fa fa-asterisk"></i>
@@ -24,7 +19,7 @@
 				</a>
 			</li>
 			<li class="sub-menu">
-				<a href="javascript:;">
+				<a href="/admin/question">
 					<i class="fa fa-question"></i>
 					<span>Câu hỏi</span>
 				</a>
@@ -42,17 +37,12 @@
 				</a>
 			</li>
 			<li class="sub-menu">
-				<a href="javascript:;">
+				<a href="/admin/administrator">
 					<i class="fa fa-unlock-alt"></i>
 					<span>Tài khoản</span>
 				</a>
 			</li>
-			<li class="sub-menu">
-				<a href="javascript:;">
-					<i class="fa fa-user"></i>
-					<span>Thông tin cá nhân</span>
-				</a>
-			</li>
+
 		</ul>
 		<!-- sidebar menu end-->
 	</div>
