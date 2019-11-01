@@ -1,0 +1,1820 @@
+﻿ABBR : abb Từ viết tắt cho Cục điều_tra quốc_gia là gì ?
+ABBR : abb Chữ_viết tắt của cục điều_tra liên_bang là gì ?
+ABBR : abb Chữ_viết tắt của General_Motors là gì ?
+ABBR : abb Chữ_viết tắt của tên công_ty General_Motors là gì ?
+ABBR : abb Cục điều_tra quốc_gia viết tắt là gì ?
+ABBR : abb Viết tắt cho tên đệm của Mikhail_Gorchachev là gì ?
+ABBR : abb Cục tình_báo quốc_gia Hàn_Quốc viết tắt là gì ?
+ABBR : abb Tên viết tắt cho micro là gì ?
+ABBR : abb Tên viết tắt của hiệp_hội Olympic quốc_tế là gì ?
+ABBR : abb Từ viết tắt của hệ_thống đánh_giá hiệu_quả của điều_hòa_không_khí là gì ?
+ABBR : abb Từ viết tắt của National_Bureau of Investigation là gì ?
+ABBR : abb Từ viết tắt nào dùng cho Cục Điều tra Quốc_gia ?
+ABBR : exp IQ nghĩa_là gì ?
+ABBR : exp JESSICA là viết tắt của cái gì ?
+ABBR : exp Kênh ESPN viết tắt cho chữ gì ?
+ABBR : exp Khi đọc phân_loại quảng_cáo , ENTY : other viết tắt cho từ gì ?
+ABBR : exp LOL nghĩa_là gì ?
+ABBR : exp Ms . , Miss và Mrs . viết tắt cho từ gì ?
+ABBR : exp MSG viết tắt cho chữ gì ?
+ABBR : exp NAFTA là viết tắt của cái gì ?
+ABBR : exp NASA là viết tắt của từ gì ?
+ABBR : exp NASDAQ có nghĩa_là gì ?
+ABBR : exp PM viết tắt là gì , ví_dụ như trong 5 pm ?
+ABBR : exp RAM trong máy_tính là gì ?
+DESC : reason Tại_sao ngày lễ tạ ơn lại vào thứ Năm ?
+DESC : desc Nguồn_gốc của từ " Teddy bear " là gì ?
+DESC : def Poconos là gì ?
+DESC : def Vị_trí kinh_tế xã_hội của một người là gì ?
+DESC : def " 7-minute cigarette " là gì ?
+DESC : def " Antidisestablishmentarianism " có nghĩa_là gì ?
+DESC : def " Bloodhound " nghĩa_là gì ?
+DESC : def " Caul " tiếng Việt là gì ?
+DESC : def " Chicago_Hope " là gì ?
+DESC : def " Cuckquean " giống đực là gì ?
+DESC : def " Điểm sương " là gì ?
+DESC : def " Extended definition " nghĩa_là gì và làm thế_nào người_ta viết một bài báo về nó ?
+DESC : def " False_Moon " là gì ?
+DESC : def " Head_Start " là gì ?
+DESC : def Các lý_thuyết hàm biểu_hiện và tiềm_ẩn là gì ?
+DESC : def Các số 1 , 2 và 4 trên chai Dr.Pepper có ý_nghĩa gì ?
+DESC : def Cái ấm_tích của người Trung_Quốc là gì ?
+DESC : def Cái gì có nghĩa_là " capital market " ?
+DESC : def Đơn_vị phóng_xạ là gì ?
+ENTY : substance Cái gì được nhồi vào trong các quả bóng golf đầu_tiên ?
+DESC : def Cái gì gọi_là " coup de poing " với vận_động_viên đấm_bốc người Pháp ?
+DESC : def Công_ty giàu cơ_hội được hiểu như_thế_nào ?
+DESC : def Cây quyền trượng của sự sống được nhắc đến trong Lord ' s Prayer là gì ?
+DESC : def Hoán_vị là gì ?
+DESC : def ý_nghĩa thứ_năm là gì ?
+DESC : def Cái phễu nước là gì ?
+DESC : def Cái tên " Anthony " có nghĩa_là gì ?
+DESC : def Cái tên Calder nghĩa_là gì ?
+DESC : def Cái tên Shawn có nghĩa_là gì ?
+DESC : def Caliente nghĩa_là gì trong tiếng Anh ?
+DESC : def Candlemas_Day là gì ?
+DESC : def Cây goldenseal là gì ?
+DESC : def Chế_độ_phong_kiến là gì ?
+DESC : desc Chiến_hạm Mae_West trong cuộc Chiến_tranh Thế_giới II trông thế_nào ?
+DESC : def Chính_xác sự phóng_xạ là cái gì ?
+DESC : def Chữ_cái chấm điểm nào có ý_nghĩa với nhà_phân_tích chữ_viết tay ?
+DESC : def Chủ_nghĩa_tư_bản theo Max_Weber là gì ?
+ENTY : lang Chữ_số La_Mã cao nhất_là gì ?
+DESC : def Chứng_bệnh tiếng anh gọi_là " porphyria " là chứng_bệnh gì ?
+DESC : def Chứng ngủ_gật là gì ?
+DESC : def Chứng thiếu máu di_truyền là gì ?
+DESC : def Cỏ dại là gì ?
+DESC : def Cờ đỏ có nghĩa_là gì trong đua moto tốc_độ cao ?
+DESC : def Cobol , Fortran và Pascal là gì ?
+DESC : def Cookie trong Internet là gì ?
+DESC : def Cunnilingus là gì ?
+DESC : def Cuộc_chiến phòng khách là gì ?
+DESC : def Cuộc thảm_sát Chivington là gì ?
+DESC : def Định_nghĩa của vũ_trụ học là gì ?
+DESC : def Định_nghĩa hòn đảo chìm là gì ?
+DESC : def Định_nghĩa vũ_trụ học ?
+DESC : def Định ngĩa Sinn_Fein .
+DESC : def Disaccharide là gì ?
+DESC : def Diver_Cartesian là gì ?
+DESC : def Giun_tròn là gì ?
+DESC : def Gringo nghĩa_là gì ?
+DESC : def Gymnophobia là gì ?
+DESC : def Hai chữ O trong 007 cho thấy điều gì ?
+DESC : def Hai đồng xu đen Canada là gì ?
+DESC : def Hạn_hán là gì ?
+DESC : def Hành_tinh đỏ là gì ?
+ABBR : exp hazmat là gì ?
+ABBR : exp Hazmat là viết tắt cho những gì ?
+DESC : def Hebephrenia là gì ?
+DESC : def Hình chữ vạn còn tượng_trưng cho cái gì nữa ?
+DESC : def Hình_thái đại_diện cái gì trên đảo Phục_Sinh ?
+DESC : def Hở van tim là gì ?
+DESC : def Hội_chứng ống cổ_tay là gì ?
+DESC : def Hội_chứng tiếng Anh gọi_là mandibulofacial dysostosis là hội_chứng nào ?
+DESC : def Hòn đá may_mắn của tháng Sáu là gì ?
+DESC : def Hợp_tác của các nhà làm phim là gì ?
+DESC : def Horologist là gì ?
+DESC : def Hyperopia là gì ?
+DESC : def idealab ! là gì ?
+DESC : def Internet là gì ?
+DESC : def Inuit và Eskimo có nghĩa_là gì ?
+DESC : def Kế_hoạch 401 , K , là gì ?
+DESC : def Khái_niệm " yield to maturity " có nghĩa_là gì khi nói đến những mối quan_hệ ràng_buộc ?
+ENTY : termeq Khám_nghiệm tử_thi có nghĩa_là gì theo tiếng Latin ?
+DESC : def Khủng_bố , từ này nghĩa_là gì ?
+DESC : def Kiểm_tra máu VDRL nghĩa_là gì ?
+DESC : desc Kiểu tóc nào được gọi_là tân_binh mới nhận ?
+DESC : def Kinh_tế toàn_cầu nghĩa_là gì ?
+DESC : def Kỹ_thuật in_lưới là gì ?
+DESC : def Làm_tình là gì ?
+DESC : def Lặn_Nitrox là gì ?
+DESC : def Las_Vegas nghĩa_là gì ?
+DESC : def laser nghĩa_là gì ?
+DESC : def Lát đá_hoa là gì ?
+DESC : def Leukemia là gì ?
+DESC : def Liên_kết hidro là gì ?
+DESC : def lỗ vinh_quang là gì ?
+ENTY : product Loại dây nào dùng trong Internet ?
+ENTY : plant Loại lớn nhất của cây xương_rồng là gì ?
+DESC : def Long_March ở Trung_Quốc là gì ?
+DESC : def Melissa nghĩa_là gì ?
+DESC : def Men gan là gì ?
+DESC : def Mì ống là gì ?
+DESC : def Miệng núi_lửa là gì ?
+DESC : def Molypden là gì ?
+DESC : def món garu Hungary là gì ?
+DESC : def Một bà_đỡ được chứng_nhận là gì ?
+DESC : def Một ca ghép tủy xương nghĩa_là gì ?
+DESC : def Một cái cổng lớn là gì ?
+DESC : def Nam_châm là gì ?
+DESC : def nanomet là gì ?
+DESC : def ngân_hàng tại_gia là gì ?
+DESC : def Nghi_thức Maid là gì ?
+DESC : def Nghĩa tiếng Anh của caliente là gì ?
+DESC : def Nghĩa văn_học của từ " D-DAY " ?
+DESC : def Ngôn_ngữ_lập_trình C là gì ?
+DESC : def người chuyển_phát nhanh là gì ?
+DESC : def Người thực_thi di_chúc là gì ?
+DESC : def Nhà_nghiên_cứu về đất là gì ?
+DESC : def Nhàn_rỗi nghĩa_là gì ?
+DESC : def Nhiệt cân_bằng là gì ?
+DESC : def Nhớt là gì ?
+DESC : def Đường_tiệm_cận là gì ?
+DESC : def Những nguyên_lý Valdez là gì ?
+DESC : def Những quả bóng tuyết của chiếc Hot-rodder là gì ?
+DESC : def Những tên Andrew và Christina có nghĩa_là gì ?
+DESC : def Nội_dung gì của đề_xuất 98 ?
+DESC : def Olestra là gì ?
+DESC : def Ống dẫn nha_khoa là gì ?
+DESC : def osteichthyes là gì ?
+DESC : def Ouija nghĩa_là gì ?
+DESC : def Ouzo là gì ?
+DESC : def Pandoro là gì ?
+DESC : def Paracetamol là gì ?
+DESC : def Peloponnesian_League là gì ?
+DESC : def Phalanx là gì ?
+DESC : def Phân_bổ ngân_sách có nghĩa_là gì ?
+DESC : def Phanh_Jake là gì ?
+DESC : def phê_bình_văn_học là gì ?
+DESC : def phế_nang là gì ?
+DESC : def Phim kinh_dị là gì ?
+DESC : def Phình động_mạch chủ bụng là gì ?
+DESC : def Phổ của sóng hình sin là gì ?
+DESC : def Phoenix AIM-54C là gì ?
+DESC : def Phong_cách Mexico không tóc là gì ?
+DESC : def Phong_tục học là gì ?
+DESC : def Phường_hội là gì ?
+DESC : def Phương_pháp Socratic là gì ?
+DESC : def Pin " coppertop " là gì ?
+DESC : def Plc là gì ?
+DESC : def Tên_Sheri có nghĩa_là gì ?
+DESC : def Tetrinet là gì ?
+DESC : def thalassemia nghĩa_là gì ?
+DESC : def Trong tiếng Anh , ý_nghĩa của caliente là gì ?
+DESC : def Trung_tâm của London là gì ?
+DESC : def Trường đại_học là gì ?
+DESC : def truyền_thông đa_phương_tiện là gì ?
+DESC : def Truyền_thuyết thành_thị là gì ?
+DESC : def Từ " meta " có nghĩa_là gì ?
+DESC : def Từ camaro có nghĩa_là gì trong " from the GM car the Camaro " ?
+DESC : def Từ_Hi_Lạp polis có nghĩa_là gì như trong từ Minneapolis ?
+DESC : def Tụ máu circumorbital là gì ?
+DESC : def Từ tiếng Anh " limbo " là gì ?
+DESC : def Tường lửa là gì ?
+DESC : def Tuyên_thệ , từ này nghĩa_là gì ?
+DESC : def Twin_Cities là gì ?
+DESC : def Tyvek là gì ?
+DESC : def Ung_thư phổi là gì ?
+DESC : def Ung_thư tử_cung là gì ?
+DESC : def Ural là gì ?
+DESC : def vấn_đề Kashmir là gì ?
+DESC : def Văn_phòng tự_động là gì ?
+DESC : def La_Nina là gì ?
+DESC : def Lệnh bắt người là gì ?
+DESC : def Linux là gì ?
+DESC : def Lỗi trong vỏ trái_đất là gì ?
+DESC : def Một " Asiento " là gì ?
+DESC : def Một con cá_heo thường là gì ?
+DESC : def Một địa_chỉ IP ảo là gì ?
+DESC : def Một hợp_đồng trọn_gói là gì ?
+DESC : def Một mẫu_vật basidiomycetes là gì ?
+DESC : def Một thừa_số toán_học là gì ?
+DESC : def Napsylate dextropropoxyphen là gì ?
+DESC : def Nhà sinh_vật_học là gì ?
+DESC : def Những con tắc_kè là gì ?
+DESC : def Nội_tiết_tố là gì ?
+DESC : def Phổ_biến vũ_khí_hạt_nhân là gì ?
+DESC : def Quá_trình quyên_góp đòi_hỏi những gì ?
+DESC : def Quy_tắc vàng là gì ?
+DESC : def Razor_Occam là gì ?
+DESC : def Seccession có nghĩa_là gì ?
+DESC : def Sóng_thần là gì ?
+DESC : def Srpska_Krajina là gì ?
+DESC : def Tên_Robert có nghĩa_là gì ?
+DESC : def Thalassemia được định_nghĩa như_thế_nào ?
+DESC : def Thuế_thu_nhập liên_bang là gì ?
+DESC : def Thương_mại_điện_tử là gì ?
+DESC : def Tốc_độ lắng máu có nghĩa_là gì ?
+DESC : def Trợ_lực lái là gì ?
+DESC : def Từ " opera " có nghĩa_là gì ?
+DESC : def Vũ_trụ học là gì ?
+DESC : def Spumante là gì ?
+DESC : desc " Chơi gôn tuyết " có những nguyên_tắc gì ?
+DESC : desc " Cơ_hội cuối của các loài vật " là gì ?
+DESC : desc Cái gì xuất_hiện trong thế_giới bưu_chính vào năm 1999 ?
+DESC : desc Cái tên bia gốc được lấy ra từ đâu ?
+DESC : desc Cảm_giác lúc gần chết là như_thế_nào ?
+DESC : desc Cần_sa đến từ đâu ?
+DESC : desc Caroll_Baker , Tammy_Grimes , Debbie_Reynolds , và Judy_Garland tất_cả đều có điểm chung gì ?
+DESC : desc Câu phương_châm của bang California là gì ?
+LOC : other Chihuahua đến từ đâu ?
+DESC : desc Choo_Choo_Charlie nói_gì ?
+DESC : desc Chủ_tịch FCC Newton_Minow đã tuyên_bố gì trên TV vào ngày 9/5/1961 ?
+DESC : desc Chuông_Lutine của Lloyd thông_báo điều gì ?
+DESC : desc Chương_trình Nine_Tailors năm 1974 nói về cái gì ?
+DESC : desc Có gì khác_biệt giữa JD và LL . M . ?
+DESC : desc Có gì khác_biệt giữa mưa_tuyết và mưa lạnh ?
+DESC : reason Cớ gì những người NATO vịn vào để đánh Đại_sứ_quán Trung_Quốc ?
+DESC : desc Có những bước nào có_thể được dùng để ngăn_chặn tiểu_đường ?
+DESC : desc Côn_trùng làm_gì qua lỗ thở của chúng ?
+DESC : desc Cung cự giải có tính_cách gì ?
+DESC : desc Điều gì đã xảy_ra với mặt_trăng Maiden ?
+DESC : desc Điều gì đã xảy_ra với Pepsi_Clear ?
+DESC : desc Jules_Verne có tuổi_thơ thuộc loại nào ?
+DESC : desc Kết_quả của Hội_nghị Yalta năm 1945 là gì ?
+DESC : desc Khác_biệt và lợi_thế nào của lựa_chọn mô_hình Super VHS_VCR so với mô_hình VHS phẳng ?
+DESC : desc Khẩu_hiệu " the tastebud " của V - 8 Juice là gì ?
+DESC : desc Muỗi tốt ở điểm gì ?
+DESC : desc Nêu một_vài quyền trẻ_em ?
+DESC : desc Nếu_Quebec độc_lập , điều gì xảy_ra với Canada ?
+DESC : desc Người bị thủy_đậu thường có biểu_hiện gì ?
+DESC : desc Người chia bài ở Las_Vegas phải làm_gì khi anh_ta đạt đến 16 ?
+DESC : desc Người chơi cố_gắng làm_gì khi một từ được lật ra trong trò_chơi " Trò_chơi âm_nhạc " ?
+DESC : desc Nguồn_gốc của " đồ nướng " là gì ?
+DESC : desc Nguồn_gốc của tên " Breony " là gì ?
+DESC : desc Nguồn_gốc của tên " Scarlett " là gì ?
+DESC : desc Nguồn_gốc của tên ban_nhạc rock của Led_Zeppelin là gì ?
+DESC : desc Nguồn_gốc của tên Igorlà gì ?
+DESC : desc Nguồn_gốc của từ " posh " là gì ?
+DESC : desc Nguồn_gốc của từ " jiggy " trong trường_hợp nhảy với cái gì đó ?
+DESC : desc Nguồn_gốc của từ này là gì , " ảo_thuật " ?
+DESC : desc Nguồn_gốc của từ này là gì , JJ .
+DESC : desc Nguồn_gốc của từ NEWS là gì ?
+DESC : desc Nguồn_gốc từ ám_sát là gì ?
+DESC : desc Nguồn_gốc và ý_nghĩa của tên " Hajo " là gì ?
+DESC : desc Nguồn_gốc xuất_xứ của nguyên_tử là gì ?
+DESC : desc Nguồng gốc của từ lượng_giác_học là gì ?
+DESC : desc Nguyên_bản của xoxoxox là gì ?
+DESC : desc Nhà_kinh_tế học làm_gì ?
+DESC : desc Nhóm_Brazil , Funk ' N_Lata , thành_công là gì ?
+DESC : desc Tác_động của thất_nghiệp đối_với nền kinh_tế là gì ?
+DESC : desc Tác_dụng của Nitrat với môi_trường ?
+DESC : desc Tầm quan_trọng của Magellan là gì ?
+DESC : desc Thẩm_phán của Tòa_án tối_cao Hoa_Kỳ_Thurgood_Marshall có gì khác_biệt ?
+DESC : desc Thành_tích khét_tiếng của tàu_ngầm U - 2 của Đức là gì ?
+DESC : desc thời_tiết trên mặt_trăng như_thế_nào ?
+DESC : desc Thú lông nhím giống thứ gì ?
+DESC : desc thuật_ngữ " 69 " từ đâu ra ?
+DESC : desc Thuật_ngữ " 86 " đến từ đâu ?
+DESC : desc Thuật_ngữ " chín_tầng_mây " đến từ đâu ?
+DESC : desc thuật_ngữ " luật gần đúng " từ đâu ra ?
+DESC : desc thuật_ngữ " soda jerk " bắt_nguồn từ đâu ?
+DESC : desc Thuật_ngữ fireplug đến từ đâu ?
+DESC : desc Thuyết hư_vô tin vào điều gì ?
+DESC : desc Tính_cách vật_lý riêng_biệt của con ngựa Ả Rập là gì ?
+DESC : desc Tổ ong làm_gì trong đầm lầy nam việt quất ?
+DESC : desc Tôi cần gì để học thiết_kế trang_web ?
+DESC : desc Tôi có_thể làm_gì để vào trường Ivy ?
+DESC : desc Tôi phải làm_gì để mang theo con chó của tôi tới sống ở Dominica , West_Indies trong một năm ?
+DESC : desc Trong tác_phẩm A_Handful of Dust của Waugh , ông_già điên bắt người_hùng làm_gì mỗi buổi chiều ?
+DESC : desc Truyện_ngắn " A_Country_Doctor " của Franz_Kafka cố_gắng nói với chúng_ta điều gì ?
+DESC : desc từ " sideburns " tiếng Anh có nguồn_gốc từ đâu ?
+DESC : desc Từ nào trong bài được hát bởi " Chuối trong áo ngủ " ?
+DESC : desc Tuyên_bố của nhiệm_vụ Compap là gì ?
+DESC : desc Ứng_dụng chính của Hydrosulfite natri là gì ?
+DESC : desc Ứng_xử hợp_lý cho câu nói " Say goodnight , Dick " là gì ?
+DESC : desc Việc sử_dụng một đồng_hồ 24 giờ thay_vì 12-giờ đồng_hồ là gì ?
+DESC : desc Thiết_kế của con tàu Titanic là gì ?
+DESC : desc Nguồn_gốc của từ nevermind là gì ?
+DESC : desc Nguồn_gốc văn_hóa của lễ Potlatch là gì ?
+DESC : desc Mô_tả cơ_chế của cơ_thể khi ngáy ?
+DESC : desc Những kiểu chào_hỏi nào_là phù_hợp để gửi Yom_Kippur ?
+DESC : desc Phán_quyết trong phiên_tòa năm 1925 đối_với John T . Scopes là gì ?
+DESC : desc Sự khác_biệt giữa 1980 và 1990 là gì ?
+DESC : desc Sự khác_biệt giữa màn_hình TFT và màn_hình dual - scan là gì ?
+DESC : desc Sự khác_biệt giữa một chai và một cái bình là gì ?
+DESC : desc Sự khác_nhau giữa kinh Koran và Kinh_Thánh là gì ?
+DESC : desc Thời_tiết ngày hôm_nay sẽ như_thế_nào ?
+NUM : other Lượng acid folic hàng ngày cho phụ_nữ mang thai là bao_nhiêu ?
+DESC : manner Đuôi ảnh_hưởng như_thế_nào tới một con diều bay ?
+DESC : manner Answers.com khác với KnowPost.com như_thế_nào ?
+DESC : manner Arometherapy thành_công là như_thế_nào ?
+﻿ABBR : abb Tên viết tắt cho thành_phố Hà_Nội là gì ?
+ABBR : exp A . V . là viết tắt của từ gì ?
+ABBR : exp CPR có nghĩa_là gì ?
+ABBR : exp NASA có nghĩa_là gì ?
+ABBR : exp Thuật_ngữ ISDN trong kỹ_thuật có nghĩa_là gì ?
+ABBR : exp TMJ là gì ?
+ABBR : exp Từ viết tắt NASA có dạng đầy_đủ là gì ?
+ABBR : exp Từ viết tắt SOS có dạng đầy_đủ là gì ?
+DESC : def " cc " trong động_cơ có nghĩa_là gì ?
+DESC : def Acetaminophen là gì ?
+DESC : def Amoxicillin là gì ?
+DESC : def Angiotensin là gì ?
+DESC : def Axit_Acetic là gì ?
+DESC : def Bác_sĩ nhi_khoa là gì ?
+DESC : def Bạch_cầu là gì ?
+DESC : def Bạch hoa là gì ?
+DESC : def Bại não là gì ?
+DESC : def Băng_thông là gì ?
+DESC : def Bay_hơi là gì ?
+DESC : def Nguyên_tử là gì ?
+DESC : def Nhiệt_kế là gì ?
+DESC : def Nicotine là gì ?
+DESC : def Pectin là gì ?
+DESC : def Pháp_sư là gì ?
+DESC : def Phenylalanine là gì ?
+DESC : def Pilates là gì ?
+DESC : def Play-off nghĩa_là gì ?
+DESC : def Tiền trợ_cấp hàng năm là gì ?
+DESC : def Tiểu_cầu là gì ?
+DESC : manner Bộ áo_tắm bikini được đặt tên như_thế_nào ?
+DESC : manner Các cơn bão hình_thành như_thế_nào ?
+DESC : manner các tháng trong năm được đặt tên theo cái gì ?
+DESC : manner Cách chế_độ_nông_nô phát_triển và sau đó biến_mất khỏi nước Nga ?
+DESC : manner Cầu_vồng hình_thành theo cách nào ?
+DESC : manner Chất_dẻo được làm như_thế_nào ?
+DESC : manner Châu Á được hình_thành như_thế_nào ?
+DESC : manner chiếc dù hoạt_động thế_nào ?
+DESC : manner Chiếc máy_tính khoa_học hoạt_động thế_nào ?
+DESC : manner Chiếc xe trong " Christine " bị ám như_thế_nào ?
+DESC : manner Chớp di_chuyển thế_nào ?
+DESC : manner Cối_xay_gió hoạt_động thế_nào ?
+DESC : manner Con ong_bắp_cày làm tổ như_thế_nào ?
+DESC : manner Cos_Cob , CT lấy tên bằng cách nào ?
+DESC : manner Cuộc bầu_cử của một Giáo_hoàng mới công_bố với thế_giới như_thế_nào ?
+DESC : manner Cuộc_chiến năm 1812 đã ảnh_hưởng đến Dealware thế_nào ?
+DESC : manner cuộc đại khủng_hoảng đã ảnh_hưởng đến lịch_sử Nhật_Bản như_thế_nào ?
+DESC : manner Cựu đô_vật WWF Rick_Rude chết như_thế_nào ?
+DESC : manner Dạng băng_hình thành thế_nào ?
+DESC : manner đập thủy_điện làm_việc như_thế_nào ?
+DESC : manner Đất marl được tạo thành như_thế_nào và loại khoáng_vật nào mà nó chứa ?
+DESC : manner Điện_thoại hoạt_động thế_nào ?
+DESC : manner động_cơ ion làm_việc như_thế_nào ?
+DESC : manner Động_cơ van F25 V1 Ford_Econoline mới như_thế_nào ?
+DESC : manner hiệp phụ thứ 7 được bắt_đầu như_thế_nào ?
+DESC : manner jack - o ' - lantern có tên gọi như_vậy như_thế_nào ?
+DESC : manner James_Bond thích rượu Mác-tin như_thế_nào ?
+DESC : manner Jayne_Mansfield đã chết như_thế_nào ?
+DESC : manner Làm thế_nào để chặn thư rác ?
+DESC : manner Làm thế_nào để chim tìm lại được đường đi_về cùng vị_trí hàng năm ?
+DESC : manner Làm thế_nào để có được một danh_sách đầy_đủ của tất_cả những người đang sống chung với tên cuối_cùng Kilvington ?
+DESC : manner Làm thế_nào để có được tờ báo của một thành_phố khác ?
+DESC : manner Làm thế_nào để có_thể gõ các ký_tự Trung_Quốc trên bàn_phím ?
+DESC : manner Làm thế_nào để đăng_nhập vào trang_chủ tại trụ_sở của U . S . European_Command ?
+DESC : manner Làm thế_nào để đo nhiệt_độ của mặt_trời ?
+DESC : manner Làm thế_nào để dừng hoặc làm chậm quá_trình lão_hóa ?
+DESC : manner Làm thế_nào để gà có gà con ?
+DESC : manner Làm thế_nào để gọi tên một người Trung_Quốc ?
+DESC : manner Làm thế_nào để hấp_dẫn 1 chàng_trai ?
+DESC : manner Làm thế_nào để một người nào trở_thành người hiến bộ_phận cơ_thể ?
+DESC : manner Làm thế_nào để một nhà_kinh_doanh nhỏ liên_hệ với Good_Humor_Ice_Cream để hợp_tác ?
+DESC : manner Làm thế_nào để mua cổ_phiếu ?
+DESC : manner Làm thế_nào để ngăn_chặn tiếng ồn xung_quanh khi bật âm_thanh nổi trong xe_hơi ?
+DESC : manner Người_ta phản_ứng thế_nào với ý_tưởng của thiên_niên_kỉ đầu_tiên ?
+DESC : manner Người_ta sản_xuất vitamins thế_nào ?
+DESC : manner Người từ Ai len tới Mĩ làm_việc và trở_về Ai len thế_nào ?
+DESC : manner Những đám mây hình_thành như_thế_nào ?
+DESC : manner Những trang_web như Yahoo và Excite kiếm tiền bằng cách nào ?
+DESC : manner Nước được làm_gì để có_thể uống một_cách an_toàn ?
+DESC : manner Ở My_Antonia , làm_sao ngài Shimerda ra khỏi nông_trại ?
+DESC : manner P . T . Barnum thanh_toán hóa_đơn cho Charles S . Stratton bằng cách nào ?
+DESC : manner Paraguay làm thế_nào để thu_hút khách du_lịch ?
+DESC : manner Peabody và Sherman du_lịch xuyên thời_gian thế_nào ?
+DESC : manner Chim làm_tình như_thế_nào ?
+DESC : manner Chuỗi các lệnh bên trong một máy_bay_trực_thăng Apache của quân_đội Mỹ làm_việc như_thế_nào ?
+DESC : manner Nintendo " Zapper " làm_việc như_thế_nào ?
+DESC : manner Nước_hoa được làm như_thế_nào ?
+DESC : manner Phim màn_hình xanh làm_việc như_thế_nào ?
+DESC : manner Tiền_Kenedy được làm thế_nào ?
+DESC : manner Tốc_độ nam_châm quay một máy_phát_điện như_thế_nào để ảnh_hưởng đến đầu_ra của máy_phát_điện ?
+DESC : manner U . S . A liên_quan thế_nào trong các cuộc chiến_tranh Barbary ?
+DESC : reason Cái gì là lời khẳng_định cho danh_tiếng của người gác đêm Frank_Wills ?
+DESC : reason Cái gì là sự khẳng_định cho danh_tiếng của trận bóng_đá đã chứng_kiến Fordham đánh_bại Waynesburg_State 12601 vào mùng 3 tháng Chín , 1939 ?
+DESC : reason Cái gì làm chìm tàu Titanic ?
+DESC : reason Cái gì làm muối ?
+DESC : reason Cái gì làm_nên bỏng ngô ?
+DESC : reason Cái gì tạo ra sự chia_rẽ giữa nhà_thờ Anh và nhà_thờ Vatican ?
+DESC : reason Cái gì tạo ra tinh_trùng ?
+DESC : reason Cân_bằng nội môi tại_sao lại có ảnh_hưởng đến sự tồn_tại của sinh_vật ?
+DESC : desc Chức_năng của bộ_nhớ RAM là gì ?
+DESC : desc Chức_năng của ruột_thừa là gì ?
+DESC : reason Colin_Powell được biết đến nhiều nhất với thành_tựu nào ?
+DESC : reason Colin_Powell nổi_tiếng bởi cái gì ?
+DESC : reason Colin_Powell nổi_tiếng nhất vì cái gì ?
+DESC : reason Cool_Hand_Luke đi tù vì lẽ gì ?
+DESC : reason Cushman và Wakefield được biết đến bởi ?
+DESC : reason D . B . Cooper được biết đến là gì ?
+DESC : reason Điều gì đã khiến chủ_tịch Hồ_Chí_Minh ra_đi tìm đường cứu nước ?
+DESC : reason Điều gì gây bệnh viêm phổi ?
+DESC : reason Điều gì gây nên một cơn lốc xoáy ?
+DESC : reason Điều gì gây ra bệnh hen_suyễn ?
+DESC : reason Điều gì gây ra cái chết của Harry_Houdini ?
+DESC : reason Điều gì gây ra cơn hoảng_loạn ?
+DESC : reason Điều gì gây ra một trận động_đất ?
+DESC : reason Điều gì gây ra việc hoãn buổi kỉ_niệm 25 năm Đại_hội_đồng Liên_Hợp_Quốc ?
+DESC : reason Điều gì khiến cho cơ_thể run lên ở nhiệt_độ lạnh ?
+DESC : reason Điều gì khiến Shea & Gould phải đóng_cửa văn_phòng tại LA ?
+DESC : reason Điều gì làm Bob_Marley chết ?
+DESC : reason Điều gì làm cho âm_vật nhạy_cảm ?
+DESC : reason Điều gì làm cho bạn béo ?
+DESC : reason Điều gì làm cho bánh_mì kẹp thịt hương_vị như steakburgers ?
+DESC : reason Điều gì làm cho dải sao ngắn_ngủi Hawks trở_nên rất độc_đáo ?
+DESC : reason Điều gì làm cho một người nào_đó trở_nên tế_nhị ?
+DESC : reason Điều gì làm một người có tay và chân đổ mồ_hôi như nhau ?
+DESC : reason Điều gì tạo nên sấm_sét ?
+DESC : reason dòng biển nào ảnh_hưởng đến khu_vực quần_đảo Shetland và quần_đảo Orkney ở biển Bắc ?
+DESC : reason Garry_Kasparov nổi_tiếng vì cái gì ?
+DESC : reason Hãy đưa ra lý_do cho người Mỹ bản_địa đôi_khi bỏ học ?
+DESC : reason Jane_Goodall được biết đến là gì ?
+DESC : reason Jane_Goodall nổi_tiếng về cái gì ?
+DESC : manner Làm thế_nào để một chiếc bánh_rán có một lỗ trong đó ?
+DESC : desc Lốc xoáy đem lại hậu_quả thiên_nhiên gì ?
+DESC : reason Lý_do chính để phương_tiện chạy bằng điện không_thể phổ_biến hiện_nay ?
+DESC : reason lý_do gì dẫn đến tỷ_lệ mang thai cao ở Spartanburg , nam Carolina ?
+DESC : reason Lý_do gì một_số trường_học ở San_Diego đã ngừng phục_vụ táo ?
+DESC : reason Tại_sao nóc nhà_ở Canada có màu xanh ?
+DESC : reason Tại_sao nồi_áp_suất tiết_kiệm thời_gian trong nhà_bếp ?
+DESC : reason Tại_sao phụ_nữ không được vào Hải_quân trên tàu_ngầm ?
+DESC : reason Tại_sao sư_tử được gọi_là " Chúa_tể rừng xanh " ?
+DESC : reason Tại_sao tai lại có chức_năng cân_bằng cho bạn ?
+DESC : reason Tại_sao thế_giới phẳng , nếu nó bắt_đầu bởi một vụ nổ , đáng_lẽ nó phải là một hình_cầu ?
+DESC : reason Tại_sao trò khúc_côn_cầu lại bạo_lực ?
+DESC : reason Tại_sao trứng phải được đặt ở tư_thế đầu nhỏ cắm xuống ?
+DESC : reason Tại_sao từ " Viết tắt " dài vậy ?
+DESC : reason Tại_sao tuyển_quân cho cuộc chiến_tranh Việt_Nam ?
+DESC : reason Tại_sao văn_phòng LA của Shea và Gould đóng_cửa ?
+DESC : reason Điều gì gây ra sự chia_rẽ giữa các tín_đồ Anh giáo và Tòa_thánh Vatican ?
+DESC : reason Điều gì làm Jane_Goodall nổi_tiếng ?
+DESC : manner Làm_sao để những bóng_đèn tròn tắt ?
+DESC : reason Nguyên_nhân gây đau_đầu là gì ?
+DESC : reason Nguyên_nhân yêu_cầu bồi_thường để danh_tiếng của Explorer I , đưa ra ngày 01 tháng hai năm 1958 là gì ?
+DESC : reason Cái gì đóng_góp vào " trí thông_minh " của nó ?
+DESC : reason Những nguyên_nhân gì đã làm cho công_ty luật Shea & Gould đóng_cửa văn_phòng L . A của họ ?
+DESC : reason Những vấn_đề gì góp_phần vào tỷ_lệ thất_bại cao của nông_dân đồng_bằng trong những năm 1800 ?
+DESC : reason S& P 500 là dùng để làm_gì ?
+DESC : reason Tại_sao sự phát_triển của không_gian rất quan_trọng ?
+DESC : reason Tại_sao Washington , DC ban_đầu được gọi_là District of Columbia ?
+DESC : reason Trong bài hát " Yankee_Doodle , " , tại_sao Yankee_Doodle đã đính một chiếc lông trên mũ của mình và gọi nó là macaroni ?
+DESC : manner Làm_sao một bàn_tính làm_việc ?
+ENTY : dismed là tên của căn_bệnh thần_kinh hiếm_hoi với các triệu_chứng như : chuyển_động không tự_nguyện , tật máy , Chửi_thề , và các âm_thanh rời_rạc , Grunts , video , vv . ?
+ENTY : animal " Winnie the Pooh " là loại động_vật gì ?
+ENTY : animal Tên của con hổ quảng_cáo cho ngũ_cốc Frosted_Flakes là gì ?
+ENTY : animal Tên của con ngựa đã làm ngã Hoàng_hậu Elizabeth , vợ của Hoàng_tử Albert là gì ?
+ENTY : animal Tên của loài thủy_quái đã chết do nhiễm nấm độc ở Sea_World ?
+ENTY : animal Tên được đặt cho một đàn ngỗng là gì ?
+ENTY : animal Winnie the Pooh thuộc loài nào ?
+ENTY : body Các mạch_máu chính là gì ?
+ENTY : body Cái gì chuyển tinh_trùng vào vùng xương_chậu ?
+ENTY : body Cái gì đu_đưa trên lưỡi từ vòm họng ?
+ENTY : body Chai nằm trong phần_nào của cơ_thể ?
+ENTY : body Hai phần_nào của cơ_thể phát_triển trong_suốt cuộc_đời ?
+ENTY : body khi con mèo đi thì chân nào sẽ cùng được dùng với chân trái phía trước ?
+ENTY : body Nơi nào da người ít nhạy_cảm nhất ?
+ENTY : body Nơi nào mà tóc của bạn mọc nhanh_nhất ?
+ENTY : body Phần cơ_thể nào của bạn có_thể chai ?
+ENTY : body Phần_lớn người_ta nghe tốt tai nào hơn ?
+ENTY : body Phần màu của mắt được gọi_là ?
+ENTY : body Tên của ngón_cái còn lại là gì ?
+ENTY : body Tuyến duy_nhất trong con_người có_thể tự tái_sinh là gì ?
+ENTY : body vùng nào_là mềm nhất trên cơ_thể ?
+ENTY : body Xương nào_là yếu nhất trên cơ_thể ?
+ENTY : body Cơ_quan nào chứa tụy ?
+ENTY : color " Tro " có màu gì ?
+ENTY : color Ba màu mực nào dùng đề in tiền Mĩ ?
+ENTY : color Ba màu nào trên quốc_kì Pháp ?
+ENTY : color Ba màu thứ cấp là gì ?
+ENTY : color Bóng tennis sử_dụng trong giải Winbledon sử dựng màu gì ?
+ENTY : color bút_chì thứ 100 tỷ của Crayola có màu gì ?
+ENTY : color Các sọc dọc theo mỗi bên của cá_hồi Coho có màu gì ?
+ENTY : color Cáo_Bắc_Cực trong mùa_đông có màu gì ?
+ENTY : color Những bức tường của điện Kremlin có màu gì ?
+ENTY : color Những người La_Mã cổ_đại đã từ_chối ăn những loại đậu có màu gì ?
+ENTY : color Rượu_vang khô màu gì nên được dùng với thịt bê nướng ?
+ENTY : color Theo thứ_tự từ trên xuống , bốn sọc trên một lon Pepsi là màu gì ?
+ENTY : color tượng sáp của Boy_Geogre ở bảo_tàng Madame_Tussaud ở London có son môi màu gì ?
+ENTY : color Máu của Mr . Spock màu gì ?
+ENTY : color Những màu tạo nên màu đỏ tía ?
+ENTY : color Quả bóng số 8 có màu gì trong môn bi - a lỗ ?
+ENTY : cremat Cuốn tiểu_thuyết nào của John_Steinbeck miêu_tả gia_đình Joad , đã lái_xe từ bão bụi Oklahoma ?
+ENTY : cremat " Mary_Tyler_Moore_Show " nào thường_xuyên đến thế_gian như_là " Tadeus_Wladyslaw_Konopka " ?
+ENTY : cremat 2 bức tượng mà Pháp cung_cấp cho các quốc_gia khác là gì ?
+ENTY : cremat 9 bản giao_hưởng của Beethoven được gọi_là gì ?
+ENTY : cremat Aaron_Hass đã viết cái gì ?
+ABBR : exp USPS có nghĩa_là gì ?
+ENTY : product Sản_phẩm nào mà William_Horlick đã khám_phá và sản_xuất ra ?
+ENTY : product Sản phẩn hỗ_trợ đầu_tiên nào " Giúp nỗi đau ngừng đau " ?
+ENTY : product Tên của chiếc máy_tính trong phim " 2001 : A_Space_Odyssey " ?
+ENTY : product Tên của dao_cạo dùng một lần mà " chi_phí khoảng 19 cent " .
+ENTY : product Tên sản_phẩm " tại tiệm thực_phẩm , trong tầm tay bạn . "
+ENTY : product Tên thương_hiệu của daminozide là gì ?
+ENTY : product thương_hiệu của loại hóa_chất dùng để kiểm_soát sự chín là gì ?
+ENTY : product Trang_phục nào true hepcats đã mặc năm 1942 ?
+ENTY : product vào một buổi phỏng_vấn năm 1984 , Calvin_Klein đã thừa_nhận là quần_jean của thương_hiệu nào còn thoải_mái hơn ?
+ENTY : product Xà_phòng nào được chào_hàng như_là " for people who like people " ?
+ENTY : product Dầu_gội đầu gì ngăn_cản tăng tiết bã nhờn , Eczêma và bệnh vẩy_nến ?
+ENTY : product Đồ_chơi nào bạn có_thể làm nó ngủ được ?
+ENTY : product Hàng may_mặc nào được đặt tên là Bradley , Voorhees và Day ?
+ENTY : product Hệ_điều_hành nào mà máy IBM tương_thích sử_dụng ?
+ENTY : product Tên một sản_phẩm kiểm_soát sự chín của quả táo .
+ENTY : product Tên nhãn_hiệu của hóa_chất daminozide là gì ?
+ENTY : product Đồ_chơi phổ_biến nhất năm 1957 là gì ?
+ENTY : product Tên của vệ_tinh Mỹ đầu_tiên được gửi vào không_gian là gì ?
+ENTY : product Tên vệ_tinh mà Liên_Xô phóng vào không_gian năm 1957 là gì ?
+ENTY : product Vệ_tinh đầu_tiên bay vào không_gian là gì ?
+DESC : reason Cái gì khiến Đồi_Đen ở Nam_Dakota là một điểm thu_hút khách du_lịch ?
+ENTY : religion Hai tôn_giáo chính có nguồn_gốc từ Ấn Độ ?
+ENTY : religion Marcus_Garvey bắt_nguồn từ tôn_giáo Caribbean nào ?
+ENTY : religion Tôn_giáo nào có nhiều thành_viên nhất ?
+ENTY : religion Trong tôn_giáo nào Isis là nữ_thần thiên_nhiên ?
+ENTY : cremat Album gì đặt The_Beatles trên trang bìa của Time vào năm 1967 ?
+ENTY : cremat Âm_nhạc Broadway nào lấy cảm_hứng từ Cervantes ' s Don_Quixote
+ENTY : cremat Bài hát nào cho phần kết_thúc của Johnny_Cash_Show ?
+ENTY : cremat Bài hát nào mà Patti_Page thiết_lập cho mọi người nhảy năm 1950 ?
+ENTY : cremat Bài hát nào nổi_tiếng nào của Sinatra mà anh_ta dooby dooby trong đó ?
+ENTY : cremat Bài hát trong chiến_dịch tranh_cử của John_Kenedy 1960 là gì ?
+ENTY : cremat Bài nhạc nào được sử_dụng trong quảng_cáo mới của VW Beetle khi cái xe xoay và đổi màu ?
+ENTY : cremat Cuốn tiểu_thuyết nào của Morris_West đã đề câp đến vị giám_mục người Nga người đã trở_thành giáo_hoàng ?
+ENTY : cremat Cuốn tiểu_thuyết nào của Stephen_King là cảnh trong một nghĩa_trang cho vật_nuôi ?
+ENTY : cremat Hamblen cao_bồi hát đầu_tiên trong môi_trường nào ?
+ENTY : cremat Hầu_hết các album nào được bán bởi một nghệ_sĩ hay ban_nhạc ?
+ENTY : cremat Jack_Lemmon đã đóng vai một họa_sĩ truyện_tranh trong bộ phim nào vào năm 1965 ?
+ENTY : cremat Kể tên những cuốn sách của James A . Michener đặt tại các địa_điểm sau đây ?
+HUM : ind Kennedy nào đã kết_hôn với Ethel ?
+ENTY : cremat Loạt chương_trình truyền_hình nào đã nhìn thấy nhiều cảnh bắn thuỷ_sản ở Silver_Springs , Florida ?
+ENTY : cremat Tên của một cuốn sách được viết bởi Aaron_Hass là gì ?
+ENTY : cremat Tên của tờ báo Tampa là gì ?
+ENTY : cremat Tiểu_thuyết vào năm 1895 nào của H.G.Wells được viết dưới tiêu_đề The_Chronic_Argonauts ?
+ENTY : cremat Truyện người thật việc thật bán_chạy nhất năm 1952 , 1953 và 1954 là gì ?
+ENTY : cremat Vở kịch tiếng Anh đầu_tiên được viết dành riêng cho trẻ_em là gì ?
+ENTY : animal Báo châu Phi là gì ?
+ENTY : animal Chim biểu_tượng cho New_York là gì ?
+ENTY : animal Tên con chó của FDR là gì ?
+ENTY : animal Tên gán cho hổ tại Đại_học bang Louisiana là gì ?
+ENTY : animal Tên khoa_học cho con voi là gì ?
+ENTY : animal Toto là loại chó nào trong " Wizard of Oz " ?
+ENTY : body Bộ phần_nào trong cơ_thể có chức_năng bài_tiết ?
+ENTY : body Hai phần_nào của cơ_thể phát_triển trong_suốt cuộc_đời ?
+ENTY : body khi con mèo đi thì chân nào sẽ cùng được dùng với chân trái phía trước ?
+ENTY : body Nơi nào da người ít nhạy_cảm nhất ?
+ENTY : body Nơi nào mà tóc của bạn mọc nhanh_nhất ?
+ENTY : body Phần cơ_thể nào của bạn có_thể chai ?
+ENTY : body Phần_lớn người_ta nghe tốt tai nào hơn ?
+ENTY : body Phần màu của mắt được gọi_là ?
+ENTY : body Tên của ngón_cái còn lại là gì ?
+ENTY : body Động_mạch duy_nhất mang máu màu xanh từ trái_tim đến phổi là gì ?
+ENTY : color Cần trộn những màu gì để tạo ra màu da_cam ?
+ENTY : color Dế có màu gì ?
+ENTY : color Giấy quỳ chuyển sang màu gì khi nó tiếp_xúc với một axit mạnh ?
+ENTY : color Hoa sen có màu gì ?
+ENTY : color Lưỡi hươu_cao_cổ có màu gì ?
+ENTY : color Màu của quốc_kì Đức là màu gì ?
+ENTY : color Màu mắt phổ_biến nhất_là gì ?
+ENTY : color Những màu_sắc nào cần phải được pha_trộn để có được màu hồng ?
+ENTY : color Ớt chín có màu gì ?
+ENTY : color Sữa bò Tây_Tạng có màu gì ?
+ENTY : currency Argentina sử_dụng những loại tiền_tệ nào ?
+ENTY : currency Đơn_vị_tiền_tệ của Angelia là gì ?
+ENTY : currency Đơn_vị_tiền_tệ của Australia là gì ?
+ENTY : currency Họ sử_dụng những loại tiền_tệ nào ở Brazil ?
+ENTY : currency Lúc-xăm-bua sử_dụng những loại tiền_tệ nào ?
+ENTY : currency Đơn_vị_tiền_tệ người_ta sử_dụng trong Zambia là gì ?
+ENTY : currency Loại tiền_tệ nào được sử_dụng ở Trung_Quốc ?
+ENTY : currency Loại tiền_tệ nào được sử_dụng ở Úc ?
+ENTY : currency Tiền được sử_dụng bởi họ là gì ?
+ENTY : dismed Chứng sợ bẩn là gì ?
+ENTY : dismed Chứng sợ bị từ_chối là gì ?
+ENTY : dismed Chứng sợ chua là gì ?
+ENTY : dismed Chứng sợ dịch_tả là gì ?
+ENTY : dismed Chứng sợ gián gọi_là gì ?
+ENTY : dismed Chứng sợ_hãi cá là gì ?
+ENTY : dismed Liệu_pháp điều_trị gì cố_gắng để gợi ra những " tiếng hét nguyên_thủy " ?
+ENTY : dismed Loại bệnh nào có_thể được chữa khỏi bằng thì_là đen ?
+ENTY : dismed Loại ung_thư da phổ_biến nhất ở Mỹ là gì ?
+ENTY : dismed Một người đàn_ông bị terata diphallic có_điều gì ?
+ENTY : dismed Chứng sợ_hãi bóng_tối là gì ?
+ENTY : lang Hai ngôn_ngữ của Malta là gì ?
+ENTY : lang Một trong những ngôn_ngữ được người Sioux nói gọi_là gì ?
+ENTY : lang Ngôn_ngữ chính của Việt_Nam là gì ?
+ENTY : lang ngôn_ngữ chính_thức của algeria ?
+ENTY : lang Ngôn_ngữ nào có nhiều từ nhất ?
+ENTY : lang Ngôn_ngữ nào được nói bởi người bản_địa ở Afghanistan ?
+ENTY : lang Ngôn_ngữ phổ_biến nhất được nói ở Bỉ ?
+ENTY : lang Những ngôn_ngữ chủ_yếu được nói ở Brazil ?
+ENTY : lang Sioux nói ngôn_ngữ nào ?
+ENTY : lang Tên của ngôn_ngữ người Sioux dùng là gì ?
+ENTY : lang Tên một ngôn_ngữ Gaelic ?
+ENTY : lang Tên một ngôn_ngữ Sioux ?
+ENTY : dismed Nỗi sợ bao_vây nhà là gì ?
+ENTY : dismed Nỗi sợ đẻ con là gì ?
+ENTY : dismed Nỗi sợ_hãi của máy_móc thiết_bị là gì ?
+ENTY : dismed Nỗi sợ thất_bại là gì ?
+ENTY : event Hiện_tượng thiên_văn nào diễn ra_vào tháng 1 năm 1999 ?
+ENTY : event Johnny_Reb và Billy_Yank đã chiến_đấu trong cuộc_chiến nào ?
+ENTY : event Kỳ nghỉ Do_Thái đã chứng_kiến gì trong sự bắt_đầu của cuộc chiến_tranh Trung_Đông 1973 ?
+ENTY : event Mối thù nào đã kết_thúc với một cuộc hôn_nhân ở Kentucky vào ngày 21 Tháng 3 năm 1891 ?
+ENTY : event Một_số sự_kiện lịch_sử quan_trọng của những năm 1990 là gì ?
+ENTY : event Một_số sự_kiện quan_trọng trong các năm 1830 là gì ?
+ENTY : event Tên của sự_kiện năm 1919 , trong đó quân_đội Anh đã giết chết hơn 3 người biểu_tình không vũ_trang Ấn Độ là gì ?
+ENTY : event Tên của trận chiến nổi_tiếng giữa Texas và Mexico ?
+ENTY : event Tên một giai_đoạn lịch_sử Pháp suốt thời thống_trị của Napoleon đệ tam .
+ENTY : event Thảm_họa đắt_đỏ nhất mà ngành bảo_hiểm đã từng phải đối_mặt là gì ?
+ENTY : event Thảm_họa nào đã giáng xuống thành_phố Dogtown vào năm 1899 ?
+ENTY : event Thời_đại nào tiếp_nối thời_đại_đồ_đồng ?
+ENTY : event tổ_chức xã_hội_đen nào đã thảm_sát các thành_viên của băng_nhóm Bugs_Moran ?
+ENTY : event Trận nào trong chiến_tranh thế_giới I chứng_kiến 6 quân_bị tử_trận trong một ngày ?
+ENTY : event Tuần từ 21-27 tháng 2 kỷ_niệm điều gì ?
+ENTY : event Tuổi trong biệt ngữ của truyện_tranh là gì ?
+ENTY : event Cơn bão nào tồi_tệ nhất ?
+ENTY : event Cuộc chiến_tranh dài nhất trong lịch_sử Hoa_Kỳ là gì ?
+ENTY : event Một_số dự_án khoa_học thích_hợp cho học_sinh lớp 8 là gì ?
+ENTY : event Năm mới nào được tổ_chức vào ngày 16 tháng 2 ?
+ENTY : event Trận chiến quan_trọng đã diễn ra tại Bỉ vào năm 1815 ?
+ENTY : event Trong những cuộc chiến_tranh tàu_ngầm lần đầu_tiên được sử_dụng ?
+ENTY : food Thực_vật duy_nhất bắt_đầu với " z " là gì ?
+ENTY : food Uống gì để giải_khát tốt nhất ?
+ENTY : instru Ban_nhạc thép Tây Ấn ĐỘ dùng cái gì như một nhạc_cụ ?
+ENTY : instru Loại ghi - ta nào Jimi_Hendrix đã từng chơi ?
+ENTY : instru Musician_Ray_Charles đã chơi nhạc_cụ nào ?
+ENTY : instru Nhạc_cụ nào được biết đến nhiều nhất khi Ray_Charles biểu_diễn ?
+ENTY : instru Nhạc_cụ Prewitt chơi trong bản_nhạc From_Here to Eternity của James_Jones ?
+ENTY : instru Nhạc_cụ Prewitt nào mà Prewitt đã chơi trong " James_Jones ' s From_Here to Eternity " ?
+ENTY : instru Nhạc_cụ Sherlock_Holmes đã chơi là gì ?
+ENTY : instru Ray_Charles chơi nhạc_cụ nào ?
+ENTY : instru Ray_Charles được biết đến với nhạc_cụ nào ?
+ENTY : instru Benny_Carter chơi loại nhạc_cụ nào ?
+ENTY : lang Bốn ngôn_ngữ được sử_dụng rộng_rãi nhất ở Bắc_Mỹ là gì ?
+ENTY : lang Hai ngôn_ngữ của Malta là gì ?
+ENTY : lang Một trong những ngôn_ngữ được người Sioux nói gọi_là gì ?
+ENTY : lang Ngôn_ngữ chính của Việt_Nam là gì ?
+ENTY : lang ngôn_ngữ chính_thức của algeria ?
+ENTY : lang Ngôn_ngữ nào có nhiều từ nhất ?
+ENTY : lang Ngôn_ngữ nào được nói bởi người bản_địa ở Afghanistan ?
+ENTY : lang Ngôn_ngữ phổ_biến nhất được nói ở Bỉ ?
+ENTY : lang Những ngôn_ngữ chủ_yếu được nói ở Brazil ?
+ENTY : lang Sioux nói ngôn_ngữ nào ?
+ENTY : lang Tên của ngôn_ngữ người Sioux dùng là gì ?
+ENTY : lang Tên một ngôn_ngữ Gaelic ?
+ENTY : lang Tên một ngôn_ngữ Sioux ?
+ENTY : lang thứ tiếng chính ở Sao_Paulo_Brazil là gì ?
+ENTY : lang Một trong những ngôn_ngữ của Sioux là gì ?
+ENTY : lang Ngôn_ngữ hiện_đại duy_nhất viết hoa đạ từ nhân xưng ngôi_thứ nhất ?
+ENTY : letter Bảng_chữ_cái Latinh là gì ?
+ENTY : letter Chữ_cái nào xuất_hiện trên vòi_nước lạnh ở Tây_Ban_Nha ?
+ENTY : letter Chữ đầu và cuối trong bảng_chữ_cái Hi_Lạp ?
+ENTY : letter Chữ nào trang_trí trên cờ của Rwanda ?
+ENTY : letter Ký_tự nằm bên phải chữ K trên bàn_phím máy đánh chữ là gì ?
+ENTY : letter Ký_tự nào lớn nhất trong chữ_ký của Salvador_Dali ?
+ENTY : letter Nguyên_âm nào mà tất_cả danh_từ Esperanto đều kết_thúc bởi nó ?
+ENTY : letter Nguyên_âm thứ_hai sử_dụng nhiều nhất trong tiếng Anh là gì ?
+ENTY : letter Tên giữa của Gorbachev bắt_đầu bằng chữ_cái nào ?
+ENTY : other Tên một khóa học golf ở Myrtle_Beach .
+ENTY : other Blaise_Pascal đã phát mình ra loại bánh_xe gì trong một cuộc nghiên_cứu về chuyển_động vĩnh_cửu ?
+ENTY : other 24-đĩa John_Gabel_Nghệ sĩ của ví_dụ đầu_tiên , vào 1960 là gì ?
+ENTY : other 7 điều của hiến_pháp là gì ?
+ENTY : other 7 kỳ_quan của thế_giới là gì ?
+ENTY : other 7 kỳ_quan thế_giới là gì ?
+ENTY : other Ai đã Bob_Marley ?
+ENTY : other Bộ sưu_tập spermologer là gì ?
+ENTY : other Bốn hình_thức tồn_tại của vàng là gì ?
+ENTY : other các đầu_bếp tráng trứng trong cái gì ?
+ENTY : other Các giai_đoạn phát_triển của một vận_động_viên bơi_lội là gì ?
+ENTY : other các lễ_hội truyền_thống như_thế_nào trong thời nữ_hoàng Elizabeth ?
+NUM : other Giới_hạn cồn trong máu hợp_pháp khi điều_khiển phương_tiện giao_thông là gì ?
+ENTY : other Giới nào có bắp_đùi lớn hơn ?
+ENTY : other kiểu nào_là đối_thủ cạnh trang chính của VHS ?
+ENTY : other Lạc_đà tích_trữ gì trong bướu của chúng ?
+ENTY : other Vasco da Game đã khám_phá ra_điều gì ?
+ENTY : other Viên đá_quý tượng_trưng cho tháng 11 là gì ?
+ENTY : other Visine tìm ra_điều gì ?
+ENTY : other Vũ_khí dây nào phát ra sét ?
+ENTY : other Vũ_khí giết người nào sử_dụng nhiều thứ_hai ở Mỹ ?
+ENTY : other vũ_khí nào phù_hợp với khe chữ_thập ở các lâu_đài Anh ?
+ENTY : other Walter_Huston đã bỏ cái gì để đóng trong bộ phim The_Treasure of the Sierra_Madre ?
+ENTY : other Warlock đã đeo cái gì ở trán trong truyện_tranh Marvel ?
+ENTY : other Whitcomb_Judson đã đóng cái hầm nào vào năm 1893 ?
+ENTY : other 28 thì trong tiếng Anh là gì ?
+ENTY : instru Benny_Carter đã chơi nhạc_cụ gì ?
+ENTY : other Bộ bài nào cao nhất trong poker ?
+ENTY : other Cá_vàng chết nếu để mập_mờ hay tinh_khiết ?
+ENTY : other Nốt cao nào mà bạn luôn nghe hiện_tại và sau đó nhưng sau đó nó đi xa sau một thời_gian ?
+ENTY : other Ở Metamorphosis của Kafka , người anh_hùng thức_dậy vào một buổi_sáng và thấy mình biến thành cái gì ?
+ENTY : other Quan_hệ tình_dục nào bị từ_chối quyền biểu_quyết tại Kuwait ?
+ENTY : other Rom đã đến Trái_Đất để chiến_đấu với kẻ biến_hình xấu_xa nào ?
+ENTY : other Thông_tin liên_lạc vệ_tinh có_thể cung_cấp những gì cho du_thuyền ?
+ENTY : other Xì_gà nào_là " một thế_giới hoàn_toàn mới " ?
+ENTY : cremat Những bài báo nào của quần_áo được đặt trong Monopoly ?
+ENTY : plant các loài thực_vật nào tìm thấy ở vùng cửa_sông ?
+ENTY : plant Cây nào có nút , mũ , chén , và vòng ?
+ENTY : plant Cây nào được trồng ở Nebraska ?
+ENTY : plant Có_thể trồng cây gì mà an_toàn từ con nai ?
+ENTY : plant Hai loại cây nào nào mà quần_áo được làm từ đó ?
+ENTY : plant Loại cây được trồng rộng_rãi nhất_là gì ?
+ENTY : plant Loài cây nào vinh_dự làm cờ của Lebanon ?
+ENTY : plant Loài hoa nào mà thám_tử Nero_Wolfe trồng ?
+ENTY : plant Loại thực_vật nào có hạt_giống lớn nhất ?
+ENTY : plant Một_số hoa đầy màu_sắc sẽ nở vào mùa thu ở New_England là gì ?
+ENTY : plant Rượu rum được làm từ_loại cây nào ?
+ENTY : plant Vincent_Van_Gogh đã sơn loại hoa gì ?
+ENTY : plant Một_số thực_vật bản_địa của châu Úc là gì ?
+ENTY : product " Thuốc là đầu_lọc của Mỹ " là gì ?
+ENTY : product Các sản_phẩm khác của ngành hóa_dầu là gì ?
+ENTY : product Cái nào_là cái máy_tính nhanh_nhất ?
+ENTY : product cái sản_phẩm nào có khẩu_hiệu là " gấp đôi sự sảng_khoái , gấp đôi niềm_vui " ?
+ENTY : product Chiếc xe nào đã được lái trong lần phát_hành thứ 199 của " Smokey và Bandit " ?
+ENTY : product Chiếc xe nào_là đắt_giá nhất trên thế_giới ?
+ENTY : product Công_ty Peugeot sản_xuất cái gì ?
+ENTY : product Dòng nào_là tốt nhất của một laptop máy_tính ?
+ENTY : product Hai sản_phẩm nào sử_dụng một con hổ như biểu_tượng của chúng ?
+ENTY : product Hai sản_phẩm nào sử_dụng một con hổ như_là biểu_tượng của họ ?
+ENTY : product Hệ_điều_hành máy_tính nào thông_dụng nhất ?
+ENTY : product Hệ_điều_hành nào chạy trên máy tương_thích với IBM ?
+ENTY : product Italia là nhà_sản_xuất lớn nhất của cái gì ?
+ENTY : product Loại mũ nào mà Bat_Masterson đội ?
+ENTY : product Loại xe nào mà Janis_Joplin đã cầu_xin Chúa để mua cho cô ?
+ENTY : product Mẫu máy_tính bán_chạy nhất_là gì ?
+ENTY : product Máy_tính cầm tay tiên_tiến nhất trên thế_giới là gì ?
+ENTY : religion Hai tôn_giáo chính có nguồn_gốc từ Ấn Độ ?
+ENTY : religion Marcus_Garvey bắt_nguồn từ tôn_giáo Caribbean nào ?
+ENTY : religion Tôn_giáo nào có nhiều thành_viên nhất ?
+ENTY : religion Trong tôn_giáo nào Isis là nữ_thần thiên_nhiên ?
+ENTY : sport Các môn thể_thao yêu_thích của The_Pump_House_Gang của Tom_Wolfe là gì ?
+ENTY : sport các trò_chơi điện_tử mới cho Widows 95 và 98 là gì ?
+ENTY : sport Chris_Jogis chơi môn thể_thao nào ?
+ENTY : sport Chris_Jogis là cầu_thủ hàng_đầu môn thể_thao nào ?
+ENTY : sport Cờ thủ không đi được tiếp thì kết_cục là gì ?
+ENTY : sport cuộc đua nào ở châu Âu mà người thắng cuộc trong chặng leo núi được mặc chiếc áo chấm đỏ ?
+ENTY : sport Trò_chơi nào cho thấy các vùng lãnh_thổ của Irkutsk , Yakutsk và Kamchatka ?
+ENTY : sport Trò_chơi nào mà " wood-pusher " chơi kém ?
+ENTY : sport Wilbur_Reed là người đầu_tiên giành chiến_thắng ba lần trên chặng đua tự_động nào ?
+ENTY : sport 4 giải đấu nào bổ_sung cho giải quần_vợt Grand_Slam ?
+ENTY : sport Các môn thể_thao phổ_biến thứ_hai trên toàn thế_giới là gì ?
+ENTY : sport Giải golf Grand_Slam nào không được tổ_chức giữa năm 1940 và 1945 ?
+ENTY : sport Thẻ trò_chơi yêu_thích của Dwight_Eisenhower là gì ?
+ENTY : sport Trò_chơi bài nào thể_hiện dealer ' s choice ?
+ENTY : sport Trò_chơi nào mà Garry_Kasparov chơi ?
+ENTY : sport Trò_chơi trốn tìm nào được chơi xung_quanh một vỏ lon ?
+ENTY : substance Bàn_chải lông lạc_đà thực_ra được làm từ gì ?
+ENTY : substance Bạn có_thể tạo ra chất_nổ nào bằng cách trộn lưu_huỳnh , than và tiêu tha ̣ ch ?
+ENTY : substance Bạn nên thêm gì vào hốn hợp đất_sét để sản_xuất gốm trung Quốc ?
+ENTY : substance Bốn đơn_vị không_quân là gì ?
+ENTY : substance Các hóa_chất được sử_dụng trong glowsticks là gì ?
+ENTY : substance Các ngôi_sao được hợp_thành từ những vật_liệu gì ?
+ENTY : substance Các nguyên_tố phổ_biến nhất trong lớp vỏ Trái_Đất là gì ?
+ENTY : substance Các nguyên_tố phổ_biến nhất trong nước_biển là gì ?
+ENTY : substance Siêu cầu làm_bằng gì ?
+ENTY : substance Taj_Majal làm từ cái gì ?
+ENTY : substance Thành_phần cấu_tạo hóa_học của búp_bê Barbie là gì ?
+ENTY : substance Thành_phần chính của sữa_chua là gì ?
+ENTY : substance Thép chứa những chất gì ?
+ENTY : substance tiền được làm_bằng chất_liệu gì ?
+ENTY : substance Vật_liệu gì được ba chú heo con sử_dụng để xây_dựng nhà_ở của họ ?
+ENTY : substance vật_liệu nào_là cứng nhất trong cơ_thể con_người ?
+ENTY : substance Các thành_phần của Coca-Cola là gì ?
+ENTY : substance Những loại hóa_chất độc_hại có trong thuốc xịt côn_trùng là gì ?
+ENTY : substance Bốn nguyên_tố tạo thành 90% cơ_thể người ?
+ENTY : instru Glenn_Miller chơi nhạc_cụ gì ?
+ENTY : lang Ngôn_ngữ được nói phổ_biến nhất tại Hà_Lan là gì ?
+ENTY : lang Ngôn_ngữ chính của người Ai xơ len là gì ?
+ENTY : other Các cơ_quan chính của bên lập_pháp là gì ?
+ENTY : other Edward_Binney và Howard_Smith phát_minh ra cái gì năm 1903 ?
+ENTY : other Hai loại sinh_đôi là gì ?
+ENTY : other Loại polymer được sử_dụng cho áo_khoác chống đạn là gì ?
+ENTY : other Nguồn_gốc của khí_thiên_nhiên là gì ?
+ENTY : other Phong_vũ_biểu đo cái gì ?
+ENTY : other Thuế kinh_doanh gồm những loại gì ?
+ENTY : other Thuốc_nổ gồm những thành_phần gì ?
+ENTY : other Tiêu_chuẩn của việc bị coi là mù là gì ?
+ENTY : other Trận quần_vợt nào diễn ra lâu nhất trong lịch_sử ?
+ENTY : other Trường_Đại học nào ở Hà_Nội có diện_tích lớn nhất ?
+ENTY : other Tu_viện nào được khám_xét bởi Viking vào cuối thế_kỷ thứ tám ?
+ENTY : symbol 2 cung nào_là hợp nhau về đường tình_yêu ?
+ENTY : symbol Biểu_tượng cho cung Song_Tử là gì ?
+ENTY : symbol Công_thức_hóa_học của Na pan là gì ?
+ENTY : symbol Đánh_dấu phân_biệt trên những con chó " Little_Rascals " là gì ?
+ENTY : symbol Dấu_hiệu của một quốc_gia đang đi vào suy_thoái là gì ?
+ENTY : symbol Dấu_hiệu hoàng_đạo cho ngày 14 tháng 8 là gì ?
+ENTY : symbol Hãng_Toyota có biểu_tượng gì trên xe ô_tô của họ ?
+ENTY : symbol Ký_hiệu hóa_học dùng cho Nitro là gì ?
+ENTY : symbol Loại thẻ trò_chơi nào_là biểu_tượng của tử_thần ?
+ENTY : symbol Thương_hiệu của quạt Washington_Redskin là gì ?
+ENTY : symbol Biểu_tượng celtic " cuộc_sống " là gì ?
+ENTY : techmeth 7 nguyên_tắc học từ Viện_Nghiên cứu trên Learning , IRL là gì ?
+ENTY : techmeth Ba cách trong đó gió được tạo ra trên trái_đất ?
+ENTY : techmeth Bert_Loomis đã phát_minh ra kỹ_năng bóng_rổ gì ?
+ENTY : techmeth Bốn sự hỗ_trợ tự_nhiên được sử_dụng trong khi cưỡi một con ngựa là gì ?
+ENTY : techmeth Các phương_pháp tiếp_cận khác_nhau của hệ_thống phân_tích là gì ?
+ENTY : techmeth Cách dễ_dàng nhất để đếm xấp_xỉ số cá có trong hồ ?
+ENTY : techmeth Cách dùng chính_xác " may " và " might " ?
+ENTY : techmeth Cách hiệu_quả nhất để bắt_đầu một khay nướng là gì ?
+ENTY : techmeth Cách khác để biết dấu_hiệu căng da bên_cạnh việc mang thai , giảm cân , và cử_tạ là gì ?
+ENTY : techmeth cách nào_là đúng khi đặt một cuộn giấy_vệ_sinh ?
+ENTY : techmeth Cách nhanh_nhất và dễ nhất để đánh móng tay là gì ?
+ENTY : techmeth Cách tốt nhất để loại_bỏ hình nền là gì ?
+ENTY : techmeth Cách tốt nhất để vượt qua sự sợ_hãi ?
+ENTY : techmeth Công_thức tính pi là gì ?
+ENTY : techmeth Điều_trị trầm_cảm là gì ?
+ENTY : techmeth Định luât bảo_toàn năng_lượng không cho_phép phát_minh nào ?
+ENTY : techmeth Đồ_dùng ăn_uống nào được sử_dụng cho trẻ_em khuyết_tật ?
+ENTY : techmeth George_Foreman đã trở_thành nạn_nhân đầu_tiên của thủ_đoạn nào của Muhammad_Ali ?
+ENTY : techmeth Ivan IV đã hỗ_trợ nước Nga bành_trướng ra_sao ?
+ENTY : techmeth Kĩ_xảo nào được sử_dụng phổ_biến để phát_hiện dị_tật bẩm_sinh ?
+ENTY : techmeth Kiểu bơi Olympic chậm nhất_là gì ?
+ENTY : techmeth Kỹ_thuật được gọi_là " nhiệt_hạch lạnh " được sản_xuất ?
+ENTY : techmeth Một_số lời khuyên cho việc đốt lửa trong lò_sưởi là gì ?
+ENTY : techmeth Một_vài cách giúp ai đó với Chicken_Pox ?
+ENTY : techmeth Nghề thủ_công mỹ_nghệ gì đòi_hỏi bạn phải bện chéo chiều dọc và ngang khung_cửi ?
+ENTY : techmeth Những cách nào_là tốt nhất để cải_thiện tinh_thần của nhân_viên mà tiết_kiệm chi_phí ?
+ENTY : techmeth Những người thủy_thủ sử_dụng cái gì để đo thời_gian ?
+ENTY : techmeth Những những cách nào người_ta có_thể đo mức_độ người sử_dụng IT ?
+ENTY : techmeth Những phụ_kiện chơi golf đã được cấp bằng_sáng_chế bởi George_Grant vào ngày 12 tháng 12 ?
+ENTY : techmeth Những tiêu_chuẩn mà Clinton đã chọn để tránh nhập_ngũ ?
+ENTY : techmeth phướng pháp thú_vị nào được sử_dụng để lưu_chuyển các khoản tín_dụng trong các tập phim_hoạt_hình Popeye thời_kỳ đầu ?
+ENTY : techmeth Phương_pháp thường dùng để độc_quyền là gì ?
+ENTY : techmeth Tên một kỹ_thuật được sử_dụng rộng_rãi để phát_hiện dị_tật bẩm_sinh ?
+ENTY : techmeth Tiến_trình khoan một lỗ vào hộp sợ để được một ý_thức cao hơn gọi_là gì ?
+ENTY : techmeth Cách tốt nhất để đi du_lịch ở Nhật_Bản là gì ?
+ENTY : techmeth Cách tốt nhất để mất sự chảy xệ ở dưới cằm và xung_quanh khuôn_mặt của bạn ?
+ENTY : techmeth Năm đường bơi cơ_bản là gì ?
+ENTY : termeq Bạn nói " Bà Nội " như_thế_nào trong tiếng Ai_Len ?
+ENTY : termeq Cleveland_Indians gọi_là gì ?
+ENTY : termeq Tên của đám mây hình_thành mưa là gì ?
+ENTY : termeq Tên khác của chất aspartame ?
+ENTY : termeq Vật_thể hai mặt gọi_là gì ?
+ENTY : termeq " cho những người hiểu sự khác_biệt " Tiếng xơ - cốt-len là gì ?
+ENTY : termeq " Little_Rascals " còn được gọi_là ?
+ENTY : termeq " Những cái kim khâu " và " những người chọc ngựa " được biết đến như_là gì ?
+ENTY : termeq Aspartame cũng được biết đến như_là gì ?
+ENTY : termeq Aspartame cũng được gọi_là gì ?
+ENTY : termeq Thuật_ngữ nào miêu_tả một từ khi chỉ có một_cách sử_dụng được ghi lại trong toàn_bộ văn_bản ?
+ENTY : termeq Thuật_ngữ văn_học nào được dùng như một_cách chơi_chữ ?
+ENTY : plant Hoa của bang Illinois là gì ?
+ENTY : plant Hoa tiểu_bang Michigan là gì ?
+ENTY : plant Loài hoa đặc_trưng của Australia ?
+ENTY : plant Loài hoa nào tượng_trưng cho đất_nước Bulgari ?
+ENTY : plant Vải lanh được sản_xuất chủ_yếu từ_loại cây nào ?
+ENTY : sport Các môn thể_thao phổ biếnhất ở Nhật_Bản là gì ?
+ENTY : substance Chất khoáng nào giúp phòng_ngừa chứng loãng n xương ?
+ENTY : substance Đá_quý Birthstone nào màu ngọc lam ?
+ENTY : substance Gương được làm từ gì ?
+ENTY : substance Khí gì ở tầng đối_lưu ?
+ENTY : substance Khí tự_nhiên gồm những thành_phần gì ?
+ENTY : substance Kim_loại nào có nhiệt_độ nóng_chảy cao nhất ?
+ENTY : substance Loại đá_quý nào_là một dạng cacbon tinh_khiết ?
+ENTY : substance Loại khí nào có trong bóng_đèn huỳnh_quang ?
+ENTY : substance Plastic được làm từ gì ?
+ENTY : substance Thuốc_lá làm từ gì ?
+ENTY : substance Tượng_đài Lý_Thái_Tổ được làm_bằng gì ?
+ENTY : substance Viên đá_quý gắn với tháng Mười là gì ?
+ENTY : substance Xi_măng được sản_xuất từ những thành_phần gì ?
+ENTY : techmeth Cách dễ nhất để loại_bỏ hình nền là gì ?
+ENTY : termeq Bạn gọi một từ mà viết ngược và xuôi giống nhau là gì ?
+ENTY : termeq Chiếc váy truyền_thống của Hàn_Quốc gọi_là gì ?
+ENTY : termeq Con bò con gọi_là gì ?
+ENTY : termeq Một con kangaroo mới sinh được gọi_là gì ?
+ENTY : termeq Người vẽ bản_đồ chuyên_nghiệp được gọi_là gì ?
+ENTY : termeq Những chấm trên quân bài đô - mi-nô gọi_là gì ?
+ENTY : termeq Tên khác của vitamin B1 là gì ?
+ENTY : termeq Tôi gọi con_trai và con_gái của người anh_em họ đầu_tiên của tôi là gì ?
+ENTY : termeq Trên tay bài Poker có năm lá_cờ đồng_chất được gọi_là gì ?
+ENTY : termeq Từ_Latinh nào có nghĩa_là không đủ năng_lực ?
+ENTY : termeq Từ nào có nghĩa_là sự hấp_dẫn giữa một người đàn_ông và một người phụ_nữ ?
+ENTY : termeq Vành_đai của áp_suất thấp xung_quanh xích_đạo gọi_là gì ?
+ENTY : termeq Vòng_tròn chứa các đối_thoại trong phim_hoạt_hình được gọi_là gì ?
+ENTY : termeq Warner_Bros gọi một con chim cu bay là gì ?
+ENTY : termeq Bảng_chữ_cái Do_Thái được biết đến như cái gì ?
+ENTY : veh Tên của chuyến bay mà Fawaz_Younis cướp là gì ?
+ENTY : veh Tên của tất_cả các tàu_sân_bay của Hải_quân Hoa_Kỳ là gì ?
+ENTY : veh Tên của tàu_con_thoi không_gian thứ_hai là gì ?
+ENTY : veh Tên của thuyền chiến trong phim The_Sand_Pebbles ?
+ENTY : veh tên_lửa nào đã phóng tàu Surveyor vào vũ_trụ ?
+ENTY : veh Tên tàu được sử_dụng bởi lực_lượng Atari trong truyện_tranh DC ?
+ENTY : veh trong chuyến bay nào thì Fawaz_Younis phạm phải_tội cướp máy_bay và giữ con_tin ?
+ENTY : veh Tuyến đường nào ở Ý đã bị cướp vào năm 1985 ?
+ENTY : veh Xe đua nào trong Tour de France ?
+ENTY : veh Gần đây Hàn_Quốc đã mua các loại tàu_ngầm nào ?
+ENTY : veh Tên con tàu Beany và Cecil đã lái .
+ENTY : word Chữ_cái nào được dùng nhiều nhất trong tiếng Anh ?
+ENTY : word dạng số_ít của dice là gì ?
+ENTY : word Danh_từ đồng_nghĩa với ngỗng là gì ?
+ENTY : word Mã phát_thanh quốc_tế cho chữ B là gì ?
+ENTY : word Một từ khác đồng_nghĩa với ăn_kiêng ?
+ENTY : veh Máy_bay mà Lindbergh lái một_mình vượt Đại_Tây_Dương tên gì ?
+ENTY : veh Phương_tiện giao_thông phổ_biến nhất Việt_Nam là gì ?
+ENTY : veh Tàu của William_Penn có tên là gì ?
+ENTY : veh Tàu_vũ_trụ nào mà nhà du_hành Mỹ_Alan_Shepard đã thực_hiện chuyến bay lịch_sử năm 1961 ?
+ENTY : sport trận đấu đánh_bóng tròn nào bắt_đầu cuộc đối_đầu đông tây giữa Michigan và Stanford năm 192 ?
+ENTY : sport Trò_chơi bài nào mà được đặt theo một tên Nga ?
+ENTY : sport Trò_chơi có_thể gây tử_vong cho bất_cứ ai trên 21 tuổi ?
+ENTY : word Từ gì xuất_hiện 46227 lần trong Kinh_Thánh ?
+ENTY : word Từ_Hungary của hạt_tiêu là gì ?
+ENTY : word Từ mà chữ_cái có_thể được sắp_xếp lại để tạo thành một từ khác_nhau là gì ?
+ENTY : word Từ nào khác có nghĩa_là " biết hết " ?
+ENTY : substance Nguyên_tố nặng nhất tự_nhiên là gì ?
+ENTY : word Từ nào trong tiếng Anh có hai ' u ' đối_xứng nhau ?
+ENTY : word Từ tiếng Anh dài nhất_là gì ?
+ENTY : word Từ tiếng Anh nào có chứa nhiều chữ_cái nhất ?
+ENTY : word Từ tiếng Anh nào có nhiều chữ_cái nhất ?
+ENTY : word Từ tiếng Anh nào dài nhất mà có_thể được tạo bằng việc chỉ sử_dụng những chữ_cái thuộc hàng trên cùng của máy_chữ ?
+ENTY : word Từ tiếng Anh nào xuất_phát từ_từ Pháp cổ covrefeu , có nghĩa_là dập lửa ?
+ENTY : word Các năm từ mở_đầu của Ben_Casey là gì ?
+ENTY : word Mã đài_phát_thanh quốc_tế nào với chữ_cái F ?
+ENTY : word Từ gì miêu_tả tình_yêu của nỗi đau hoặc lạm_dụng ?
+ENTY : word Từ tiếng Đức nổi_tiếng nhất trong ngôn_ngữ tiếng Anh là gì ?
+ENTY : sport Tiêu_đề của một_vài trò_chơi R-Rated Sony_Playstation là gì ?
+HUM : ind tàu tang_lễ của ai đi từ Washington DC đến Springfield , Illinois ?
+HUM : ind Ai ăn_cắp trong cửa_hàng ?
+HUM : ind Ai nói : " Kẻ chiến_thắng sẽ không_bao_giờ được hỏi đến nếu anh_ta kể sự_thật " ?
+NUM : count Có bao_nhiêu chai rượu_vang tù_nhân ở Bastille được phép uống một ngày ?
+NUM : count Có bao_nhiêu hòn đảo hình_thành Antiqua ?
+NUM : count Có bao_nhiêu người Nga đã lên mặt_trăng ?
+NUM : count Có bao_nhiêu phiếu bầu mà Colorado có ?
+NUM : date Ngày nào trong tuần là 13 tháng 7 ?
+HUM : desc Ai là Langston_Hughes ?
+HUM : desc Ai là Count_Cinzano ?
+HUM : desc Ai là Damocles ?
+HUM : desc Ai là Henry_Butler ?
+HUM : desc Ai là Imam_Hussain_Ben_Ali người mà những người Shia tin_tưởng vào ?
+HUM : desc Ai là John_Macarthur , 1767-1834 ?
+HUM : desc Ai là Jonny_Carson ?
+HUM : desc Ai là Peter_Weir ?
+HUM : desc Ai là Red_Grange ?
+HUM : desc Ai là Robin_Williams ?
+HUM : desc Ai là Santos-Dumont ?
+HUM : desc Ai là Shirley_Mac Laine ?
+HUM : desc Ai là Stephen_Hawking ?
+HUM : desc Ai là William_Henry_Harrison ?
+HUM : desc bạn có_thể đưa thông_tin gì về diễn_viên James_Cromwell ?
+HUM : desc Barbara_Jordan là ai ?
+HUM : desc Buffalo_Bill là ai ?
+HUM : desc Charles_Lindbergh là ai ?
+HUM : desc Colin_Powell là ai ?
+HUM : desc Coronado là ai ?
+HUM : desc Darius là ai ?
+HUM : desc Dear_Abby là ai ?
+HUM : desc Desmond_Tutu là ai ?
+HUM : desc Desmond_Tutu là ai ?
+HUM : title Ai đảm_nhận công_việc của Mrs . Bridges trong chương_trình TV Upstairs , Downstairs ?
+HUM : title Bảy chú lùn làm nghề gì để kiếm sống ?
+HUM : title Các cầu_thủ đủ điều_kiện ghi_điểm tại Roller_Derby gọi_là gì ?
+HUM : title Cha của Andy_Hardy đã làm_gì để kiếm sống ?
+HUM : title Chuyên_môn cô ta là gì ?
+HUM : title Nghề_nghiệp lâu_đời nhất_là nghề nào ?
+HUM : title Công_việc của Eduard_Shevardnadze ở Liên_Xô là gì ?
+HUM : title Công_việc của Larry_King là gì ?
+HUM : title Danh_nghĩa của Nữ_hoàng Victoria liên_quan đến Ấn Độ là gì ?
+HUM : title Henry_Youngman làm nghề gì ?
+HUM : title Khi_không thám_hiểm trên Rann , Adam_Strange đã gọi nghề_nghiệp của mình là gì ?
+HUM : title Larry_King làm_gì để kiếm sống ?
+HUM : title Nghề của Steve_Rogger khi anh không phải là thuyền_trưởng Mĩ ?
+HUM : title Nghề_nghiệp của Nicholas_Cage là gì ?
+HUM : desc Nguyễn_Huệ là ai ?
+HUM : desc Nguyễn_Trãi là ai ?
+HUM : desc Osama_Binladen là ai ?
+HUM : desc Ezra_Taft_Benson là ai ?
+HUM : desc Hoàng_thái_hậu là ai ?
+HUM : desc Jane_Goodall là ai ?
+HUM : desc Jean_Nicolet là ai ?
+HUM : desc khổng tử là ai ?
+HUM : desc Lacan là ai ?
+HUM : desc Monet là ai ?
+HUM : desc Nicolo_Paganini là ai ?
+HUM : desc Picasso là ai ?
+HUM : desc Prince_Naseem_Hamed là ai ?
+HUM : desc Samuel F . Pickering là ai ?
+HUM : desc Samuel_Pickering là ai ?
+HUM : desc Stein_Eriksen là ai ?
+HUM : desc Terrence_Malick là ai ?
+HUM : title Giống chó Bouvier thực_hiện loại nhiệm_vụ nào ?
+HUM : desc Thucydides là ai ?
+HUM : desc trong tác_phẩm Moby_Dick thì Ishmael là ai ?
+HUM : desc Whitcomb_Judson là ai ?
+HUM : desc William_Wordsworth là ai ?
+HUM : desc Zebulon_Pike là ai ?
+HUM : desc Edmund_Kemper là ai ?
+HUM : desc Jinnah là ai ?
+HUM : desc Maria_Theresa là ai ?
+HUM : desc Quetzalcoatl là ai ?
+HUM : gr " Đường_băng được xây_dựng cho những du_khách chuyên_nghiệp " là gì ?
+HUM : gr " Last_Chance_Animals " là loại tổ_chức gì ?
+HUM : gr 10 trường hàng_đầu tại Hoa_Kỳ trong lĩnh_vực kỹ_thuật là gì ?
+HUM : gr 5 nhóm trang_web nào_là nổi_tiếng nhất ?
+HUM : gr 7-Eleven là công_ty thuộc loại nào ?
+HUM : gr Ai cung_cấp dịch_vụ điện_thoại tại Orange_County , California ?
+HUM : ind Ai đã tạo ra chiếc máy_bay đầu_tiên ?
+HUM : gr Ai đã thắng hầu_hết các Super_Bowls ?
+HUM : gr Ai đã tiến_hành sự thu_giữ cocaine lớn nhất trong lịch_sử quận Ventura ?
+HUM : ind Ai làm cho động_cơ ô_tô quay ?
+HUM : gr Công_ty nào sản_xuất Spumante ?
+HUM : gr O . J . Simpson đã rời đội bóng_đá đại_học nào để tới Rose_Bowl ?
+HUM : gr Giải bóng_chày quan_trọng ở Pittsburgh gọi_là gì ?
+HUM : gr Giải đấu thể_thao chuyên_nghiệp nào có nguồn_gốc từ bản dự_thảo đại_học ?
+HUM : gr Hãng sản_xuất ô_tô lớn nhất Nhật_Bản là gì ?
+HUM : gr Hãng sản_xuất Stereo nào_là đi trước thời_đại ?
+HUM : gr Hãng sản_xuất xe_hơi Nhật_Bản có tỷ_lệ_phần_trăm lớn nhất bán tại thị_trường trong nước ?
+ENTY : symbol Hình loại thức_ăn nhanh nào xuất_hiện trên tay_áo bên trái của đồng_phục bóng_chày San_Diego_Padres vào năm 1984 ?
+HUM : gr Humphrey_Bogart có câu_lạc_bộ tên là gì ở Casablanca ?
+HUM : gr Joe_Namath chơi cho đại_học nào ?
+ENTY : animal Kể tên ba loài đã được thả ra bởi Celestials trong bộ truyện Marvel ?
+HUM : gr Bốn tuyến đường_sắt ở Monopoly là gì ?
+HUM : gr Cartoondom ' s Super_Six là tổ_chức gì ?
+HUM : gr Công_ty bánh_mì nào sử_dụng để tính_năng dán của Kid_Cisco trên phần cuối của bao_bì của họ ?
+ENTY : product Công_ty Spumante sản_xuất những sản_phẩm gì ?
+HUM : gr Công_ty thiệp bán Giáng_sinh đồ trang_trí gì ?
+HUM : gr Cruise_Line_Kathie_Lee_Gifford quảng_cáo cho cái gì ?
+HUM : gr Cửa_hàng nào Martha_Stewart quảng_cáo cho ?
+HUM : gr Cục cảnh_sát nào đã thực_hiện việc thu_giữ cocaine lớn nhất chưa từng có ở quận Ventura ?
+HUM : gr Cục cảnh_sát nào đã tiến_hành đợt truy_quét cocaine lớn nhất trong lịch_sử ở quận Ventura ?
+HUM : gr Cục xây_dựng chính_sách tối_cao của Đảng cộng_sản Sô-Viết là gì ?
+HUM : gr Đại_học nào mà Dikembe_Mutombo đã chơi bóng_rổ ?
+HUM : gr Đội nào đã thắng Super_Bowl vào năm 1968 ?
+HUM : gr Đội nào mà Babe_Ruth đã chơi giải đấu đầu_tiên của mình ?
+HUM : gr Câu_lạc_bộ nào vô_địch V-Leage mùa giải 2009-2010 ?
+HUM : gr Chuỗi cửa_hàng có trụ_sở chính tại Bentonville , Arkansas là gì ?
+HUM : gr Công_ty sản_xuất sô cô la lớn nhất thế_giới là gì ?
+HUM : gr Đội bóng lâu_đời nhất nước Anh là gì ?
+HUM : gr Jesse_Jackson đã tổ_chức gì ?
+HUM : gr Trường_Đại học lâu_đời nhất tại Việt_Nam là gì ?
+HUM : gr Đại_học nào mà Dikembe_Mutombo đã chơi bóng_rổ ?
+HUM : gr Đội nào đã thắng Super_Bowl vào năm 1968 ?
+HUM : gr Đội nào mà Babe_Ruth đã chơi giải đấu đầu_tiên của mình ?
+HUM : ind Ai là người sáng_tác bài hát “ Tiến_Quân_Ca ” ?
+HUM : gr Hãng hàng_không nào có bản ghi an_toàn nhất trên thế_giới ?
+HUM : gr Madonna quảng_cáo cho công_ty nào ?
+HUM : gr Một xã_hội được điều_hành bởi những người lớn_tuổi là gì ?
+HUM : gr Nhóm khủng_bố nào đã được lãnh_đạo bởi Donald_De Freeze ?
+HUM : gr Nhóm nào bao_gồm Abbey_Hoffman , Jerry_Rubin , và Tom_Hayden ?
+HUM : gr Nhóm nào đã yêu_cầu nhạc_sĩ câu_hỏi Bạn có tin vào ma_thuật ?
+HUM : gr Những hạng người nào đã tham_gia vào Rebellion_Shays ở Massachusetts vào năm 1787 ?
+HUM : gr Những người sản_xuất phần_mềm " Photoshop " là ai ?
+HUM : gr Paul_Harvey đã làm_việc cho đài_phát_thanh nào ?
+HUM : gr Săn_bắn du_mục và bộ_lạc thu_thập của sa_mạc Kalahari ở châu Phi là ai ?
+HUM : gr Tên của nhóm kỵ_sĩ nhỏ của Liên_bang mà Jesse_James và Younger_Coleman đã chỉ_huy ?
+HUM : gr Tên trước_đây cho Khối thịnh_vượng chung là gì ?
+HUM : gr Thương_hiệu của công_ty nào_là His_Master ' s Voice ?
+HUM : ind Saddam_Hussein được tổng thông Bush so sanh với ai ?
+HUM : ind Ai là người giàu nhất thế_giới , mà không sở_hữu một doanh_nghiệp ?
+HUM : ind " Filthiest people alive " là ai ?
+HUM : ind " Silly putty " được phát_minh bởi ai ?
+HUM : ind Ai là tổng_thống duy_nhất chôn_cất ở Washington ?
+HUM : ind Ai là The_King of Swing ?
+HUM : ind Ai là thị_trưởng đầu_tiên của Washington , D . C . ?
+HUM : ind Ai là thư_kí của Bang trong_suốt nhiệm_kì của Nixon ?
+HUM : ind Ai là Thủ_tướng thứ 43 của Malaysia ?
+HUM : ind Ai là thuyền_trưởng của chiếc tàu Exxon_Valdex , trong vụ tràn dầu tại Prince_William_Sound , Alaska , 1989 ?
+HUM : ind Ai là thuyền_trưởng tàu Enterprise ở Star_Trek ?
+HUM : ind Ai là thuyền_trưởng tàu Titanic ?
+HUM : ind Ai là tiên_tri của Medina ?
+HUM : ind Người phát_hiện ra số_ảo ?
+HUM : ind Người phát_minh ra Astroturf ?
+HUM : ind Người phát_minh ra bếp lò là ai ?
+HUM : ind Người phát_minh ra các đài_phát_thanh ?
+HUM : ind Người phát_minh ra đài phun nước là ai ?
+HUM : ind Người phát_minh ra máy_hút_bụi ?
+HUM : ind Người phát_minh ra quá_trình để làm cho sữa đặc là ai ?
+HUM : ind Người phụ_nữ bán_nước nào đã đánh Ted_Williams và Hank_Aaron ?
+HUM : ind Người phụ_nữ cuối_cùng được thi_hành án ở Anh là ai ?
+HUM : ind Người phụ_nữ đầu_tiên đi vào không_gian là ai ?
+HUM : ind Người phụ_nữ dùng nước_hoa Charlie là ai ?
+HUM : ind Người phụ_nữ nào đã sinh nhiều con cùng lúc nhất , cặp song_sinh , sinh ba , ... ?
+HUM : ind Người phụ_nữ nào đầu_tiên bay một_mình qua Đại_Tây_Dương ?
+HUM : ind Người phụ_nữ nào được Time bầu_chọn là gương_mặt của năm vào năm 1952 ?
+HUM : ind Người_Pict là ai ?
+HUM : ind Người_quản_lí nào ra lẹnh đóng Alcatraz ?
+HUM : ind Người sáng_lập của Scientology là ai ?
+HUM : ind Người theo sau thủ_tướng của nước Cộng_hòa Liên_bang Đức_Willy_Brandt là ai ?
+HUM : ind Người thừa_kế cửa_hàng nào có trách_nhiệm nâng chiếc két nặng 3 tấn từ đống đổ_nát dưới nước của Andrea_Doria ?
+HUM : ind Người từng là nguồn cảm_hứng cho các giáo_viên vẽ chân_dung " Dead_Poets_Society " viết bởi Robin_Williams ?
+HUM : ind Người ủng_hộ trường_phái ôn_hòa nào cao 6 foot đã vung chiếc rìu của mình trong quán rượu ?
+HUM : ind Nhà_báo nào có_thể được tìm thấy trong và xung_quanh Walden_Puddle ?
+HUM : ind Nhà_báo nào nổi_tiếng bởi việc miêu_tả sân_khấu Broadway đầy màu_sắc và các nhân_vật ở thế_giới ngầm ?
+HUM : ind Nhà bình_đẳng giới nào đã viết " Chính_trị tình_dục và bay " ?
+HUM : ind Nhà cách_mạng Argentina nào chiến_đấu với Castro và chết ở Bolivia_Tháng_Năm , 1979 ?
+HUM : ind Nhà độc_tài có biệt_danh " El_Maximo " ?
+HUM : ind Nhà độc_tài nào của Liên_Xô đang được huấn_luyện để trở_thành thầy_tu khi bắt_đầu theo chủ_nghĩa Mác ?
+HUM : ind Nhà kiến_trúc_sư thiên_văn_học nào đã thiết_kế Nhà_thờ St . Paul ở London ?
+HUM : ind Nhà_lãnh_đạo châu Á nào được biết đến như The_Little_Saint_Brown ?
+HUM : ind Nhà_lãnh_đạo Mexico nào đã bị bắn chết vào năm 1923 ?
+HUM : ind Nhà_lãnh_đạo nào trong chiến_tranh thế_giới thứ II tuyên_bố " đòn đã bị đánh " ?
+HUM : ind Nhà_lãnh_đạo người Itali nào có một nỗi sợ_hãi suốt đời về con mắt xui_xẻo ?
+HUM : ind Nhà_lãnh_đạo tinh_thần và chính_trị châu Á nào đã kết_hôn ở tuổi 13 ?
+HUM : ind Nhà soạn nhạc của " Canon in D_Major " là ai ?
+HUM : ind Nhà soạn nhạc nào đã được trao Huân_chương Danh_dự của Franklin D . Roosevelt ?
+HUM : ind Nhà thám_hiểm nào có biệt_danh là Iberia ' s Pilot ?
+HUM : ind Nhà thám_hiểm nào theo Columbus đến châu Mỹ ?
+HUM : ind Nhà thám_hiểm người Anh nào đã phát_hiện và đặt tên cho Virginia ?
+HUM : ind Tên của nhân_vật On_Stage có khuôn_mặt không_bao_giờ nhìn thấy ?
+HUM : ind Tên của những người bạn cùng phòng đầu_tiên của Jack trong công_ty Three ?
+HUM : ind Tên của phi_công trực_thăng Mỹ đã bị bắn rơi ở Triều_Tiên ?
+HUM : ind Tên của quý bà Gatsby được đặt từ_loại thông nào ?
+HUM : ind Tên của siêu_hình sự loạn_trí Otto_Octavius sử_dụng là gì ?
+HUM : ind Tên của tốp 10 cô_gái nổi_tiếng nhất ở Mỹ là gì ?
+HUM : ind Tên của vị chúa chính của đạo Hin đu ?
+HUM : ind Tên của vị chúa_tể Hi lập_là gì ?
+HUM : ind Tên người nổi_tiếng vì uống nhiều bia nhất thế_giới ?
+HUM : ind Tên nhà_thiết_kế đôi giầy đã tạo ra hàng triệu bản_sao nhựa được biết đến là Jellies ?
+HUM : ind Tên nhà_thơ của bài_thơ bắt_đầu bằng " I do not know much about gods , but I think that the river Is a strong brown god - sullen , and untamed " ?
+HUM : ind Tên những trang_phục ưa_thích của Tiến_sĩ Henry_Pym ?
+HUM : ind Tên nữ điêu khă ́ c mù dành tâm_huyết cho trang_phục trong Bộ Tứ_Siêu_Đẳng ?
+HUM : ind Tên ông nội nuôi của Dondi ?
+HUM : ind Tên_riêng của thái_tử Viking là gì ?
+HUM : ind Tên tác_giả của " The_Muppets " ?
+HUM : ind Tên_thánh của Bave_Ruth là gì ?
+HUM : ind Tên_thánh của nhân_vật chính trong " Our_Miss_Brooks " là gì ?
+HUM : ind Tên thật của Alice_Cooper là gì ?
+HUM : ind Tên thật của ca_sĩ Madonna là gì ?
+HUM : ind Tên thật của cô ấy_là gì ?
+HUM : ind Tên thật của Marilyn_Moroe là gì ?
+HUM : ind Tên thật của nhà_văn Ross_Macdonald , tác_giả của anh_hùng Lew_Archer là gì ?
+HUM : ind Tên thật của tay_đua " Wolfman_Jack " là gì ?
+HUM : ind Tên thứ_hai của Mao là gì ?
+HUM : ind Tên vô_lại đáng khinh nào đã lấy trộm các nút chai từ bữa ăn trưa của tôi ?
+HUM : ind Thẩm_phán nào tự gọi mình là luật Tây của Pecos ?
+HUM : ind Thành_viên Ku_Klux_Klan nào đã giành được một văn_phòng bầu_cử ở Mỹ ?
+HUM : ind Thành_viên một thời nào của chính_phủ ông Ronald_Reagan đã gọi chính_sách của liên_bang đối_với Ấn Độ là " một ví_dụ về sự thất_bại của chủ_nghĩa_xã_hội " ?
+HUM : ind Thành_viên nào có ZIP code 9971 từ Dịch_vụ Bưu_chính Mỹ năm 1963 ?
+HUM : ind Thành_viên nào của Charlie ' s Angels hát cho Josie và Pussycats ?
+HUM : ind Phó tổng_thống Mĩ nào giết Alexander_Hamilton trong một cuộc đấu súng ?
+HUM : ind Tên của hê rô in trong " Scruples " ?
+HUM : ind Tên thiên_tài hoạt_hình cầu_xin vòng phép được chia bởi Nanc và Chuck ?
+HUM : ind Vị vua nào đã kí Magna_Carta ?
+NUM : money Lương khởi_điểm cho một luật_sư là bao_nhiêu ?
+NUM : count Có bao_nhiêu chuông hòa_bình ?
+NUM : period Benny_Carter bao_nhiêu tuổi ?
+HUM : ind Ai đã viết " The_Divine_Comedy " ?
+HUM : ind Ai giết John F . Kennedy ?
+HUM : ind Ai là hoa_hậu Việt_Nam năm 2008 ?
+HUM : ind Ai là người đã đứng đầu cuộc khởi_nghĩa Yên_Bái ?
+HUM : ind Ai là người đạt huy_chương Field tại Việt_Nam ?
+HUM : ind Ai là người đầu_tiên cai_trị Alaska ?
+HUM : ind Ai là người phát_minh ra máy_tính bỏ_túi ?
+HUM : ind Ai là người sáng_lập hội_chữ_thập_đỏ Việt_Nam ?
+HUM : ind Ai là người sáng_tạo ra vũ_điệu Hula ?
+HUM : ind Ai là người tạo ra máy_tính MAC ?
+HUM : ind Ai là người tìm ra châu Mỹ ?
+HUM : ind Ai là người tìm ra radium ?
+HUM : ind Ai là người tìm ra tia X ?
+HUM : ind Ai là người tìm ra vắc - xin chống lại virut ?
+HUM : ind Ai là người tổng_chỉ_huy chiến_dịch Điện_Biên_Phủ ?
+HUM : ind Ai là nữ diễn_viên nổi_tiếng với vai_diễn trong bộ phim " Gypsy " ?
+HUM : ind Ai là người sáng_tạo ra điệu múa ba_lê ?
+HUM : ind Ai là tổng_chỉ_huy quân_đội triều Nguyễn chống Pháp xâm_lược Hà_Nội năm 1873 ?
+HUM : ind Ai là tổng_thống đắc_cử Nam_Phi năm 1994 ?
+HUM : ind Ai phát_minh ra chiếc máy_ảnh chụp nhanh Polaroid ?
+HUM : ind Ai phát_minh ra điện_thoại ?
+HUM : ind Ai phát_minh ra Trivial_Pursuit ?
+HUM : ind Ai sống trong lâu_đài Neuschwanstein ?
+HUM : ind Ai vẽ trên trần nhà_nguyện Sistine ?
+HUM : ind Biệt_danh của Shakespeare là gì ?
+HUM : ind Bộ_trưởng Bộ Giáo dục của Việt_Nam là ai ?
+HUM : ind Các nghị_sĩ từ tiểu_bang Texas trong ủy_ban lực_lượng_vũ_trang là ai ?
+HUM : ind Chủ_tịch quốc_hội nước CHXHCN Việt_Nam là ai ?
+HUM : ind Chủ_tịch thứ_hai của nước Việt_Nam dân_chủ cộng_hòa là ai ?
+HUM : ind Hình của ai được in trên tờ tiền Việt_Nam ?
+HUM : ind Nghệ_sĩ hài nào có câu nói đặc_trưng “ Can we talk ” ?
+HUM : ind Tổng_thống đầu_tiên của Mỹ xuất_hiện trên truyền_hình là ai ?
+HUM : ind Tổng_thống đầu_tiên đi một chiếc xe tự chạy để nhậm_chức là ai ?
+HUM : ind Tổng_thống duy_nhất đắc_cử 2 nhiệm_kỳ không liên_tiếp là ai ?
+HUM : ind Tổng_thống Mỹ năm 1913 là ai ?
+HUM : ind Tổng_thống Mỹ nào xuất_hiện trên " Laugh-In " ?
+HUM : ind Tổng_thống thứ 22 của Mỹ là ai ?
+HUM : ind Tổng_thống thứ 23 của Mỹ là ai ?
+HUM : ind Vị vua nữ đầu_tiên của nền phong_kiến Việt_Nam là ai ?
+HUM : title Thành_Lương chơi ở vị_trí nào trong đội_tuyển quốc_gia ?
+HUM : title Ai đảm_nhận công_việc của Mrs . Bridges trong chương_trình TV Upstairs , Downstairs ?
+HUM : title Bảy chú lùn làm nghề gì để kiếm sống ?
+HUM : title Các cầu_thủ đủ điều_kiện ghi_điểm tại Roller_Derby gọi_là gì ?
+HUM : title Cha của Andy_Hardy đã làm_gì để kiếm sống ?
+HUM : title Chuyên_môn cô ta là gì ?
+HUM : title Nghề_nghiệp lâu_đời nhất_là nghề nào ?
+HUM : title Công_việc của Eduard_Shevardnadze ở Liên_Xô là gì ?
+HUM : title Công_việc của Larry_King là gì ?
+HUM : title Danh_nghĩa của Nữ_hoàng Victoria liên_quan đến Ấn Độ là gì ?
+HUM : title Henry_Youngman làm nghề gì ?
+HUM : title Giống chó Bouvier thực_hiện loại nhiệm_vụ nào ?
+HUM : title Khi_không thám_hiểm trên Rann , Adam_Strange đã gọi nghề_nghiệp của mình là gì ?
+HUM : title Larry_King làm_gì để kiếm sống ?
+HUM : title Nghề của Steve_Rogger khi anh không phải là thuyền_trưởng Mĩ ?
+HUM : title Nghề_nghiệp của Nicholas_Cage là gì ?
+HUM : title Nghề_nghiệp nào có tỷ_lệ ly_dị cao nhất ?
+HUM : title Nicholas_Cage làm nghề gì ?
+HUM : title Robin_Williams làm_gì ?
+HUM : title Mandy_Rice - Davies làm nghề gì để kiếm sống ?
+HUM : title Suzette_Charles đã làm nghề gì khoảng hai tháng vào năm 1984 ?
+HUM : title Tên năm chức_vụ có_thể kế nhiệm_chức tổng_thống ?
+HUM : title Danh_nghĩa nào mà Shevardnadze đã có có trong thời_kỳ Liên_Xô ?
+HUM : title Nghề_nghiệp của Larry_King là gì ?
+HUM : ind Vị vua nào bị ép phải đồng_ý với Magna_Carta ?
+LOC : state Bang nào có rừng quốc_gia Mark_Twain ?
+LOC : city Ba thành_phố đầu_tiên có trên 1 triệu dân là những thành_phố nào ?
+LOC : city Ba thành_phố đầu_tiên có dân_số hơn 1 triệu người_ở đâu ?
+LOC : city Bản tuyên_ngôn độc_lập của Hoa_Kỳ đọc tại thành_phố nào ?
+LOC : city Cảng biển nào ở Nga có một cái tên với nghĩa_là " Chúa_tể của phía Đông " ?
+LOC : city Cảng biển Pháp nào tuyên_bố là " The_Home of Wines " ?
+LOC : city Cho tôi biết Kentucky_Horse_Park là gần thành_phố nào ?
+LOC : city Đại_học Minnesota nằm ở một trong các thành_phố nào ?
+LOC : city Flinstones đã sống ở thành_phố nào ?
+LOC : city Hai thành_phố nào của Nhật_Bản được đọc với các chữ_cái K , O , O , T , Y ?
+LOC : city Hai thành_phố trong " Một câu_chuyện về hai thành_phố " của Dicken là gì ?
+LOC : city Kể tên 10 thành_phố lớn nhất ở Mỹ ?
+LOC : city Martin_Luther_King_Jr . bị ám_sát ở thành_phố nào ?
+LOC : city Maurizio_Pellegrin hiện đang sống ở thành_phố nào ?
+LOC : city Món cốt - lết bê rán quét bơ có phủ bánh_mì vụn bên trên được đặt tên cho thành_phố nào ?
+LOC : city Mười thành_phố an_toàn nhất của Mỹ cho người đi bộ ?
+LOC : city Năm thành_phố đắt_đỏ nhất trên thế_giới là gì ?
+LOC : city Thành_phố nào Bobby_Kennedy bị ám_sát ?
+LOC : city Những thành_phố trong Dickens ' s A_Tale of Two_Cities ?
+LOC : city Nicois sống tại thành_phố nào ở châu Âu ?
+LOC : city Thành_phố còn được biết đến như cánh cửa đến với miền Tây ?
+LOC : city Thành_phố lâu_đời nhất của Việt_Nam là thành_phố nào ?
+LOC : city Thành_phố lớn nhất thế_giới là thành_phố nào ?
+LOC : country Thành_phố Modesto , California nằm ở nước nào ?
+LOC : city Thành_phố nào của Canada có dân_số lớn nhất ?
+LOC : city Thành_phố nào được mệnh_danh là thành_phố hoa_phượng đỏ ?
+HUM : title Henry_Youngman làm nghề gì ?
+LOC : city Thủ_đô của Ba_Tư là gì ?
+LOC : city Thủ_đô của Bru-nây ?
+LOC : city Thủ_đô của Myanmar là gì ?
+LOC : city Thủ_đô của Myanmar là gì ?
+LOC : city Thủ_đô của Zimbabwe là gì ?
+LOC : city Thành_phố nào có mã vùng là 351 ?
+LOC : city Thành_phố nào nhỏ nhất Việt_Nam ?
+LOC : city Vịnh_Hạ_Long nằm ở thành_phố nào ?
+LOC : country Leonard_De_Vinci sinh_ra tại quốc_gia nào ?
+LOC : country Nước có tình_trạng ô_nhiễm nước nhiều nhất ?
+LOC : country Nước nào cho New_York tượng nữ_thần tự_do ?
+LOC : country Hai quốc_gia nào tham_gia cuộc_chiến trăm_năm ?
+LOC : country Brian_Boru là vua của nước nào vào thế_kỷ thứ 11 ?
+LOC : country Các nước Benelux là gì ?
+LOC : country Cuộc nổi dạy Mau_Mau đã diễn ra ở nước nào ?
+LOC : country Đất_nước bản_địa của Stefan_Edberg là gì ?
+LOC : country Đất_nước châu Phi nào bị ảnh_hưởng từ Ouagadougou ?
+LOC : mount Dãy núi nào đánh_dấu biên_giới giữa Pháp và Tây_Ban_Nha ?
+LOC : country Đất_nước có nhiều múi_giờ nhất , với 11 múi_giờ ?
+LOC : country Đất_nước lớn thứ_năm thế_giới là gì ?
+LOC : country Đất_nước nào ban ở nếu bạn tán_tỉnh trong tiếng_địa_phương Wu ?
+LOC : country Đất_nước nào bao quanh San_Marino , nước Cộng_hòa nhỏ nhất thế_giới ?
+LOC : country Đất_nước nào chứa điểm cực nàm của lục_địa châu Âu ?
+LOC : country Đất_nước nào có cảng Haifa ?
+LOC : state Bang nào tại Mỹ có độ cao thấy nhất và cao nhất cách nhau 6 feet ?
+LOC : country Đất_nước nào có vị_trí phòng_thủ tốt nhất trong các hoạt_động ngoại_giao ?
+LOC : country Đất_nước nào đầu_tiên sử_dụng máy_bay như_là một vũ_khí chiến_tranh , chống lại_người Thổ_Nhĩ_Kỳ ở Libya ?
+LOC : country Đất_nước nào được bao_bọc bởi một phần của Ấn Độ_Dương và vùng_biển Coral và Tasman ?
+LOC : country Quốc_tịch của giáo_hoàng John_Paul II là gì ?
+LOC : country Quốc_tịch của Gorbachev là gì ?
+LOC : country Đất_nước nào có lượng tiêu_thụ pho_mát tính theo đầu người cao nhất ?
+LOC : country Đất_nước nào đề_nghị Albert_Einstein làm tổng_thống vào năm 1952 ?
+LOC : country Đất_nước nào_là đất nước_lớn nhất ở châu Mỹ_La tinh ?
+LOC : country Đất_nước nào mua 25% lượng chè xuất_khẩu của thế_giới ?
+LOC : country Đất_nước nào tự_hào về Vườn_quốc_gia Volcano ?
+LOC : country Đất_nước nào tự_hào vì có lâu_đài Cawdor , lâu_đài Glamis , và lâu_đài Blair ?
+LOC : country Đất_nước nào xuất_hiện cuối_cùng trong danh_sách các chữ_cái ?
+LOC : country Hai nước nào mà Andorra kẹp giữa ?
+LOC : country Năm quốc_gia giàu nhất thế_giới là gì ?
+LOC : country Những nước nào có tỷ_lệ sinh_viên đại_học cao nhất ?
+LOC : country Nước_Mỹ_Latinh nào_là lớn nhất ?
+LOC : country Nước nào dẫn_đầu thế_giới về nguồn cung_cấp cần_sa ?
+LOC : country Ở đất_nước nào một cái lưỡi bị mắc_kẹt là một lời chào thân_thiện ?
+LOC : country Quốc_gia nào có biên_giới ở phía bắc của Costa_Rica ?
+LOC : mount Bốn dãy núi rộng nhất ở lục_địa châu Á là gì ?
+LOC : mount Dãy núi nào đánh_dấu biên_giới giữa Pháp và Tây_Ban_Nha ?
+LOC : mount Dãy núi nào đi qua tuyến đường_sắt cao nhất thế_giới ?
+LOC : mount Dãy núi nào kéo_dài từ Vịnh_St_Lawrence_Alabama ?
+LOC : mount Đỉnh_cao nhất ở Nhật_Bản ở đâu ?
+LOC : mount Dãy_Andes nằm ở đâu ?
+LOC : mount Dãy núi nào nằm giữa Lào_Cai và Lai_Châu và kéo_dài đến tận phía tây tỉnh Yên_Bái ?
+LOC : mount Núi cao thứ_tư thế_giới là núi nào ?
+LOC : mount Bốn dãy núi rộng nhất ở lục_địa châu Á là gì ?
+LOC : mount Dãy núi nào đi qua tuyến đường_sắt cao nhất thế_giới ?
+LOC : mount Dãy núi nào kéo_dài từ Vịnh_St_Lawrence_Alabama ?
+LOC : mount Đỉnh_cao nhất ở Nhật_Bản ở đâu ?
+LOC : country Đất_nước châu Phi nào bị ảnh_hưởng từ Ouagadougou ?
+LOC : mount Đỉnh_cao nhất của thế_giới là gì ?
+LOC : mount Đỉnh_cao nhất ở châu Phi là gì ?
+LOC : mount Đỉnh_cao thứ_hai của châu_lục nào_là Mont_Blanc ?
+LOC : mount Đỉnh núi nào cao thứ_hai thế_giới ?
+LOC : mount Đỉnh núi nào_là cao thứ 2 trên thế_giới ?
+LOC : mount Mọi người thường hay leo ngọn núi nào ở Nepal ?
+LOC : mount Ngọn núi cao nhất_là gì ?
+LOC : mount Ngọn núi cao nhất ở New_England là gì ?
+LOC : mount Ngọn núi cao nhất trên trái_đất là gì trước khi đỉnh Everest được phát_hiện ?
+LOC : mount Ngọn núi nào cao nhất thế_giới ?
+LOC : mount Ngọn núi nào nằm giữa hai con sông Arkansas và Missouri ?
+LOC : mount Tên của ngọn núi cao nhất ở châu Phi là gì ?
+LOC : mount Tên của ngọn núi cao nhất trên thế_giới là gì ?
+LOC : mount Bốn dãy núi nào lớn nhất ở lục_địa Hoa_Kỳ ?
+LOC : mount Sườn núi Rocky_Mountain nào ngăn_cách phía đông Bắc_Mỹ và những dòng dòng_chảy phía tây ?
+LOC : mount Tên ngọn núi cao nhất ?
+LOC : other Đại_dương nào bao quanh quần_đảo Maldive ?
+LOC : other Tôi có_thể tìm thấy hướng_dẫn bằng hình_ảnh về việc_làm thế_nào để xây_dựng một ngôi nhà trên cây rất đơn_giản ở đâu ?
+LOC : other " Trường_học toàn_cầu " ở đâu ?
+LOC : other 4 đại_dương trên thế_giới ở đâu ?
+LOC : other Hồ_Konstanz là kỳ_quan ở đâu ?
+LOC : other 5 tòa nhà cao nhất thế_giới ở đâu ?
+LOC : other Abominable_Snowman được cho là đi lang_thang từ đâu ?
+LOC : other Hà_Nội ở đâu ?
+LOC : other Ở đâu trên Internet tôi có_thể tìm thấy một cơ_sở_dữ_liệu lời bài hát tương_tự như Server_Lyrics quốc_tế ?
+LOC : other Ở đâu trong nước Mĩ người_dân sống lâu nhất ?
+LOC : other Ocho_Rios ở đâu ?
+LOC : other Orinoco nằm ở đâu ?
+LOC : other Percival_Lovell đã phát_hiện ra hành_tinh nào ?
+LOC : other Sân_vận_động nào_là sân_nhà của Miami_Dolphins ?
+LOC : other Santa_Fe_Trail bắt_đầu và kết_thúc ở đâu ?
+LOC : other Santa_Lucia ở đâu ?
+LOC : other Sheboygan nằm trên hồ gì ?
+LOC : other Sở thứ đầu_tiên ở Mĩ ở đâu ?
+LOC : other Sô-cô-la đến từ đâu ?
+LOC : country Sông_Danube chảy vào phần thân của nước nào ?
+LOC : other Sông nổi_tiếng nào mà Hernando de Soto là người châu Âu đầu_tiên nhìn thấy ?
+LOC : other Tòa nhà bưu_điện lớn nhất_là ở đâu ?
+LOC : other Tòa nhà cao nhất ở Nhật_Bản là gì ?
+LOC : other Tòa nhà cao nhất ở thành_phố New_York ?
+LOC : other Trận_Bulge đã xảy_ra ở đâu ?
+LOC : other Trân_Châu_Cảng nằm ở đảo Hawaii nào ?
+LOC : other Trang_chủ của Homelite_Inc là gì ?
+LOC : other Trang trò_chơi trực_tuyến tốt nhất_là gì ?
+LOC : other Trang_web cho các tạp_chí Hoa_Kỳ là gì ?
+LOC : other Trang_web của SJC của Chính_phủ liên_bang Mỹ là gì ?
+LOC : other Trang_web của Tòa_án Công_lý quốc_tế là gì ?
+LOC : other Trang_web hữu_ích nhất trên Internet là gì ?
+LOC : other Trang_web lâu_đời nhất trên Internet là gì ?
+LOC : other Trang_web lâu_đời nhất trên Internet là gì ?
+LOC : other Trang_web nào tin_cậy để tôi có_thể tải Heretic 2 ?
+LOC : other Trên sông nào Strasbourg được xây_dựng ?
+LOC : other Trinidad ở đâu ?
+LOC : other Trong khu_vực nào của thế_giới mà " Six_Day_War " được chiến_đấu ?
+LOC : other Trụ_sở chính của Mỹ cho Procter & Gamble đang ở đâu ?
+LOC : other Trụ_sở chính của Sinn_Fein ở đâu ?
+LOC : other Trụ_sở Inoco ở đâu ?
+LOC : other Trung_tâm địa_lý của nước Mỹ bao_gồm Alaska và Hawaii là gì ?
+LOC : other Trung_tâm mua_sắm lớn nhất thế_giới là gì ?
+LOC : other Trường_hợp cáp treo đầu_tiên bị cuộn xuống_đường Clay năm 1873 xảy_ra ở đâu ?
+LOC : other Ty_Cobb lớn lên ở đâu ?
+LOC : other Union_Stockyards ở đâu ?
+LOC : other Vào năm 139 , tòa_án của giáo_hoàng bị buộc phải chuyển từ Rome đến đâu ?
+LOC : other Vị_trí của McCarren Airport ở đâu ?
+LOC : other Vị_trí của Orange_Bowl ở đâu ?
+LOC : other Vị_trí văn_phòng công_ty Procter & Gamble ở đâu ?
+LOC : other Trang_web đi bộ đường dài nào_là lớn nhất ?
+LOC : other Trụ_sở chính của công_ty Microsoft đặt ở đâu ?
+LOC : other Trụ_sở của Eli_Lilly ở đâu ?
+LOC : other Ukulele có nguồn_gốc ở đâu ?
+LOC : other Vịnh_Châu Á nào từng khu_trục_hạm Maddox và Turner_Joy C bắn vào ?
+LOC : other Vịnh gì lấp_lánh bên_cạnh Miami , Florida ?
+LOC : other Vô_địch thế_giới đua xe trượt_tuyết chó tổ_chức mỗi tháng hai ở đâu ?
+LOC : other Vua Francis I đã treo bức " Mona_Lisa " ở đâu khi ông sở_hữu nó ?
+LOC : state Bang tăng_trưởng nhanh_nhất ở Mĩ năm 1998 ?
+LOC : state Anita_Bryant đã đại_diện bang nào trong các cuộc_thi Hoa_hậu Mỹ 1959 ?
+LOC : state Bang đông dân nào bao_gồm 49576 dặm vuông ?
+LOC : state Bang giàu nhất ở Mỹ là bang nào ?
+LOC : state Bang lớn nhất của nước Mỹ nằm ở bờ Đông của Mississippi ?
+LOC : state Bang nào có 11 triệu gallon dầu tràn ?
+LOC : state Bang nào có bờ biển Great_Lakes dài nhất ?
+LOC : state Bang nào có ngọn nũi McKinley ?
+LOC : state Bang nào có tôm_hùm ngon nhất ?
+LOC : state Bang nào có trung_tâm lịch_sử Buffalo_Bill ?
+LOC : state Bang nào của Mĩ có hồ lớn nhất_là Sam_Rayburn ?
+LOC : state Bang nào của Mỹ có hồ Finger_Lakes ?
+LOC : other Ai_Cập ở châu_lục nào ?
+LOC : other Argentina thuộc lục_địa nào ?
+LOC : other Bảo_tàng Little_League ở đâu ?
+LOC : other Biển_Đen nằm ở đâu ?
+LOC : other Cảng_Soviet nào trên Biển_Đen ?
+LOC : other Cây câu treo dài nhất nước Mỹ là gì ?
+LOC : other Nhà_tù nào canh_phòng cẩn_mật nhất thế_giới ?
+LOC : other Nơi mưa nhiều nhất trên trái_đất là nơi nào ?
+LOC : other Núi_lửa Mauna_Loa nằm ở đâu ?
+LOC : other Núi_lửa Olympus_Mons nằm ở đâu ?
+LOC : other Ở Ba lan người_dân tập_trung sống ở đâu ?
+LOC : other Ốc_sên hình táo sống ở đâu ?
+LOC : other Phần_nào trên cơ_thể con_người có chức_năng giữ thăng_bằng ?
+LOC : other Quần_đảo Hoàng_Sa nằm ở biển nào ?
+LOC : other Quần_đảo Hoàng_Sa thuộc địa_phận tỉnh nào của nước ta ?
+LOC : other Sân_bay Nội_Bài nằm ở đâu ?
+LOC : state Sông_Lam nằm ở tỉnh nào ?
+LOC : other Sông nào chạy qua Rowe , Ý ?
+LOC : other Sông_Nin nằm ở đâu ?
+LOC : other Sông_Savannah ở đâu ?
+LOC : other Tàu lượn cao nhất nằm ở đâu ?
+LOC : state Bang nào không có thuế_thu_nhập bang ?
+LOC : other Tây_Ban_Nha nằm trên bán_đảo nào ?
+LOC : other Tháp đôi của Mỹ nằm ở đâu ?
+LOC : other Tháp_Eiffel ở đâu ?
+LOC : other Trụ_sở Liên_Hiệp_Quốc nằm ở đâu ?
+LOC : other Tuyến đường từ Mason đến Dixon ở đâu ?
+LOC : other Vị_trí của Lake_Champlain ở đâu ?
+LOC : other Vĩ_tuyến nào nằm giữa cực Bắc và cực Nam của Trái_Đất ?
+LOC : other Việt_Nam nằm ở bán_cầu nào ?
+LOC : other Vịnh_Lăng_Cô nằm ở đâu ?
+LOC : other Vườn_quốc_gia Cát_Tiên nằm ở đâu ?
+LOC : other Vườn_quốc_gia Utah nằm ở đâu ?
+LOC : state Bang nào của Mỹ có dân_số đông nhất ?
+LOC : state Bang nào lớn nhất nước Mỹ ?
+LOC : state Bánh_Cáy là đặc_sản của tỉnh nào ?
+LOC : state Dãy núi Catskill ở bang nào ?
+LOC : state Lũng_Cú nằm ở tỉnh nào ?
+LOC : state Rượu cô - nhắc được sản_xuất ở tỉnh nào của Pháp ?
+LOC : state Tỉnh nào có lượng mưa trong năm lớn nhất cả nước ?
+LOC : state Bang nào của Mỹ kết_thúc với một G ?
+LOC : state Bang nào của Mỹ mà Continental_Divide rời đề đến Canada ?
+LOC : state Bang nào của Mỹ nằm ở phía Bắc bang Illinois ?
+LOC : state Bang nào của New_England có mã vùng điện_thoại là 27 ?
+LOC : state Bang nào được đặt tên theo bang Ngọn_Núi_Xanh ?
+LOC : state Bang nào được gọi_là Bang_Hawkeye ?
+LOC : state Bang nào mà Charles thuyết_trình ?
+LOC : state Bang nào nước Mỹ mà người phụ_nữ đầu_tiên được bầu làm thống_đốc ?
+LOC : state Bang nào nước Mỹ phía bắc nằm ngoài Alaska ?
+LOC : state Bang nào ở Mĩ có Stone_Moutain , khối đá granite lớn nhất thế_giới ?
+LOC : state Bang nào ở Mỹ có bờ biển dài nhất thứ_hai ?
+LOC : state Bang nào ở Mỹ có một yếu_tố được đặt tên cho nó ?
+LOC : state Bang nào ở Mỹ có nhiều cô_gái tóc vàng nhất ?
+LOC : state Bang nào ở Mỹ có nhiều người da đen nhất ?
+LOC : state Bang nào ở Mỹ giữ kỷ_lục lượng mưa ít_nhất ?
+LOC : state Bang nào ở Mỹ lấy cây ngải đắng làm bông hoa biểu_tượng của nó ?
+LOC : state Bang nào ở vịnh Mexico có điểm thấp nhất 5 feet dưới mực nước_biển ?
+LOC : state Bang nào phía Tây_Nam được mệnh_danh là The_Silver_State ?
+LOC : state Bang nào tại Mỹ có độ cao thấy nhất và cao nhất cách nhau 6 feet ?
+LOC : other Kênh đào nào nằm giữa châu Phi và châu Á ?
+LOC : state Bang nào ở Mỹ lấy cây ngải đắng làm bông hoa biểu_tượng của nó ?
+LOC : state Bang nào ở vịnh Mexico có điểm thấp nhất 5 feet dưới mực nước_biển ?
+LOC : state Bang nào phía Tây_Nam được mệnh_danh là The_Silver_State ?
+LOC : state Bang nào có nhiều người da đỏ nhất ?
+LOC : state Bang phía đông nào đã có nhà máy_điện hạt_nhân thương_mại đầu_tiên của Mỹ ?
+LOC : state Biệt_hiệu của tiểu_bang Mississippi là gì ?
+LOC : state Bốn bang nào của Mĩ có núi_lửa đang hoạt_động ?
+LOC : state Các biệt_hiệu cho các bang Mississippi là gì ?
+LOC : state Các cửa_hàng Filenes đặt tại bang nào ?
+LOC : state Dixville_Notch ở bang nào của Mỹ ?
+LOC : state Fort_Knox nằm ở bang nào của Mỹ ?
+LOC : country Hai quốc_gia bao quanh vịnh Chesapeake ?
+LOC : country Hai quốc_gia duy_nhất kết_hợp lá_cờ chiến_đấu liên_minh trong lá_cờ của họ là gì ?
+LOC : state Helen_Keller gọi bang nào_là nhà ?
+LOC : state Herbert_Hoover sinh ở bang nào ?
+LOC : state Hợp_tác giáo_dục đại_học được thành_lập đầu_tiên ở bang nào ?
+LOC : state John F . Kennedy được chôn_cất ở bang nào ?
+LOC : country Kosovo là một tỉnh của quốc_gia nào ?
+LOC : state Martha_Stewart sống ở bang nào ?
+LOC : state Mississippi có tên nào cho biệt_danh của bang ?
+LOC : state Bang nào ở Mỹ đã sống dưới sáu cờ ?
+LOC : state Bang nào ở Mỹ tự_hào có hầu_hết các sân_bay ?
+LOC : state Bang nào ở New_England rộng khoảng 5,9 dặm vuông ?
+LOC : state Tất_cả các bang miền Nam của Hoa_Kỳ là gì ?
+LOC : state Tất_cả các bang nào nằm ở phía Nam nước Mĩ ?
+LOC : state Thác_Niagara nằm ở bang nào ?
+LOC : state Tỉnh nào nước ta dẫn_đầu về xuất_khẩu lúa_gạo ?
+LOC : state Bang nào của Mỹ có nhiều sữa và mật_ong ?
+LOC : state Washington DC nằm giữa hai bang nào ?
+LOC : state Bang nào của Mỹ bao_gồm quần_đảo San_Juan ?
+LOC : state Bang nào của Mỹ tự_hào có Leif_Ericson_Park ?
+LOC : state Bang nào của Mỹ xuất_hiện cuối_cùng trong danh_sách bảng_chữ_cái ?
+LOC : state Bang nào tại Hoa_Kỳ có diện_tích lớn nhất ?
+LOC : state Biệt_danh của bang Pennsylvania là gì ?
+LOC : state Vườn_quốc_gia Mammoth_Cave ở bang nào của Mỹ ?
+ENTY : techmeth Phương_pháp nhiệt_hạch lạnh tạo ra cái gì ?
+NUM : code Bảy chữ_số theo sau mã vùng trong dãy số cho thông_tin đường dài ?
+NUM : code Số điện_thoại của Columbia_Tristar là gì ?
+NUM : code Số điện_thoại của Đại_học Kentucky là gì ?
+NUM : code Tôi có_thể gọi số nào để liên_lạc dịch_vụ trồng cây ?
+NUM : code Bảy chữ_số theo mã vùng trong dãy số về thông_tin đường dài là gì ?
+NUM : code Bảy chữ_số theo sau mã vùng trong số điện dùng cho thông_tin đường dài ?
+NUM : code Mã_số sân_bay quốc_tế Los_Angeles là gì ?
+NUM : code Số điện_thoại của Columbia_Tristar là gì ?
+NUM : count 8 bảng Anh tương_đương bao_nhiêu đô_la Mỹ ?
+NUM : count Ấn Độ có bao_nhiêu dân ?
+NUM : count Babe_Ruth đã đánh được bao_nhiêu cú " home run " trong cuộc_đời của anh_ấy ?
+NUM : count Bạn bắn từ bao_nhiêu trạm trong trò bóng_rổ Around the World ?
+NUM : count Bao_nhiêu năm kể từ khi Led_Zeppelin xuất_bản album cuối_cùng ?
+NUM : count Bao_nhiêu năm không may_mắn nếu bạn làm vỡ một tấm_gương ?
+NUM : count Bao_nhiêu năm thì làm thành một thế_kỷ ?
+NUM : count Bao_nhiêu năm trước_đây tàu ​ ​ Titanic đã chìm ?
+NUM : count Bao_nhiêu ngôn_ngữ Đức_Giáo_Hoàng có_thể nói được ?
+NUM : count Bao_nhiêu ngón_tay được sử_dụng để vẽ một cung ?
+NUM : count Bao_nhiêu người chết khi tàu Estonia chìm năm 1994 ?
+NUM : count Bao_nhiêu người đã chết vì nạn hút thuốc_lá vào năm 1997 ?
+NUM : count Bao_nhiêu người đã tham_dự trong Bữa_Tiệc_Ly ?
+NUM : count Bao_nhiêu người Do_Thái đã được thực_thi trong các trại_tập_trung trong Thế_chiến II ?
+NUM : count Bao_nhiêu người trên thế_giới nói tiếng Pháp ?
+NUM : count Bao_nhiêu ong_chúa trong một tổ ?
+NUM : count Bao_nhiêu phần mười của bề_mặt Trái_đất nằm dưới mực nước_biển ?
+NUM : count Bao_nhiêu phiếu bầu_cử để giành chiến_thắng nhiệm_kỳ tổng_thống ?
+NUM : count Bao_nhiêu phút trên đồng_hồ GE College_Bowl nguyên gốc ?
+NUM : count Bao_nhiêu rác trung_bình trong một ngày mà một con bò_sữa thải ra ?
+NUM : count Bao_nhiêu sinh_viên học trường MIT ?
+NUM : count Bao_nhiêu thuộc_địa đã tham_gia vào_cuộc cách_mạng Mỹ ?
+NUM : count Bao_nhiêu trong số đó là ở vùng nội Sahara ?
+NUM : count Bao_nhiêu trọng_tài trong một trận bóng_đá ?
+NUM : count Bao_nhiêu tuyết cho bằng một inch của mưa ?
+NUM : count Có bao_nhiêu thảm_thực_vật ?
+NUM : count Có bao_nhiêu thành_phố có ở Utah ?
+NUM : count Có bao_nhiêu thành_viên trong một gia_đình có_thể gia_nhập quân_đội Mĩ trong chiến_tranh thế_giới thứ II ?
+NUM : count Có bao_nhiêu từ trong tiếng Tây_Ban_Nha ?
+NUM : count Có bao_nhiêu vận_động_viên Isaraeli đã bị giết ở thảm_họa Olympics_Munich ?
+NUM : count Có bao_nhiêu vật_thể chuyển_động quanh Trái_Đất ?
+NUM : count Có bao_nhiêu vị kem mà Howard_Johnson có ?
+NUM : date Nhà_văn Tô_Hoài được sinh vào năm nào ?
+NUM : count Có bao_nhiêu công_viên ở Hà_Nội ?
+NUM : count Có bao_nhiêu sĩ_quan chuyên_nghiệp trong quân_đội nhân_dân Việt_Nam ?
+NUM : count Đường_cao_tốc nào ở Mỹ cáo_chung vào năm 1969 ?
+NUM : count Fiji có bao_nhiêu đảo ?
+NUM : count Hổ có bao_nhiêu móng_vuốt ?
+NUM : count Hóa_thạch có hình_thành trong bao_nhiêu năm ?
+NUM : count Howdy_Doody có bao_nhiêu tàn_nhang ở trên mặt ?
+NUM : count Ingmar_Bergman đã làm bao_nhiêu phim ?
+NUM : count James_Joyce viết Ulysses trong bao năm ?
+NUM : count John_Havlicek một thành_viên của đội bóng toàn sao bao_nhiêu lần trong 16 năm sự_nghiệp hợp_tác bóng_rổ quốc_gia của ông ?
+NUM : count Johnnie_Walker_Black_Label bao_nhiêu tuổi ?
+NUM : dist Khoảng_cách giữa Tel_Aviv và Memphis là bao_nhiêu dặm ?
+NUM : dist Khoảng_cách từ London tới Plymouth ( Anh ) là bao_nhiêu dặm ?
+NUM : count Có bao_nhiêu màu trên cầu_vồng ?
+NUM : count Có bao_nhiêu máy_chủ web ?
+NUM : count Đã có bao_nhiêu Marx_Brothers ?
+NUM : count Dân_số của Arcadia , Florida là bao_nhiêu ?
+NUM : count Dân_số của thành_phố lớn nhất Chile là bao_nhiêu ?
+NUM : count Heptagon góc có bao mặt ?
+NUM : count Lượng canxi mà một người phụ_nữ trưởng_thành nên có hàng ngày là bao_nhiêu ?
+NUM : count Một con dơi có bao_nhiêu đôi mắt ?
+NUM : count Một muỗng canh bằng bao_nhiêu muỗng cà_phê ?
+NUM : count Những cái lỗ trong quả bóng bowling cách nhau bao_nhiêu inch ?
+NUM : count Những hành_lang trong Lầu_Năm_Góc dài bao_nhiêu dặm ?
+NUM : count Nickel-cadmium có_thể sạc lại pin có_thể sạc lại bao_nhiêu lần ?
+NUM : count Số_lượng những cú home run cao nhất trong kỷ_lục của bất_kỳ một game nào_là gì ?
+NUM : count Tại_Hàn_Quốc , có bao_nhiêu lính Mỹ có ở đó ?
+NUM : count Ước_tính tổng_số hươu đuôi trắng ở Mỹ là bao_nhiêu ?
+NUM : date " Đại suy_thoái " xảy_ra khi nào ?
+NUM : date " Ống_tiêm " đầu_tiên xuất_hiện trong lịch_sử y_học vào khi nào ?
+NUM : date " Star-Spangled Banner " trở_thành bài quốc_ca từ khi nào ?
+NUM : date Amtrak đã bắt_đầu hoạt_động từ bao_giờ ?
+NUM : date Apartheid bắt_đầu vào năm nào ?
+NUM : date Ba_tháng mùa_đông ở bán_cầu nam là gì ?
+NUM : date Bằng_sáng_chế đầu_tiên cho nắp mở trên các lon nước được trao vào năm nào ?
+NUM : date Buổi phát đầu_tiên của CNN vào ngày nào ?
+NUM : date Buổi phát đầu_tiên của CNN xuất_hiện vào ngày nào ?
+NUM : date Tàu_Edmund_Fitzgerald đã chìm vào tháng nào ?
+NUM : date Tháng nào mà bạn sinh vào nếu hòn đá may_mắn của bạn là sardonyx ?
+NUM : date Vào năm nào số đầu_tiên của Playboy được xuất_bản ?
+NUM : date vào năm nào thì lính_thủy_đánh_bộ Mỹ lấy câu châm_ngôn " Semper_Fidelis " ?
+NUM : date Vào năm nào War of 1812 bắt_đầu ?
+NUM : date Vào ngày nào mà Rosa_Parks trở_thành biểu_tượng của phong_trào dân_quyền khi từ_chối không từ_bỏ ghế của mình trong xe_buýt ?
+NUM : date Vụ phun trào gần đây nhất ở núi Helens là khi nào ?
+NUM : date Wall_Street_Journal đầu_tiên được xuất_bản khi nào ?
+NUM : date Wee willie Winkie chạy xuyên thị_trấn vào lúc_nào ?
+NUM : date Yemen thống_nhất vào khi nào ?
+NUM : date Babe_Ruth được sinh_ra khi nào ?
+NUM : date Nixon chết khi nào ?
+NUM : date Nostradamus được sinh_ra khi nào ?
+NUM : date Sinh_nhật của Dick_Clark vào lúc_nào ?
+NUM : date Thế_vận_hội Olympic vào năm nào đã cho_phép Nadia_Comaneci trở_nên phổ_biến ?
+NUM : date Thời_gian địa_lý chúng_ta đang sống là gì ?
+NUM : date Thời_gian nào trong năm có không_khí du_lịch nhất ?
+NUM : date Thời_gian nào trong năm làm hầu_hết mọi người bay ?
+NUM : date Vụ thử hạt_nhân đầu_tiên của Trung_Quốc vào lúc_nào ?
+NUM : dist Bạn có_thể nhìn xa bao_nhiêu ?
+NUM : dist Bạn phải chạy bao_xa để đánh được một cú home - run ?
+NUM : dist Bản_sao của Matterhorn tại Disneyland cao bao_nhiêu ?
+NUM : dist Bao_xa cho_đến sân gôn số 1 ?
+NUM : dist Biên_giới giữa Canada và 48 bang tiếp_giáp dài bao_nhiêu ?
+NUM : dist Camptown_Racetrack dài bao_nhiêu ?
+NUM : dist Chiều dài biên_giới giữa Ukraine và Nga là bao_nhiêu ?
+NUM : dist Nhân_vật hoạt_hình King_Kong cao bao_nhiêu ?
+NUM : dist Răng của Tyrannosaurus_Rex dài bao_nhiêu ?
+NUM : dist Sải cánh của một con kền_kền dài bao_nhiêu ?
+NUM : dist Thái_tử Charles cao bao_nhiêu ?
+NUM : dist Thành_phố Denver cao bao_nhiêu so với mực nước_biển ?
+NUM : dist Khoảng_cách ra ngoài vũ_trụ là bao_xa ?
+NUM : dist Mắt người có_thể nhìn thấy bao_xa ?
+NUM : dist Matterhorn cao bao_nhiêu ?
+NUM : dist Một fathom sâu bao_nhiêu ?
+NUM : dist Một ngọn núi phải cao bao_nhiêu thì được gọi_là một ngọn núi ?
+NUM : dist Nhân_vật hoạt_hình Frankenstein cao bao_nhiêu ?
+NUM : dist Núi_Kilamanjaro cao bao_nhiêu ?
+NUM : dist Từ_Phoenix đến Blythe bao_xa ?
+HUM : gr Tên một công_ty Ba_lê mà Mikhail CBaryshnikov muốn mua ?
+NUM : money Alaska đã được mua với giá bao_nhiêu ?
+NUM : money Bạn có_thể bị phạt bao_nhiêu tiền với việc dắt chó trên bãi_biển ?
+NUM : money Bạn có_thể mượn từ Volkswagen bao_nhiêu năm 1966 ?
+NUM : money Bao_nhiêu tiền bảo_hiểm cho tai của Dumbo ?
+NUM : money Bao_nhiêu tiền mõi cầu_thủ kiếm được khi băt đầu chơi ở Monopoly ?
+NUM : money Búp_bê Barbie đầu_tiên được bán vào năm 1959 với giá bao_nhiêu ?
+NUM : money Cần bao_nhiêu để mua một chiếc lều tiệc 2-foot vuông , với hai mặt ?
+NUM : money Chi_phí của những loại thuốc dùng để chữa bệnh lao_phổi là như_thế_nào ?
+NUM : money Chi_phí để điều_trị bệnh lao là bao_nhiêu ?
+NUM : money Chi_phí điều_tra Iran-Contra là bao_nhiêu ?
+NUM : money Chi_phí trung_bình cho bốn năm của trường y_tế là gì ?
+NUM : money Chủ_tịch được trả bao_nhiêu tiền ?
+NUM : money Clara_Peller được Wendy trả bảo nhiêu để nói " Thịt bò ở đâu " ?
+NUM : money Có bao_nhiêu tiền một người có_thể bị phạt cho việc dắt chó trên bãi_biển ?
+NUM : money Điều_trị bênh lao hết bao_nhiêu tiền ?
+NUM : code Bảy chữ_số theo sau mã vùng trong dãy số cho thông_tin đường dài ?
+NUM : code Số điện_thoại của Columbia_Tristar là gì ?
+NUM : code Số điện_thoại của Đại_học Kentucky là gì ?
+NUM : code Tôi có_thể gọi số nào để liên_lạc dịch_vụ trồng cây ?
+NUM : code Bảy chữ_số theo mã vùng trong dãy số về thông_tin đường dài là gì ?
+NUM : code Bảy chữ_số theo sau mã vùng trong số điện dùng cho thông_tin đường dài ?
+NUM : code Mã_số sân_bay quốc_tế Los_Angeles là gì ?
+NUM : code Số điện_thoại của Columbia_Tristar là gì ?
+NUM : money Giá cho các loại thuốc lao là gì ?
+NUM : money Giá của bộ_phận Varian_Associates trong sản_phẩm chân_không là gì ?
+NUM : money Giá phổ_thông là gì ?
+NUM : money Giá vé cho một chuyến đi hai chiều giữa New_York và London của hãng Concorde ?
+NUM : money Giá vé hiện_tại từ Cairo đến Barbados là bao_nhiêu ?
+NUM : money Giá vé từ Cairo đến Barbados bao_nhiêu ?
+NUM : money Hợp_đồng đầu_tiên của Joe_Namath trị_giá bao_nhiêu ?
+NUM : money Lương hàng năm của một người đầu_bếp là bao_nhiêu ?
+NUM : money Lương khởi_điểm của một nhân_viên X-quang là bao_nhiêu ?
+NUM : money Có bao_nhiêu tiền mà Marcos đã đánh_cắp từ đất_nước của họ ?
+NUM : money Điều tốt khi có một con chó trên bãi_biển là gì ?
+NUM : money Giá bảo_hiểm xe của AAA là bao_nhiêu ?
+NUM : money Khí gas sẽ bị đánh thuế bao_nhiêu ở California vào năm 2000 ?
+NUM : money Lucy_Van_Pelt ban_đầu đã phải trả bao_nhiêu các phiên điều_trị tâm_thần ?
+NUM : money Một người có_thể bị bao_nhiêu phạt tiền khi có một con chó trên một bãi_biển ?
+NUM : money Những cái nắp chai với những bức hình của các vị tổng_thống bên trong đáng_giá bao_nhiêu ?
+NUM : money Quay số , 900 , 740-TREE để có một cây_trồng sẽ tốn bao_nhiêu tiền ?
+NUM : money Lượng tiền sở_hữu bất_hợp_pháp cho một con chó trên bờ biển ?
+NUM : other Số lính Mĩ chưa tìm thấy ở chiến_tranh Việt_Nam ?
+NUM : ord Chương nào của Cuốn theo chiều gió mà Rhett_Butler đã rời xa Scarlett O ' Hara ?
+NUM : ord Chương nào của Kinh_Thánh có nhiều câu nhất ?
+NUM : ord Chương nào của Kinh_Thánh có nhiều thơ nhất ?
+NUM : ord Chương nào trong tác_phẩm cuốn theo chiều gió có Rhett_Butler rời xa Scarlett O ' Hara ?
+NUM : other Việt_Nam xếp_hạng thứ mấy so với các nước trong khu_vực ?
+NUM : other Xếp_hạng của nước Mỹ ở đâu so với các nước trong khu_vực ?
+NUM : other 7847 +5943 bằng bao_nhiêu ?
+NUM : other Argon phản_ứng với bao_nhiêu chất ?
+NUM : other Chỉ_số IQ của Einstein là bao_nhiêu ?
+NUM : other Cỡ giày của các cầu_thủ NBA_O ' Neal , Jordan , và Mutombo là bao_nhiêu ?
+NUM : other Công_suất của động_cơ tàu_con_thoi là bao_nhiêu ?
+NUM : other Số_lượng binh_lính Mỹ được triển_khai tới Hàn_Quốc là bao_nhiêu ?
+NUM : other Số_lượng nhiễm_sắc_thể của một con voi là bao_nhiêu ?
+NUM : other Số ở 12 giờ trên tấm bia phi_tiêu là bao_nhiêu ?
+NUM : other Tỉ_số thắng của một người trên một lỗ golf 455-yard là gì ?
+NUM : perc Bao_nhiêu phần_trăm sản_phẩm làm từ bạc được làm ra bởi những người thợ_bạc độc_lập ?
+NUM : perc Bao_nhiêu phần_trăm số loại động thực_vật có_thể tìm thấy ở rừng Amazon ?
+NUM : perc Bao_nhiêu phần_trăm trẻ_em từ 2 đến 11 tuổi xem ` The_Simpsons ' ?
+NUM : perc Bao_nhiêu phần_trăm ủng_hộ Thatcher sau một thập_kỷ nắm quyền ?
+NUM : perc Cơ_hội thụ_thai sinh tư là bao_nhiêu ?
+NUM : perc Mức thuế_thu_nhập của bang Pennsylvania là bao_nhiêu ?
+NUM : perc Những khả_năng nào có_thể thụ_thai nếu dương_vật không đút vào âm_đạo ?
+NUM : perc Phần đời của hải_ly dùng để bơi là gì ?
+NUM : perc Sự ủng_hộ của Thatcher là bao_nhiêu phần_trăm sau 10 năm nắm quyền ?
+NUM : perc Tỉ_lệ của trẻ_em trong độ tuổi từ hai tới mười_một xem " The_Simpsons " ?
+NUM : perc Tỉ_lệ_phần_trăm của nước_sạch được tìm thấy ở Canada ?
+NUM : perc Tỉ_lệ_phần_trăm của trẻ_em tuổi từ hai tới mười_một xem " The_Simpsons " ?
+NUM : perc Tỉ_lệ sinh_đôi là bao_nhiêu ?
+NUM : perc Cơ_hội mang thai thế_nào nếu dương_vật không xâm_nhập vào âm_đạo ?
+NUM : perc Giai_đoạn nào của cuộc_sống của một hải_ly chỉ giành để bơi ?
+NUM : perc Tỷ_lệ_phần_trăm lốc xoáy toàn thế_giới xảy_ra ở Mỹ ?
+NUM : perc Những sản_phẩm của những người thợ_bạc độc_lập chiếm bao_nhiêu phần_trăm sản_lượng bạc ?
+NUM : period Bạn cần sống ở một cộng_đồng bao_nhiêu năm để có quyền bỏ_phiếu ?
+NUM : period Bạn nên ăn Puppy_Purina_Puppy_Chow của bạn trong vòng bao_lâu ?
+NUM : period Bạn phải trả số tiền nợ trong vòng bao_lâu sau khi bạn tuyên_bố phá_sản ?
+NUM : period Bao_lâu sau khi giao_hợp có_thể biết được bạn đang mang thai hay không ?
+NUM : period Bao_lâu thì ánh_sáng mặt_trời đến được trái_đất ?
+NUM : period Benny_Carter bao_nhiêu tuổi ?
+NUM : period Bernadette_Peters bao_nhiêu tuổi ?
+NUM : period Stevie_Wonder bao_nhiêu tuổi ?
+NUM : period Sứ_mệnh truyền_hình của hoạt_động kinh_doanh của Star_Trek là bao_lâu ?
+NUM : period Thời_gian mang thai cho thai của con_người là bao_lâu ?
+NUM : period Thời_gian trung_bình cho một người đàn_ông xuất_tinh là bao_lâu ?
+NUM : period Thời_gian trung_bình hôn một ai đó là bao_nhiêu ?
+NUM : period Trung_bình chồn thuần_hóa sống bao_lâu ?
+NUM : period Trung_bình khoảng bao_lâu thì đánh_máy xong một kịch_bản_phim ?
+NUM : period Trung_bình một con ngựa sống được bao_lâu ?
+NUM : speed Ánh_sáng nhanh như_thế_nào ?
+NUM : speed Báo chạy nhanh thế_nào ?
+NUM : speed Chiếc ô_tô nhanh_nhất có_thể đi với vận_tốc bao_nhiêu ?
+NUM : speed Một bộ_xử_lý 45Mhz nhanh như_thế_nào ?
+NUM : speed Một chiếc Corvette có_thể đi với tốc_độ bao_nhiêu ?
+NUM : speed Một tàu_vũ_trụ phải di_chuyển với tốc_độ bao_nhiêu để thoát lực hút của Trái_Đất ?
+NUM : speed Tốc_độ của sông Mississippi là gì ?
+NUM : speed Tốc_độ của sông Mississippi là gì ?
+NUM : speed Tốc_độ dòng_chảy của sông Mississippi là bao_nhiêu ?
+NUM : temp Không độ C bằng bao_nhiêu độ F ?
+NUM : temp Nhiệt_độ để nấu_ăn là bao_nhiêu ?
+NUM : temp Nhiệt_độ ngày hôm_nay là bao_nhiêu ?
+NUM : temp Nhiệt_độ ở tâm Trái_Đất là bao_nhiêu ?
+NUM : temp Nhiệt_độ thích_hợp cho việc nướng bánh Peachy_Oat_Muffins là gì ?
+NUM : temp Nhiệt_độ trong lo luyện gang là bao_nhiêu để có được loại gang tốt nhất ?
+NUM : temp Trong lòng núi_lửa đang hoạt_động nóng bao_nhiêu ?
+NUM : temp Lò nướng nên nóng như_thế_nào khi nướng bánh yến_mạch đào Muffins ?
+NUM : volsize Cử_tri đoàn lớn như_thế_nào ?
+NUM : volsize Diện_tích vườn nho Chappellet là gì ?
+NUM : volsize Đường_kính của thiên_hà chúng_ta là bao_nhiêu ?
+NUM : volsize Khu bảo_tồn Bắc_Cực rộng bao_nhiêu để bảo_tồn động_vật hoang_dã độc_đáo và giá_trị hoang_dã trên bờ biển phía bắc của Alaska ?
+NUM : volsize Kích_thước Argentina là bao_nhiêu ?
+NUM : volsize Kích_thước bình_thường cho dương_vật của lứa tuổi 15 là bao_nhiêu ?
+NUM : volsize Kích_thước của akita lớn nhất_là bao_nhiêu ?
+NUM : volsize Kích_thước viên kim_cương lớn nhất_là bao_nhiêu ?
+NUM : volsize Một con chim đại_bàng đầu hói sơ_sinh lớn cỡ nào ?
+NUM : volsize Một lít nhiều như_thế_nào ?
+NUM : volsize Úc rộng_lớn như_thế_nào ?
+NUM : volsize Vườn nho Chappellet lớn như_thế_nào ?
+NUM : volsize Thực_sự vũ_trụ lớn cỡ nào ?
+NUM : weight Chiều_cao trung_bình của một người đàn_ông là bao_nhiêu ?
+NUM : weight Khối_lượng vật_chất trong hố_đen bằng một thìa_cà_phê nặng bao_nhiêu ?
+NUM : weight Một con chó xù cân nặng bao_nhiêu ?
+NUM : weight Một cục đá nặng bao_nhiêu Pound ?
+NUM : weight Một hiệp_sĩ áo_giáp nặng bao_nhiêu ?
+NUM : weight Cân nặng trung_bình người Anh là bao_nhiêu ?
+NUM : weight Trọng_lượng của không_khí là gì ?
+NUM : weight Trọng_lượng đề_nghị đối_với một nam_giới 15 tuổi cao 5,6 feet là bao_nhiêu ?
+NUM : weight Trọng_lượng một thìa_cà_phê vật_chất trong một hố_đen là bao_nhiêu ?
+NUM : weight Trong lượng trung_bình của một thìa vật_chất trong hố_đen ?
+NUM : weight Trung_bình một thìa vật_chất lỗ_đen nặng bao_nhiêu ?
+NUM : date Khi nào_là ngày Thánh_Patrick ?
+NUM : date Khi nào Thomas_Jefferson được sinh_ra ?
+NUM : date Khi nào Tổng_thống Kennedy bị bắn ?
+NUM : date Khi nào Ulysses S . Grant được sinh_ra ?
+NUM : date Mùa bão ở Việt_Nam xảy_ra tại thời_điểm nào trong năm ?
+NUM : date Mỹ đã mua Alatska vào năm nào ?
+NUM : date Năm nào chương_trình Andy_Griffith bắt_đầu ?
+NUM : date Năm nào Mozart được sinh_ra ?
+NUM : date Năm nào Mussolini giành chính_quyền ở Italy ?
+NUM : date Năm nào NFL đã đình_công ?
+NUM : date Năm nào tàu Titanic bắt_đầu cuộc hành_trình của mình ?
+NUM : date Ngày độc_lập của Mexico là ngày nào ?
+NUM : date Ngày nào Dwight D . Eisenhower được sinh_ra ?
+NUM : date Ngày nào_là ngày chính_thức đầu_tiên của mùa_hè ?
+NUM : date Ngày nào_là ngày của cha ?
+NUM : date Ngày nào Neil_Armstrong lên mặt_trăng ?
+NUM : date Ngày_tháng Nguyễn_Trãi mất ?
+NUM : date Nhà_văn Nguyễn_Đình_Chiểu mất năm nào ?
+NUM : date Pha ghép gan thành_công đầu_tiên ở Việt_Nam xảy_ra khi nào ?
+NUM : date Sấm_sét thường xuất_hiện vào mùa nào trong năm ?
+NUM : date Sân_vận_động Mỹ_Đình khánh_thành khi nào ?
+NUM : date Sinh_nhật Susan B . Anthony là ngày nào ?
+NUM : date Sự_kiện Trân_Châu_Cảng xảy_ra khi nào ?
+NUM : date Tàu_Titanic bị chìm vào năm nào ?
+NUM : date Thị_xã Hưng_Yên trở_thành thành_phố từ khi nào ?
+NUM : date Thủy_Ngân , năm mà nó được tìm ra ?
+NUM : date Tỉnh Hà_Nam được thành_lập từ khi nào ?
+NUM : date Việt_Nam gia_nhập Asian vào năm nào ?
+NUM : date Việt_Nam trở_thành thuộc_địa của Pháp từ khi nào ?
+NUM : date WWII bắt_đầu_từ năm nào ?
+NUM : dist Bức tượng phật lớn nhất Việt_Nam cao bao_nhiêu mét ?
+NUM : dist Chiều dài bờ biển của nước ta là bao_nhiêu ?
+NUM : dist Chiểu dài của một sân tennis là bao_nhiêu ?
+NUM : dist Chiều rộng của một sân bóng_đá là bao_nhiêu ?
+NUM : dist Độ cao ngọn Louis là bao_nhiêu ?
+NUM : dist Độ sâu của sông Nin là gì ?
+NUM : dist Đường_kính của quả bóng golf là bao_nhiêu ?
+NUM : dist Đường_kính của Trái_Đất là gì ?
+NUM : dist Giải ngân_hà Milky_Way rộng như_thế_nào ?
+NUM : dist Khoảng_cách bằng dặm từ Trái_Đất tới Mặt_Trời là bao_nhiêu ?
+NUM : dist Khoảng_cách là bao_nhiêu từ Hà_Nội đến TP Hồ_Chí_Minh ?
+NUM : dist Mặt_trăng cách đây bao_xa ?
+NUM : dist Một dặm hàng_hải dài bao_nhiêu ?
+NUM : dist Sao_Diêm_Vương cách Mặt_Trời bao_xa ?
+NUM : dist Sông_Columbia dài bao dặm ?
+NUM : dist Tòa nhà Kang_Nam cao bao_nhiêu ?
+NUM : money Một chiếc vé xem phim tại rạp Trùng_Khánh có_giá bao_nhiêu ?
+NUM : money Một pe - xo bằng bao_nhiêu đô_la Mỹ ?
+NUM : money Tỷ_lệ chuyển_đổi giữa USD và bảng Anh là gì ?
+NUM : other Bao_lâu thì Old_Faithful lại phun tại Công_viên quốc_gia Yellowstone ?
+NUM : other Có bao_nhiêu ga - lon nước trong một mét_khối nước ?
+NUM : other Dân_số của Nigeria ?
+NUM : other Dân_số của Trung_Quốc là bao_nhiêu ?
+NUM : other Dân_số của Úc là bao_nhiêu ?
+NUM : other Dân_số của Venezuela là gì ?
+NUM : other Dân_số của Việt_Nam là bao_nhiêu ?
+NUM : other Dân_số thế_giới là bao_nhiêu ?
+NUM : other Điểm_nóng chảy của vàng là bao_nhiêu độ ?
+NUM : other Mức thuế bán hàng ở New_York là gì ?
+NUM : other Nhiệt_độ nóng_chảy của đồng là bao_nhiêu ?
+NUM : other Sản_lượng điện ở Việt_Nam năm 2009 là bao_nhiêu ?
+NUM : other Tuổi_thọ của một đồng đô_la là bao_nhiêu ?
+NUM : other Tuổi_thọ trung_bình của loài cá_voi xanh là bao_lâu ?
+NUM : perc Nước_đang_phát_triển chiếm bao phần_trăm của dân_số thế_giới ?
+NUM : perc Tỷ_lệ giết người_ở Windsor , Ontario là bao_nhiêu ?
+NUM : perc Tỷ_lệ_phần_trăm của hàm_lượng nước trong cơ_thể con_người là gì ?
+NUM : period Thời_gian tổng_thống trẻ nhất của Hoa_Kỳ tại_vị là bao_lâu ?
+NUM : period Bao_nhiêu tuổi thì được điều_khiển xe_gắn_máy ?
+NUM : period C . Mac chết năm bao_nhiêu tuổi ?
+NUM : period Joan of Arc bao_nhiêu tuổi khi bà ấy chết ?
+NUM : period Khoảng thời_gian mang thai của loài mèo là bao_lâu ?
+NUM : period Phan_Bội_Châu mất năm bao_nhiêu tuổi ?
+NUM : period Thời_gian mang thai của voi là bao_lâu ?
+NUM : period Thời_gian sống trung_bình của loài gà là bao_lâu ?
+NUM : speed Tốc_độ ánh_sáng là bao_nhiêu ?
+NUM : speed Tốc_độ của âm_thanh là bao_nhiêu ?
+NUM : speed Tốc_độ của ánh_sáng là bao_nhiêu ?
+NUM : speed Tốc_độ hấp_thụ của rượu là bao_nhiêu ?
+NUM : speed Tốc_độ trung_bình của máy_bay dân_dụng là bao_nhiêu ?
+NUM : speed Tốc_độ trung_bình của một con báo châu Phi là bao_nhiêu ?
+NUM : temp Nhiệt_độ ở tâm của Trái_Đất là bao_nhiêu ?
+NUM : temp Nhiệt_độ trên bề_mặt Mặt_Trời là bao_nhiêu ?
+NUM : temp Nhiệt_độ trung_bình của cơ_thể con_người là bao_nhiêu ?
+NUM : temp Tâm mặt_trời , nhiệt_độ ở đó là bao_nhiêu ?
+NUM : temp Tủ_lạnh nên để ở nhiệt_độ nào ?
+NUM : weight Bộ_não của một người phụ_nữ trưởng_thành nặng bao_nhiêu ?
+NUM : weight Một khối nước_nặng bao_nhiêu ?
+NUM : weight Trọng_lượng nguyên_tử bạc là gì ?
+NUM : weight Trọng_lượng trung_bình của một con Gấu_Bắc cực trưởng_thành là gì ?

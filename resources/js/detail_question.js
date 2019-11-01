@@ -226,13 +226,7 @@ var slogan = new Vue({
 
 			axios.post('/api/question/de_xuat_cau_tra_loi',fd)
 			.then(response=>{
-				this.dexuat = response.data.sort((a,b)=>{
-					if(a.sucsong < b.sucsong)
-						return 1;
-					else
-						return -1;
-				});
-				console.log(this.dexuat);
+				this.dexuat = response.data;
 
 			})
 			.catch(error=>{

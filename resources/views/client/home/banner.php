@@ -5,7 +5,7 @@
 		<div class="row fullscreen d-flex align-items-center justify-content-center">
 			<div class="banner-content col-lg-12">
 				<h1 class="text-white">
-					<span>Khởi nghiệp</span> là đam mê 			
+					<span>Tư Vấn</span> Khởi Nghiệp 			
 				</h1>	
 				<form action="/tim-kiem/cau-hoi" method="get" class="serach-form-area" id="form-search">
 					<div class="row justify-content-center form-wrap">

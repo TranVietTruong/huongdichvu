@@ -19,7 +19,7 @@ class PostQuestionController extends Controller
     public function post_question()
     {
         $this->view->name_banner = "Đặt Câu Hỏi";
-        $this->view->title = 'Đặt câu hỏi';
+        $this->view->title = 'Đặt câu hỏi - Tư Vấn Khởi Nghiệp';
         
         $this->view->catagories = $this->CatagoryModel->all();
 

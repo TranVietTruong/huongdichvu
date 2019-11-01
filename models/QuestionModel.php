@@ -7,10 +7,10 @@
 			parent::__construct();
 		}
 
-		public function add($id_catagory,$id_user,$title,$slug,$content,$tag)
+		public function add($id_catagory,$id_user,$title,$slug,$list_word,$content,$tag)
 		{
-			$sql = "INSERT INTO question(id_catagory,id_user,title,slug,content,tag) VALUES ('$id_catagory','$id_user','$title','$slug','$content','$tag')";
-			$this->db->ExecuteNonQuery($sql);
+			$sql = "INSERT INTO question(id_catagory,id_user,title,slug,list_word,content,tag) VALUES ('$id_catagory','$id_user','$title','$slug','$list_word','$content','$tag')";
+			return $this->db->ExecuteNonQuery($sql);
 		}
 
 
@@ -183,7 +183,7 @@
 		public function delete($id)
 		{
 			$sql = "UPDATE question SET active = 0 WHERE id = '$id'";
-			$this->db->ExecuteNonQuery($sql);
+			return $this->db->ExecuteNonQuery($sql);
 		}
 
 		public function like($keyword)

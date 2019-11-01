@@ -19,7 +19,7 @@ class RegisterController extends Controller
     public function register()
     {
         $this->view->name_banner = 'Đăng Ký';
-        $this->view->title = 'Đăng ký';
+        $this->view->title = 'Đăng ký - Tư Vấn Khởi Nghiệp';
         $this->view->catagories = $this->CatagoryModel->all();
         
         $this->view->Render('client/head');

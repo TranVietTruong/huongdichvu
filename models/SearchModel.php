@@ -8,7 +8,7 @@
 
 	    public function like($keyword)
 	    {
-	    	$sql = "SELECT * FROM search WHERE MATCH(keyword) AGAINST('+$keyword')";
+	    	$sql = "SELECT * FROM search WHERE MATCH(keyword) AGAINST('+$keyword') LIMIT 10";
 	    	return $this->db->Executequery($sql);
 	    }
 

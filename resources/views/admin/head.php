@@ -4,10 +4,10 @@
     <base href="http://huongdichvu.com:8888/">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="Dashboard">
-    <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
-    <title>Dashio - Bootstrap Admin Template</title>
+    <meta name="description" content="tư vấn khởi nghiệp">
+    <meta name="author" content="tuvankhoinghiep.me">
+    <meta name="keyword" content="tư vấn,khởi nghiệp">
+    <title>Admin - Tư Vấn Khởi Nghiệp</title>
 
     <!-- Favicons -->
     <link href="img/favicon.png" rel="icon">
