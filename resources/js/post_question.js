@@ -34,6 +34,7 @@ var app = new Vue({
 			error: [],
 			maxLength: 50, // Số lượng độ dài tối đa của 1 tag,
 			captcha:'',
+			send: true
 
 			// --------------------
 			keysearch: '',
@@ -44,6 +45,7 @@ var app = new Vue({
 	},
 	methods: {
 		register(){
+		
 			let major = $('#major').val();
 			let content = CKEDITOR.instances["txtFT_Content"].getData();
 
@@ -63,6 +65,8 @@ var app = new Vue({
 			
 			if(this.error.length == 0)
 			{
+				this.send = false;
+
 				let tags = this.tags.map((item) => { return item.text});
 				console.log(tags);
 
@@ -83,6 +87,8 @@ var app = new Vue({
 					this.title = '';
 					this.captcha = '';
 					document.getElementById('captcha').src='/get_captcha';
+
+					this.send = true;
 				})
 				.catch(error=>{
 					document.getElementById('captcha').src='/get_captcha';
