@@ -24,7 +24,7 @@
 								<span class="fz-13 fw500">câu trả lời</span>
 							</div>
 							<div 
-								onclick="share('http://huongdichvu.com:8888/cau-hoi/<?php echo $question['slug'] ?>')" class="share">
+								onclick="share('https://tuvankhoinghiep.me/cau-hoi/<?php echo $question['slug'] ?>')" class="share">
 								<span class="vote text-success">
 									<i class="fas fa-share-alt"></i>
 								</span>
@@ -41,7 +41,7 @@
 								<span class="fz-13 fw500">câu trả lời</span>
 							</div>
 							<div 
-								onclick="share('http://huongdichvu.com:8888/cau-hoi/<?php echo $question['slug'] ?>')"
+								onclick="share('https://tuvankhoinghiep.me/cau-hoi/<?php echo $question['slug'] ?>')"
 								class="mobile-share">
 								<span class="vote text-success">
 									<i class="fas fa-share-alt"></i>

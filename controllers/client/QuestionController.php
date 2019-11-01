@@ -30,7 +30,7 @@ class QuestionController extends Controller
 
     public function question()
     {
-        $this->view->title = "Câu hỏi";
+        $this->view->title = "Câu hỏi - Tư Vấn Khởi Nghiệp";
         $this->view->name_banner = 'Câu Hỏi';
 
         $this->view->catagories = $this->CatagoryModel->all();

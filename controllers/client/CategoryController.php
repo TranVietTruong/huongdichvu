@@ -30,7 +30,7 @@ class CategoryController extends Controller
     public function cate()
     {
         
-        $this->view->title = 'Câu hỏi';
+        $this->view->title = 'Câu hỏi - Tư Vấn Khởi Nghiệp';
 
         $this->view->name_banner = 'Lĩnh Vực';
 

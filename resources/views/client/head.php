@@ -5,7 +5,7 @@
 		
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	
-		<meta name="author" content="huongdichvu.com">
+		<meta name="author" content="tuvankhoinghiep.me">
 		
 		<meta name="description" content="khởi nghiệp,tư vấn,câu hỏi">
 		
@@ -17,7 +17,7 @@
 		<!-- --------------------- SEO ------------------------ -->
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<meta property="og:locale" content="vi_VN" />
-		<link rel="alternate" href="http://huongdichvu.com" hreflang="vi-vn" />
+		<link rel="alternate" href="https://tuvankhoinghiep.me" hreflang="vi-vn" />
 		
 		<meta itemprop="description" content="khởi nghiệp,tư vấn,câu hỏi"/>
 		<meta property="og:description" content="khởi nghiệp,tư vấn,câu hỏi"/>
@@ -33,12 +33,12 @@
 		<meta property="og:image:height"     content="500">
 
 		<meta property="og:type" content="website" />
-		<meta property="og:url" content="https://huongdichvu.com" />
-		<meta name="twitter:creator" content="huongdichvu" />
-		<meta property="og:site_name" content="huongdichvu" />
-		<meta name="copyright" content="Copyright © 2018 by huongdichvu" />
+		<meta property="og:url" content="tuvankhoinghiep.me" />
+		<meta name="twitter:creator" content="tuvankhoinghiep.me" />
+		<meta property="og:site_name" content="tuvankhoinghiep.me" />
+		<meta name="copyright" content="Copyright © 2019 by tuvankhoinghiep.me" />
 		<meta property="fb:profile_id" content="tranviettruong100001" />        
-		<meta name="google-site-verification" content="huongdichvu" />
+		<meta name="google-site-verification" content="tuvankhoinghiep.me" />
 		<!-- END -->
 
 		<title><?php echo $this->title ?></title>
