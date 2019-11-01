@@ -5,12 +5,7 @@
 		<ul class="sidebar-menu" id="nav-accordion">
 			<p class="centered"><a href="profile.html"><img src="public/admin/img/ui-sam.jpg" class="img-circle" width="80"></a></p>
 			<h5 class="centered"><?php if(isset($_SESSION['admin'])) echo $_SESSION['admin']['full_name'] ?></h5>
-			<li class="sub-menu">
-				<a href="/admin">
-					<i class="fa fa-home"></i>
-					<span>Tổng quan</span>
-				</a>
-			</li>
+
 			<li class="sub-menu">
 				<a href="/admin/slogan">
 					<i class="fa fa-asterisk"></i>

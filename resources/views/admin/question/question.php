@@ -78,17 +78,7 @@
 										</button>
 									</td>
 								</tr>
-                <!-- <tr v-for="(answer,index) in question.answers" >
-                  <td class="numeric">{{index+1}}</td>
-                  <td class="numeric">{{question.title}}</td>
-                  <td class="numeric">{{answer.content_text}}</td>
-                  <td class="numeric">{{answer.active}}</td>
-                  <td class="numeric">{{answer.full_name}}</td>
-                  <td class="numeric">{{answer.view}}</td>
-                  <td class="numeric">{{answer.vote}}</td>
-                  <td class="numeric">none</td>
-                  <td class="numeric">{{answer.vote}}</td>
-                </tr> -->
+
 							</tbody>
 						</table>
             <div class="col-lg-12">
