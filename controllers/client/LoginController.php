@@ -19,7 +19,7 @@ class LoginController extends Controller
     public function login()
     {
         $this->view->name_banner = 'Đăng Nhập';
-        $this->view->title = 'Đăng nhập';
+        $this->view->title = 'Đăng nhập - Tư Vấn Khởi Nghiệp';
         $this->view->catagories = $this->CatagoryModel->all();
 
         $this->view->Render('client/head');

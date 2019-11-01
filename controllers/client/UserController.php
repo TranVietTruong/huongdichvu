@@ -18,7 +18,7 @@ class UserController extends Controller
 
     public function user()
     {
-        $this->view->title = $_SESSION['user']['full_name'];
+        $this->view->title = $_SESSION['user']['full_name'].' - Tư Vấn Khởi Nghiệp';
         
         $this->view->catagories = $this->CatagoryModel->all();
         

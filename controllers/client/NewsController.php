@@ -79,7 +79,7 @@ class NewsController extends Controller
 
         $this->view->newsTop5 = $this->NewsModel->top5();
         $this->view->name_banner = 'Tin Tức';
-        $this->view->title = "Tin tức";
+        $this->view->title = "Tin tức - Tư Vấn Khởi Nghiệp";
         $this->view->catagories = $this->CatagoryModel->all();
 
         $this->view->Render('client/head');

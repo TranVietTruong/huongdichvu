@@ -64,7 +64,7 @@
 
 					<div class="row footer-bottom d-flex justify-content-between">
 						<p class="col-lg-8 col-sm-12 footer-text m-0 text-white">
-							Bài tập lớn môn học phát triển phầm mềm hướng dịch vụ 
+							Bản quyền thuộc về tuvankhoinghiep.me
 							<i class="fa fa-heart-o" aria-hidden="true"></i>
 						</p>
 						<div class="col-lg-4 col-sm-12 footer-social">

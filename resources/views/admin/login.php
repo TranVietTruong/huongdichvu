@@ -5,10 +5,10 @@
   <base href="../">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="">
-  <meta name="author" content="Dashboard">
-  <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
-  <title>Dashio - Bootstrap Admin Template</title>
+  <meta name="description" content="tư vấn khởi nghiệp">
+  <meta name="author" content="tuvankhoinghiep.me">
+  <meta name="keyword" content="tư vấn,khởi nghiệp">
+  <title>Admin - Tư Vấn Khởi Nghiệp</title>
 
   <!-- Favicons -->
   <link href="public/admin/img/favicon.png" rel="icon">
@@ -33,13 +33,13 @@
       <div id="login-page">
         <div class="container">
           <form class="form-login" action="index.html">
-            <h2 class="form-login-heading">sign in now</h2>
+            <h2 class="form-login-heading">Đăng Nhập</h2>
             <div class="login-wrap">
             
-                <input v-validate="'required|max:30|alpha_num'" v-model="username" type="text" class="form-control" placeholder="Username" data-vv-name="username" autofocus>
+                <input v-validate="'required|max:30|alpha_num'" v-model="username" type="text" class="form-control" placeholder="Tài khoản" data-vv-name="username" autofocus>
                 <div class="text-danger mt" v-if="errors.has('username')">{{errors.first('username')}}</div>
               <br>
-              <input v-validate="'required'" v-model="password" type="password" class="form-control" placeholder="Password" data-vv-name="password">
+              <input v-validate="'required'" v-model="password" type="password" class="form-control" placeholder="Mật khẩu" data-vv-name="password">
               <div class="text-danger mt" v-if="errors.has('password')">{{errors.first('password')}}</div>
 
               <!-- <div class="mt alert alert-danger" v-if="errors.has('password')">
@@ -47,19 +47,14 @@
               </div> -->
               <label class="checkbox">
                 <!-- <input type="checkbox" value="remember-me"> Remember me -->
-                <span class="pull-right">
+                <!-- <span class="pull-right">
                   <a data-toggle="modal" href="login.html#myModal"> Forgot Password?</a>
-                </span>
+                </span> -->
               </label>
-              <button @click="login" class="btn btn-theme btn-block" href="index.html" type="button"><i class="fa fa-lock"></i> SIGN IN</button>
+              <br>
+              <button @click="login" class="btn btn-theme btn-block" href="index.html" type="button"><i class="fa fa-lock"></i> Đăng Nhập</button>
               <hr>
-              
-              <div class="registration">
-                Don't have an account yet?<br/>
-                <a class="" href="#">
-                  Create an account
-                </a>
-              </div>
+             
             </div>
             <!-- Modal -->
             <div aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" id="myModal" class="modal fade">
