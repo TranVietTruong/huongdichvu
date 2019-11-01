@@ -11,6 +11,7 @@ Route::add('/',function(){
 
 Route::add('/test',function(){
 	Load::Controller('controllers/api/DetailQuestionController.php','DetailQuestionController','test');
+
 },'get');
 
 

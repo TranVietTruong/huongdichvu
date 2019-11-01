@@ -20,9 +20,9 @@
 		}
 
 
-		public function add($id_question,$id_user,$content,$content_text,$tag)
+		public function add($id_question,$id_user,$content,$content_text,$content_word,$tag)
 		{
-			$sql = "INSERT INTO answer(id_question,id_user,content,content_text,tag) VALUES ('$id_question','$id_user','$content','$content_text','$tag')";
+			$sql = "INSERT INTO answer(id_question,id_user,content,content_text,content_word,tag) VALUES ('$id_question','$id_user','$content','$content_text','$content_word','$tag')";
 			return $this->db->ExecuteQueryReturnID($sql);
 		}
 

@@ -69,7 +69,7 @@
 								</div>
 							</div>
 							
-							<button @click="register" type="button"  class="primary-btn mt-20 text-white">Hỏi</button>
+							<button @click="register" :disabled="send" type="button"  class="primary-btn mt-20 text-white">Hỏi</button>
 
 							<div class="mt-20 alert-msg" style="text-align: left;"></div>
 						</div>
