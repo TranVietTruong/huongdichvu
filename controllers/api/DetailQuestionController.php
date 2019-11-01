@@ -339,6 +339,7 @@ class DetailQuestionController extends Controller
     public function test()
     {
        
+<<<<<<< HEAD
         // $samples = [];
         // $labels = [];
         // $fn = 'vendor/tokenizer/train_question.txt';
@@ -381,6 +382,49 @@ class DetailQuestionController extends Controller
             "dung_sai"
         ];
         
+=======
+        $samples = [];
+        $labels = [];
+        $fn = 'vendor/tokenizer/train_question.txt';
+        $fh = fopen($fn, "r");
+        while(!feof($fh)) 
+        {
+            $line = fgets($fh);
+            $arr_data = explode(':', trim($line));
+            
+            $label = explode(' ',trim($arr_data[1]));
+            array_push($labels,join('-',[ trim($arr_data[0]), $label[0] ]));
+
+            $question = explode(' ',trim($arr_data[1]));
+            array_shift($question);
+            $question = join(' ',$question);
+            array_push($samples,mb_strtolower($question,'UTF-8'));
+        }
+        fclose($fh);
+
+
+        // $samples = [
+        //     'định_nghĩa nghĩa_là gì là_gì cái_gì',
+        //     'tại_sao vì_sao làm_sao nghĩ_sao thì_sao sao thấy_sao lý_do lí_do nguyên_nhân',
+        //     'bao_nhiêu có_mấy mấy',
+        //     'thế_nào cách_nào như_nào',
+        //     'nơi_nào chỗ_nào ở_đâu nơi_đâu ',
+        //     'bao_giờ lúc_nào khi_nào thời_gian mấy_giờ',
+        //     'ai người người_nào là_ai người_nào của_ai',
+        //     'có_phải nên phải_không thật_không'
+        // ];
+
+        // $labels = [
+        //     "khai_niem",
+        //     "li_do",
+        //     "so_luong",
+        //     "cach_lam",
+        //     "dia_diem",
+        //     "thoi_gian",
+        //     "ten_nguoi",
+        //     "dung_sai"
+        // ];
+>>>>>>> develop
         
         //chuyển về ma trận số
         $vectorizer = new TokenCountVectorizer(new WhitespaceTokenizer());
@@ -398,7 +442,13 @@ class DetailQuestionController extends Controller
 
         // test
         $test = [
+<<<<<<< HEAD
             'doanh_nghiệp abc thành_lập khi nào',
+=======
+            'shark hưng là ai',
+            'khởi nghiệp nghĩa_là gì',
+            'Cách có tên_miền mình mong_muốn'
+>>>>>>> develop
         ];
         $vectorizer->transform($test);
         $transformer->transform($test);
